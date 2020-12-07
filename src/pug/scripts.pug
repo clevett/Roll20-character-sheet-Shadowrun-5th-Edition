@@ -1,0 +1,84 @@
+script(type="text/worker")
+
+	include ../js/attributes.js
+
+	//- Generic helper functions used by shadowrunFunctions
+	//- Has unit tests
+	include ../js/processingFunctions.js
+
+	//- Functions called by scripts to handle Shaodwrun specific rules
+	//- Has unit tests
+	include ../js/shadowrunFunctions.js
+
+	//- Functions are called by the eventhandlers
+	include ../js/scripts.js
+
+	//- Handle version updates
+	include ../js/versioning.js
+
+	//- Listeners for changes
+	include ../js/eventhandlers.js
+
+	//- :+: Generic helper functions
+	include ../js/helpers.js
+
+	//- Attributes
+	include ../components/SheetAttribute.js
+	include ../components/RepeatingFieldset.js
+
+	include ../components/Attributes/Attribute.js
+	include ../components/Attributes/Movement.js
+	include ../components/Attributes/Limit.js
+
+	include ../components/Augs/Augmentations.js
+
+	include ../components/Gear/Gear.js
+
+	include ../components/Initiative/Initiative.js
+	include ../components/Initiative/InitiativeDice.js
+
+	include ../components/Initiative/AstralInitiative.js
+	include ../components/Initiative/AstralInitiativeDice.js
+
+	include ../components/Initiative/MatrixInitiative.js
+	include ../components/Initiative/MatrixInitiativeDice.js
+
+	include ../components/PersonalData/PersonalData.js
+	include ../components/PersonalData/RewardsData.js
+
+	//- CHARACTER IMPORTER Functions
+	include ../components/CoreCombatInfo/PrimaryWeapon.js
+	include ../components/CoreCombatInfo/PrimaryArmor.js
+	//-include ../js/Classes/RepeatingFieldset.js
+	//-include ../js/Classes/ComplexForm.js
+
+	//- Helper Functions
+	include ../components/CharacterImporter/importerHiddenInputsBuilder.js
+	//-Chummer
+	include ../components/CharacterImporter/Chummer/associateChummerData.js
+	include ../components/CharacterImporter/Chummer/importerChummer.js
+	//-Hero Lab
+	include ../components/CharacterImporter/HeroLab/helpers/findInHeroLabAttributes.js
+
+	include ../components/CharacterImporter/HeroLab/gear/buildItemModificationNotesFromHeroLab.js
+	include ../components/CharacterImporter/HeroLab/gear/buildItemMatrixNotesFromHeroLab.js
+	include ../components/CharacterImporter/HeroLab/gear/buildItemNotesFromHeroLab.js
+	include ../components/CharacterImporter/HeroLab/gear/associateGearItemsFromHeroLab.js
+
+	include ../components/CharacterImporter/HeroLab/augs/associateAugmentationFromHeroLab.js
+
+	include ../components/CharacterImporter/HeroLab/personalData/getReputationsFromHeroLab.js
+	include ../components/CharacterImporter/HeroLab/personalData/associatePersonalData.js
+
+	include ../components/CharacterImporter/HeroLab/attributes/associateMovementFromHeroLab.js
+	include ../components/CharacterImporter/HeroLab/attributes/getAttributesFromHeroLab.js
+	include ../components/CharacterImporter/HeroLab/attributes/getInitiativeModifierFromHeroLab.js
+	include ../components/CharacterImporter/HeroLab/attributes/getInitiativeDiceFromHeroLab.js
+	include ../components/CharacterImporter/HeroLab/attributes/getInitiativeFromHeroLab.js
+
+	include ../components/CharacterImporter/HeroLab/associateHeroLabData.js
+	include ../components/CharacterImporter/HeroLab/importerHeroLab.js
+	//- Charactermancer
+	include ../components/CharacterImporter/importer.js
+	include ../components/CharacterImporter/importerUI.js
+	

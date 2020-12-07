@@ -1,0 +1,85 @@
+/*** GEAR ****/
+div.sheet-gear {
+  $gearGrid: 1.5em 1fr 5em 5em 1em 1em;;
+
+  div.sheet-headers {
+    display: grid;
+    grid-template-columns:$gearGrid;
+
+    h2[data-i18n='item'] {
+      grid-column: 1 / 3;
+    }
+  } 
+
+  div.repitem {
+    grid-template-columns: $gearGrid;
+    @include repeatingInformation(7, false);
+
+    h3[data-i18n='item'] {
+      grid-area: 1 / 1 / 1 / 3;
+    }
+
+    label[data-i18n-title='item'] {
+      grid-area: 2 / 1 / 2 / 3;
+
+      input[type='number'] {
+        width: 100%;
+      }
+    }
+
+    label[data-i18n-title='rating'] {
+      grid-area: 2 / 3 / 2 / 4;  
+    }
+
+    label[data-i18n-title='quantity'] { 
+      grid-area: 2 / 4 / 2 / 5;  
+    }
+
+    h3[data-i18n='modifications'] { 
+      grid-area: 3 / 1 / 3 / 5;  
+    }
+
+    label[data-i18n-title="modifications"] { 
+      grid-area: 4 / 1 / 4 / 5;  
+    }
+
+    h3[data-i18n='notes'] { 
+      grid-area: 5 / 1 / 5 / 5;  
+    }
+
+    label[data-i18n-title='notes'] { 
+      grid-area: 6 / 1 / 6 / 8;  
+    }
+
+    span[name='attr_modifications'],
+    span[name='attr_notes'] {
+      display: block;
+    }
+
+    select {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      text-indent: 3px;
+      border: none;
+      background: transparent;
+      box-shadow: none;
+      font-size: 1.3em;
+      max-height: 18px;
+      transition: all .2s;
+
+      &:hover {
+        cursor: pointer;
+        transform: $button-scale-medium;
+      }
+    }
+
+    input[name='attr_location'][value='person'] + span {
+      font-weight: bold;
+    }
+
+    div.sheet-settings { 
+      grid-column: 1 / 7;
+      grid-template-columns: $gearGrid;
+    }
+  } 
+}

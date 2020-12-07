@@ -1,0 +1,77 @@
+<!-- CHARACTERMANCER IMPORTER -->
+<charmancer class="sheet-charmancer-importer">
+	<div class="mancer-box">
+		<h1 class='text-center'>Shadowrun Fifth Edition Character Importer</h1>
+		<p>This will import character data from a generated JSON to the Roll20 Character Sheet. First you will import the data into this charactermancer using the setup section. Secondly you'll review the data in the results section. Finally apply the changes in the complete section. Clicking the apply button will delete all data currently on the sheet.</p>	
+
+		<hr />
+
+		<h2>Setup</h2>
+		<p>This will section is used to import data into this charactermancer.</p>	
+		<h3>Pick Character Builder</h3>
+		<p>Select your character builder of preference and carefully follow the directions!</p>
+		<div class="pick-builder">
+			<label title="choose chummer">
+				<h4>Chummer</h4>
+				<input type="radio" name="comp_builder" value="Chummer" />
+			</label>
+			<label title="choose hero lab">
+				<h4>Hero Lab</h4>
+				<input type="radio" name="comp_builder" value="Hero Lab" checked />
+			</label>
+		</div>
+		<h3>Directions</h3>
+		<div class="directions"></div>
+		<h3>Enter JSON Here</h3>
+		<textarea name="comp_jsonData" placeholder="Add JSON here"></textarea>
+		<button type="action" name="act_import" data-i18n="import">Import</button>
+
+		<hr />
+
+		<h2>Results</h2>
+		<div class="import-feedback">
+			<p>Review for errors and resolve them in your JSON as needed before completing the import by clicking Apply. </p>
+			<h3>Directions</h3>
+			<ol>
+				<li>Review the data.</li>
+				<li>Use the checkbox <strong>Show Hidden Inputs</strong> to fix data, if needed.</li>
+				<li>Then move to the Complete section below</li>
+			</ol>
+		</div>
+		<div class="result-grid">
+			<h3>Character data to be updated</h3>
+			<div class="results"><p>Import button has not been pressed yet.</p></div>
+			<h3>Character data not to be updated</h3>
+			<div class="error"><p>Import button has not been pressed yet.</p></div>
+		</div>
+		<h4 class="hidden-header">Show Hidden Inputs</h4>
+		<input type="checkbox" name="comp_hidden" value="on">
+		<div class="hidden"></div>
+
+		<hr />
+
+		<h2>Complete</h2>
+		<p>After reviewing the data above, click Apply. This will <strong>overwrite</strong> data on the sheet where applicable.</p>
+		<h3>Directions</h3>
+		<ol>
+			<li>Click Apply to update the information on the character sheet</li>
+		</ol>
+		<div class="notes"></div>
+		<div class="finish-button">
+			<button class="finish" type="finish" value="apply" data-i18n="apply" disabled>Apply</button>
+		</div>
+
+		 <div class="bottombar">
+		   <button class="prev" type="cancel" value="cancel" data-i18n="cancel">Cancel</button>
+		 </div>
+	 </div>
+</charmancer>
+
+<charmancer class="sheet-charmancer-final">
+    <div class="charmancer">
+        <div class="">
+           <h1>Importing your Shadowrun character...overwriting previous data</h1>
+           <img alt="emerald productions, llc" src="https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Shadowrun5thEdition/images/EProd_Title_Green.jpg" />
+        </div>
+    </div>
+</charmancer>
