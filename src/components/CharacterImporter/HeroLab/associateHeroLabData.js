@@ -1,7 +1,3 @@
-const heroLabGearLists {
-  
-}
-
 
 const associateHeroLabData = character => {
   let setText = {
