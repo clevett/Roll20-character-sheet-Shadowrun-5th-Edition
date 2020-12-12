@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<public>
+		<program name="Hero Lab" url="https://www.wolflair.com">
+			<programinfo>Hero Lab and the Hero Lab logo are Registered Trademarks of LWD Technology, Inc. Free download at https://www.wolflair.com
+Shadowrun © 2005-2019 The Topps Company, Inc. All rights reserved. Shadowrun is a registered trademark of The Topps Company, Inc.</programinfo>
+			<version version="8.9h" primary="8" secondary="9" tertiary="h" build="958"/>
+		</program>
+		<localization language="eng" units="metric"/>
+		<character active="yes" characterindex="4" nature="normal" role="npc" relationship="enemy" type="Watcher Spirit" name="Watcher Spirit" playername="">
+			<race name="Watcher Spirit"/>
+			<heritage name=""/>
+			<creation>
+				<bp total="25" left="25"/>
+			</creation>
+			<karma total="7" left="7"/>
+			<cash total="1000"/>
+			<personal gender="Male" age="25" hair="" eyes="" skin="">
+				<description/>
+				<charheight text="1.75m" value="175"/>
+				<charweight text="78kg" value="78"/>
+			</personal>
+			<defenses>
+				<defense name="Ranged Defense" normal="6"/>
+				<defense name="Melee Defense" normal="6"/>
+			</defenses>
+			<armorratings>
+				<armorrating name="Armor" rating="0" stacking="0" nonstacking="0" dicepool="0"/>
+				<armorrating name="Acid Protection" rating="0" stacking="0" nonstacking="0" dicepool="0"/>
+				<armorrating name="Cold Protection" rating="0" stacking="0" nonstacking="0" dicepool="0"/>
+				<armorrating name="Electricity Protection" rating="0" stacking="0" nonstacking="0" dicepool="0"/>
+				<armorrating name="Fire Protection" rating="0" stacking="0" nonstacking="0" dicepool="0"/>
+				<armorrating name="Falling Protection" rating="0" stacking="0" nonstacking="0" dicepool="0"/>
+				<armorrating name="Fatigue Resistance" rating="0" stacking="0" nonstacking="0" dicepool="6"/>
+			</armorratings>
+			<attributes>
+				<attribute name="Force" text="8" base="8" modified="8" naturalmaximum="99" augmentedmaximum="12" minimum="-1" category="Defining">
+					<description>Spells, spirits, and magic items (foci) have an attribute known as Force. This measures the magical power of the object, spell, or being. Force is measured on the same scale as metahuman attributes (natural 1 to 6). For spells and foci, this is often their only attribute.</description>
+					<traitcost bp="0"/>
+				</attribute>
+				<attribute name="Body" text="*" base="0" modified="0" naturalmaximum="0" augmentedmaximum="4" minimum="0" category="Physical">
+					<description>Body measures your physical health and resiliency.
+
+It affects how much damage you can take and stay on your feet, how well you resist damage coming your way, your ability to recover from poisons and diseases, and things of that nature.</description>
+					<traitcost bp="0"/>
+				</attribute>
+				<attribute name="Agility" text="*" base="0" modified="0" naturalmaximum="0" augmentedmaximum="4" minimum="0" category="Physical">
+					<description>Agility measures things like hand-eye coordination, flexibility, nimbleness, and balance. Agility is the most important attribute when it comes to scoring hits during combat, as you need to be coordinated to land your blows, whether you're swinging a sword or carefully aiming a rifle. It also is critical in non-combat situations, such as sneaking quietly past security guards or smoothly lifting a keycard from its secured position.</description>
+					<traitcost bp="0"/>
+				</attribute>
+				<attribute name="Reaction" text="*" base="0" modified="0" naturalmaximum="0" augmentedmaximum="4" minimum="0" category="Physical">
+					<description>Reaction is about reflexes, awareness, and your character's ability to respond to events happening around them. Reaction plays an important role in deciding how soon characters act in combat and how skilled they are in avoiding attacks from others. It also helps you make that quick turn down a narrow alley on your cycle to avoid the howling gangers on your tail</description>
+					<traitcost bp="0"/>
+				</attribute>
+				<attribute name="Strength" text="*" base="0" modified="0" naturalmaximum="0" augmentedmaximum="4" minimum="0" category="Physical">
+					<description>Strength is an indicator of, well, how strong your character is. The higher your strength, the more damage you'll do when you're raining blows down on an opponent, and the more you'll be able to move or carry when there's stuff that needs to be moved. Or carried.
+
+Strength is also important with athletic tasks such as climbing, running, and swimming.</description>
+					<traitcost bp="0"/>
+				</attribute>
+				<attribute name="Willpower" text="6" base="6" modified="6" naturalmaximum="6" augmentedmaximum="19" minimum="1" category="Mental">
+					<description>Willpower is your character's desire to push through adversity, to resist the weariness of spellcasting, and to stay upright after being nailed in the head with a sap.
+
+Whether you're testing yourself against a toxic wilderness or a pack of leather-clad orks with crowbars, Willpower will help you make it through.</description>
+					<traitcost bp="5"/>
+				</attribute>
+				<attribute name="Logic" text="6" base="6" modified="6" naturalmaximum="6" augmentedmaximum="19" minimum="1" category="Mental">
+					<description>The Logic attribute measures the cold, calculating power of your rational mind. Whether you are attempting to repair complicated machinery or patch up an injured teammate, Logic helps you get things right. Logic is also the attribute hermetic mages use to resist Drain from the spells they rain down on their hapless foes.
+
+Deckers also find Logic extremely useful, as it helps them develop the attacks and counterattacks that are part of their online battles.</description>
+					<traitcost bp="5"/>
+				</attribute>
+				<attribute name="Intuition" text="6" base="6" modified="6" naturalmaximum="6" augmentedmaximum="19" minimum="1" category="Mental">
+					<description>Intuition is the voice of your gut, the instinct that tells you things before your logical brain can figure them out. Intuition helps you anticipate ambushes, notice that something is amiss or out of place, and stay on the trail of someone you're pursuing.</description>
+					<traitcost bp="5"/>
+				</attribute>
+				<attribute name="Charisma" text="6" base="6" modified="6" naturalmaximum="6" augmentedmaximum="19" minimum="1" category="Mental">
+					<description>Charisma is your force of personality, the persuasiveness and charm you can call on to get people to do what you want without having to go to the trouble of pulling a gun on them. It's not entirely about your appearance, but it's also not entirely not about your appearance. What it's mostly about is how you use what you have - your voice, your face, your words, and all the tools at your disposal - to charm and/or intimidate the people you encounter. Additionally, Charisma is an important attribute for shamanic mages, as it helps them resist the damaging Drain from spells they cast.</description>
+					<traitcost bp="5"/>
+				</attribute>
+				<attribute name="Essence" text="8" base="8" modified="8" naturalmaximum="8" augmentedmaximum="24" minimum="1" category="Derived">
+					<description>Essence is your metahumanity encapsulated in a number. In Shadowrun, you have ample opportunities to alter your body or push it beyond its normal limits. Such actions often have a cost, and they can result in a loss of a portion of your metahumanity, which means a loss of Essence points. Each character starts with an Essence rating of 6, and it acts as a cap on the amount of alterations you can adopt. When it's gone, it doesn't come back. It also affects the Magic and Resonance attributes, as losses in Essence are reflected by losses in Magic and Resonance.
+
+While denizens of the Sixth World are accustomed to seeing a variety of augmentations and alterations to the metahuman form, the "uncanny valley" still exists. The uncanny valley is the disconcerting effect that happens when people see something that is almost, but not quite, metahuman. An animated cartoon with exaggerated features looks fine to metahuman eyes, but a computer program that closely, but not exactly, replicates human appearance is a troubling and unpleasant sight to most viewers. This is what happens when people see others with augmentations - on some level, people notice there is something less (or more) human about that, and they respond to it negatively. The change may not be exactly visible, but it is in some way noticeable - in one way or another, a person has become less human, and on some level other people notice this. This is why a character's Essence is included in the calculation of their Social limit.</description>
+					<traitcost bp="7"/>
+				</attribute>
+				<attribute name="Magic" text="8" base="8" modified="8" naturalmaximum="8" augmentedmaximum="24" minimum="0" category="Heritage???Special">
+					<description>If you intend to cast spells or use magic in any way, your character needs to have the Magic attribute. Most individuals do not have this attribute, meaning their rating is zero. Mages, who cast spells, and adepts, who channel magic into enhanced physical and mental abilities, need this quality. Their Magic rating measures how capable they are in the arcane arts and how much power they can draw down to help them in their efforts.</description>
+					<traitcost bp="7"/>
+				</attribute>
+				<attribute name="Initiative" text="10+1D6" base="10" modified="10" naturalmaximum="8" augmentedmaximum="14" minimum="2" category="Derived">
+					<description>Initiative governs how quickly a character responds in a combat situation. A character's Initiative attribute is their Reaction plus their Intuition.</description>
+					<traitcost bp="4"/>
+				</attribute>
+			</attributes>
+			<movementtypes/>
+			<reputations>
+				<reputation name="Street Cred" value="0"/>
+				<reputation name="Honor" value="0"/>
+				<reputation name="Notoriety" value="0"/>
+				<reputation name="Court Notoriety" value="0"/>
+				<reputation name="Public Awareness" value="0"/>
+			</reputations>
+			<qualities>
+				<positive/>
+				<negative/>
+			</qualities>
+			<skills>
+				<groups/>
+				<active>
+					<skill name="Assensing" text="4" base="4" modified="4" naturalmaximum="12" augmentedmaximum="6" dicepool="10" group="">
+						<description>Assensing is a magic user's ability to read and interpret fluctuations in the astral world. This skill allows practitioners to learn information by reading astral auras. Only characters capable of astral perception may take this skill. For more information, see Astral Perception, p. 312</description>
+						<traitcost bp="0"/>
+					</skill>
+					<skill name="Astral Combat" text="4" base="4" modified="4" naturalmaximum="12" augmentedmaximum="6" dicepool="10" group="">
+						<description>Fighting in Astral Space requires the Astral Combat skill. Combat in the Astral World relies on a very different set of abilities and attributes than physical combatants. See Astral Combat, p. 315.</description>
+						<traitcost bp="0"/>
+					</skill>
+					<skill name="Perception" text="4" base="4" modified="4" naturalmaximum="12" augmentedmaximum="6" dicepool="10" group="">
+						<description>Perception refers to the ability to spot anomalies in everyday situations, making it one of the key skills a shadowrunner needs. See Using Perception, p. 135.</description>
+						<traitcost bp="0"/>
+					</skill>
+				</active>
+				<knowledge/>
+				<language/>
+			</skills>
+			<magic>
+				<spells/>
+				<adeptpowers/>
+				<metamagics/>
+			</magic>
+			<gear>
+				<augmentations>
+					<cyberware/>
+					<bioware/>
+				</augmentations>
+				<weapons>
+					<item name="Unarmed Strike" useradded="no" quantity="1" natural="yes">
+						<description/>
+						<gearcost text="0¥" value="0"/>
+						<availability text="" value="0" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<weaponinfo grouptext="Unarmed" dicepool="" damagetext="" damagevalue="0" damagetype="Stun" ap="0" modestext="" isammunition="0" reach="" equipped="Main Hand">
+							<defense name="Unarmed Strike Parry" normal="0"/>
+						</weaponinfo>
+					</item>
+				</weapons>
+				<armor/>
+				<equipment/>
+			</gear>
+			<identities/>
+			<contacts/>
+			<ammotrackers/>
+			<trackers>
+				<tracker name="Cumulative Recoil" text="0" used="0" left="0" min="0" max="0"/>
+				<tracker name="Movement This Turn (Currently: Stationary)" text="0m" used="0" left="0" min="0" max="0"/>
+			</trackers>
+			<conditionmonitors totalpenalty="0">
+				<conditionmonitor name="Physical Damage Track" boxes="8" penalty="0"/>
+				<conditionmonitor name="Stun Damage Track" boxes="11" penalty="0"/>
+			</conditionmonitors>
+			<journals>
+				<journal name="Title" gamedate="0" realdate="20201128" karma="0" cash="0" streetcred="0" notoriety="0" awareness="0">
+					<description/>
+				</journal>
+			</journals>
+			<images/>
+			<validation>
+				<report/>
+			</validation>
+			<settings summary="Character Creation Systems: Established Runners; Core Rulebooks: Chrome Flesh, Data Trails, Howling Shadows, Rigger 5.0; Advanced Rules: Forbidden Arcana, Kill Code, Street Lethal; Supplements: Bloody Business, Book of the Lost, Complete Trog, Court of Shadows, Cutting Aces, Dark Terrors, Hard Targets, Lockdown; E-books: Shadow Spells, Shadows in Focus: Butte, Shadows in Focus: Metrópole, Shadows in Focus: San Francisco Metroplex; Optional Rules -&gt; Chrome Flesh Optional Rules: Use Essence Holes; Output Options: Include Vehicle Statblocks on Sheet"/>
+			<npc>
+				<basics/>
+				<tactics/>
+				<ecology/>
+				<additional/>
+			</npc>
+			<minions/>
+		</character>
+	</public>
+</document>

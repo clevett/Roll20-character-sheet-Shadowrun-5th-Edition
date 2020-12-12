@@ -24,7 +24,7 @@ const buildItemNotesFromHeroLab = item => {
   notes += gearcost ? `Cost: ${gearcost._text}, \n` : ''
   notes += availability || gearcost ? lineBreak : ''
 
-  if (matrix.matrixattribute) {
+  if (matrix && matrix.matrixattribute) {
     const matrixArrayNotes = buildItemMatrixNotesFromHeroLab(matrix)
     notes += matrixArrayNotes ? `${matrixArrayNotes} \n` : ''
   }

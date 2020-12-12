@@ -1,0 +1,5744 @@
+{
+	"document": {
+		"public": {
+			"program": {
+				"programinfo": "Hero Lab and the Hero Lab logo are Registered Trademarks of LWD Technology, Inc. Free download at https://www.wolflair.com\nShadowrun © 2005-2019 The Topps Company, Inc. All rights reserved. Shadowrun is a registered trademark of The Topps Company, Inc.",
+				"version": {
+					"_version": "8.9h",
+					"_primary": "8",
+					"_secondary": "9",
+					"_tertiary": "h",
+					"_build": "958"
+				},
+				"_name": "Hero Lab",
+				"_url": "https://www.wolflair.com"
+			},
+			"localization": {
+				"_language": "eng",
+				"_units": "metric"
+			},
+			"character": {
+				"race": {
+					"_name": "Minotaur"
+				},
+				"heritage": {
+					"_name": ""
+				},
+				"creation": {
+					"bp": {
+						"_total": "25",
+						"_left": "-33"
+					}
+				},
+				"karma": {
+					"_total": "69",
+					"_left": "15"
+				},
+				"cash": {
+					"_total": "36083"
+				},
+				"personal": {
+					"description": "",
+					"charheight": {
+						"_text": "2.4m",
+						"_value": "240"
+					},
+					"charweight": {
+						"_text": "300kg",
+						"_value": "300"
+					},
+					"_gender": "Male",
+					"_age": "31",
+					"_hair": "",
+					"_eyes": "",
+					"_skin": ""
+				},
+				"defenses": {
+					"defense": [
+						{
+							"_name": "Ranged Defense",
+							"_normal": "11"
+						},
+						{
+							"_name": "Melee Defense",
+							"_normal": "11"
+						}
+					]
+				},
+				"armorratings": {
+					"armorrating": [
+						{
+							"_name": "Armor",
+							"_rating": "13",
+							"_stacking": "2",
+							"_nonstacking": "11",
+							"_dicepool": "25"
+						},
+						{
+							"_name": "Acid Protection",
+							"_rating": "16",
+							"_stacking": "13",
+							"_nonstacking": "3",
+							"_dicepool": "28"
+						},
+						{
+							"_name": "Cold Protection",
+							"_rating": "13",
+							"_stacking": "13",
+							"_nonstacking": "0",
+							"_dicepool": "25"
+						},
+						{
+							"_name": "Electricity Protection",
+							"_rating": "16",
+							"_stacking": "13",
+							"_nonstacking": "3",
+							"_dicepool": "28"
+						},
+						{
+							"_name": "Fire Protection",
+							"_rating": "16",
+							"_stacking": "13",
+							"_nonstacking": "3",
+							"_dicepool": "28"
+						},
+						{
+							"_name": "Falling Protection",
+							"_rating": "13",
+							"_stacking": "13",
+							"_nonstacking": "0",
+							"_dicepool": "25"
+						},
+						{
+							"_name": "Fatigue Resistance",
+							"_rating": "0",
+							"_stacking": "0",
+							"_nonstacking": "0",
+							"_dicepool": "14"
+						}
+					]
+				},
+				"attributes": {
+					"attribute": [
+						{
+							"description": "Body measures your physical health and resiliency.\n\nIt affects how much damage you can take and stay on your feet, how well you resist damage coming your way, your ability to recover from poisons and diseases, and things of that nature.",
+							"traitcost": {
+								"_bp": "3"
+							},
+							"_name": "Body",
+							"_text": "9",
+							"_base": "9",
+							"_modified": "9",
+							"_naturalmaximum": "11",
+							"_augmentedmaximum": "13",
+							"_minimum": "1",
+							"_category": "Physical"
+						},
+						{
+							"description": "Agility measures things like hand-eye coordination, flexibility, nimbleness, and balance. Agility is the most important attribute when it comes to scoring hits during combat, as you need to be coordinated to land your blows, whether you're swinging a sword or carefully aiming a rifle. It also is critical in non-combat situations, such as sneaking quietly past security guards or smoothly lifting a keycard from its secured position.",
+							"traitcost": {
+								"_bp": "4"
+							},
+							"_name": "Agility",
+							"_text": "5/7",
+							"_base": "5",
+							"_modified": "7",
+							"_naturalmaximum": "5",
+							"_augmentedmaximum": "9",
+							"_minimum": "1",
+							"_category": "Physical"
+						},
+						{
+							"description": "Reaction is about reflexes, awareness, and your character's ability to respond to events happening around them. Reaction plays an important role in deciding how soon characters act in combat and how skilled they are in avoiding attacks from others. It also helps you make that quick turn down a narrow alley on your cycle to avoid the howling gangers on your tail",
+							"traitcost": {
+								"_bp": "4"
+							},
+							"_name": "Reaction",
+							"_text": "5/7",
+							"_base": "5",
+							"_modified": "7",
+							"_naturalmaximum": "6",
+							"_augmentedmaximum": "9",
+							"_minimum": "1",
+							"_category": "Physical"
+						},
+						{
+							"description": "Strength is an indicator of, well, how strong your character is. The higher your strength, the more damage you'll do when you're raining blows down on an opponent, and the more you'll be able to move or carry when there's stuff that needs to be moved. Or carried.\n\nStrength is also important with athletic tasks such as climbing, running, and swimming.",
+							"traitcost": {
+								"_bp": "3"
+							},
+							"_name": "Strength",
+							"_text": "8/10",
+							"_base": "8",
+							"_modified": "10",
+							"_naturalmaximum": "10",
+							"_augmentedmaximum": "12",
+							"_minimum": "1",
+							"_category": "Physical"
+						},
+						{
+							"description": "Willpower is your character's desire to push through adversity, to resist the weariness of spellcasting, and to stay upright after being nailed in the head with a sap.\n\nWhether you're testing yourself against a toxic wilderness or a pack of leather-clad orks with crowbars, Willpower will help you make it through.",
+							"traitcost": {
+								"_bp": "1"
+							},
+							"_name": "Willpower",
+							"_text": "2",
+							"_base": "2",
+							"_modified": "2",
+							"_naturalmaximum": "6",
+							"_augmentedmaximum": "6",
+							"_minimum": "1",
+							"_category": "Mental"
+						},
+						{
+							"description": "The Logic attribute measures the cold, calculating power of your rational mind. Whether you are attempting to repair complicated machinery or patch up an injured teammate, Logic helps you get things right. Logic is also the attribute hermetic mages use to resist Drain from the spells they rain down on their hapless foes.\n\nDeckers also find Logic extremely useful, as it helps them develop the attacks and counterattacks that are part of their online battles.",
+							"traitcost": {
+								"_bp": "1"
+							},
+							"_name": "Logic",
+							"_text": "2",
+							"_base": "2",
+							"_modified": "2",
+							"_naturalmaximum": "5",
+							"_augmentedmaximum": "6",
+							"_minimum": "1",
+							"_category": "Mental"
+						},
+						{
+							"description": "Intuition is the voice of your gut, the instinct that tells you things before your logical brain can figure them out. Intuition helps you anticipate ambushes, notice that something is amiss or out of place, and stay on the trail of someone you're pursuing.",
+							"traitcost": {
+								"_bp": "3"
+							},
+							"_name": "Intuition",
+							"_text": "4",
+							"_base": "4",
+							"_modified": "4",
+							"_naturalmaximum": "6",
+							"_augmentedmaximum": "8",
+							"_minimum": "1",
+							"_category": "Mental"
+						},
+						{
+							"description": "Charisma is your force of personality, the persuasiveness and charm you can call on to get people to do what you want without having to go to the trouble of pulling a gun on them. It's not entirely about your appearance, but it's also not entirely not about your appearance. What it's mostly about is how you use what you have - your voice, your face, your words, and all the tools at your disposal - to charm and/or intimidate the people you encounter. Additionally, Charisma is an important attribute for shamanic mages, as it helps them resist the damaging Drain from spells they cast.",
+							"traitcost": {
+								"_bp": "1"
+							},
+							"_name": "Charisma",
+							"_text": "2",
+							"_base": "2",
+							"_modified": "2",
+							"_naturalmaximum": "4",
+							"_augmentedmaximum": "6",
+							"_minimum": "1",
+							"_category": "Mental"
+						},
+						{
+							"description": "Essence is your metahumanity encapsulated in a number. In Shadowrun, you have ample opportunities to alter your body or push it beyond its normal limits. Such actions often have a cost, and they can result in a loss of a portion of your metahumanity, which means a loss of Essence points. Each character starts with an Essence rating of 6, and it acts as a cap on the amount of alterations you can adopt. When it's gone, it doesn't come back. It also affects the Magic and Resonance attributes, as losses in Essence are reflected by losses in Magic and Resonance.\n\nWhile denizens of the Sixth World are accustomed to seeing a variety of augmentations and alterations to the metahuman form, the \"uncanny valley\" still exists. The uncanny valley is the disconcerting effect that happens when people see something that is almost, but not quite, metahuman. An animated cartoon with exaggerated features looks fine to metahuman eyes, but a computer program that closely, but not exactly, replicates human appearance is a troubling and unpleasant sight to most viewers. This is what happens when people see others with augmentations - on some level, people notice there is something less (or more) human about that, and they respond to it negatively. The change may not be exactly visible, but it is in some way noticeable - in one way or another, a person has become less human, and on some level other people notice this. This is why a character's Essence is included in the calculation of their Social limit.",
+							"traitcost": {
+								"_bp": "0"
+							},
+							"_name": "Essence",
+							"_text": "0.51",
+							"_base": "1",
+							"_modified": "0.51",
+							"_naturalmaximum": "12",
+							"_augmentedmaximum": "4.51",
+							"_minimum": "0",
+							"_category": "Derived"
+						},
+						{
+							"description": "Edge is the ultimate intangible, that certain something that provides a boost when you need it, that gets you out of a tough spot when the chips are down. It's not used to calculate dice pools; instead, you spend a point of Edge to acquire a certain effect. Every character has at least one point of Edge, more if they want to take more frequent advantage of the boosts it offers. The possible effects of and more details about Edge are on p. 56.",
+							"traitcost": {
+								"_bp": "0"
+							},
+							"_name": "Edge",
+							"_text": "3",
+							"_base": "3",
+							"_modified": "3",
+							"_naturalmaximum": "6",
+							"_augmentedmaximum": "7",
+							"_minimum": "1",
+							"_category": "Special"
+						},
+						{
+							"description": "Initiative governs how quickly a character responds in a combat situation. A character's Initiative attribute is their Reaction plus their Intuition.",
+							"traitcost": {
+								"_bp": "0"
+							},
+							"_name": "Initiative",
+							"_text": "9/11+3D6",
+							"_base": "9",
+							"_modified": "11",
+							"_naturalmaximum": "12",
+							"_augmentedmaximum": "13",
+							"_minimum": "2",
+							"_category": "Derived"
+						}
+					]
+				},
+				"movementtypes": {
+					"movementtype": [
+						{
+							"walking": {
+								"_text": "14m",
+								"_value": "14"
+							},
+							"running": {
+								"_text": "28m",
+								"_value": "28"
+							},
+							"_name": "Land Movement",
+							"_sprintpool": "13dicepool [12]"
+						},
+						{
+							"running": {
+								"_text": "9m",
+								"_value": "9"
+							},
+							"_name": "Swimming",
+							"_sprintpool": "9dicepool"
+						}
+					]
+				},
+				"reputations": {
+					"reputation": [
+						{
+							"_name": "Street Cred",
+							"_value": "6"
+						},
+						{
+							"_name": "Notoriety",
+							"_value": "1"
+						},
+						{
+							"_name": "Public Awareness",
+							"_value": "0"
+						},
+						{
+							"_name": "Astral Reputation",
+							"_value": "0"
+						}
+					]
+				},
+				"qualities": {
+					"positive": {
+						"quality": [
+							{
+								"description": "Something about the character's body is exceptionally accepting of either bioware or cyberware implants (choose one). Not only are the implants not rejected, but they seamlessly fit within the body, having less impact on its holistic integrity. In game terms, the Essence cost of implants of the particular chosen type are reduced by ten percent, rounded down to the tenth. This rebate is cumulative with the reduction offered by the chosen 'ware's grade, if any (e.g., the reduction for alphaware of 0.8 is reduced by ten percent, or 0.08, to become 0.72, and is rounded down to 0.7). This quality can only be chosen for bioware or cyberware. This quality may only be taken once.",
+								"traitcost": {
+									"_bp": "5"
+								},
+								"_name": "Biocompatibility (Cyberware)"
+							},
+							{
+								"description": "\"Common sense is not so common\" as they say. It's nothing supernatural, just a keen sense of knowing when something is just a bad idea. Any time a character with this quality is about to do something the gamemaster deems foolish, the gamemaster must act as their proverbial inner voice of reason and issue a little warning. The gamemaster can only give a number of warnings per session equal to or less than the character's Edge rating. After that, they're on their own.",
+								"traitcost": {
+									"_bp": "3"
+								},
+								"_name": "Common Sense"
+							},
+							{
+								"description": "A single horn or horns express on the character's head. If the character already had horns, these grow even bigger or more pronounced. The horns can be anything from ram horns to deer-like antlers to devil horns or even jagged crests of bone around the skull. Unlike most metatype horns, the character may use these in combat with the Exotic Melee Weapon (Horns) skill. Goring Horns have the following stats: DV (STR + 2)P, Reach - , AP -1.",
+								"traitcost": {
+									"_bp": "0"
+								},
+								"_name": "Goring Horns",
+								"_useradded": "no"
+							}
+						]
+					},
+					"negative": {
+						"quality": [
+							{
+								"description": "You can’t leave a fallen comrade behind to be taken by the enemy. Whether they are dead or just knocked out, you won’t leave them to the wolves. Any time a team member falls (even one you don’t particularly like), make a Composure (4) Test. Success means you’ve overcome this urge to save your fallen comrade (though you can still do so if you choose); failure means you need to do everything within your power, up to and including self-sacrifice, to get your companion out of the hot zone and to safety.",
+								"traitcost": {
+									"_bp": "-7"
+								},
+								"_name": "No Man Left Behind"
+							},
+							{
+								"description": "An Uneducated character is not mentally impaired - she just never had the opportunity to learn. Whether because she and her family were isolated squatters, or were SINless, or otherwise underprivileged, she was denied access to the education system. She has only a rudimentary knowledge of reading, writing, and arithmetic.\n\nCharacters with the Uneducated quality are considered \"unaware\" in Technical, Academic Knowledge, and Professional Knowledge skills they do not possess (see Skill Ratings, p. 129), and they may not default on skill tests for those skills. The gamemaster may also require the character to make Success Tests for ordinary tasks that the typical sprawl-dweller takes for granted. Additionally, the Karma cost for learning new skills, skill groups or specializations (or for improving existing ones) in these categories is doubled compared to the normal cost (including at character creation), and it’s possible the character will never learn some skill groups belonging to these categories.\n\nThis quality increases Notoriety by 1 (p. 372).",
+								"traitcost": {
+									"_bp": "-8"
+								},
+								"_name": "Uneducated"
+							}
+						]
+					}
+				},
+				"skills": {
+					"groups": "",
+					"active": {
+						"skill": [
+							{
+								"description": "Archery is used to fire string-loaded projectile weapons. An archer is familiar with many different styles of bow and the multitude of arrows that can be used to maximum effect.",
+								"traitcost": {
+									"_bp": "3"
+								},
+								"_name": "Archery",
+								"_text": "3",
+								"_base": "3",
+								"_modified": "3",
+								"_naturalmaximum": "12",
+								"_augmentedmaximum": "5",
+								"_dicepool": "10",
+								"_group": ""
+							},
+							{
+								"description": "Slice and dice! The Blades skill includes the use of all handheld slashing and stabbing weapons. You can use a range of edged weapons including daggers, swords, and axes.",
+								"traitcost": {
+									"_bp": "5"
+								},
+								"_name": "Blades",
+								"_text": "5",
+								"_base": "5",
+								"_modified": "5",
+								"_naturalmaximum": "12",
+								"_augmentedmaximum": "8",
+								"_dicepool": "12",
+								"_group": "Close Combat Group"
+							},
+							{
+								"description": "Etiquette represents the level of understanding and awareness of proper social rituals. The skill works as a sort of social version of Sneak, allowing you to move unimpeded through various social situations. Etiquette also serves as a social safety net in case a player botches a social situation in a way a skilled character would not. See Using Etiquette, p. 141.",
+								"traitcost": {
+									"_bp": "0 +\n4K"
+								},
+								"_name": "Etiquette",
+								"_text": "2",
+								"_base": "2",
+								"_modified": "2",
+								"_naturalmaximum": "12",
+								"_augmentedmaximum": "3",
+								"_dicepool": "4",
+								"_group": "Influence Group"
+							},
+							{
+								"description": "Gymnastics measures your balance, general athleticism, and all-around ability to use your body. For more information on ways Gymnastics may be applied in-game, see Jumping, p. 134.",
+								"traitcost": {
+									"_bp": "2"
+								},
+								"_name": "Gymnastics",
+								"_text": "2",
+								"_base": "2",
+								"_modified": "2",
+								"_naturalmaximum": "12",
+								"_augmentedmaximum": "3",
+								"_dicepool": "9",
+								"_group": "Athletics Group"
+							},
+							{
+								"description": "The term heavy weapon is designated for all projectile weaponry larger than an assault rifle, such as grenade launchers, machine guns, and assault cannons. This skill is exclusive to handheld and non-vehicle-mounted weaponry - if you've got a gun mounted on or in a vehicle, use Gunnery.",
+								"traitcost": {
+									"_bp": "3"
+								},
+								"_name": "Heavy Weapons",
+								"_text": "4",
+								"_base": "4",
+								"_modified": "4",
+								"_naturalmaximum": "12",
+								"_augmentedmaximum": "6",
+								"_dicepool": "11",
+								"_group": ""
+							},
+							{
+								"description": "The Longarms skill is for firing extended-barrel weapons such as sporting rifles and sniper rifles. This grouping also includes weapons like shotguns that are designed to be braced against the shoulder.",
+								"traitcost": {
+									"_bp": "5"
+								},
+								"_name": "Longarms",
+								"_text": "5",
+								"_base": "5",
+								"_modified": "5",
+								"_naturalmaximum": "12",
+								"_augmentedmaximum": "8",
+								"_dicepool": "12",
+								"_group": "Firearms Group"
+							},
+							{
+								"description": "Perception refers to the ability to spot anomalies in everyday situations, making it one of the key skills a shadowrunner needs. See Using Perception, p. 135.",
+								"traitcost": {
+									"_bp": "-2 +\n2K"
+								},
+								"_name": "Perception",
+								"_text": "1",
+								"_base": "1",
+								"_modified": "1",
+								"_naturalmaximum": "12",
+								"_augmentedmaximum": "2",
+								"_dicepool": "5",
+								"_group": ""
+							},
+							{
+								"description": "This skill is used to pilot any ground-based vehicle, excluding legged vehicles. This skill applies whether the pilot is in the vehicle or controlling the vehicle via remote access.",
+								"traitcost": {
+									"_bp": "-2 +\n2K"
+								},
+								"_name": "Pilot Ground Craft",
+								"_text": "1",
+								"_base": "1",
+								"_modified": "1",
+								"_naturalmaximum": "12",
+								"_augmentedmaximum": "2",
+								"_dicepool": "8",
+								"_group": ""
+							},
+							{
+								"description": "Running, as you may guess, is about how much ground you can cover quickly. For more information see Using Running, p. 136.",
+								"traitcost": {
+									"_bp": "3"
+								},
+								"_name": "Running",
+								"_text": "3",
+								"_base": "3",
+								"_modified": "3",
+								"_naturalmaximum": "12",
+								"_augmentedmaximum": "5",
+								"_dicepool": "13",
+								"_group": "Athletics Group"
+							},
+							{
+								"description": "Need to get where you're not supposed to be? This skill allows you to remain inconspicuous in various situations. See Using Stealth Skills, p. 136.",
+								"traitcost": {
+									"_bp": "-1 +\n2K"
+								},
+								"_name": "Sneaking",
+								"_text": "1",
+								"_base": "1",
+								"_modified": "1",
+								"_naturalmaximum": "12",
+								"_augmentedmaximum": "2",
+								"_dicepool": "8",
+								"_group": "Stealth Group"
+							},
+							{
+								"specialization": {
+									"_bonustext": "Urban +2"
+								},
+								"description": "In the desert with nothing more than a tin cup, a poncho, and an iron rod? You'll need this skill to help you get out alive. Survival is the ability to stay alive in extreme environmental conditions for extended periods of time. The skill governs a character's ability to perform vital outdoor tasks such as start a fire, build a shelter, scrounge for food, etc. in hostile environments. See Using Survival, p. 136.",
+								"traitcost": {
+									"_bp": "-2 +\n2K"
+								},
+								"_name": "Survival",
+								"_text": "1",
+								"_base": "1",
+								"_modified": "1",
+								"_naturalmaximum": "12",
+								"_augmentedmaximum": "2",
+								"_dicepool": "3",
+								"_group": "Outdoors Group"
+							},
+							{
+								"description": "Throwing Weapons is a broad-based attack skill that can be used for any handheld item that is thrown by the user as a weapon.",
+								"traitcost": {
+									"_bp": "-2 +\n2K"
+								},
+								"_name": "Throwing Weapons",
+								"_text": "1",
+								"_base": "1",
+								"_modified": "1",
+								"_naturalmaximum": "12",
+								"_augmentedmaximum": "2",
+								"_dicepool": "8",
+								"_group": ""
+							},
+							{
+								"description": "Unarmed Combat covers the various self-defense and attack moves that employ the body as a primary weapon. This includes a wide array of martial arts along with the use of cybernetic implant weaponry and the fighting styles that sprung up around those implants.",
+								"traitcost": {
+									"_bp": "4"
+								},
+								"_name": "Unarmed Combat",
+								"_text": "4",
+								"_base": "4",
+								"_modified": "4",
+								"_naturalmaximum": "12",
+								"_augmentedmaximum": "6",
+								"_dicepool": "11",
+								"_group": "Close Combat Group"
+							}
+						]
+					},
+					"knowledge": {
+						"skill": [
+							{
+								"description": "",
+								"traitcost": {
+									"_bp": "1"
+								},
+								"_name": "Atlanta",
+								"_text": "1",
+								"_base": "1",
+								"_modified": "1",
+								"_naturalmaximum": "12",
+								"_augmentedmaximum": "2",
+								"_dicepool": "5",
+								"_group": ""
+							},
+							{
+								"description": "",
+								"traitcost": {
+									"_bp": "1"
+								},
+								"_name": "High Stakes Poker",
+								"_text": "1",
+								"_base": "1",
+								"_modified": "1",
+								"_naturalmaximum": "12",
+								"_augmentedmaximum": "2",
+								"_dicepool": "5",
+								"_group": ""
+							},
+							{
+								"description": "",
+								"traitcost": {
+									"_bp": "3"
+								},
+								"_name": "Safe Houses",
+								"_text": "3",
+								"_base": "3",
+								"_modified": "3",
+								"_naturalmaximum": "12",
+								"_augmentedmaximum": "5",
+								"_dicepool": "7",
+								"_group": ""
+							},
+							{
+								"description": "",
+								"traitcost": {
+									"_bp": "1"
+								},
+								"_name": "Seattle History",
+								"_text": "1",
+								"_base": "1",
+								"_modified": "1",
+								"_naturalmaximum": "12",
+								"_augmentedmaximum": "2",
+								"_dicepool": "3",
+								"_group": ""
+							},
+							{
+								"description": "",
+								"traitcost": {
+									"_bp": "3"
+								},
+								"_name": "Seattle Knowledge",
+								"_text": "3",
+								"_base": "3",
+								"_modified": "3",
+								"_naturalmaximum": "12",
+								"_augmentedmaximum": "5",
+								"_dicepool": "7",
+								"_group": ""
+							},
+							{
+								"description": "",
+								"traitcost": {
+									"_bp": "3"
+								},
+								"_name": "Street Drugs",
+								"_text": "3",
+								"_base": "3",
+								"_modified": "3",
+								"_naturalmaximum": "12",
+								"_augmentedmaximum": "5",
+								"_dicepool": "7",
+								"_group": ""
+							},
+							{
+								"description": "",
+								"traitcost": {
+									"_bp": "-1 +\n3K"
+								},
+								"_name": "Vampire Lore",
+								"_text": "2",
+								"_base": "2",
+								"_modified": "2",
+								"_naturalmaximum": "12",
+								"_augmentedmaximum": "3",
+								"_dicepool": "6",
+								"_group": ""
+							}
+						]
+					},
+					"language": {
+						"skill": [
+							{
+								"description": "",
+								"traitcost": {
+									"_bp": "-1 +\n1K"
+								},
+								"_name": "Aztlaner Spanish",
+								"_text": "1",
+								"_base": "1",
+								"_modified": "1",
+								"_naturalmaximum": "12",
+								"_augmentedmaximum": "2",
+								"_dicepool": "5",
+								"_group": ""
+							},
+							{
+								"description": "",
+								"traitcost": {
+									"_bp": "0"
+								},
+								"_name": "English",
+								"_text": "N",
+								"_base": "1",
+								"_modified": "1",
+								"_naturalmaximum": "12",
+								"_augmentedmaximum": "2",
+								"_dicepool": "5",
+								"_group": ""
+							},
+							{
+								"description": "",
+								"traitcost": {
+									"_bp": "2"
+								},
+								"_name": "Japanese",
+								"_text": "2",
+								"_base": "2",
+								"_modified": "2",
+								"_naturalmaximum": "12",
+								"_augmentedmaximum": "3",
+								"_dicepool": "6",
+								"_group": ""
+							}
+						]
+					}
+				},
+				"gear": {
+					"augmentations": {
+						"cyberware": {
+							"item": [
+								{
+									"description": "An implanted version of the flare compensation enhancement (p. 444).\n\nFlare Compensation\nThis protects you from blinding flashes of light as well as simple glare. It mitigates the vision modifiers for glare and reduces the penalty from flashing lights, like from a flash-pak.",
+									"gearcost": {
+										"_text": "1,000¥",
+										"_value": "1000"
+									},
+									"availability": {
+										"_text": "4",
+										"_value": "4",
+										"_class": ""
+									},
+									"matrix": {
+										"matrixattribute": [
+											{
+												"_name": "Attack",
+												"_text": "0",
+												"_base": "0",
+												"_modified": "0"
+											},
+											{
+												"_name": "Sleaze",
+												"_text": "0",
+												"_base": "0",
+												"_modified": "0"
+											},
+											{
+												"_name": "Data Processing",
+												"_text": "2",
+												"_base": "2",
+												"_modified": "2"
+											},
+											{
+												"_name": "Firewall",
+												"_text": "2",
+												"_base": "2",
+												"_modified": "2"
+											}
+										]
+									},
+									"modifications": "",
+									"accessories": "",
+									"ammunition": "",
+									"programs": "",
+									"othergear": "",
+									"_name": "Flare Compensation",
+									"_essencecost": "0.09",
+									"_wireless": "Present"
+								},
+								{
+									"description": "Why take the time to exercise when you can just install a physique? Vat-grown synthetic muscles replace or augment your own, and calcium treatments and skeletal reinforcement contribute to your overall strength. It increases both your Strength and Agility attributes by its rating. It cannot be combined with other augmentations to the muscles, including muscle augmentation or muscle toner bioware.",
+									"gearcost": {
+										"_text": "50,000¥",
+										"_value": "50000"
+									},
+									"availability": {
+										"_text": "10R",
+										"_value": "10",
+										"_class": "Restricted"
+									},
+									"matrix": {
+										"matrixattribute": [
+											{
+												"_name": "Attack",
+												"_text": "0",
+												"_base": "0",
+												"_modified": "0"
+											},
+											{
+												"_name": "Sleaze",
+												"_text": "0",
+												"_base": "0",
+												"_modified": "0"
+											},
+											{
+												"_name": "Data Processing",
+												"_text": "2",
+												"_base": "2",
+												"_modified": "2"
+											},
+											{
+												"_name": "Firewall",
+												"_text": "2",
+												"_base": "2",
+												"_modified": "2"
+											}
+										]
+									},
+									"modifications": "",
+									"accessories": "",
+									"ammunition": "",
+									"programs": "",
+									"othergear": "",
+									"_name": "Muscle Replacement",
+									"_essencecost": "1.8",
+									"_rating": "2",
+									"_wireless": "Present"
+								},
+								{
+									"description": "This highly invasive, painful, life-changing operation adds a multitude of neural boosters and adrenaline stimulators in strategic locations throughout your body work to catapult you into a whole new world where everything around you seems to move in slow motion. The system includes both manual and wireless triggers to turn the wired reflexes on and off; activating or deactivating the trigger manually requires a Complex Action, doing so wirelessly is a Simple Action. When activated, each rating point of wired reflexes gives you +1 Reaction (and accompanying bonus to Initiative) and +1D6 Initiative Die. Wired reflexes are incompatible with augmentations that affect Reaction or Initiative.",
+									"gearcost": {
+										"_text": "149,000¥",
+										"_value": "149000"
+									},
+									"availability": {
+										"_text": "12R",
+										"_value": "12",
+										"_class": "Restricted"
+									},
+									"matrix": {
+										"matrixattribute": [
+											{
+												"_name": "Attack",
+												"_text": "0",
+												"_base": "0",
+												"_modified": "0"
+											},
+											{
+												"_name": "Sleaze",
+												"_text": "0",
+												"_base": "0",
+												"_modified": "0"
+											},
+											{
+												"_name": "Data Processing",
+												"_text": "2",
+												"_base": "2",
+												"_modified": "2"
+											},
+											{
+												"_name": "Firewall",
+												"_text": "2",
+												"_base": "2",
+												"_modified": "2"
+											}
+										]
+									},
+									"modifications": "",
+									"accessories": "",
+									"ammunition": "",
+									"programs": "",
+									"othergear": "",
+									"_name": "Wired Reflexes",
+									"_essencecost": "2.7",
+									"_rating": "2",
+									"_wireless": "Present"
+								}
+							]
+						},
+						"bioware": {
+							"item": {
+								"description": "The molecular structure of your bones is altered to increase density and tensile strength. Ligaments are strengthened, and the increased bone density increases your weight a bit. Your Body attribute is increased by the bone density Rating for the purpose of damage resistance tests. You also deal Physical damage in unarmed combat, based on the Rating of the augmentation (see the Bone Density Augmentation table). Bone density augmentation is incompatible with other augmentations to the bones, including bone lacing cyberware.",
+								"gearcost": {
+									"_text": "15,000¥",
+									"_value": "15000"
+								},
+								"availability": {
+									"_text": "12",
+									"_value": "12",
+									"_class": ""
+								},
+								"matrix": {
+									"matrixattribute": [
+										{
+											"_name": "Attack",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Sleaze",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Data Processing",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										},
+										{
+											"_name": "Firewall",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										}
+									]
+								},
+								"modifications": "",
+								"accessories": "",
+								"ammunition": "",
+								"programs": "",
+								"othergear": "",
+								"_name": "Bone Density Augmentation",
+								"_essencecost": "0.9",
+								"_rating": "3"
+							}
+						}
+					},
+					"weapons": {
+						"item": [
+							{
+								"description": "This could be a traditional longbow of fiberglass or wood, or possibly a modern compound-and-pulley bow. Both are archaic and rare weapons on the streets of 2075, and both have the advantage of being hacker-proof. Reloading a bow takes a Simple Action (Ready Weapon, p. 165).\n\nBows have ratings that indicate the minimum Strength you need to use that weapon. When attacking with a bow, a character whose Strength is less than the Strength minimum suffers a -3 dice pool modifier per point below the minimum; this penalty reflects the difficulty they have in pulling the bow and nocking an arrow. The weapon's Rating is also used to determine its range and damage (maximum Rating is 10). Use the lowest value of your Strength, the bow's rating, or the arrow Rating for range and damage when attacking a target, because your average Rating 10 titanium-sheathed beryllium-alloy bow tends to turn wood or fiberglass arrows into powder when they hit a target.\n\nA compound bow cannot use the Overdraw action due to the nature of the pulley system it uses. The benefit of a compound bow is that the pulley system makes it extremely easy to hold the bow drawn, allowing an archer to maintain a Take Aim action for (Body x 4) Combat Turns. A compound bow can also mount a smartlink, as the pulley system gives the projectiles a fixed velocity.\n\nWith any bow or crossbow, a laser sight is ineffective at any range beyond Short due to parabolic nature of the projectiles. Unless you somehow get a laser that also travels in a parabola. Which you can't.",
+								"gearcost": {
+									"_text": "1,400¥",
+									"_value": "1400"
+								},
+								"availability": {
+									"_text": "",
+									"_value": "0",
+									"_class": ""
+								},
+								"matrix": {
+									"matrixattribute": [
+										{
+											"_name": "Attack",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Sleaze",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Data Processing",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										},
+										{
+											"_name": "Firewall",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										}
+									]
+								},
+								"weaponinfo": {
+									"ranges": {
+										"range": [
+											{
+												"_name": "Minimum",
+												"_text": "0m",
+												"_value": "0"
+											},
+											{
+												"_name": "Short",
+												"_text": "10m",
+												"_value": "10"
+											},
+											{
+												"_name": "Medium",
+												"_text": "100m",
+												"_value": "100"
+											},
+											{
+												"_name": "Long",
+												"_text": "300m",
+												"_value": "300"
+											},
+											{
+												"_name": "Extreme",
+												"_text": "600m",
+												"_value": "600"
+											}
+										],
+										"_text": "10/100/300/600"
+									},
+									"_grouptext": "Bows",
+									"_dicepool": "10dicepool [6]",
+									"_damagetext": "12P",
+									"_damagevalue": "12",
+									"_damagetype": "Physical",
+									"_ap": "-3",
+									"_modestext": "",
+									"_isammunition": "0",
+									"_recoilcomp": "5",
+									"_equipped": "Both Hands"
+								},
+								"modifications": "",
+								"accessories": "",
+								"ammunition": {
+									"item": {
+										"description": "",
+										"gearcost": {
+											"_text": "20¥",
+											"_value": "20"
+										},
+										"availability": {
+											"_text": "10",
+											"_value": "10",
+											"_class": ""
+										},
+										"matrix": {
+											"matrixattribute": [
+												{
+													"_name": "Attack",
+													"_text": "0",
+													"_base": "0",
+													"_modified": "0"
+												},
+												{
+													"_name": "Sleaze",
+													"_text": "0",
+													"_base": "0",
+													"_modified": "0"
+												},
+												{
+													"_name": "Data Processing",
+													"_text": "2",
+													"_base": "2",
+													"_modified": "2"
+												},
+												{
+													"_name": "Firewall",
+													"_text": "2",
+													"_base": "2",
+													"_modified": "2"
+												}
+											]
+										},
+										"weaponinfo": {
+											"ranges": {
+												"range": [
+													{
+														"_name": "Minimum",
+														"_text": "0m",
+														"_value": "0"
+													},
+													{
+														"_name": "Short",
+														"_text": "0m",
+														"_value": "0"
+													},
+													{
+														"_name": "Medium",
+														"_text": "0m",
+														"_value": "0"
+													},
+													{
+														"_name": "Long",
+														"_text": "0m",
+														"_value": "0"
+													},
+													{
+														"_name": "Extreme",
+														"_text": "0m",
+														"_value": "0"
+													}
+												],
+												"_text": "0"
+											},
+											"_grouptext": "",
+											"_dicepool": "",
+											"_damagetext": "",
+											"_damagevalue": "0",
+											"_damagetype": "",
+											"_ap": "0",
+											"_modestext": "",
+											"_isammunition": "1",
+											"_recoilcomp": "5",
+											"_equipped": "Main Hand"
+										},
+										"modifications": "",
+										"accessories": "",
+										"ammunition": "",
+										"programs": "",
+										"othergear": "",
+										"_name": "Arrow, Str Min 10",
+										"_rating": "10",
+										"_quantity": "20"
+									}
+								},
+								"programs": "",
+								"othergear": "",
+								"_name": "Bow (Compound)",
+								"_rating": "10",
+								"_quantity": "1",
+								"_size": "Troll Size",
+								"_wireless": "Present"
+							},
+							{
+								"description": "A long, KA-BAR-style fighting knife with a blacked-out blade and a chisel point for punching through armor.",
+								"gearcost": {
+									"_text": "300¥",
+									"_value": "300"
+								},
+								"availability": {
+									"_text": "4",
+									"_value": "4",
+									"_class": ""
+								},
+								"matrix": {
+									"matrixattribute": [
+										{
+											"_name": "Attack",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Sleaze",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Data Processing",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										},
+										{
+											"_name": "Firewall",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										}
+									]
+								},
+								"weaponinfo": {
+									"defense": {
+										"_name": "Combat Knife Parry",
+										"_normal": "5"
+									},
+									"_grouptext": "Blades",
+									"_dicepool": "12dicepool [6]",
+									"_damagetext": "12P",
+									"_damagevalue": "12",
+									"_damagetype": "Physical",
+									"_ap": "-3",
+									"_modestext": "",
+									"_isammunition": "0",
+									"_reach": "1",
+									"_equipped": "Main Hand"
+								},
+								"modifications": "",
+								"accessories": "",
+								"ammunition": "",
+								"programs": "",
+								"othergear": "",
+								"_name": "Combat Knife",
+								"_quantity": "1",
+								"_size": "Troll Size",
+								"_wireless": "Present"
+							},
+							{
+								"description": "Finely crafted but also expensive, the Fineblade line of Cougar products are usually only found in the hands of professionals where they belong. They come in two designs, a long blade, currently crafted in the fashion of a gladius; and a short blade, currently fashioned after the Bowie knife. Previous years' designs have run the gamut since the introduction of the original Fineblade back in the '50s.",
+								"gearcost": {
+									"_text": "600¥",
+									"_value": "600"
+								},
+								"availability": {
+									"_text": "7R",
+									"_value": "7",
+									"_class": "Restricted"
+								},
+								"matrix": {
+									"matrixattribute": [
+										{
+											"_name": "Attack",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Sleaze",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Data Processing",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										},
+										{
+											"_name": "Firewall",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										}
+									]
+								},
+								"weaponinfo": {
+									"defense": {
+										"_name": "Cougar Fineblade Knife, Long Blade Parry",
+										"_normal": "5"
+									},
+									"_grouptext": "Blades",
+									"_dicepool": "12dicepool [7]",
+									"_damagetext": "13P",
+									"_damagevalue": "13",
+									"_damagetype": "Physical",
+									"_ap": "-1",
+									"_modestext": "",
+									"_isammunition": "0",
+									"_reach": "1",
+									"_equipped": "Main Hand"
+								},
+								"modifications": "",
+								"accessories": "",
+								"ammunition": "",
+								"programs": "",
+								"othergear": "",
+								"_name": "Cougar Fineblade Knife, Long Blade",
+								"_quantity": "1",
+								"_size": "Troll Size",
+								"_wireless": "Present"
+							},
+							{
+								"description": "A common sight on the mean streets when things escalate beyond pistols and knives, this semi-automatic shotgun is available in either a normal- length or short-barreled version. It is gas operated, but also features a secondary pump action for situations where preventing jams is more important than quickly firing a second shot. The short-barreled version has the Concealability of +4, the range of a heavy pistol, and a damage code of 9P.",
+								"gearcost": {
+									"_text": "6,190¥",
+									"_value": "6190"
+								},
+								"availability": {
+									"_text": "6R",
+									"_value": "6",
+									"_class": "Restricted"
+								},
+								"matrix": {
+									"matrixattribute": [
+										{
+											"_name": "Attack",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Sleaze",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Data Processing",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										},
+										{
+											"_name": "Firewall",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										}
+									]
+								},
+								"weaponinfo": {
+									"ammunitionused": {
+										"_text": "5 (m)",
+										"_count": "5",
+										"_bins": "1",
+										"_type": "Internal Magazine"
+									},
+									"mode": [
+										"Single Shot",
+										"Semi-Automatic"
+									],
+									"ranges": {
+										"range": [
+											{
+												"_name": "Minimum",
+												"_text": "0m",
+												"_value": "0"
+											},
+											{
+												"_name": "Short",
+												"_text": "15m",
+												"_value": "15"
+											},
+											{
+												"_name": "Medium",
+												"_text": "30m",
+												"_value": "30"
+											},
+											{
+												"_name": "Long",
+												"_text": "45m",
+												"_value": "45"
+											},
+											{
+												"_name": "Extreme",
+												"_text": "60m",
+												"_value": "60"
+											}
+										],
+										"_text": "15/30/45/60"
+									},
+									"_grouptext": "Shotguns",
+									"_dicepool": "13dicepool [6]",
+									"_damagetext": "11P",
+									"_damagevalue": "11",
+									"_damagetype": "Physical",
+									"_ap": "-2",
+									"_modestext": "SS/SA",
+									"_isammunition": "0",
+									"_recoilcomp": "10",
+									"_equipped": "Both Hands"
+								},
+								"modifications": {
+									"item": [
+										{
+											"description": "By 2075, most flashlights are long lasting and super bright. Durability and brightness depend on the size - the bulkier, the better. Flashlights are also available in low-light and infrared versions, reducing visibility modifiers for low-light and thermographic vision, respectively. A flashlight can also be mounted to a weapon's top or under-barrel mount (Mounts, p. 417).",
+											"gearcost": {
+												"_text": "25¥",
+												"_value": "25"
+											},
+											"availability": {
+												"_text": "",
+												"_value": "0",
+												"_class": ""
+											},
+											"matrix": {
+												"matrixattribute": [
+													{
+														"_name": "Attack",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Sleaze",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Data Processing",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													},
+													{
+														"_name": "Firewall",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													}
+												]
+											},
+											"modifications": "",
+											"accessories": "",
+											"ammunition": "",
+											"programs": "",
+											"othergear": "",
+											"_name": "Flashlight, Thermographic",
+											"_quantity": "1",
+											"_size": "Troll Size",
+											"_wireless": "Present"
+										},
+										{
+											"description": "Gas-vent recoil compensation systems are barrel-mounted accessories that vent a weapon's barrel gases at a specific vector to counter muzzle climb. Once installed, a gas-vent cannot be removed. Gas-vent systems provide a number of points of Recoil Compensation equal to their rating.",
+											"gearcost": {
+												"_text": "600¥",
+												"_value": "600"
+											},
+											"availability": {
+												"_text": "9R",
+												"_value": "9",
+												"_class": "Restricted"
+											},
+											"matrix": {
+												"matrixattribute": [
+													{
+														"_name": "Attack",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Sleaze",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Data Processing",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													},
+													{
+														"_name": "Firewall",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													}
+												]
+											},
+											"_name": "Gas-Vent System",
+											"_rating": "3",
+											"_quantity": "1"
+										},
+										{
+											"description": "This connects a firearm or a projectile weapon directly to the user's smartlink. Incorporating a small camera and laser range finder, the smartlink keeps track of ammunition, heat buildup, and material stress. If you have a smartlink, you can mentally switch between gun modes, eject a clip, and fire the gun without pulling the trigger. The camera lets you shoot around corners without exposing yourself to return fire (at a -3 dice pool penalty). The system makes use of advanced calculation software, allowing for precisely calculated trajectories and high precision over any distance.\n\nIf you're using a smartlink, the smartgun system increases the gun's Accuracy by 2. The smartgun features are accessed either by universal access port cable to an imaging device (like glasses, goggles, or a datajack for someone with cybereyes) or by a wireless connection working in concert with direct neural interface.\n\nRetrofitting a firearm with an internal smartgun system doubles the weapon's price and adds 2 to its Availability. An external smartgun system can be attached to the top mount or underbarrel mount with an Armorer + Logic (4, 1 hour) Extended Test. The small camera has a capacity of 1 and can be equipped with vision enhancements (p. 444).",
+											"gearcost": {
+												"_text": "450¥",
+												"_value": "450"
+											},
+											"availability": {
+												"_text": "+2R",
+												"_value": "2",
+												"_class": "Restricted"
+											},
+											"matrix": {
+												"matrixattribute": [
+													{
+														"_name": "Attack",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Sleaze",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Data Processing",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													},
+													{
+														"_name": "Firewall",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													}
+												]
+											},
+											"modifications": "",
+											"accessories": "",
+											"ammunition": "",
+											"programs": "",
+											"othergear": "",
+											"_name": "Smartgun System, Internal",
+											"_quantity": "1",
+											"_size": "Troll Size",
+											"_wireless": "Present"
+										}
+									]
+								},
+								"accessories": {
+									"item": [
+										{
+											"description": "This is a handle you put on in the front of the weapon to give you a sturdier grip. It can only be mounted on the barrel, and it cannot be used on Pistols and Hold-outs. It provides 1 point of Recoil Compensation and adds 1 to the Concealability of the weapon to which it's attached.",
+											"gearcost": {
+												"_text": "100¥",
+												"_value": "100"
+											},
+											"availability": {
+												"_text": "2",
+												"_value": "2",
+												"_class": ""
+											},
+											"matrix": {
+												"matrixattribute": [
+													{
+														"_name": "Attack",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Sleaze",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Data Processing",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													},
+													{
+														"_name": "Firewall",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													}
+												]
+											},
+											"modifications": "",
+											"accessories": "",
+											"ammunition": "",
+											"programs": "",
+											"othergear": "",
+											"_name": "Foregrip",
+											"_quantity": "1",
+											"_size": "Troll Size",
+											"_wireless": "Present"
+										},
+										{
+											"description": "A shock-absorbing pad is situated on the rigid stock of a rifle, shotgun, or heavy weapon, and provides 1 point of recoil compensation.",
+											"gearcost": {
+												"_text": "50¥",
+												"_value": "50"
+											},
+											"availability": {
+												"_text": "2",
+												"_value": "2",
+												"_class": ""
+											},
+											"matrix": {
+												"matrixattribute": [
+													{
+														"_name": "Attack",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Sleaze",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Data Processing",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													},
+													{
+														"_name": "Firewall",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													}
+												]
+											},
+											"_name": "Shock Pad",
+											"_quantity": "1"
+										},
+										{
+											"description": "For Special Forces troops, this is a sturdy piece of mesh or canvas custom-fitted to the user and positioned on the weapon in a way to ensure it can be readied as quickly as possible. For guerilla warriors, this might be a piece of rope, and old belt, or anything else that can be rigged up to help them keep from dropping their weapon. No matter how complex or simple, the function is basic - it makes sure your weapon doesn't fall to the ground when you're running or diving from an explosion or in the middle of being shot or whatever. It may be shot out of your hands, but getting it ready again is a Simple Action. The sling does not take up any slots on a weapon.",
+											"gearcost": {
+												"_text": "15¥",
+												"_value": "15"
+											},
+											"availability": {
+												"_text": "",
+												"_value": "0",
+												"_class": ""
+											},
+											"matrix": {
+												"matrixattribute": [
+													{
+														"_name": "Attack",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Sleaze",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Data Processing",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													},
+													{
+														"_name": "Firewall",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													}
+												]
+											},
+											"_name": "Sling",
+											"_quantity": "1"
+										}
+									]
+								},
+								"ammunition": {
+									"item": [
+										{
+											"description": "These slugs carry a shaped-charge explosive, designed to explode and fragment on impact. Explosive rounds misfire whenever you roll a critical glitch. When this happens, you must resist one \"attack\" with a Damage Value equal to the normal damage done by the weapon (and don't forget the modifier for the explosive rounds). The attack misses its intended target, and the weapon firing the bullets is destroyed.",
+											"gearcost": {
+												"_text": "8¥",
+												"_value": "8"
+											},
+											"availability": {
+												"_text": "9F",
+												"_value": "9",
+												"_class": "Forbidden"
+											},
+											"matrix": {
+												"matrixattribute": [
+													{
+														"_name": "Attack",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Sleaze",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Data Processing",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													},
+													{
+														"_name": "Firewall",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													}
+												]
+											},
+											"weaponinfo": {
+												"ranges": {
+													"range": [
+														{
+															"_name": "Minimum",
+															"_text": "0m",
+															"_value": "0"
+														},
+														{
+															"_name": "Short",
+															"_text": "0m",
+															"_value": "0"
+														},
+														{
+															"_name": "Medium",
+															"_text": "0m",
+															"_value": "0"
+														},
+														{
+															"_name": "Long",
+															"_text": "0m",
+															"_value": "0"
+														},
+														{
+															"_name": "Extreme",
+															"_text": "0m",
+															"_value": "0"
+														}
+													],
+													"_text": "0"
+												},
+												"_grouptext": "",
+												"_dicepool": "",
+												"_damagetext": "+1",
+												"_damagevalue": "1",
+												"_damagetype": "",
+												"_ap": "-1",
+												"_modestext": "",
+												"_isammunition": "1",
+												"_recoilcomp": "5",
+												"_equipped": "Main Hand"
+											},
+											"modifications": "",
+											"accessories": "",
+											"ammunition": "",
+											"programs": "",
+											"othergear": "",
+											"_name": "Explosive Rounds",
+											"_quantity": "200"
+										},
+										{
+											"description": "The payload of a flechette round is made up of tiny, tightly packed metal slivers. The round breaks up and shatters on impact, becoming a tumbling hail of shrapnel. Flechette rounds are devastating against unprotected targets, but not as effective against hardened armor.",
+											"gearcost": {
+												"_text": "6.5¥",
+												"_value": "6.5"
+											},
+											"availability": {
+												"_text": "6R",
+												"_value": "6",
+												"_class": "Restricted"
+											},
+											"matrix": {
+												"matrixattribute": [
+													{
+														"_name": "Attack",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Sleaze",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Data Processing",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													},
+													{
+														"_name": "Firewall",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													}
+												]
+											},
+											"weaponinfo": {
+												"ranges": {
+													"range": [
+														{
+															"_name": "Minimum",
+															"_text": "0m",
+															"_value": "0"
+														},
+														{
+															"_name": "Short",
+															"_text": "0m",
+															"_value": "0"
+														},
+														{
+															"_name": "Medium",
+															"_text": "0m",
+															"_value": "0"
+														},
+														{
+															"_name": "Long",
+															"_text": "0m",
+															"_value": "0"
+														},
+														{
+															"_name": "Extreme",
+															"_text": "0m",
+															"_value": "0"
+														}
+													],
+													"_text": "0"
+												},
+												"_grouptext": "",
+												"_dicepool": "",
+												"_damagetext": "+2(f)",
+												"_damagevalue": "2",
+												"_damagetype": "",
+												"_ap": "5",
+												"_modestext": "",
+												"_isammunition": "1",
+												"_recoilcomp": "5",
+												"_equipped": "Main Hand"
+											},
+											"modifications": "",
+											"accessories": "",
+											"ammunition": "",
+											"programs": "",
+											"othergear": "",
+											"_name": "Flechette Rounds",
+											"_quantity": "200"
+										},
+										{
+											"description": "Stick-n-Shock rounds deal electrical Stun damage of equal to the damage of the base weapon -2. They have a flat AP of -5 that replaces the weapon's AP instead of stacking with it.",
+											"gearcost": {
+												"_text": "8¥",
+												"_value": "8"
+											},
+											"availability": {
+												"_text": "6R",
+												"_value": "6",
+												"_class": "Restricted"
+											},
+											"matrix": {
+												"matrixattribute": [
+													{
+														"_name": "Attack",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Sleaze",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Data Processing",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													},
+													{
+														"_name": "Firewall",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													}
+												]
+											},
+											"weaponinfo": {
+												"ranges": {
+													"range": [
+														{
+															"_name": "Minimum",
+															"_text": "0m",
+															"_value": "0"
+														},
+														{
+															"_name": "Short",
+															"_text": "0m",
+															"_value": "0"
+														},
+														{
+															"_name": "Medium",
+															"_text": "0m",
+															"_value": "0"
+														},
+														{
+															"_name": "Long",
+															"_text": "0m",
+															"_value": "0"
+														},
+														{
+															"_name": "Extreme",
+															"_text": "0m",
+															"_value": "0"
+														}
+													],
+													"_text": "0"
+												},
+												"_grouptext": "",
+												"_dicepool": "",
+												"_damagetext": "-2S(e)",
+												"_damagevalue": "-2",
+												"_damagetype": "Stun",
+												"_ap": "-5",
+												"_modestext": "",
+												"_isammunition": "1",
+												"_recoilcomp": "5",
+												"_equipped": "Main Hand"
+											},
+											"modifications": "",
+											"accessories": "",
+											"ammunition": "",
+											"programs": "",
+											"othergear": "",
+											"_name": "Stick-n-Shock",
+											"_quantity": "200"
+										}
+									]
+								},
+								"programs": "",
+								"othergear": "",
+								"_name": "Defiance T-250",
+								"_quantity": "1",
+								"_size": "Troll Size",
+								"_wireless": "Present"
+							},
+							{
+								"description": "This military assault shotgun provides its user with massive firepower. As a close-quarters weapon and general combat gun, it is universally feared. It can either be loaded with ten-round ammo clips or a special twenty-four-round drum. The Enfield AS-7 comes equipped with a built-in, top-mounted laser sight.",
+								"gearcost": {
+									"_text": "3,675¥",
+									"_value": "3675"
+								},
+								"availability": {
+									"_text": "12F",
+									"_value": "12",
+									"_class": "Forbidden"
+								},
+								"matrix": {
+									"matrixattribute": [
+										{
+											"_name": "Attack",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Sleaze",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Data Processing",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										},
+										{
+											"_name": "Firewall",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										}
+									]
+								},
+								"weaponinfo": {
+									"ammunitionused": {
+										"_text": "24 (d)",
+										"_count": "24",
+										"_bins": "1",
+										"_type": "Drum"
+									},
+									"mode": [
+										"Semi-Automatic",
+										"Burst Fire"
+									],
+									"ranges": {
+										"range": [
+											{
+												"_name": "Minimum",
+												"_text": "0m",
+												"_value": "0"
+											},
+											{
+												"_name": "Short",
+												"_text": "10m",
+												"_value": "10"
+											},
+											{
+												"_name": "Medium",
+												"_text": "40m",
+												"_value": "40"
+											},
+											{
+												"_name": "Long",
+												"_text": "80m",
+												"_value": "80"
+											},
+											{
+												"_name": "Extreme",
+												"_text": "150m",
+												"_value": "150"
+											}
+										],
+										"_text": "10/40/80/150"
+									},
+									"_grouptext": "Shotguns",
+									"_dicepool": "13dicepool [6]",
+									"_damagetext": "14P",
+									"_damagevalue": "14",
+									"_damagetype": "Physical",
+									"_ap": "-2",
+									"_modestext": "SA/BF",
+									"_isammunition": "0",
+									"_recoilcomp": "7",
+									"_equipped": "Both Hands"
+								},
+								"modifications": {
+									"item": [
+										{
+											"description": "By 2075, most flashlights are long lasting and super bright. Durability and brightness depend on the size - the bulkier, the better. Flashlights are also available in low-light and infrared versions, reducing visibility modifiers for low-light and thermographic vision, respectively. A flashlight can also be mounted to a weapon's top or under-barrel mount (Mounts, p. 417).",
+											"gearcost": {
+												"_text": "25¥",
+												"_value": "25"
+											},
+											"availability": {
+												"_text": "",
+												"_value": "0",
+												"_class": ""
+											},
+											"matrix": {
+												"matrixattribute": [
+													{
+														"_name": "Attack",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Sleaze",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Data Processing",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													},
+													{
+														"_name": "Firewall",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													}
+												]
+											},
+											"modifications": "",
+											"accessories": "",
+											"ammunition": "",
+											"programs": "",
+											"othergear": "",
+											"_name": "Flashlight, Thermographic",
+											"_quantity": "1",
+											"_size": "Troll Size",
+											"_wireless": "Present"
+										},
+										{
+											"description": "This device uses a laser beam to project a visible dot (in your choice of colors) on the target. This increases the weapon's Accuracy by 1, which is not cumulative with smartlink modifiers. The laser sight can be attached to either the underbarrel mount or top mount. Activating or deactivating a laser sight is a Simple Action.",
+											"gearcost": {
+												"_text": "0¥",
+												"_value": "0"
+											},
+											"availability": {
+												"_text": "",
+												"_value": "0",
+												"_class": ""
+											},
+											"matrix": {
+												"matrixattribute": [
+													{
+														"_name": "Attack",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Sleaze",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Data Processing",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													},
+													{
+														"_name": "Firewall",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													}
+												]
+											},
+											"modifications": "",
+											"accessories": "",
+											"ammunition": "",
+											"programs": "",
+											"othergear": "",
+											"_name": "Laser Sight",
+											"_useradded": "no",
+											"_quantity": "1",
+											"_size": "Troll Size",
+											"_wireless": "Present"
+										}
+									]
+								},
+								"accessories": {
+									"item": [
+										{
+											"description": "This is a handle you put on in the front of the weapon to give you a sturdier grip. It can only be mounted on the barrel, and it cannot be used on Pistols and Hold-outs. It provides 1 point of Recoil Compensation and adds 1 to the Concealability of the weapon to which it's attached.",
+											"gearcost": {
+												"_text": "100¥",
+												"_value": "100"
+											},
+											"availability": {
+												"_text": "2",
+												"_value": "2",
+												"_class": ""
+											},
+											"matrix": {
+												"matrixattribute": [
+													{
+														"_name": "Attack",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Sleaze",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Data Processing",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													},
+													{
+														"_name": "Firewall",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													}
+												]
+											},
+											"modifications": "",
+											"accessories": "",
+											"ammunition": "",
+											"programs": "",
+											"othergear": "",
+											"_name": "Foregrip",
+											"_quantity": "1",
+											"_size": "Troll Size",
+											"_wireless": "Present"
+										},
+										{
+											"description": "A shock-absorbing pad is situated on the rigid stock of a rifle, shotgun, or heavy weapon, and provides 1 point of recoil compensation.",
+											"gearcost": {
+												"_text": "50¥",
+												"_value": "50"
+											},
+											"availability": {
+												"_text": "2",
+												"_value": "2",
+												"_class": ""
+											},
+											"matrix": {
+												"matrixattribute": [
+													{
+														"_name": "Attack",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Sleaze",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Data Processing",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													},
+													{
+														"_name": "Firewall",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													}
+												]
+											},
+											"_name": "Shock Pad",
+											"_quantity": "1"
+										},
+										{
+											"description": "This connects a firearm or a projectile weapon directly to the user's smartlink. Incorporating a small camera and laser range finder, the smartlink keeps track of ammunition, heat buildup, and material stress. If you have a smartlink, you can mentally switch between gun modes, eject a clip, and fire the gun without pulling the trigger. The camera lets you shoot around corners without exposing yourself to return fire (at a -3 dice pool penalty). The system makes use of advanced calculation software, allowing for precisely calculated trajectories and high precision over any distance.\n\nIf you're using a smartlink, the smartgun system increases the gun's Accuracy by 2. The smartgun features are accessed either by universal access port cable to an imaging device (like glasses, goggles, or a datajack for someone with cybereyes) or by a wireless connection working in concert with direct neural interface.\n\nRetrofitting a firearm with an internal smartgun system doubles the weapon's price and adds 2 to its Availability. An external smartgun system can be attached to the top mount or underbarrel mount with an Armorer + Logic (4, 1 hour) Extended Test. The small camera has a capacity of 1 and can be equipped with vision enhancements (p. 444).",
+											"gearcost": {
+												"_text": "200¥",
+												"_value": "200"
+											},
+											"availability": {
+												"_text": "4R",
+												"_value": "4",
+												"_class": "Restricted"
+											},
+											"matrix": {
+												"matrixattribute": [
+													{
+														"_name": "Attack",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Sleaze",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Data Processing",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													},
+													{
+														"_name": "Firewall",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													}
+												]
+											},
+											"modifications": {
+												"item": {
+													"description": "A common visual device, cameras can capture still photos, video, and trideo, including sound. Cameras may also be upgraded with vision enhancements and audio enhancements. A micro version is available with a Capacity 1.",
+													"gearcost": {
+														"_text": "0¥",
+														"_value": "0"
+													},
+													"availability": {
+														"_text": "",
+														"_value": "0",
+														"_class": ""
+													},
+													"matrix": {
+														"matrixattribute": [
+															{
+																"_name": "Attack",
+																"_text": "0",
+																"_base": "0",
+																"_modified": "0"
+															},
+															{
+																"_name": "Sleaze",
+																"_text": "0",
+																"_base": "0",
+																"_modified": "0"
+															},
+															{
+																"_name": "Data Processing",
+																"_text": "2",
+																"_base": "2",
+																"_modified": "2"
+															},
+															{
+																"_name": "Firewall",
+																"_text": "2",
+																"_base": "2",
+																"_modified": "2"
+															}
+														]
+													},
+													"modifications": "",
+													"accessories": "",
+													"ammunition": "",
+													"programs": "",
+													"othergear": "",
+													"_name": "Camera",
+													"_useradded": "no",
+													"_quantity": "1",
+													"_size": "Troll Size",
+													"_wireless": "Present"
+												}
+											},
+											"accessories": "",
+											"ammunition": "",
+											"programs": "",
+											"othergear": "",
+											"_name": "Smartgun System, External",
+											"_quantity": "1",
+											"_size": "Troll Size",
+											"_wireless": "Present"
+										}
+									]
+								},
+								"ammunition": {
+									"item": [
+										{
+											"description": "These slugs carry a shaped-charge explosive, designed to explode and fragment on impact. Explosive rounds misfire whenever you roll a critical glitch. When this happens, you must resist one \"attack\" with a Damage Value equal to the normal damage done by the weapon (and don't forget the modifier for the explosive rounds). The attack misses its intended target, and the weapon firing the bullets is destroyed.",
+											"gearcost": {
+												"_text": "8¥",
+												"_value": "8"
+											},
+											"availability": {
+												"_text": "9F",
+												"_value": "9",
+												"_class": "Forbidden"
+											},
+											"matrix": {
+												"matrixattribute": [
+													{
+														"_name": "Attack",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Sleaze",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Data Processing",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													},
+													{
+														"_name": "Firewall",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													}
+												]
+											},
+											"weaponinfo": {
+												"ranges": {
+													"range": [
+														{
+															"_name": "Minimum",
+															"_text": "0m",
+															"_value": "0"
+														},
+														{
+															"_name": "Short",
+															"_text": "0m",
+															"_value": "0"
+														},
+														{
+															"_name": "Medium",
+															"_text": "0m",
+															"_value": "0"
+														},
+														{
+															"_name": "Long",
+															"_text": "0m",
+															"_value": "0"
+														},
+														{
+															"_name": "Extreme",
+															"_text": "0m",
+															"_value": "0"
+														}
+													],
+													"_text": "0"
+												},
+												"_grouptext": "",
+												"_dicepool": "",
+												"_damagetext": "+1",
+												"_damagevalue": "1",
+												"_damagetype": "",
+												"_ap": "-1",
+												"_modestext": "",
+												"_isammunition": "1",
+												"_recoilcomp": "5",
+												"_equipped": "Main Hand"
+											},
+											"modifications": "",
+											"accessories": "",
+											"ammunition": "",
+											"programs": "",
+											"othergear": "",
+											"_name": "Explosive Rounds",
+											"_quantity": "200"
+										},
+										{
+											"description": "Also called ball or full metal jacket rounds, these solid slugs are useful for numerous applications (mainly killing things).",
+											"gearcost": {
+												"_text": "2¥",
+												"_value": "2"
+											},
+											"availability": {
+												"_text": "2R",
+												"_value": "2",
+												"_class": "Restricted"
+											},
+											"matrix": {
+												"matrixattribute": [
+													{
+														"_name": "Attack",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Sleaze",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Data Processing",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													},
+													{
+														"_name": "Firewall",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													}
+												]
+											},
+											"weaponinfo": {
+												"ranges": {
+													"range": [
+														{
+															"_name": "Minimum",
+															"_text": "0m",
+															"_value": "0"
+														},
+														{
+															"_name": "Short",
+															"_text": "0m",
+															"_value": "0"
+														},
+														{
+															"_name": "Medium",
+															"_text": "0m",
+															"_value": "0"
+														},
+														{
+															"_name": "Long",
+															"_text": "0m",
+															"_value": "0"
+														},
+														{
+															"_name": "Extreme",
+															"_text": "0m",
+															"_value": "0"
+														}
+													],
+													"_text": "0"
+												},
+												"_grouptext": "",
+												"_dicepool": "",
+												"_damagetext": "",
+												"_damagevalue": "0",
+												"_damagetype": "",
+												"_ap": "0",
+												"_modestext": "",
+												"_isammunition": "1",
+												"_recoilcomp": "5",
+												"_equipped": "Main Hand"
+											},
+											"modifications": "",
+											"accessories": "",
+											"ammunition": "",
+											"programs": "",
+											"othergear": "",
+											"_name": "Regular Ammo",
+											"_quantity": "300"
+										}
+									]
+								},
+								"programs": "",
+								"othergear": "",
+								"_name": "Enfield AS-7",
+								"_quantity": "1",
+								"_size": "Troll Size",
+								"_wireless": "Present"
+							},
+							{
+								"description": "A single horn or horns express on the character's head. If the character already had horns, these grow even bigger or more pronounced. The horns can be anything from ram horns to deer-like antlers to devil horns or even jagged crests of bone around the skull. Unlike most metatype horns, the character may use these in combat with the Exotic Melee Weapon (Horns) skill. Goring Horns have the following stats: DV (STR + 2)P, Reach - , AP -1.",
+								"gearcost": {
+									"_text": "0¥",
+									"_value": "0"
+								},
+								"availability": {
+									"_text": "",
+									"_value": "0",
+									"_class": ""
+								},
+								"matrix": {
+									"matrixattribute": [
+										{
+											"_name": "Attack",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Sleaze",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Data Processing",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										},
+										{
+											"_name": "Firewall",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										}
+									]
+								},
+								"weaponinfo": {
+									"defense": {
+										"_name": "Horns Parry",
+										"_normal": "0"
+									},
+									"_grouptext": "Exotic Melee Weapons",
+									"_dicepool": "6dicepool [12]",
+									"_damagetext": "12P",
+									"_damagevalue": "12",
+									"_damagetype": "Physical",
+									"_ap": "-1",
+									"_modestext": "",
+									"_isammunition": "0",
+									"_reach": "1",
+									"_equipped": "Main Hand"
+								},
+								"_name": "Horns",
+								"_useradded": "no",
+								"_quantity": "1",
+								"_natural": "yes"
+							},
+							{
+								"description": "The legendary two-handed sword of the samurai. The katana has become synonymous not just with street samurai, but with shadowrunners in general, at least in the trids; they've got everyone packing a katana, from the decker to the mage. But being a silly cliché doesn't make this blade any less dangerous, or less helpful in a fight.",
+								"gearcost": {
+									"_text": "1,100¥",
+									"_value": "1100"
+								},
+								"availability": {
+									"_text": "9R",
+									"_value": "9",
+									"_class": "Restricted"
+								},
+								"matrix": {
+									"matrixattribute": [
+										{
+											"_name": "Attack",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Sleaze",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Data Processing",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										},
+										{
+											"_name": "Firewall",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										}
+									]
+								},
+								"weaponinfo": {
+									"defense": {
+										"_name": "Katana Parry",
+										"_normal": "5"
+									},
+									"_grouptext": "Blades",
+									"_dicepool": "12dicepool [7]",
+									"_damagetext": "13P",
+									"_damagevalue": "13",
+									"_damagetype": "Physical",
+									"_ap": "-3",
+									"_modestext": "",
+									"_isammunition": "0",
+									"_reach": "2",
+									"_equipped": "Both Hands"
+								},
+								"modifications": {
+									"item": {
+										"description": "Have trouble holding on to your gun? Then maybe you shouldn't have one. But if that's not an option, then try gecko grip, which makes your piece stick in your hand like, well, a gecko hanging on a wall. This gives your grip a bunch of tiny fibers that are awfully clingy to just about anything. The fibers can be turned on and off via wireless command if you have a smartgun - if not, pressing two buttons at the same time does the trick. The mod gives a +6 bonus on any tests to see if a character keeps grip on the gun. This can go on any weapon with a grip, whether they have a stock slot or not; if they have a stock slot, this takes it up.",
+										"gearcost": {
+											"_text": "100¥",
+											"_value": "100"
+										},
+										"availability": {
+											"_text": "6",
+											"_value": "6",
+											"_class": ""
+										},
+										"matrix": {
+											"matrixattribute": [
+												{
+													"_name": "Attack",
+													"_text": "0",
+													"_base": "0",
+													"_modified": "0"
+												},
+												{
+													"_name": "Sleaze",
+													"_text": "0",
+													"_base": "0",
+													"_modified": "0"
+												},
+												{
+													"_name": "Data Processing",
+													"_text": "2",
+													"_base": "2",
+													"_modified": "2"
+												},
+												{
+													"_name": "Firewall",
+													"_text": "2",
+													"_base": "2",
+													"_modified": "2"
+												}
+											]
+										},
+										"modifications": "",
+										"accessories": "",
+										"ammunition": "",
+										"programs": "",
+										"othergear": "",
+										"_name": "Gecko Grip",
+										"_quantity": "1",
+										"_size": "Troll Size",
+										"_wireless": "Present"
+									}
+								},
+								"accessories": "",
+								"ammunition": "",
+								"programs": "",
+								"othergear": "",
+								"_name": "Katana",
+								"_quantity": "1",
+								"_size": "Troll Size",
+								"_wireless": "Present"
+							},
+							{
+								"description": "The Onotari JP-K50 has an unusual past, being originally conceived for the next round of the Euro Wars, which never came about. Or at least, haven't yet. It was shelved for decades, and only recently came back into the production queue during the so-called Dragon Civil War. Able to switch between long-range fire against a single hard armored target (such as a dragon) or firing bursts against clusters (such as drakes), it was seen as a weapon that could be issued to entire squads. Not mass produced, but produced enough that cost trumped quality in many ways, the final result is a sort of super-sized assault rifle rather than the kind of high-quality precision design that Saeder-Krupp is world famous for.",
+								"gearcost": {
+									"_text": "14,400¥",
+									"_value": "14400"
+								},
+								"availability": {
+									"_text": "13F",
+									"_value": "13",
+									"_class": "Forbidden"
+								},
+								"matrix": {
+									"matrixattribute": [
+										{
+											"_name": "Attack",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Sleaze",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Data Processing",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										},
+										{
+											"_name": "Firewall",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										}
+									]
+								},
+								"weaponinfo": {
+									"ammunitionused": {
+										"_text": "25 (c)",
+										"_count": "25",
+										"_bins": "1",
+										"_type": "Clip"
+									},
+									"mode": [
+										"Semi-Automatic",
+										"Burst Fire"
+									],
+									"ranges": {
+										"range": [
+											{
+												"_name": "Minimum",
+												"_text": "0m",
+												"_value": "0"
+											},
+											{
+												"_name": "Short",
+												"_text": "50m",
+												"_value": "50"
+											},
+											{
+												"_name": "Medium",
+												"_text": "350m",
+												"_value": "350"
+											},
+											{
+												"_name": "Long",
+												"_text": "800m",
+												"_value": "800"
+											},
+											{
+												"_name": "Extreme",
+												"_text": "1500m",
+												"_value": "1500"
+											}
+										],
+										"_text": "50/350/800/1500"
+									},
+									"_grouptext": "Sniper Rifles",
+									"_dicepool": "13dicepool [9]",
+									"_damagetext": "12P",
+									"_damagevalue": "12",
+									"_damagetype": "Physical",
+									"_ap": "-7",
+									"_modestext": "SA/BF",
+									"_isammunition": "0",
+									"_recoilcomp": "6",
+									"_equipped": "Both Hands"
+								},
+								"modifications": "",
+								"accessories": {
+									"item": [
+										{
+											"description": "These classic scopes are attached to the top mount; attaching or removing them takes only a Simple Action. Imaging scopes include a micro camera and vision magnification, and they have a Capacity of 3 to hold vision enhancements (p. 444).",
+											"gearcost": {
+												"_text": "300¥",
+												"_value": "300"
+											},
+											"availability": {
+												"_text": "2",
+												"_value": "2",
+												"_class": ""
+											},
+											"matrix": {
+												"matrixattribute": [
+													{
+														"_name": "Attack",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Sleaze",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Data Processing",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													},
+													{
+														"_name": "Firewall",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													}
+												]
+											},
+											"modifications": {
+												"item": {
+													"description": "This zoom function digitally magnifies vision by up to fifty times, allowing distant targets to be seen clearly. For rules on using vision magnification in ranged combat, see p. 177.",
+													"gearcost": {
+														"_text": "0¥",
+														"_value": "0"
+													},
+													"availability": {
+														"_text": "",
+														"_value": "0",
+														"_class": ""
+													},
+													"matrix": {
+														"matrixattribute": [
+															{
+																"_name": "Attack",
+																"_text": "0",
+																"_base": "0",
+																"_modified": "0"
+															},
+															{
+																"_name": "Sleaze",
+																"_text": "0",
+																"_base": "0",
+																"_modified": "0"
+															},
+															{
+																"_name": "Data Processing",
+																"_text": "2",
+																"_base": "2",
+																"_modified": "2"
+															},
+															{
+																"_name": "Firewall",
+																"_text": "2",
+																"_base": "2",
+																"_modified": "2"
+															}
+														]
+													},
+													"modifications": "",
+													"accessories": "",
+													"ammunition": "",
+													"programs": "",
+													"othergear": "",
+													"_name": "Vision Magnification, Electronic",
+													"_useradded": "no",
+													"_quantity": "1",
+													"_size": "Troll Size",
+													"_wireless": "Present"
+												}
+											},
+											"accessories": "",
+											"ammunition": "",
+											"programs": "",
+											"othergear": "",
+											"_name": "Imaging Scope",
+											"_quantity": "1",
+											"_size": "Troll Size",
+											"_wireless": "Present"
+										},
+										{
+											"description": "A shock-absorbing pad is situated on the rigid stock of a rifle, shotgun, or heavy weapon, and provides 1 point of recoil compensation.",
+											"gearcost": {
+												"_text": "0¥",
+												"_value": "0"
+											},
+											"availability": {
+												"_text": "",
+												"_value": "0",
+												"_class": ""
+											},
+											"matrix": {
+												"matrixattribute": [
+													{
+														"_name": "Attack",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Sleaze",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Data Processing",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													},
+													{
+														"_name": "Firewall",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													}
+												]
+											},
+											"_name": "Shock Pad",
+											"_useradded": "no",
+											"_quantity": "1"
+										},
+										{
+											"description": "This connects a firearm or a projectile weapon directly to the user's smartlink. Incorporating a small camera and laser range finder, the smartlink keeps track of ammunition, heat buildup, and material stress. If you have a smartlink, you can mentally switch between gun modes, eject a clip, and fire the gun without pulling the trigger. The camera lets you shoot around corners without exposing yourself to return fire (at a -3 dice pool penalty). The system makes use of advanced calculation software, allowing for precisely calculated trajectories and high precision over any distance.\n\nIf you're using a smartlink, the smartgun system increases the gun's Accuracy by 2. The smartgun features are accessed either by universal access port cable to an imaging device (like glasses, goggles, or a datajack for someone with cybereyes) or by a wireless connection working in concert with direct neural interface.\n\nRetrofitting a firearm with an internal smartgun system doubles the weapon's price and adds 2 to its Availability. An external smartgun system can be attached to the top mount or underbarrel mount with an Armorer + Logic (4, 1 hour) Extended Test. The small camera has a capacity of 1 and can be equipped with vision enhancements (p. 444).",
+											"gearcost": {
+												"_text": "200¥",
+												"_value": "200"
+											},
+											"availability": {
+												"_text": "4R",
+												"_value": "4",
+												"_class": "Restricted"
+											},
+											"matrix": {
+												"matrixattribute": [
+													{
+														"_name": "Attack",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Sleaze",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Data Processing",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													},
+													{
+														"_name": "Firewall",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													}
+												]
+											},
+											"modifications": {
+												"item": {
+													"description": "A common visual device, cameras can capture still photos, video, and trideo, including sound. Cameras may also be upgraded with vision enhancements and audio enhancements. A micro version is available with a Capacity 1.",
+													"gearcost": {
+														"_text": "0¥",
+														"_value": "0"
+													},
+													"availability": {
+														"_text": "",
+														"_value": "0",
+														"_class": ""
+													},
+													"matrix": {
+														"matrixattribute": [
+															{
+																"_name": "Attack",
+																"_text": "0",
+																"_base": "0",
+																"_modified": "0"
+															},
+															{
+																"_name": "Sleaze",
+																"_text": "0",
+																"_base": "0",
+																"_modified": "0"
+															},
+															{
+																"_name": "Data Processing",
+																"_text": "2",
+																"_base": "2",
+																"_modified": "2"
+															},
+															{
+																"_name": "Firewall",
+																"_text": "2",
+																"_base": "2",
+																"_modified": "2"
+															}
+														]
+													},
+													"modifications": "",
+													"accessories": "",
+													"ammunition": "",
+													"programs": "",
+													"othergear": "",
+													"_name": "Camera",
+													"_useradded": "no",
+													"_quantity": "1",
+													"_size": "Troll Size",
+													"_wireless": "Present"
+												}
+											},
+											"accessories": "",
+											"ammunition": "",
+											"programs": "",
+											"othergear": "",
+											"_name": "Smartgun System, External",
+											"_quantity": "1",
+											"_size": "Troll Size",
+											"_wireless": "Present"
+										},
+										{
+											"description": "Once you get over the idea that using your commlink means touching it all the time, placing one in your weapon becomes a sensible move. Your weapon becomes the heart of your PAN. Many users like to use this with the weapon personality mod.",
+											"gearcost": {
+												"_text": "200¥",
+												"_value": "200"
+											},
+											"availability": {
+												"_text": "",
+												"_value": "0",
+												"_class": ""
+											},
+											"matrix": {
+												"matrixattribute": [
+													{
+														"_name": "Attack",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Sleaze",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Data Processing",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													},
+													{
+														"_name": "Firewall",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													}
+												]
+											},
+											"modifications": "",
+											"accessories": "",
+											"ammunition": "",
+											"programs": "",
+											"othergear": "",
+											"_name": "Weapon Commlink",
+											"_quantity": "1",
+											"_size": "Troll Size",
+											"_wireless": "Present"
+										}
+									]
+								},
+								"ammunition": {
+									"item": {
+										"description": "These are military-grade armor piercing rounds - their full name is armor piercing discarding sabot. They are designed to travel at high velocities and punch through personal body armor.",
+										"gearcost": {
+											"_text": "12¥",
+											"_value": "12"
+										},
+										"availability": {
+											"_text": "12F",
+											"_value": "12",
+											"_class": "Forbidden"
+										},
+										"matrix": {
+											"matrixattribute": [
+												{
+													"_name": "Attack",
+													"_text": "0",
+													"_base": "0",
+													"_modified": "0"
+												},
+												{
+													"_name": "Sleaze",
+													"_text": "0",
+													"_base": "0",
+													"_modified": "0"
+												},
+												{
+													"_name": "Data Processing",
+													"_text": "2",
+													"_base": "2",
+													"_modified": "2"
+												},
+												{
+													"_name": "Firewall",
+													"_text": "2",
+													"_base": "2",
+													"_modified": "2"
+												}
+											]
+										},
+										"weaponinfo": {
+											"ranges": {
+												"range": [
+													{
+														"_name": "Minimum",
+														"_text": "0m",
+														"_value": "0"
+													},
+													{
+														"_name": "Short",
+														"_text": "0m",
+														"_value": "0"
+													},
+													{
+														"_name": "Medium",
+														"_text": "0m",
+														"_value": "0"
+													},
+													{
+														"_name": "Long",
+														"_text": "0m",
+														"_value": "0"
+													},
+													{
+														"_name": "Extreme",
+														"_text": "0m",
+														"_value": "0"
+													}
+												],
+												"_text": "0"
+											},
+											"_grouptext": "",
+											"_dicepool": "",
+											"_damagetext": "",
+											"_damagevalue": "0",
+											"_damagetype": "",
+											"_ap": "-4",
+											"_modestext": "",
+											"_isammunition": "1",
+											"_recoilcomp": "5",
+											"_equipped": "Main Hand"
+										},
+										"modifications": "",
+										"accessories": "",
+										"ammunition": "",
+										"programs": "",
+										"othergear": "",
+										"_name": "APDS",
+										"_quantity": "100"
+									}
+								},
+								"programs": "",
+								"othergear": "",
+								"_name": "Onotari Arms JP-K50",
+								"_quantity": "1",
+								"_size": "Troll Size",
+								"_wireless": "Present"
+							},
+							{
+								"description": "This MMG packs a tremendous punch into a relatively lightweight framework made of extra-durable compounds. Due to its relatively small size, it's a very popular secondary weapon for heavy military vehicles. Trolls with no concept of subtlety sometimes deck them out with accessories for use as personal weapons.",
+								"gearcost": {
+									"_text": "12,954¥",
+									"_value": "12954"
+								},
+								"availability": {
+									"_text": "12F",
+									"_value": "12",
+									"_class": "Forbidden"
+								},
+								"matrix": {
+									"matrixattribute": [
+										{
+											"_name": "Attack",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Sleaze",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Data Processing",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										},
+										{
+											"_name": "Firewall",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										}
+									]
+								},
+								"weaponinfo": {
+									"ammunitionused": {
+										"_text": "50 (c)",
+										"_count": "50",
+										"_bins": "1",
+										"_type": "Clip"
+									},
+									"mode": "Full-Auto",
+									"ranges": {
+										"range": [
+											{
+												"_name": "Minimum",
+												"_text": "0m",
+												"_value": "0"
+											},
+											{
+												"_name": "Short",
+												"_text": "40m",
+												"_value": "40"
+											},
+											{
+												"_name": "Medium",
+												"_text": "250m",
+												"_value": "250"
+											},
+											{
+												"_name": "Long",
+												"_text": "750m",
+												"_value": "750"
+											},
+											{
+												"_name": "Extreme",
+												"_text": "1200m",
+												"_value": "1200"
+											}
+										],
+										"_text": "40/250/750/1200"
+									},
+									"_grouptext": "Medium Machineguns",
+									"_dicepool": "12dicepool [7]",
+									"_damagetext": "11P",
+									"_damagevalue": "11",
+									"_damagetype": "Physical",
+									"_ap": "-4",
+									"_modestext": "FA",
+									"_isammunition": "0",
+									"_recoilcomp": "12",
+									"_equipped": "Both Hands"
+								},
+								"modifications": "",
+								"accessories": {
+									"item": [
+										{
+											"description": "This heavy upper-body harness features an attached, articulated, motorized gyro-stabilized arm that mounts an assault rifle or a heavy weapon. The system neutralizes up to 6 points of recoil and movement modifiers. Attaching or removing a weapon from the mount takes a Simple Action. Putting on a gyro-mount harness takes about five minutes, while the quick-release allows you to get out of it with a Complex Action.",
+											"gearcost": {
+												"_text": "1,400¥",
+												"_value": "1400"
+											},
+											"availability": {
+												"_text": "7",
+												"_value": "7",
+												"_class": ""
+											},
+											"matrix": {
+												"matrixattribute": [
+													{
+														"_name": "Attack",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Sleaze",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Data Processing",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													},
+													{
+														"_name": "Firewall",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													}
+												]
+											},
+											"_name": "Gyro Mount",
+											"_quantity": "1"
+										},
+										{
+											"description": "A shock-absorbing pad is situated on the rigid stock of a rifle, shotgun, or heavy weapon, and provides 1 point of recoil compensation.",
+											"gearcost": {
+												"_text": "50¥",
+												"_value": "50"
+											},
+											"availability": {
+												"_text": "2",
+												"_value": "2",
+												"_class": ""
+											},
+											"matrix": {
+												"matrixattribute": [
+													{
+														"_name": "Attack",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Sleaze",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Data Processing",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													},
+													{
+														"_name": "Firewall",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													}
+												]
+											},
+											"_name": "Shock Pad",
+											"_quantity": "1"
+										},
+										{
+											"description": "This connects a firearm or a projectile weapon directly to the user's smartlink. Incorporating a small camera and laser range finder, the smartlink keeps track of ammunition, heat buildup, and material stress. If you have a smartlink, you can mentally switch between gun modes, eject a clip, and fire the gun without pulling the trigger. The camera lets you shoot around corners without exposing yourself to return fire (at a -3 dice pool penalty). The system makes use of advanced calculation software, allowing for precisely calculated trajectories and high precision over any distance.\n\nIf you're using a smartlink, the smartgun system increases the gun's Accuracy by 2. The smartgun features are accessed either by universal access port cable to an imaging device (like glasses, goggles, or a datajack for someone with cybereyes) or by a wireless connection working in concert with direct neural interface.\n\nRetrofitting a firearm with an internal smartgun system doubles the weapon's price and adds 2 to its Availability. An external smartgun system can be attached to the top mount or underbarrel mount with an Armorer + Logic (4, 1 hour) Extended Test. The small camera has a capacity of 1 and can be equipped with vision enhancements (p. 444).",
+											"gearcost": {
+												"_text": "200¥",
+												"_value": "200"
+											},
+											"availability": {
+												"_text": "4R",
+												"_value": "4",
+												"_class": "Restricted"
+											},
+											"matrix": {
+												"matrixattribute": [
+													{
+														"_name": "Attack",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Sleaze",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Data Processing",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													},
+													{
+														"_name": "Firewall",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													}
+												]
+											},
+											"modifications": {
+												"item": {
+													"description": "A common visual device, cameras can capture still photos, video, and trideo, including sound. Cameras may also be upgraded with vision enhancements and audio enhancements. A micro version is available with a Capacity 1.",
+													"gearcost": {
+														"_text": "0¥",
+														"_value": "0"
+													},
+													"availability": {
+														"_text": "",
+														"_value": "0",
+														"_class": ""
+													},
+													"matrix": {
+														"matrixattribute": [
+															{
+																"_name": "Attack",
+																"_text": "0",
+																"_base": "0",
+																"_modified": "0"
+															},
+															{
+																"_name": "Sleaze",
+																"_text": "0",
+																"_base": "0",
+																"_modified": "0"
+															},
+															{
+																"_name": "Data Processing",
+																"_text": "2",
+																"_base": "2",
+																"_modified": "2"
+															},
+															{
+																"_name": "Firewall",
+																"_text": "2",
+																"_base": "2",
+																"_modified": "2"
+															}
+														]
+													},
+													"modifications": "",
+													"accessories": "",
+													"ammunition": "",
+													"programs": "",
+													"othergear": "",
+													"_name": "Camera",
+													"_useradded": "no",
+													"_quantity": "1",
+													"_size": "Troll Size",
+													"_wireless": "Present"
+												}
+											},
+											"accessories": "",
+											"ammunition": "",
+											"programs": "",
+											"othergear": "",
+											"_name": "Smartgun System, External",
+											"_quantity": "1",
+											"_size": "Troll Size",
+											"_wireless": "Present"
+										}
+									]
+								},
+								"ammunition": {
+									"item": [
+										{
+											"description": "These slugs carry a shaped-charge explosive, designed to explode and fragment on impact. Explosive rounds misfire whenever you roll a critical glitch. When this happens, you must resist one \"attack\" with a Damage Value equal to the normal damage done by the weapon (and don't forget the modifier for the explosive rounds). The attack misses its intended target, and the weapon firing the bullets is destroyed.",
+											"gearcost": {
+												"_text": "8¥",
+												"_value": "8"
+											},
+											"availability": {
+												"_text": "9F",
+												"_value": "9",
+												"_class": "Forbidden"
+											},
+											"matrix": {
+												"matrixattribute": [
+													{
+														"_name": "Attack",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Sleaze",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Data Processing",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													},
+													{
+														"_name": "Firewall",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													}
+												]
+											},
+											"weaponinfo": {
+												"ranges": {
+													"range": [
+														{
+															"_name": "Minimum",
+															"_text": "0m",
+															"_value": "0"
+														},
+														{
+															"_name": "Short",
+															"_text": "0m",
+															"_value": "0"
+														},
+														{
+															"_name": "Medium",
+															"_text": "0m",
+															"_value": "0"
+														},
+														{
+															"_name": "Long",
+															"_text": "0m",
+															"_value": "0"
+														},
+														{
+															"_name": "Extreme",
+															"_text": "0m",
+															"_value": "0"
+														}
+													],
+													"_text": "0"
+												},
+												"_grouptext": "",
+												"_dicepool": "",
+												"_damagetext": "+1",
+												"_damagevalue": "1",
+												"_damagetype": "",
+												"_ap": "-1",
+												"_modestext": "",
+												"_isammunition": "1",
+												"_recoilcomp": "5",
+												"_equipped": "Main Hand"
+											},
+											"modifications": "",
+											"accessories": "",
+											"ammunition": "",
+											"programs": "",
+											"othergear": "",
+											"_name": "Explosive Rounds",
+											"_quantity": "188"
+										},
+										{
+											"description": "Also called ball or full metal jacket rounds, these solid slugs are useful for numerous applications (mainly killing things).",
+											"gearcost": {
+												"_text": "2¥",
+												"_value": "2"
+											},
+											"availability": {
+												"_text": "2R",
+												"_value": "2",
+												"_class": "Restricted"
+											},
+											"matrix": {
+												"matrixattribute": [
+													{
+														"_name": "Attack",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Sleaze",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Data Processing",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													},
+													{
+														"_name": "Firewall",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													}
+												]
+											},
+											"weaponinfo": {
+												"ranges": {
+													"range": [
+														{
+															"_name": "Minimum",
+															"_text": "0m",
+															"_value": "0"
+														},
+														{
+															"_name": "Short",
+															"_text": "0m",
+															"_value": "0"
+														},
+														{
+															"_name": "Medium",
+															"_text": "0m",
+															"_value": "0"
+														},
+														{
+															"_name": "Long",
+															"_text": "0m",
+															"_value": "0"
+														},
+														{
+															"_name": "Extreme",
+															"_text": "0m",
+															"_value": "0"
+														}
+													],
+													"_text": "0"
+												},
+												"_grouptext": "",
+												"_dicepool": "",
+												"_damagetext": "",
+												"_damagevalue": "0",
+												"_damagetype": "",
+												"_ap": "0",
+												"_modestext": "",
+												"_isammunition": "1",
+												"_recoilcomp": "5",
+												"_equipped": "Main Hand"
+											},
+											"modifications": "",
+											"accessories": "",
+											"ammunition": "",
+											"programs": "",
+											"othergear": "",
+											"_name": "Regular Ammo",
+											"_quantity": "600"
+										},
+										{
+											"description": "Stick-n-Shock rounds deal electrical Stun damage of equal to the damage of the base weapon -2. They have a flat AP of -5 that replaces the weapon's AP instead of stacking with it.",
+											"gearcost": {
+												"_text": "8¥",
+												"_value": "8"
+											},
+											"availability": {
+												"_text": "6R",
+												"_value": "6",
+												"_class": "Restricted"
+											},
+											"matrix": {
+												"matrixattribute": [
+													{
+														"_name": "Attack",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Sleaze",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Data Processing",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													},
+													{
+														"_name": "Firewall",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													}
+												]
+											},
+											"weaponinfo": {
+												"ranges": {
+													"range": [
+														{
+															"_name": "Minimum",
+															"_text": "0m",
+															"_value": "0"
+														},
+														{
+															"_name": "Short",
+															"_text": "0m",
+															"_value": "0"
+														},
+														{
+															"_name": "Medium",
+															"_text": "0m",
+															"_value": "0"
+														},
+														{
+															"_name": "Long",
+															"_text": "0m",
+															"_value": "0"
+														},
+														{
+															"_name": "Extreme",
+															"_text": "0m",
+															"_value": "0"
+														}
+													],
+													"_text": "0"
+												},
+												"_grouptext": "",
+												"_dicepool": "",
+												"_damagetext": "-2S(e)",
+												"_damagevalue": "-2",
+												"_damagetype": "Stun",
+												"_ap": "-5",
+												"_modestext": "",
+												"_isammunition": "1",
+												"_recoilcomp": "5",
+												"_equipped": "Main Hand"
+											},
+											"modifications": "",
+											"accessories": "",
+											"ammunition": "",
+											"programs": "",
+											"othergear": "",
+											"_name": "Stick-n-Shock",
+											"_quantity": "200"
+										}
+									]
+								},
+								"programs": "",
+								"othergear": "",
+								"_name": "Stoner-Ares M202",
+								"_quantity": "1",
+								"_size": "Troll Size",
+								"_wireless": "Present"
+							},
+							{
+								"description": "",
+								"gearcost": {
+									"_text": "0¥",
+									"_value": "0"
+								},
+								"availability": {
+									"_text": "",
+									"_value": "0",
+									"_class": ""
+								},
+								"matrix": {
+									"matrixattribute": [
+										{
+											"_name": "Attack",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Sleaze",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Data Processing",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										},
+										{
+											"_name": "Firewall",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										}
+									]
+								},
+								"weaponinfo": {
+									"defense": {
+										"_name": "Unarmed Strike Parry",
+										"_normal": "4"
+									},
+									"_grouptext": "Unarmed",
+									"_dicepool": "11dicepool [12]",
+									"_damagetext": "12P",
+									"_damagevalue": "12",
+									"_damagetype": "Physical",
+									"_ap": "0",
+									"_modestext": "",
+									"_isammunition": "0",
+									"_reach": "1",
+									"_equipped": "Main Hand"
+								},
+								"_name": "Unarmed Strike",
+								"_useradded": "no",
+								"_quantity": "1",
+								"_natural": "yes"
+							}
+						]
+					},
+					"armor": {
+						"item": [
+							{
+								"description": "Helmets come in a wide variety of shapes and sizes and protect your noggin from trauma. Helmets have Capacity 6 for being tricked out with accessories like trode nets and vision enhancements.",
+								"gearcost": {
+									"_text": "100¥",
+									"_value": "100"
+								},
+								"availability": {
+									"_text": "2",
+									"_value": "2",
+									"_class": ""
+								},
+								"matrix": {
+									"matrixattribute": [
+										{
+											"_name": "Attack",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Sleaze",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Data Processing",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										},
+										{
+											"_name": "Firewall",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										}
+									]
+								},
+								"armorinfo": {
+									"_rating": "+2",
+									"_acid": "0",
+									"_cold": "0",
+									"_electricity": "0",
+									"_falling": "0",
+									"_fire": "0",
+									"_radiation": "0",
+									"_laser": "0",
+									"_equipped": "yes"
+								},
+								"modifications": "",
+								"accessories": "",
+								"ammunition": "",
+								"programs": "",
+								"othergear": "",
+								"_name": "Helmet",
+								"_quantity": "1",
+								"_wireless": "Present"
+							},
+							{
+								"description": "This Wild West style duster has been consistently popular on the mean streets of the world's sprawls for the past thirty years. Besides its protective traits, the armored trenchcoat provides an additional -2 Concealability modifier to items hidden underneath.",
+								"gearcost": {
+									"_text": "4,650¥",
+									"_value": "4650"
+								},
+								"availability": {
+									"_text": "4",
+									"_value": "4",
+									"_class": ""
+								},
+								"matrix": {
+									"matrixattribute": [
+										{
+											"_name": "Attack",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Sleaze",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Data Processing",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										},
+										{
+											"_name": "Firewall",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										}
+									]
+								},
+								"armorinfo": {
+									"_rating": "11",
+									"_acid": "3",
+									"_cold": "0",
+									"_electricity": "3",
+									"_falling": "0",
+									"_fire": "3",
+									"_radiation": "0",
+									"_laser": "0",
+									"_equipped": "yes"
+								},
+								"modifications": {
+									"item": [
+										{
+											"description": "Water-resistant, non-porous, impermeable materials, and a coating of neutralizing agents protect the wearer against contact-vector chemical attacks (Toxins, Drugs and BTLs, p. 408). Add the rating of the Chemical Protection modification to tests made to resist contact-vector toxin attacks.",
+											"gearcost": {
+												"_text": "750¥",
+												"_value": "750"
+											},
+											"availability": {
+												"_text": "8",
+												"_value": "8",
+												"_class": ""
+											},
+											"matrix": {
+												"matrixattribute": [
+													{
+														"_name": "Attack",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Sleaze",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Data Processing",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													},
+													{
+														"_name": "Firewall",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													}
+												]
+											},
+											"armorinfo": {
+												"_rating": "0",
+												"_acid": "3",
+												"_cold": "0",
+												"_electricity": "0",
+												"_falling": "0",
+												"_fire": "0",
+												"_radiation": "0",
+												"_laser": "0",
+												"_equipped": "yes"
+											},
+											"_name": "Chemical Protection",
+											"_rating": "3",
+											"_quantity": "1"
+										},
+										{
+											"description": "Fire-retardant, nonflammable materials protect the wearer against Fire damage (p. 171). Add the full rating of the Fire Resistance modification to the Armor value when resisting Fire attacks or checking if the armor catches fire.",
+											"gearcost": {
+												"_text": "750¥",
+												"_value": "750"
+											},
+											"availability": {
+												"_text": "6",
+												"_value": "6",
+												"_class": ""
+											},
+											"matrix": {
+												"matrixattribute": [
+													{
+														"_name": "Attack",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Sleaze",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Data Processing",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													},
+													{
+														"_name": "Firewall",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													}
+												]
+											},
+											"armorinfo": {
+												"_rating": "0",
+												"_acid": "0",
+												"_cold": "0",
+												"_electricity": "0",
+												"_falling": "0",
+												"_fire": "3",
+												"_radiation": "0",
+												"_laser": "0",
+												"_equipped": "yes"
+											},
+											"_name": "Fire Resistance",
+											"_rating": "3",
+											"_quantity": "1"
+										},
+										{
+											"description": "This stuff looks silly but can save your life. Gel packs look like a bunch of take-out soy sauce packets layered all over your clothes or armor. They come in a variety of colors and can even be custom ordered with different colors in each packet to make a pattern or just add a little flare. The gel hardens for an instant to absorb some of the force of impact but then gets all squishy again if it isn't punctured. If the gel makes contact with air it turns dusty and brittle immediately.\n\nInstalled externally, gel packs require no Capacity and increase the Armor Rating of whatever they are added to by 2. Since gel packs solidify for a brief instant, they increase the possibility that the wearer will be knocked down by an attack. When comparing the Physical Limit of a character using armor with gel packs to the DV of an attack to determine knockdown (see Knockdown, p. 194, SR5), lower the character's Physical Limit by 2.",
+											"gearcost": {
+												"_text": "1,500¥",
+												"_value": "1500"
+											},
+											"availability": {
+												"_text": "6",
+												"_value": "6",
+												"_class": ""
+											},
+											"matrix": {
+												"matrixattribute": [
+													{
+														"_name": "Attack",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Sleaze",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Data Processing",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													},
+													{
+														"_name": "Firewall",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													}
+												]
+											},
+											"armorinfo": {
+												"_rating": "2",
+												"_acid": "0",
+												"_cold": "0",
+												"_electricity": "0",
+												"_falling": "0",
+												"_fire": "0",
+												"_radiation": "0",
+												"_laser": "0",
+												"_equipped": "yes"
+											},
+											"modifications": "",
+											"accessories": "",
+											"ammunition": "",
+											"programs": "",
+											"othergear": "",
+											"_name": "Gel Packs",
+											"_quantity": "1",
+											"_wireless": "Present"
+										},
+										{
+											"description": "Electrical insulation and non-conductive materials protect the wearer against Electricity damage (p. 170). Add the full rating of this modification to the Armor value when resisting Electricity attacks.",
+											"gearcost": {
+												"_text": "750¥",
+												"_value": "750"
+											},
+											"availability": {
+												"_text": "6",
+												"_value": "6",
+												"_class": ""
+											},
+											"matrix": {
+												"matrixattribute": [
+													{
+														"_name": "Attack",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Sleaze",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Data Processing",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													},
+													{
+														"_name": "Firewall",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													}
+												]
+											},
+											"armorinfo": {
+												"_rating": "0",
+												"_acid": "0",
+												"_cold": "0",
+												"_electricity": "3",
+												"_falling": "0",
+												"_fire": "0",
+												"_radiation": "0",
+												"_laser": "0",
+												"_equipped": "yes"
+											},
+											"_name": "Nonconductivity",
+											"_rating": "3",
+											"_quantity": "1"
+										}
+									]
+								},
+								"accessories": "",
+								"ammunition": "",
+								"programs": "",
+								"othergear": "",
+								"_name": "Lined Coat",
+								"_quantity": "1",
+								"_wireless": "Present"
+							},
+							{
+								"description": "A respirator is a filter-mask worn over the mouth and nose that protects against inhalation-vector toxins (Toxins, Drugs, and BTLs, p. 408). The respirator adds its rating to toxin resistance tests against inhalation-vector toxins.",
+								"gearcost": {
+									"_text": "300¥",
+									"_value": "300"
+								},
+								"availability": {
+									"_text": "",
+									"_value": "0",
+									"_class": ""
+								},
+								"matrix": {
+									"matrixattribute": [
+										{
+											"_name": "Attack",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Sleaze",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Data Processing",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										},
+										{
+											"_name": "Firewall",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										}
+									]
+								},
+								"armorinfo": {
+									"_rating": "+0",
+									"_acid": "0",
+									"_cold": "0",
+									"_electricity": "0",
+									"_falling": "0",
+									"_fire": "0",
+									"_radiation": "0",
+									"_laser": "0",
+									"_equipped": "yes"
+								},
+								"modifications": "",
+								"accessories": "",
+								"ammunition": "",
+								"programs": "",
+								"othergear": "",
+								"_name": "Respirator",
+								"_rating": "6",
+								"_quantity": "1",
+								"_wireless": "Present"
+							}
+						]
+					},
+					"equipment": {
+						"item": [
+							{
+								"description": "Add the rating of an antidote patch to any toxin resistance tests made within twenty minutes after it has been applied. The window to apply an antidote patch after being poisoned is often very narrow, depending on the toxin (Toxins, Drugs, and BTLs, p. 408).",
+								"gearcost": {
+									"_text": "300¥",
+									"_value": "300"
+								},
+								"availability": {
+									"_text": "6",
+									"_value": "6",
+									"_class": ""
+								},
+								"matrix": {
+									"matrixattribute": [
+										{
+											"_name": "Attack",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Sleaze",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Data Processing",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										},
+										{
+											"_name": "Firewall",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										}
+									]
+								},
+								"modifications": "",
+								"accessories": "",
+								"ammunition": "",
+								"programs": "",
+								"othergear": "",
+								"_name": "Antidote Patch",
+								"_rating": "6",
+								"_quantity": "10",
+								"_size": "Troll Size",
+								"_wireless": "Present"
+							},
+							{
+								"description": "Available in numerous styles, AR gloves allow you to manually interact with the Matrix in Augmented Reality mode, letting you \"touch\" and \"hold\" virtual AROs and receiving tactile force-feedback. AR Gloves can provide the exact weight, temperature, and hardness of touched or held objects, and more at the gamemaster's discretion.",
+								"gearcost": {
+									"_text": "150¥",
+									"_value": "150"
+								},
+								"availability": {
+									"_text": "",
+									"_value": "0",
+									"_class": ""
+								},
+								"matrix": {
+									"matrixattribute": [
+										{
+											"_name": "Attack",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Sleaze",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Data Processing",
+											"_text": "3",
+											"_base": "3",
+											"_modified": "3"
+										},
+										{
+											"_name": "Firewall",
+											"_text": "3",
+											"_base": "3",
+											"_modified": "3"
+										}
+									]
+								},
+								"modifications": "",
+								"accessories": "",
+								"ammunition": "",
+								"programs": "",
+								"othergear": "",
+								"_name": "AR Gloves",
+								"_quantity": "1",
+								"_size": "Troll Size",
+								"_wireless": "Present"
+							},
+							{
+								"description": "This item can be customized to represent whatever you want.",
+								"gearcost": {
+									"_text": "500¥",
+									"_value": "500"
+								},
+								"availability": {
+									"_text": "",
+									"_value": "0",
+									"_class": ""
+								},
+								"matrix": {
+									"matrixattribute": [
+										{
+											"_name": "Attack",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Sleaze",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Data Processing",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										},
+										{
+											"_name": "Firewall",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										}
+									]
+								},
+								"modifications": "",
+								"accessories": "",
+								"ammunition": "",
+								"programs": "",
+								"othergear": "",
+								"_name": "Bag of Coffee",
+								"_quantity": "4",
+								"_size": "Troll Size",
+								"_wireless": "Present"
+							},
+							{
+								"description": "Max Value: 1,000,000¥\nCash for the late 21st century. A certified credstick is not registered to any specific person - the electronic funds encoded on it belong to the holder, requiring no special ID or authorization to use. The bad news is that you can be physically mugged, any money you have on your credstick jacked and rolled. The good news is that certified credsticks are completely untraceable. They're not even wireless - you have to slot them into a universal data connector to transfer cash onto or off of them. This makes them enduringly popular with shadowrunners and the Mr. Johnsons who love to hire them.\n\nEach type of credstick can only hold up to a certain amount of money, listed on the table. This is the maximum amount it can carry, not the amount it always has on it - so don't get excited when you see a gold credstick until you've slotted it and checked its balance.",
+								"gearcost": {
+									"_text": "1,000¥",
+									"_value": "1000"
+								},
+								"availability": {
+									"_text": "",
+									"_value": "0",
+									"_class": ""
+								},
+								"matrix": {
+									"matrixattribute": [
+										{
+											"_name": "Attack",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Sleaze",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Data Processing",
+											"_text": "5",
+											"_base": "5",
+											"_modified": "5"
+										},
+										{
+											"_name": "Firewall",
+											"_text": "5",
+											"_base": "5",
+											"_modified": "5"
+										}
+									]
+								},
+								"modifications": "",
+								"accessories": "",
+								"ammunition": "",
+								"programs": "",
+								"othergear": "",
+								"_name": "Certified Credstick, Ebony",
+								"_quantity": "1",
+								"_size": "Troll Size",
+								"_wireless": "Present"
+							},
+							{
+								"description": "Max Value: 5,000¥\nCash for the late 21st century. A certified credstick is not registered to any specific person - the electronic funds encoded on it belong to the holder, requiring no special ID or authorization to use. The bad news is that you can be physically mugged, any money you have on your credstick jacked and rolled. The good news is that certified credsticks are completely untraceable. They're not even wireless - you have to slot them into a universal data connector to transfer cash onto or off of them. This makes them enduringly popular with shadowrunners and the Mr. Johnsons who love to hire them.\n\nEach type of credstick can only hold up to a certain amount of money, listed on the table. This is the maximum amount it can carry, not the amount it always has on it - so don't get excited when you see a gold credstick until you've slotted it and checked its balance.",
+								"gearcost": {
+									"_text": "5¥",
+									"_value": "5"
+								},
+								"availability": {
+									"_text": "",
+									"_value": "0",
+									"_class": ""
+								},
+								"matrix": {
+									"matrixattribute": [
+										{
+											"_name": "Attack",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Sleaze",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Data Processing",
+											"_text": "5",
+											"_base": "5",
+											"_modified": "5"
+										},
+										{
+											"_name": "Firewall",
+											"_text": "5",
+											"_base": "5",
+											"_modified": "5"
+										}
+									]
+								},
+								"modifications": "",
+								"accessories": "",
+								"ammunition": "",
+								"programs": "",
+								"othergear": "",
+								"_name": "Certified Credstick, Standard",
+								"_quantity": "16",
+								"_size": "Troll Size",
+								"_wireless": "Present"
+							},
+							{
+								"description": "By 2075, most flashlights are long lasting and super bright. Durability and brightness depend on the size - the bulkier, the better. Flashlights are also available in low-light and infrared versions, reducing visibility modifiers for low-light and thermographic vision, respectively. A flashlight can also be mounted to a weapon's top or under-barrel mount (Mounts, p. 417).",
+								"gearcost": {
+									"_text": "25¥",
+									"_value": "25"
+								},
+								"availability": {
+									"_text": "",
+									"_value": "0",
+									"_class": ""
+								},
+								"matrix": {
+									"matrixattribute": [
+										{
+											"_name": "Attack",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Sleaze",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Data Processing",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										},
+										{
+											"_name": "Firewall",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										}
+									]
+								},
+								"modifications": "",
+								"accessories": "",
+								"ammunition": "",
+								"programs": "",
+								"othergear": "",
+								"_name": "Flashlight, Thermographic",
+								"_quantity": "1",
+								"_size": "Troll Size",
+								"_wireless": "Present"
+							},
+							{
+								"description": "Relatively large and bulky, goggles are strapped to the head, making them difficult to dislodge. Goggles have the potential to install a wide array of vision enhancements.",
+								"gearcost": {
+									"_text": "2,675¥",
+									"_value": "2675"
+								},
+								"availability": {
+									"_text": "8",
+									"_value": "8",
+									"_class": ""
+								},
+								"matrix": {
+									"matrixattribute": [
+										{
+											"_name": "Attack",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Sleaze",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Data Processing",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										},
+										{
+											"_name": "Firewall",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										}
+									]
+								},
+								"modifications": {
+									"item": [
+										{
+											"description": "A standard upgrade, this lets you display visual information (text, pictures, movies, the current time, etc.) in your field of vision. This is usually AROs, but you can display pretty much whatever you want on it. You and your team can use it to share tactical and situational info in real time. An image link is what you need to truly \"see\" AR and participate in the modern world.",
+											"gearcost": {
+												"_text": "25¥",
+												"_value": "25"
+											},
+											"availability": {
+												"_text": "",
+												"_value": "0",
+												"_class": ""
+											},
+											"matrix": {
+												"matrixattribute": [
+													{
+														"_name": "Attack",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Sleaze",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Data Processing",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													},
+													{
+														"_name": "Firewall",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													}
+												]
+											},
+											"modifications": "",
+											"accessories": "",
+											"ammunition": "",
+											"programs": "",
+											"othergear": "",
+											"_name": "Image Link",
+											"_quantity": "1",
+											"_size": "Troll Size",
+											"_wireless": "Present"
+										},
+										{
+											"description": "This accessory allows you to see normally in light levels as low as starlight. It doesn't help in total darkness, though.",
+											"gearcost": {
+												"_text": "500¥",
+												"_value": "500"
+											},
+											"availability": {
+												"_text": "+4",
+												"_value": "4",
+												"_class": ""
+											},
+											"matrix": {
+												"matrixattribute": [
+													{
+														"_name": "Attack",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Sleaze",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Data Processing",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													},
+													{
+														"_name": "Firewall",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													}
+												]
+											},
+											"modifications": "",
+											"accessories": "",
+											"ammunition": "",
+											"programs": "",
+											"othergear": "",
+											"_name": "Low Light Vision",
+											"_quantity": "1",
+											"_size": "Troll Size",
+											"_wireless": "Present"
+										},
+										{
+											"description": "This accessory works with a smartgun system to give you the full benefit of the system. The smartgun will tell you the range to various targets, as well as ammunition level (and type), heat buildup, mechanical stress and so on. Without a smartlink, a smartgun system just sends out data that isn't received by anyone and has no effect. A smartlink installed in a natural eye or in a pair of cybereyes is more effective than a smartlink installed in an external device; see Smartgun System, p. 433.",
+											"gearcost": {
+												"_text": "2,000¥",
+												"_value": "2000"
+											},
+											"availability": {
+												"_text": "+4R",
+												"_value": "4",
+												"_class": "Restricted"
+											},
+											"matrix": {
+												"matrixattribute": [
+													{
+														"_name": "Attack",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Sleaze",
+														"_text": "0",
+														"_base": "0",
+														"_modified": "0"
+													},
+													{
+														"_name": "Data Processing",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													},
+													{
+														"_name": "Firewall",
+														"_text": "2",
+														"_base": "2",
+														"_modified": "2"
+													}
+												]
+											},
+											"modifications": "",
+											"accessories": "",
+											"ammunition": "",
+											"programs": "",
+											"othergear": "",
+											"_name": "Smartlink",
+											"_quantity": "1",
+											"_size": "Troll Size",
+											"_wireless": "Present"
+										}
+									]
+								},
+								"accessories": "",
+								"ammunition": "",
+								"programs": "",
+								"othergear": "",
+								"_name": "Goggles",
+								"_rating": "3",
+								"_quantity": "1",
+								"_size": "Troll Size",
+								"_wireless": "Present"
+							},
+							{
+								"description": "Sensors are found almost everywhere. Cheaply produced by the billions, miniaturization and integration have made sensors both located everywhere and hard to spot. You can put sensors in just about everything, and lots of people do. Your can of FizzyGoo is watching you and reporting back to marketing. You can play the sensor game, too.\n\nSensors need to be placed in a housing or case of some sort, or built into another device. Sensors can record data themselves or forward it wirelessly in real-time or as files to other devices. Sensors are available in seven ratings (2-8) and two types: single and array. When you use the sensor array for Perception Tests, you may use your Electronic Warfare skill in place of your Perception skill, and you may use the sensor's Rating as your limit. Sensors can be put into devices that have capacity.\n\nMost vehicles and drones come factory-equipped with a sensor array (at a rating listed with their stats). What you can put your sensor in is limited by the Rating of the sensor (see Sensor Housings table).",
+								"gearcost": {
+									"_text": "300¥",
+									"_value": "300"
+								},
+								"availability": {
+									"_text": "",
+									"_value": "0",
+									"_class": ""
+								},
+								"matrix": {
+									"matrixattribute": [
+										{
+											"_name": "Attack",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Sleaze",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Data Processing",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										},
+										{
+											"_name": "Firewall",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										}
+									]
+								},
+								"modifications": {
+									"item": {
+										"description": "The olfactory sensor picks up and analyzes the molecules in the air. It works in the same way as the olfactory booster cyberware.\n\nOlfactory Booster\nThis cybersnout enhances, identifies and records smells, and can play them back later. The massively enhanced olfactory capabilities of a sniffer open up a whole new world of sensory data to you - you'll be able to sense things that ordinarily only a scenthound would. You can smell people's emotions in their sweat (and if applicable, the maker's mark of their tailored pheromones), traces of ammunition propellant, explosives, or biological and chemical warfare compounds - the list goes on and on. A cut-off function allows you to completely ignore intense odors, possibly the most convenient feature for use in your daily life. The olfactory booster can even be used in VR to create an even more immersive experience. Add the booster's rating as a dice pool modifier to your scent-based Perception Tests.",
+										"gearcost": {
+											"_text": "0¥",
+											"_value": "0"
+										},
+										"availability": {
+											"_text": "",
+											"_value": "0",
+											"_class": ""
+										},
+										"matrix": {
+											"matrixattribute": [
+												{
+													"_name": "Attack",
+													"_text": "0",
+													"_base": "0",
+													"_modified": "0"
+												},
+												{
+													"_name": "Sleaze",
+													"_text": "0",
+													"_base": "0",
+													"_modified": "0"
+												},
+												{
+													"_name": "Data Processing",
+													"_text": "2",
+													"_base": "2",
+													"_modified": "2"
+												},
+												{
+													"_name": "Firewall",
+													"_text": "2",
+													"_base": "2",
+													"_modified": "2"
+												}
+											]
+										},
+										"modifications": "",
+										"accessories": "",
+										"ammunition": "",
+										"programs": "",
+										"othergear": "",
+										"_name": "Olfactory Sensor",
+										"_rating": "7",
+										"_quantity": "1",
+										"_size": "Troll Size",
+										"_wireless": "Present"
+									}
+								},
+								"accessories": "",
+								"ammunition": "",
+								"programs": "",
+								"othergear": "",
+								"_name": "Handheld Sensor Housing",
+								"_rating": "3",
+								"_quantity": "1",
+								"_size": "Troll Size",
+								"_wireless": "Present"
+							},
+							{
+								"description": "One of the biggest troubles runners have is with the uniforms they are required to wear for their disguise and cover story. The details about the uniforms should be exactly right to avoid tipping people off. There are fixers out there that specialize in acquiring uniforms for such jobs (usually fenced to them by runners following successful runs when they picked this stuff up) and selling them to runners. Your fixer may be one of them, or if not, he likely knows someone else who deals in these disguises. Get to know one of these fixers because they can do a lot for you. A truly talented disguise fixer will know precisely what gear you will need to sell the disguise (everything from the actual medical bags and kits that DocWagon medics use and carry around with them to the proper, authorized body armor and restraints used by Lone Star officers). They will know which uniforms wear chevrons and how many years of service each chevron depicts. They will understand the rank system that many medical and law enforcement professionals use, and can tell you how many chevrons your uniform needs if you are trying to pull off the look of a Knight Errant Lieutenant (at least three chevrons, BTW). They will be able to tell you how decorations are meant to be worn, and more importantly, in which order. For those that don’t know, Knight Errant officers wear their decorations over their badges when they are in their uniforms, but not when they are in their full body armor.\n\nThese fixers can also provide authentic badges for you to wear on these uniforms. Many law enforcement agencies and corporations still rely on metal badges as a time-honored tradition, though properly encrypted AROs are more common. Either element—the badge or the ID ARO—cannot be simply duplicated by a fashion spell. Most people won’t bother copying the badge number. They have been conditioned by the megacorporations over the years to blindly accept authority in all forms. So even if the badge was taken off a cop that had been killed in the line of duty, it should be sufficient to give you the time to get the job done (provided you don’t pass an observant cop in the hallway leading to your destination who happens to recognize the number).\n\nKnowing the dress codes for each organization is another essential, which any good fixer who specializes in these disguises will know. Knight Errant, for example, has started a new policy of requiring its beat cops to have cyberware with the synthetic coverings installed. So, if you’re pretending to be a Knight Errant cop and you have chrome showing, that could be a big tipoff that you aren’t who you say you are. Lone Star requires its cops to cover up all tattoos and body modifications. This is the information the right fixer can give you.",
+								"gearcost": {
+									"_text": "0¥",
+									"_value": "0"
+								},
+								"availability": {
+									"_text": "16F",
+									"_value": "16",
+									"_class": "Forbidden"
+								},
+								"matrix": {
+									"matrixattribute": [
+										{
+											"_name": "Attack",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Sleaze",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Data Processing",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										},
+										{
+											"_name": "Firewall",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										}
+									]
+								},
+								"modifications": "",
+								"accessories": "",
+								"ammunition": "",
+								"programs": "",
+								"othergear": "",
+								"_name": "Hard Corps Security Uniform XXXXXL",
+								"_quantity": "1",
+								"_size": "Troll Size",
+								"_wireless": "Present"
+							},
+							{
+								"description": "Basic Persona: Business person\nBase Theme: Office\nDevice Icon: Office building\nCommlinks are universal communication devices; they're used by everyone all the time. Commlinks are essentially the digital Swiss army knives of the modern world. Even the most basic of them includes AR Matrix browsing capability, multiple telephone and radio modes of real-time talk and text, music players, micro trid-projectors, touchscreen displays, built in high-resolution digital video and still image cameras, image/text and RFID tag scanners, built-in GPS guidance systems, chip players, credstick readers, retractable earbuds, voice-access dialing, text-to-speech and speech-to-text technologies, and a shock and water resistant case. And all of this at an inexpensive price that a few decades ago would have seemed absurd.",
+								"gearcost": {
+									"_text": "3,300¥",
+									"_value": "3300"
+								},
+								"availability": {
+									"_text": "10",
+									"_value": "10",
+									"_class": ""
+								},
+								"matrix": {
+									"matrixattribute": [
+										{
+											"_name": "Attack",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Sleaze",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Data Processing",
+											"_text": "5",
+											"_base": "5",
+											"_modified": "5"
+										},
+										{
+											"_name": "Firewall",
+											"_text": "5",
+											"_base": "5",
+											"_modified": "5"
+										}
+									],
+									"_initiative": "9",
+									"_dr": "10"
+								},
+								"conditionmonitor": {
+									"_name": "Hermes Ikon",
+									"_boxes": "11",
+									"_penalty": "0"
+								},
+								"modifications": {
+									"item": {
+										"description": "This compact device measures life signs - heart rate, blood pressure, temperature, and so on. The biomonitor can also analyze blood, sweat, and skin samples. Used by medical services and patients who need to monitor their own health, biomonitors can be worn as an armband or wristband or integrated into clothing or commlinks.",
+										"gearcost": {
+											"_text": "300¥",
+											"_value": "300"
+										},
+										"availability": {
+											"_text": "3",
+											"_value": "3",
+											"_class": ""
+										},
+										"matrix": {
+											"matrixattribute": [
+												{
+													"_name": "Attack",
+													"_text": "0",
+													"_base": "0",
+													"_modified": "0"
+												},
+												{
+													"_name": "Sleaze",
+													"_text": "0",
+													"_base": "0",
+													"_modified": "0"
+												},
+												{
+													"_name": "Data Processing",
+													"_text": "2",
+													"_base": "2",
+													"_modified": "2"
+												},
+												{
+													"_name": "Firewall",
+													"_text": "2",
+													"_base": "2",
+													"_modified": "2"
+												}
+											]
+										},
+										"modifications": "",
+										"accessories": "",
+										"ammunition": "",
+										"programs": "",
+										"othergear": "",
+										"_name": "Biomonitor",
+										"_quantity": "1",
+										"_size": "Troll Size",
+										"_wireless": "Present"
+									}
+								},
+								"accessories": "",
+								"ammunition": "",
+								"programs": "",
+								"othergear": "",
+								"_name": "Hermes Ikon",
+								"_size": "Troll Size",
+								"_wireless": "Present"
+							},
+							{
+								"description": "Bend, snap, and shake it to produce three hours of soft chemical illumination that covers a ten-meter radius.",
+								"gearcost": {
+									"_text": "25¥",
+									"_value": "25"
+								},
+								"availability": {
+									"_text": "",
+									"_value": "0",
+									"_class": ""
+								},
+								"matrix": {
+									"matrixattribute": [
+										{
+											"_name": "Attack",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Sleaze",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Data Processing",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										},
+										{
+											"_name": "Firewall",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										}
+									]
+								},
+								"modifications": "",
+								"accessories": "",
+								"ammunition": "",
+								"programs": "",
+								"othergear": "",
+								"_name": "Light Stick",
+								"_quantity": "10",
+								"_size": "Troll Size",
+								"_wireless": "Present"
+							},
+							{
+								"description": "Standard metal restraints (Armor 16, Structure 2) come with a mechanical or a wireless-controlled lock (Barriers, p. 197).",
+								"gearcost": {
+									"_text": "20¥",
+									"_value": "20"
+								},
+								"availability": {
+									"_text": "",
+									"_value": "0",
+									"_class": ""
+								},
+								"matrix": {
+									"matrixattribute": [
+										{
+											"_name": "Attack",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Sleaze",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Data Processing",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										},
+										{
+											"_name": "Firewall",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										}
+									]
+								},
+								"modifications": "",
+								"accessories": "",
+								"ammunition": "",
+								"programs": "",
+								"othergear": "",
+								"_name": "Metal Restraints",
+								"_quantity": "10",
+								"_size": "Troll Size",
+								"_wireless": "Present"
+							},
+							{
+								"description": "This portable device creates a small electric arc to melt metals, either to cut through metal or to weld it together. Its power supply allows it to operate for 30 minutes. While creating an intense heat, the arc is much too small to make a good weapon (it would be like trying to stab someone with a lighter). The miniwelder has a Damage Value of 25 when used to cut through barriers.",
+								"gearcost": {
+									"_text": "250¥",
+									"_value": "250"
+								},
+								"availability": {
+									"_text": "2",
+									"_value": "2",
+									"_class": ""
+								},
+								"matrix": {
+									"matrixattribute": [
+										{
+											"_name": "Attack",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Sleaze",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Data Processing",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										},
+										{
+											"_name": "Firewall",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										}
+									]
+								},
+								"modifications": "",
+								"accessories": "",
+								"ammunition": "",
+								"programs": "",
+								"othergear": "",
+								"_name": "Miniwelder",
+								"_quantity": "1",
+								"_size": "Troll Size",
+								"_wireless": "Present"
+							},
+							{
+								"description": "Extra fuel for a Miniwelder",
+								"gearcost": {
+									"_text": "80¥",
+									"_value": "80"
+								},
+								"availability": {
+									"_text": "2",
+									"_value": "2",
+									"_class": ""
+								},
+								"matrix": {
+									"matrixattribute": [
+										{
+											"_name": "Attack",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Sleaze",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Data Processing",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										},
+										{
+											"_name": "Firewall",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										}
+									]
+								},
+								"_name": "Miniwelder Fuel Canister",
+								"_quantity": "3"
+							},
+							{
+								"description": "This item can be customized to represent whatever you want.",
+								"gearcost": {
+									"_text": "0¥",
+									"_value": "0"
+								},
+								"availability": {
+									"_text": "",
+									"_value": "0",
+									"_class": ""
+								},
+								"matrix": {
+									"matrixattribute": [
+										{
+											"_name": "Attack",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Sleaze",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Data Processing",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										},
+										{
+											"_name": "Firewall",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										}
+									]
+								},
+								"modifications": "",
+								"accessories": "",
+								"ammunition": "",
+								"programs": "",
+								"othergear": "",
+								"_name": "New Gear",
+								"_quantity": "1",
+								"_size": "Troll Size",
+								"_wireless": "Present"
+							},
+							{
+								"description": "This item can be customized to represent whatever you want.",
+								"gearcost": {
+									"_text": "50¥",
+									"_value": "50"
+								},
+								"availability": {
+									"_text": "",
+									"_value": "0",
+									"_class": ""
+								},
+								"matrix": {
+									"matrixattribute": [
+										{
+											"_name": "Attack",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Sleaze",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Data Processing",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										},
+										{
+											"_name": "Firewall",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										}
+									]
+								},
+								"modifications": "",
+								"accessories": "",
+								"ammunition": "",
+								"programs": "",
+								"othergear": "",
+								"_name": "Spring-Loaded Troll Chair",
+								"_quantity": "1",
+								"_size": "Troll Size",
+								"_wireless": "Present"
+							},
+							{
+								"description": "This patch removes a number of boxes of Stun damage equal to its Rating. This effect lasts for (Rating x 10) minutes - after that period of time, the patient takes (Rating + 1) unresisted Stun damage (which may be well become physical overflow by that point). While a stimulant patch is in effect, the character is unable to rest. Frequent use of stimulant patches may require Addiction Tests. Treat it as Addiction Rating 2, Addiction Threshold 1.",
+								"gearcost": {
+									"_text": "150¥",
+									"_value": "150"
+								},
+								"availability": {
+									"_text": "12",
+									"_value": "12",
+									"_class": ""
+								},
+								"matrix": {
+									"matrixattribute": [
+										{
+											"_name": "Attack",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Sleaze",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Data Processing",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										},
+										{
+											"_name": "Firewall",
+											"_text": "2",
+											"_base": "2",
+											"_modified": "2"
+										}
+									]
+								},
+								"modifications": "",
+								"accessories": "",
+								"ammunition": "",
+								"programs": "",
+								"othergear": "",
+								"_name": "Stim Patch",
+								"_rating": "6",
+								"_quantity": "10",
+								"_size": "Troll Size",
+								"_wireless": "Present"
+							},
+							{
+								"description": "The next best thing to telepathy is the ability to stage-whisper at any range. Attached with adhesive to your throat, this hard-to-spot microphone lets you communicate via subvocalized speech. A -4 dice pool modifier is applied to Perception Tests to overhear you when you're subvocalizing.",
+								"gearcost": {
+									"_text": "50¥",
+									"_value": "50"
+								},
+								"availability": {
+									"_text": "4",
+									"_value": "4",
+									"_class": ""
+								},
+								"matrix": {
+									"matrixattribute": [
+										{
+											"_name": "Attack",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Sleaze",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Data Processing",
+											"_text": "3",
+											"_base": "3",
+											"_modified": "3"
+										},
+										{
+											"_name": "Firewall",
+											"_text": "3",
+											"_base": "3",
+											"_modified": "3"
+										}
+									]
+								},
+								"modifications": "",
+								"accessories": "",
+								"ammunition": "",
+								"programs": "",
+								"othergear": "",
+								"_name": "Subvocal Microphone",
+								"_quantity": "1",
+								"_size": "Troll Size",
+								"_wireless": "Present"
+							},
+							{
+								"description": "Available as a headband, net, or full-on cap, this electrode-and-ultrasound net gives you a direct neural interface. Useful if you're too squeamish to get a hole drilled in your head for a datajack. Adding this to headgear takes two slots of Capacity.",
+								"gearcost": {
+									"_text": "70¥",
+									"_value": "70"
+								},
+								"availability": {
+									"_text": "",
+									"_value": "0",
+									"_class": ""
+								},
+								"matrix": {
+									"matrixattribute": [
+										{
+											"_name": "Attack",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Sleaze",
+											"_text": "0",
+											"_base": "0",
+											"_modified": "0"
+										},
+										{
+											"_name": "Data Processing",
+											"_text": "3",
+											"_base": "3",
+											"_modified": "3"
+										},
+										{
+											"_name": "Firewall",
+											"_text": "3",
+											"_base": "3",
+											"_modified": "3"
+										}
+									]
+								},
+								"modifications": "",
+								"accessories": "",
+								"ammunition": "",
+								"programs": "",
+								"othergear": "",
+								"_name": "Trodes",
+								"_quantity": "1",
+								"_size": "Troll Size",
+								"_wireless": "Present"
+							}
+						]
+					}
+				},
+				"identities": {
+					"identity": {
+						"lifestyle": {
+							"gearcost": {
+								"_text": "10,000¥/m",
+								"_value": "10000"
+							},
+							"_name": "Middle Lifestyle",
+							"_months": "1"
+						},
+						"license": [
+							{
+								"gearcost": {
+									"_text": "800¥",
+									"_value": "800"
+								},
+								"_name": "Fake License",
+								"_for": "Fineblade",
+								"_rating": "4"
+							},
+							{
+								"gearcost": {
+									"_text": "800¥",
+									"_value": "800"
+								},
+								"_name": "Fake License",
+								"_for": "Katana",
+								"_rating": "4"
+							},
+							{
+								"gearcost": {
+									"_text": "800¥",
+									"_value": "800"
+								},
+								"_name": "Fake License",
+								"_for": "M202",
+								"_rating": "4"
+							},
+							{
+								"gearcost": {
+									"_text": "800¥",
+									"_value": "800"
+								},
+								"_name": "Fake License",
+								"_for": "Muscles",
+								"_rating": "4"
+							},
+							{
+								"gearcost": {
+									"_text": "800¥",
+									"_value": "800"
+								},
+								"_name": "Fake License",
+								"_for": "Rifle",
+								"_rating": "4"
+							},
+							{
+								"gearcost": {
+									"_text": "800¥",
+									"_value": "800"
+								},
+								"_name": "Fake License",
+								"_for": "Security",
+								"_rating": "4"
+							},
+							{
+								"gearcost": {
+									"_text": "800¥",
+									"_value": "800"
+								},
+								"_name": "Fake License",
+								"_for": "Wired Reflexes",
+								"_rating": "4"
+							},
+							{
+								"gearcost": {
+									"_text": "10,000¥",
+									"_value": "10000"
+								},
+								"_name": "Fake SIN",
+								"_rating": "4"
+							}
+						],
+						"description": "",
+						"_name": "Marco Alister"
+					}
+				},
+				"contacts": {
+					"contact": [
+						{
+							"description": "",
+							"_name": "Adelaide Chance",
+							"_type": "Corporate Decker",
+							"_connection": "3",
+							"_loyalty": "1"
+						},
+						{
+							"description": "",
+							"_name": "Karolos Kortsonis",
+							"_type": "Used Car Salesman",
+							"_connection": "3",
+							"_loyalty": "4"
+						},
+						{
+							"description": "",
+							"_name": "King Solomon",
+							"_type": "Fixer",
+							"_connection": "2",
+							"_loyalty": "4"
+						},
+						{
+							"description": "",
+							"_name": "Klara Kovačević",
+							"_type": "Ork Physad Bruiser",
+							"_connection": "1",
+							"_loyalty": "5"
+						},
+						{
+							"description": "",
+							"_name": "Matthaios Kortsonis",
+							"_type": "Street Medic",
+							"_connection": "2",
+							"_loyalty": "5"
+						},
+						{
+							"description": "Metatype: Human\nSex: Female\nAge: Middle-aged\nPreferred Payment Method: Cash (credstick)\nHobbies/Vice: Entertainment (trid reality shows)\nPersonal Life: Single\nType: Legwork\n\nRetired Bounty Hunter and animal trainer, Philadelphia first met the Harbingers at the conclusion of Episode 1.0: Milk|Run",
+							"_name": "Philadelphia MacGuire",
+							"_type": "Bounty Hunter",
+							"_connection": "2",
+							"_loyalty": "1"
+						},
+						{
+							"description": "",
+							"_name": "Presbyter Iakovos",
+							"_type": "Fixer",
+							"_connection": "3",
+							"_loyalty": "3"
+						},
+						{
+							"description": "Metatype: Human\nSex: Female\nAge: Young\nPreferred Payment Method: Cash (credstick)\nHobbies/Vice: Social Habit (cigarettes)\nPersonal Life: Wow, is it ever complicated\nType: Support",
+							"_name": "Skathi",
+							"_type": "Bodyguard",
+							"_connection": "2",
+							"_loyalty": "3"
+						}
+					]
+				},
+				"ammotrackers": {
+					"ammotracker": [
+						{
+							"_name": "Bow (Compound) (10)",
+							"_text": "Arrow, Str Min 10 x20"
+						},
+						{
+							"_name": "Defiance T-250",
+							"_text": "Explosive Rounds x5"
+						},
+						{
+							"_name": "Enfield AS-7",
+							"_text": "Explosive Rounds x4"
+						},
+						{
+							"_name": "Onotari Arms JP-K50",
+							"_text": "APDS x25"
+						},
+						{
+							"_name": "Stoner-Ares M202",
+							"_text": "Explosive Rounds x20"
+						}
+					]
+				},
+				"trackers": {
+					"tracker": [
+						{
+							"_name": "Common Sense",
+							"_text": "0/3",
+							"_used": "0",
+							"_left": "3",
+							"_min": "0",
+							"_max": "3"
+						},
+						{
+							"_name": "Cumulative Recoil",
+							"_text": "0",
+							"_used": "0",
+							"_left": "0",
+							"_min": "0",
+							"_max": "0"
+						},
+						{
+							"_name": "Edge Pool",
+							"_text": "0/3",
+							"_used": "0",
+							"_left": "3",
+							"_min": "0",
+							"_max": "3"
+						},
+						{
+							"_name": "Movement This Turn (Currently: Stationary)",
+							"_text": "0m",
+							"_used": "0",
+							"_left": "0",
+							"_min": "0",
+							"_max": "0"
+						}
+					]
+				},
+				"conditionmonitors": {
+					"conditionmonitor": [
+						{
+							"_name": "Physical Damage Track",
+							"_boxes": "13",
+							"_penalty": "0"
+						},
+						{
+							"_name": "Stun Damage Track",
+							"_boxes": "9",
+							"_penalty": "0"
+						}
+					],
+					"_totalpenalty": "0"
+				},
+				"journals": {
+					"journal": [
+						{
+							"description": "",
+							"_name": "Background",
+							"_gamedate": "20780320",
+							"_realdate": "20200216",
+							"_karma": "9",
+							"_cash": "0",
+							"_streetcred": "0",
+							"_notoriety": "0",
+							"_awareness": "0"
+						},
+						{
+							"description": "",
+							"_name": "Episode 1.0: Milk|Run",
+							"_gamedate": "20780321",
+							"_realdate": "20200313",
+							"_karma": "7",
+							"_cash": "10800",
+							"_streetcred": "0",
+							"_notoriety": "0",
+							"_awareness": "0"
+						},
+						{
+							"description": "",
+							"_name": "Episode 2.0: Inferno!",
+							"_gamedate": "20780403",
+							"_realdate": "20200314",
+							"_karma": "3",
+							"_cash": "0",
+							"_streetcred": "0",
+							"_notoriety": "0",
+							"_awareness": "0"
+						},
+						{
+							"description": "",
+							"_name": "Episode 3.0: No One Knows",
+							"_gamedate": "20780410",
+							"_realdate": "20200509",
+							"_karma": "11",
+							"_cash": "15760",
+							"_streetcred": "0",
+							"_notoriety": "0",
+							"_awareness": "0"
+						},
+						{
+							"description": "",
+							"_name": "Episode 4.0: Unemployed",
+							"_gamedate": "20780418",
+							"_realdate": "20200725",
+							"_karma": "13",
+							"_cash": "17900",
+							"_streetcred": "0",
+							"_notoriety": "0",
+							"_awareness": "0"
+						},
+						{
+							"description": "",
+							"_name": "Episode 5.0: The Running Free",
+							"_gamedate": "20780521",
+							"_realdate": "20200925",
+							"_karma": "13",
+							"_cash": "59590",
+							"_streetcred": "0",
+							"_notoriety": "0",
+							"_awareness": "0"
+						},
+						{
+							"description": "Monthly Expenses Applied:\n(1 month) Middle Lifestyle: -1 month",
+							"_name": "Monthly Expenses",
+							"_gamedate": "20780601",
+							"_realdate": "20200926",
+							"_karma": "0",
+							"_cash": "0",
+							"_streetcred": "0",
+							"_notoriety": "0",
+							"_awareness": "0"
+						},
+						{
+							"description": "",
+							"_name": "Payment to Chance for research on the Lions of Tiamata",
+							"_gamedate": "0",
+							"_realdate": "20200926",
+							"_karma": "0",
+							"_cash": "-5000",
+							"_streetcred": "0",
+							"_notoriety": "0",
+							"_awareness": "0"
+						},
+						{
+							"description": "",
+							"_name": "Payment to Sanjit for fixing up the car",
+							"_gamedate": "20780528",
+							"_realdate": "20200926",
+							"_karma": "0",
+							"_cash": "500",
+							"_streetcred": "0",
+							"_notoriety": "0",
+							"_awareness": "0"
+						},
+						{
+							"description": "",
+							"_name": "Episode 6.0: Heart of Fire",
+							"_gamedate": "20780605",
+							"_realdate": "20201022",
+							"_karma": "3",
+							"_cash": "0",
+							"_streetcred": "0",
+							"_notoriety": "0",
+							"_awareness": "0"
+						},
+						{
+							"description": "",
+							"_name": "Nuyen for 14 credsticks at 1,500 each",
+							"_gamedate": "20780606",
+							"_realdate": "20201024",
+							"_karma": "0",
+							"_cash": "-21000",
+							"_streetcred": "0",
+							"_notoriety": "0",
+							"_awareness": "0"
+						},
+						{
+							"description": "",
+							"_name": "Payment for Coyote to Heber City, PCC",
+							"_gamedate": "20780607",
+							"_realdate": "20201024",
+							"_karma": "0",
+							"_cash": "-9600",
+							"_streetcred": "0",
+							"_notoriety": "0",
+							"_awareness": "0"
+						},
+						{
+							"description": "",
+							"_name": "Cadillac Hotel",
+							"_gamedate": "20780607",
+							"_realdate": "20201024",
+							"_karma": "0",
+							"_cash": "-240",
+							"_streetcred": "0",
+							"_notoriety": "0",
+							"_awareness": "0"
+						},
+						{
+							"description": "",
+							"_name": "Episode 7.0: Home",
+							"_gamedate": "20780608",
+							"_realdate": "20201112",
+							"_karma": "2",
+							"_cash": "0",
+							"_streetcred": "0",
+							"_notoriety": "0",
+							"_awareness": "0"
+						},
+						{
+							"description": "",
+							"_name": "Episode 7.1: Home",
+							"_gamedate": "20780609",
+							"_realdate": "20201128",
+							"_karma": "2",
+							"_cash": "0",
+							"_streetcred": "0",
+							"_notoriety": "0",
+							"_awareness": "0"
+						}
+					]
+				},
+				"images": {
+					"image": {
+						"_filename": "Augmented Minotaur PC-image001.jpg"
+					}
+				},
+				"validation": {
+					"report": ""
+				},
+				"settings": {
+					"_summary": "Character Creation Systems: Established Runners; Character Creation Variants: Run Faster — Sum To Ten System; Core Rulebooks: Chrome Flesh, Data Trails, Howling Shadows, Rigger 5.0, Run & Gun, Run Faster, Street Grimoire; Advanced Rules: Forbidden Arcana, Kill Code, Street Lethal; Supplements: Bloody Business, Book of the Lost, Complete Trog, Cutting Aces, Dark Terrors, Hard Targets, Lockdown, Stolen Souls; E-books: Aetherology, Assassin's Primer, Bullets & Bandages, Gun Heaven 3, Shadow Spells, Shadows in Focus: Butte, Shadows in Focus: Metrópole, Shadows in Focus: San Francisco Metroplex, Shadows in Focus: Sioux Nation; Enhanced Fiction: Nothing Personal, Sail Away, Sweet Sister, The Vladivostok Gauntlet; Optional Rules: Allow Adepts to Choose a Tradition, Allow Unlimited Negative Qualities; Optional Rules -> Chrome Flesh Optional Rules: Gamma-Grade Cyberware, Omega-Grade Cyberware, Orks & Trolls get natural weapons, Use Essence Holes; Optional Rules -> Run & Gun Optional Rules: RG2: Target Size Modifiers, RG3: Movement Penalties by Speed; Optional Rules -> Street Grimoire Optional Rules: Reputation in the Spirit World; Optional Rules -> Court of Shadows Optional Rules: Hide \"Adventuring In\" Selector on Journals; Output Options: Include Vehicle Statblocks on Sheet"
+				},
+				"minions": "",
+				"_active": "yes",
+				"_characterindex": "1",
+				"_nature": "normal",
+				"_role": "pc",
+				"_relationship": "ally",
+				"_type": "Hero",
+				"_name": "Ajax",
+				"_playername": "Brad"
+			}
+		}
+	}
+}

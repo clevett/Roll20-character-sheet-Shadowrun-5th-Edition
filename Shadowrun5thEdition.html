@@ -1604,45 +1604,44 @@ const checkFlag = value => !value || value == '0' ? false : true
 
 class SheetAttribute {
   constructor(name) {
-    this._name = name
-    this._base = 0
-    this._temp = 0
-    this._tempFlag = true
-    this._modifier = 0
-    this._total = this.calculateTotal()
-    this._display = this.buildDisplay()
+    this.name = name
+    this.base = 0
+    this.temp = 0
+    this.tempFlag = true
+    this.modifier = 0
+    this.total = this.getTotal()
+    this.display = this.buildDisplay()
   }
 
-  set base(value) { this._base = value }
-  set temp(value) { this._temp = value }
-  set tempFlag(value) { this._tempFlag = value }
-  set modifier(value) { this._modifier = value }
-  set total(value) { this._total = value }
-  set display(value) { this._display = value }
+  setBase(value) { this.base = value }
+  setTemp(value) { this.temp = value }
+  setTempFlag(value) { this.tempFlag = value }
+  setModifier(value) { this.modifier = value }
+  setTotal(value) { this.total = value }
+  setDisplay(value) { this.display = value }
 
-  get name() { return this._name }
-  get base() { return this._base }
-  get temp() { return this._temp }
-  get TempFlag() { return this._tempFlag }
-  get modifier() { return this._modifier }
-  get total() { return this._total }
-  get display() { return this._display }
+  getName() { return this.name }
+  getBase() { return this.base }
+  getTemp() { return this.temp }
+  getTempFlag() { return this.tempFlag }
+  getModifier() { return this.modifier }
+  getDisplay() { return this.display }
+
+  getBonus() {
+    const temp = this.getTempFlag() ? this.getTemp() : 0
+    return temp + this.getModifier()
+  }
 
   buildDisplay() {
-    const total = this.total
-    return base == !total || total == this.base ? this.base : `${this.base} (${total})`
+    const base = this.getBase()
+    const total = this.getTotal()
+    return base == !total || total == base ? base : `${base} (${total})`
   }
 
-  calculateBonus() {
-    const temp = this.tempFlag ? this.temp : 0
-    return temp + this.modifier
+  getTotal() {
+    return this.base + this.getBonus()
   }
-
-  calculateTotal() {
-    return this.base + this.calculateBonus()
-  }
-}
-class RepeatingFieldset {
+}class RepeatingFieldset {
   constructor(groupname, id) {
     this.groupname = groupname
     this.reprowid = id || generateRowID()
@@ -2904,7 +2903,7 @@ const buildItemNotesFromHeroLab = item => {
   notes += gearcost ? `Cost: ${gearcost._text}, \n` : ''
   notes += availability || gearcost ? lineBreak : ''
 
-  if (matrix.matrixattribute) {
+  if (matrix && matrix.matrixattribute) {
     const matrixArrayNotes = buildItemMatrixNotesFromHeroLab(matrix)
     notes += matrixArrayNotes ? `${matrixArrayNotes} \n` : ''
   }
@@ -2947,25 +2946,25 @@ const associateGearItemsFromHeroLab = ({ item }) => {
   return data
 }
 
+const generateNewAugemenationFromHeroLab = (ware, type) => {
+  const {_essencecost, _rating, _name } = ware
+  const aug = new Augmentations(`${_name} (${type})`)
+  let notes = buildItemNotesFromHeroLab(ware)
+
+  aug.setRating(_rating || '')
+  aug.setEssence(_essencecost || '')
+  aug.setNotes(notes)
+
+  return aug
+}
+
 const associateAugmentationFromHeroLab = ({ cyberware, bioware }) => {
-  const cyber = Array.isArray(cyberware) ? cyberware.item : [cyberware.item]
-  const bio = Array.isArray(bioware) ? bioware.item : [bioware.item]
+  const cyber = Array.isArray(cyberware.item) ? cyberware.item : [cyberware.item]
+  const bio = Array.isArray(bioware.item) ? bioware.item : [bioware.item]
   let data = {}
 
-  const associateData = (ware, type) => {
-    const {_essencecost, _rating, _name } = ware
-    const aug = new Augmentations(`${_name} (${type})`)
-    let notes = buildItemNotesFromHeroLab(ware)
-
-    aug.setRating(_rating || '')
-    aug.setEssence(_essencecost || '')
-    aug.setNotes(notes)
-
-    return aug
-  }
-
-  cyber.forEach(ware => {
-    const newAug = associateData(ware, 'cyberware')
+  cyber.forEach(item => {
+    const newAug = generateNewAugemenationFromHeroLab(item, 'cyberware')
     const attribues = newAug.getSheetAttributes()
     for (const [key, value] of Object.entries(attribues)) {
       data[key] = value
@@ -2973,7 +2972,7 @@ const associateAugmentationFromHeroLab = ({ cyberware, bioware }) => {
   })
 
   bio.forEach(ware => {
-    const newAug = associateData(ware, 'bioware')
+    const newAug = generateNewAugemenationFromHeroLab(ware, 'bioware')
     const attribues = newAug.getSheetAttributes()
     for (const [key, value] of Object.entries(attribues)) {
       data[key] = value
@@ -3149,16 +3148,14 @@ const associateHeroLabData = character => {
   const initiativeData = getInitiativeFromHeroLab(character.attributes.attribute)
 
   const characterMovement = character.movementtypes.movementtype
-  const movementData = associateMovementFromHeroLab(characterMovement, attributeData)
+  const movementData = characterMovement ? associateMovementFromHeroLab(characterMovement, attributeData) :  {}
 
   /* GEAR */
-  const gearItemData = associateGearItemsFromHeroLab(character.gear.equipment)
+  const gearItemData = character.gear.equipment ? associateGearItemsFromHeroLab(character.gear.equipment) : {}
 
   /* Augs */ 
-  if (character.gear.augmentations) {
-    const augsData = associateAugmentationFromHeroLab(character.gear.augmentations)
-    console.log(augsData)
-  }
+  const augsData = character.gear.augmentations ? associateAugmentationFromHeroLab(character.gear.augmentations) : {} 
+
 
   /* TESTING */
   delete(character.settings)
@@ -3170,6 +3167,7 @@ const associateHeroLabData = character => {
   delete(character.personal)
   delete(character.reputations)
   delete(character.race)
+  console.log("%c Hero Lab JSON", "color: orange; font-weight:bold")
   console.log(character)
 
   const Roll20Character = {
@@ -3179,8 +3177,8 @@ const associateHeroLabData = character => {
     ...initiativeData,
     ...movementData,
     ...gearItemData,
+    ...augsData,
   }
-
   
   //Will need to return character eventually
   return {text: setText, character: Roll20Character}
@@ -3188,9 +3186,9 @@ const associateHeroLabData = character => {
 
 
 const importHeroLab = character => {
-  console.log(`%c HERO LAB IMPORTER:`, "color: purple; font-weight:bold");
   new Promise((resolve, reject) => {
     const Roll20Character = associateHeroLabData(character)
+    console.log("%c ROLL 20 CHARACATER", "color: green; font-weight:bold")
     console.log(Roll20Character.character)
     setCharmancerText(Roll20Character.text);
     resolve(Roll20Character.character)
@@ -3207,9 +3205,10 @@ const importHeroLab = character => {
 	//temporary force open
 	on('sheet:opened', () => startCharactermancer("importer"))
 	
-	// APPLY Changes
+	// Start importer
 	on("clicked:import_launch", () => startCharactermancer("importer"))
 	
+	// APPLY Changes
 	on("mancerfinish:apply", () => {
 		const mancerData = getCharmancerData();
 		const mancerValues = mancerData["importer"].values;
@@ -3237,7 +3236,7 @@ const importHeroLab = character => {
 		const herolabDirections = `
 			<li>Export your character from Hero Lab as XML</li>
 			<li>Go to the website 
-				<input style='width:45%' type='text' value='http://beautifytools.com/xml-to-json-converter.php' />
+				<input style='width:45%' type='text' value='https://codebeautify.org/xmltojson' />
 			</li>
 			<li>Copy the XML into the left side</li>
 			<li>Click the button that says "<b>Convert</b>"</li>

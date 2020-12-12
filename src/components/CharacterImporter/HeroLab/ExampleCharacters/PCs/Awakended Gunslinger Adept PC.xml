@@ -1,0 +1,1473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<public>
+		<program name="Hero Lab" url="https://www.wolflair.com">
+			<programinfo>Hero Lab and the Hero Lab logo are Registered Trademarks of LWD Technology, Inc. Free download at https://www.wolflair.com
+Shadowrun © 2005-2019 The Topps Company, Inc. All rights reserved. Shadowrun is a registered trademark of The Topps Company, Inc.</programinfo>
+			<version version="8.9h" primary="8" secondary="9" tertiary="h" build="958"/>
+		</program>
+		<localization language="eng" units="metric"/>
+		<character active="yes" characterindex="1" nature="normal" role="pc" relationship="ally" type="Hero" name="Honzo Hatori" playername="Bobby Lombardo">
+			<race name="Human"/>
+			<heritage name="Adept"/>
+			<creation>
+				<bp total="25" left="-18"/>
+			</creation>
+			<karma total="62" left="27"/>
+			<cash total="107550"/>
+			<personal gender="Male" age="25" hair="" eyes="" skin="">
+				<description/>
+				<charheight text="1.75m" value="175"/>
+				<charweight text="78kg" value="78"/>
+			</personal>
+			<defenses>
+				<defense name="Ranged Defense" normal="9"/>
+				<defense name="Melee Defense" normal="9"/>
+			</defenses>
+			<armorratings>
+				<armorrating name="Armor" rating="13" stacking="0" nonstacking="13" dicepool="18"/>
+				<armorrating name="Acid Protection" rating="13" stacking="13" nonstacking="0" dicepool="18"/>
+				<armorrating name="Cold Protection" rating="13" stacking="13" nonstacking="0" dicepool="18"/>
+				<armorrating name="Electricity Protection" rating="13" stacking="13" nonstacking="0" dicepool="18"/>
+				<armorrating name="Fire Protection" rating="13" stacking="13" nonstacking="0" dicepool="18"/>
+				<armorrating name="Falling Protection" rating="13" stacking="13" nonstacking="0" dicepool="18"/>
+				<armorrating name="Fatigue Resistance" rating="0" stacking="0" nonstacking="0" dicepool="8"/>
+			</armorratings>
+			<attributes>
+				<attribute name="Body" text="3/5" base="3" modified="5" naturalmaximum="6" augmentedmaximum="7" minimum="1" category="Physical">
+					<description>Body measures your physical health and resiliency.
+
+It affects how much damage you can take and stay on your feet, how well you resist damage coming your way, your ability to recover from poisons and diseases, and things of that nature.</description>
+					<traitcost bp="2"/>
+				</attribute>
+				<attribute name="Agility" text="6" base="6" modified="6" naturalmaximum="6" augmentedmaximum="10" minimum="1" category="Physical">
+					<description>Agility measures things like hand-eye coordination, flexibility, nimbleness, and balance. Agility is the most important attribute when it comes to scoring hits during combat, as you need to be coordinated to land your blows, whether you're swinging a sword or carefully aiming a rifle. It also is critical in non-combat situations, such as sneaking quietly past security guards or smoothly lifting a keycard from its secured position.</description>
+					<traitcost bp="5"/>
+				</attribute>
+				<attribute name="Reaction" text="5/6" base="5" modified="6" naturalmaximum="6" augmentedmaximum="9" minimum="1" category="Physical">
+					<description>Reaction is about reflexes, awareness, and your character's ability to respond to events happening around them. Reaction plays an important role in deciding how soon characters act in combat and how skilled they are in avoiding attacks from others. It also helps you make that quick turn down a narrow alley on your cycle to avoid the howling gangers on your tail</description>
+					<traitcost bp="4"/>
+				</attribute>
+				<attribute name="Strength" text="3" base="3" modified="3" naturalmaximum="6" augmentedmaximum="7" minimum="1" category="Physical">
+					<description>Strength is an indicator of, well, how strong your character is. The higher your strength, the more damage you'll do when you're raining blows down on an opponent, and the more you'll be able to move or carry when there's stuff that needs to be moved. Or carried.
+
+Strength is also important with athletic tasks such as climbing, running, and swimming.</description>
+					<traitcost bp="2"/>
+				</attribute>
+				<attribute name="Willpower" text="3" base="3" modified="3" naturalmaximum="6" augmentedmaximum="7" minimum="1" category="Mental">
+					<description>Willpower is your character's desire to push through adversity, to resist the weariness of spellcasting, and to stay upright after being nailed in the head with a sap.
+
+Whether you're testing yourself against a toxic wilderness or a pack of leather-clad orks with crowbars, Willpower will help you make it through.</description>
+					<traitcost bp="2"/>
+				</attribute>
+				<attribute name="Logic" text="2" base="2" modified="2" naturalmaximum="6" augmentedmaximum="6" minimum="1" category="Mental">
+					<description>The Logic attribute measures the cold, calculating power of your rational mind. Whether you are attempting to repair complicated machinery or patch up an injured teammate, Logic helps you get things right. Logic is also the attribute hermetic mages use to resist Drain from the spells they rain down on their hapless foes.
+
+Deckers also find Logic extremely useful, as it helps them develop the attacks and counterattacks that are part of their online battles.</description>
+					<traitcost bp="1"/>
+				</attribute>
+				<attribute name="Intuition" text="3" base="3" modified="3" naturalmaximum="6" augmentedmaximum="7" minimum="1" category="Mental">
+					<description>Intuition is the voice of your gut, the instinct that tells you things before your logical brain can figure them out. Intuition helps you anticipate ambushes, notice that something is amiss or out of place, and stay on the trail of someone you're pursuing.</description>
+					<traitcost bp="2"/>
+				</attribute>
+				<attribute name="Charisma" text="4" base="4" modified="4" naturalmaximum="6" augmentedmaximum="8" minimum="1" category="Mental">
+					<description>Charisma is your force of personality, the persuasiveness and charm you can call on to get people to do what you want without having to go to the trouble of pulling a gun on them. It's not entirely about your appearance, but it's also not entirely not about your appearance. What it's mostly about is how you use what you have - your voice, your face, your words, and all the tools at your disposal - to charm and/or intimidate the people you encounter. Additionally, Charisma is an important attribute for shamanic mages, as it helps them resist the damaging Drain from spells they cast.</description>
+					<traitcost bp="2"/>
+				</attribute>
+				<attribute name="Essence" text="6" base="6" modified="6" naturalmaximum="12" augmentedmaximum="10" minimum="0" category="Derived">
+					<description>Essence is your metahumanity encapsulated in a number. In Shadowrun, you have ample opportunities to alter your body or push it beyond its normal limits. Such actions often have a cost, and they can result in a loss of a portion of your metahumanity, which means a loss of Essence points. Each character starts with an Essence rating of 6, and it acts as a cap on the amount of alterations you can adopt. When it's gone, it doesn't come back. It also affects the Magic and Resonance attributes, as losses in Essence are reflected by losses in Magic and Resonance.
+
+While denizens of the Sixth World are accustomed to seeing a variety of augmentations and alterations to the metahuman form, the "uncanny valley" still exists. The uncanny valley is the disconcerting effect that happens when people see something that is almost, but not quite, metahuman. An animated cartoon with exaggerated features looks fine to metahuman eyes, but a computer program that closely, but not exactly, replicates human appearance is a troubling and unpleasant sight to most viewers. This is what happens when people see others with augmentations - on some level, people notice there is something less (or more) human about that, and they respond to it negatively. The change may not be exactly visible, but it is in some way noticeable - in one way or another, a person has become less human, and on some level other people notice this. This is why a character's Essence is included in the calculation of their Social limit.</description>
+					<traitcost bp="0"/>
+				</attribute>
+				<attribute name="Edge" text="5" base="5" modified="5" naturalmaximum="7" augmentedmaximum="9" minimum="1" category="Special">
+					<description>Edge is the ultimate intangible, that certain something that provides a boost when you need it, that gets you out of a tough spot when the chips are down. It's not used to calculate dice pools; instead, you spend a point of Edge to acquire a certain effect. Every character has at least one point of Edge, more if they want to take more frequent advantage of the boosts it offers. The possible effects of and more details about Edge are on p. 56.</description>
+					<traitcost bp="3"/>
+				</attribute>
+				<attribute name="Magic" text="6" base="6" modified="6" naturalmaximum="6" augmentedmaximum="10" minimum="0" category="Heritage???Special">
+					<description>If you intend to cast spells or use magic in any way, your character needs to have the Magic attribute. Most individuals do not have this attribute, meaning their rating is zero. Mages, who cast spells, and adepts, who channel magic into enhanced physical and mental abilities, need this quality. Their Magic rating measures how capable they are in the arcane arts and how much power they can draw down to help them in their efforts.</description>
+					<traitcost bp="2"/>
+				</attribute>
+				<attribute name="Initiative" text="8/9+1D6" base="8" modified="9" naturalmaximum="12" augmentedmaximum="12" minimum="2" category="Derived">
+					<description>Initiative governs how quickly a character responds in a combat situation. A character's Initiative attribute is their Reaction plus their Intuition.</description>
+					<traitcost bp="0"/>
+				</attribute>
+			</attributes>
+			<movementtypes>
+				<movementtype name="Land Movement" sprintpool="2dicepool">
+					<walking text="12m" value="12"/>
+					<running text="24m" value="24"/>
+				</movementtype>
+				<movementtype name="Swimming" sprintpool="2dicepool">
+					<running text="5m" value="5"/>
+				</movementtype>
+			</movementtypes>
+			<reputations>
+				<reputation name="Street Cred" value="6"/>
+				<reputation name="Notoriety" value="0"/>
+				<reputation name="Public Awareness" value="0"/>
+				<reputation name="Astral Reputation" value="0"/>
+			</reputations>
+			<qualities>
+				<positive>
+					<quality name="Adept">
+						<description>• Adepts channel mana into their own bodies to enhance their natural abilities, making their talents and skills much more potent.
+
+• Adepts never astrally project (p. 313).
+
+• Adepts only perceive astral space by purchasing the Astral Perception power (p. 312).
+
+• Adepts can learn the Assensing skill only if they have the Astral Perception power.
+
+• Adepts cannot use skills from any magic-related skill groups (Sorcery, Conjuring, or Enchanting).
+
+• Adepts can follow mentor spirits (p. 320).
+
+• Adepts gain Adept Powers that are purchased with Power Points. Adepts receive a number of Power Points equal to their Magic rating.</description>
+						<traitcost bp="0"/>
+					</quality>
+					<quality name="Ambidexterous">
+						<description>The Ambidextrous character can handle objects equally well with either hand. Without this quality, any action performed solely with the off - hand (i.e., firing a gun) suffers a -2 dice pool modifier (see Attacker Using Off-Hand Weapon, p. 178).</description>
+						<traitcost bp="4"/>
+					</quality>
+					<quality name="Sharpshooter">
+						<description>Through focus and vigilance it's possible to hone a shooting skill to the point of an excess of precision. This honing means that specific techniques are trained to the point of perfection, but in that training, other, more basic maneuvers are skipped over. Characters with this quality are more skilled at making Called Shots, but at the cost of their basic shooting skills. Penalties for Called Shots are decreased by 2, while all other Ranged Attack actions suffer a -1 dice pool penalty.</description>
+						<traitcost bp="4"/>
+					</quality>
+					<quality name="Strive For Perfection">
+						<description>Excellence in his craft is what this assassin aims for. It is not enough to take out the target; the job must be done efficiently, quickly, and without the slightest misstep. This is what separates the good assassins from the great ones in his mind, and he aims to be one of the greats.
+
+Advantages: The assassin has honed his skills with firearms to the point where shots that would be tough for most people are second nature to him. Halve the cost of all Called Shots, meaning they impose only a -2 dice pool penalty instead of -4. The Called Shot still costs a Free Action.
+
+Disadvantages: The standard "aiming for center mass" shots that most people take are beneath this sort of assassin. He seeks to make every shot count, regardless of how many bullets are in his magazine. The assassin must make Called Shots unless he is providing covering fire or acting in a similar capacity where Called Shots would not be practical.</description>
+						<traitcost bp="12"/>
+					</quality>
+					<quality name="Will to Live (1)" rank="1">
+						<description>For each rating point in Will to Live, the character gains 1 additional Damage Overflow Box (p. 101). These additional boxes only allow the character to sustain additional damage before dying; they do not raise the threshold at which the character becomes unconscious or incapacitated, nor do they affect modifiers from the damage the character has taken.</description>
+						<traitcost bp="3"/>
+					</quality>
+				</positive>
+				<negative>
+					<quality name="Code of Honor: Nationalist/Japan (7dicepool vs. 4)">
+						<description>The character has a binding Code of Honor when it comes to killing members of a specific group; it's a matter of unwavering principle. The character with the Code of Honor quality chooses a specific group that they will not kill or allow others to kill. Examples of this group could include women, children, innocent bystanders, or a specific metatype. A character can choose to protect specific paracritters, but only if the specified paracritter possesses the Sapience power.
+
+The gamemaster must approve the group that the character designates as being "off limits." If the group (such as children) is not regularly encountered in campaigns, the gamemaster can reject the choice. If the player feels strongly about his choice, the gamemaster may allow the player to take two groups they will not harm, (i.e., women and children), one of which must be likely to be encountered in the campaign. A magician can legitimately choose to not destroy any type of spirit from which their Mentor Spirit bestows a bonus for summoning. This Code of Honor respects their Mentor Spirit and is worthy of the Karma. Characters can't pick an obscure or non-existent group to acquire this quality - you can't acquire Karma by vowing to never kill sapient hamsters, for example.
+
+Any time anyone attempts to kill a member of the character's protected list, the character must make a Charisma + Willpower (4) Test. A failed roll means the character must immediately put a stop the violence against the member of their protected group. If the situation forces the character to take action against any of his protected group, he will always choose non-lethal methods. Killing a member of the group he has sworn to protect is a line he will not cross for any reason.
+
+There are drawbacks to having a Code of Honor. For example, it can leave witnesses behind. For each person in the protected group the character leaves alive and who is in a position to remember them, increase the character's Public Awareness by 1. The character's job options are also limited - he will not take a job if the objective is the death of a member of his protected group and will have reservations about taking part in a mission with a high probability of causing collateral harm to members of his protected group.
+
+There is always a chance things will go wrong whenever non-lethal force is used. A person may have a life-threatening allergic reaction to a usually harmless knockout drug, or a heart condition that makes a taser shock deadly. For this reason, each time the character takes a violent action or allows others to take violent action against a member of his chosen group, the gamemaster makes a secret roll of 1D6. On a roll of 1, there is an unforeseen complication from the use of non-lethal force. With a metahuman it could be a life-threatening medical condition; with a spirit, an attempt to banish rather than destroy may in fact set the spirit free. When a complication arises, the gamemaster makes a secret Perception (4) Test for the character to notice if anything has gone wrong.
+
+If a person in the character's chosen group is killed, whether intentionally or inadvertently, the character loses a point of Karma for that adventure for each person in their "protected group" that is killed.
+
+The Code of Honor can take other forms as well. For example:
+• Assassin's Creed: A character never kills anyone that they are not paid to kill. Being precise as an assassin, not leaving collateral damage, and being invisible are important hallmarks of those who believe in the Assassin's Creed. Characters who take this version of Code of Honor lose 1 point of Karma for every unintentional and/or unpaid murder they commit, and their Public Awareness goes up by 1 for each such death.
+• Warrior's Code: The character who follows a Warrior's Code maintains a strict sense of personal honor. In 2075, this likely means a character will not kill an unarmed person, take lethal action against an opponent who is unaware or unprepared for an attack (i.e., a guard who doesn't know the runner is there), or knowingly take an action that could kill someone who is defenseless (i.e., from a stray bullet or allow someone to be killed from a sniper shot). The character loses 1 Karma per unarmed or defenseless person that they kill or allow to be killed through their actions.</description>
+						<traitcost bp="-15"/>
+					</quality>
+					<quality name="Creature of Comfort (Middle Lifestyle)" rank="1">
+						<description>For the character with this quality, the rewards of a job well done are the finer things in life. Unfortunately, one can quickly get attached to the comforts one has acquired, making the fall seem ever so higher. At the 10 Karma level, the character is used to a Middle Lifestyle, at the 17 level a High, and 25, it's Luxury all the way, baby.
+
+For every day that the character must spend "slumming" it in a lower Lifestyle category, the irritable character suffers a -1 penalty to all Social and Healing tests per Lifestyle category below his chosen level. For example, if the character takes this Quality at the High Lifestyle level and is forced to stay in a Squatter Lifestyle, he will suffer -3 to all Social and Healing tests. Life just isn't worth living without Cognac.</description>
+						<traitcost bp="-10"/>
+					</quality>
+				</negative>
+			</qualities>
+			<skills>
+				<groups>
+					<skill name="Firearms Group" text="1" base="1" modified="1" naturalmaximum="12" augmentedmaximum="2">
+						<addsskill name="Automatics"/>
+						<addsskill name="Automatics"/>
+						<addsskill name="Longarms"/>
+						<addsskill name="Longarms"/>
+						<addsskill name="Pistols"/>
+						<addsskill name="Pistols"/>
+						<description/>
+						<traitcost bp="-4 +&#xA;5K"/>
+					</skill>
+					<skill name="Stealth Group" text="2" base="2" modified="2" naturalmaximum="12" augmentedmaximum="3">
+						<addsskill name="Disguise"/>
+						<addsskill name="Palming"/>
+						<addsskill name="Sneaking"/>
+						<addsskill name="Sneaking"/>
+						<description/>
+						<traitcost bp="-8 +&#xA;15K"/>
+					</skill>
+				</groups>
+				<active>
+					<skill name="Arcana" text="2" base="2" modified="2" naturalmaximum="12" augmentedmaximum="3" dicepool="4" group="">
+						<description>Arcana governs the creation of magical formulae used to create spells, foci, and all other manner of magical manipulations. Arcana is required to understand formulae that may be purchased over the counter or discovered by other means</description>
+						<traitcost bp="0"/>
+					</skill>
+					<skill name="Armorer" text="1" base="1" modified="1" naturalmaximum="12" augmentedmaximum="2" dicepool="3" group="">
+						<description>Armorer encompasses the broad array of skills required to build and maintain weapons and armor. As with all mechanics-based skills, the proper tools and equipment are required to perform any repair or build operation. For thresholds and information on determining success results, see Building &amp; Repairing, p. 145.</description>
+						<traitcost bp="1"/>
+					</skill>
+					<skill name="Automatics" text="2" base="2" modified="2" naturalmaximum="12" augmentedmaximum="3" dicepool="8" group="Firearms Group" fromgroup="yes">
+						<description>The Automatics skill covers a specific subset of firearms larger than handheld pistols but smaller than rifles. This category includes submachine guns and other fully automatic carbines.</description>
+						<traitcost bp="1"/>
+					</skill>
+					<skill name="Automatics" text="1" base="1" modified="1" naturalmaximum="12" augmentedmaximum="2" dicepool="7" group="Firearms Group" fromgroup="yes">
+						<description>The Automatics skill covers a specific subset of firearms larger than handheld pistols but smaller than rifles. This category includes submachine guns and other fully automatic carbines.</description>
+						<traitcost bp="0"/>
+					</skill>
+					<skill name="Disguise" text="2" base="2" modified="2" naturalmaximum="12" augmentedmaximum="3" dicepool="5" group="Stealth Group" fromgroup="yes">
+						<description>Disguise covers non-magical forms of masking your identity, including makeup and enhancement. See Using Disguise and Impersonation, p. 136.</description>
+						<traitcost bp="0"/>
+					</skill>
+					<skill name="Etiquette" text="1" base="1" modified="1" naturalmaximum="12" augmentedmaximum="2" dicepool="5" group="Influence Group">
+						<description>Etiquette represents the level of understanding and awareness of proper social rituals. The skill works as a sort of social version of Sneak, allowing you to move unimpeded through various social situations. Etiquette also serves as a social safety net in case a player botches a social situation in a way a skilled character would not. See Using Etiquette, p. 141.</description>
+						<traitcost bp="1"/>
+					</skill>
+					<skill name="Free Fall" text="3" base="3" modified="3" naturalmaximum="12" augmentedmaximum="5" dicepool="8" group="">
+						<description>This skill covers any jump from height, including leaps from a third-floor window to jumps from a plane at high altitude. If it involves any kind of attempt to slow or control your fall, this covers it, so it includes skydiving with a parachute, flying a wingsuit, or descending on a line, bungee cord, or zipline.</description>
+						<traitcost bp="3"/>
+					</skill>
+					<skill name="Gymnastics" text="3" base="3" modified="3" naturalmaximum="12" augmentedmaximum="5" dicepool="9" group="Athletics Group">
+						<description>Gymnastics measures your balance, general athleticism, and all-around ability to use your body. For more information on ways Gymnastics may be applied in-game, see Jumping, p. 134.</description>
+						<traitcost bp="3"/>
+					</skill>
+					<skill name="Longarms" text="6" base="6" modified="6" naturalmaximum="12" augmentedmaximum="9" dicepool="12" group="Firearms Group" fromgroup="yes">
+						<description>The Longarms skill is for firing extended-barrel weapons such as sporting rifles and sniper rifles. This grouping also includes weapons like shotguns that are designed to be braced against the shoulder.</description>
+						<traitcost bp="3"/>
+					</skill>
+					<skill name="Longarms" text="1" base="1" modified="1" naturalmaximum="12" augmentedmaximum="2" dicepool="7" group="Firearms Group" fromgroup="yes">
+						<description>The Longarms skill is for firing extended-barrel weapons such as sporting rifles and sniper rifles. This grouping also includes weapons like shotguns that are designed to be braced against the shoulder.</description>
+						<traitcost bp="0"/>
+					</skill>
+					<skill name="Palming" text="2" base="2" modified="2" naturalmaximum="12" augmentedmaximum="3" dicepool="8" group="Stealth Group" fromgroup="yes">
+						<description>Palming is sleight-of-hand skill that gives a character the ability to snag, hide, and pass off small objects.</description>
+						<traitcost bp="0"/>
+					</skill>
+					<skill name="Perception" text="2" base="2" modified="2" naturalmaximum="12" augmentedmaximum="3" dicepool="5" group="">
+						<description>Perception refers to the ability to spot anomalies in everyday situations, making it one of the key skills a shadowrunner needs. See Using Perception, p. 135.</description>
+						<traitcost bp="2"/>
+					</skill>
+					<skill name="Pilot Ground Craft" text="2" base="2" modified="2" naturalmaximum="12" augmentedmaximum="3" dicepool="8" group="">
+						<description>This skill is used to pilot any ground-based vehicle, excluding legged vehicles. This skill applies whether the pilot is in the vehicle or controlling the vehicle via remote access.</description>
+						<traitcost bp="2"/>
+					</skill>
+					<skill name="Pistols" text="5" base="5" modified="5" naturalmaximum="12" augmentedmaximum="8" dicepool="11" group="Firearms Group" fromgroup="yes">
+						<description>This skill category includes all types of handheld pistols, including tasers, single-shots, semi-automatics, and revolvers.</description>
+						<traitcost bp="4"/>
+					</skill>
+					<skill name="Pistols" text="1" base="1" modified="1" naturalmaximum="12" augmentedmaximum="2" dicepool="7" group="Firearms Group" fromgroup="yes">
+						<description>This skill category includes all types of handheld pistols, including tasers, single-shots, semi-automatics, and revolvers.</description>
+						<traitcost bp="0"/>
+					</skill>
+					<skill name="Sneaking" text="3" base="3" modified="3" naturalmaximum="12" augmentedmaximum="5" dicepool="9" group="Stealth Group" fromgroup="yes">
+						<description>Need to get where you're not supposed to be? This skill allows you to remain inconspicuous in various situations. See Using Stealth Skills, p. 136.</description>
+						<traitcost bp="1"/>
+					</skill>
+					<skill name="Sneaking" text="2" base="2" modified="2" naturalmaximum="12" augmentedmaximum="3" dicepool="8" group="Stealth Group" fromgroup="yes">
+						<description>Need to get where you're not supposed to be? This skill allows you to remain inconspicuous in various situations. See Using Stealth Skills, p. 136.</description>
+						<traitcost bp="0"/>
+					</skill>
+					<skill name="Survival" text="1" base="1" modified="1" naturalmaximum="12" augmentedmaximum="2" dicepool="4" group="Outdoors Group">
+						<specialization bonustext="Urban +2"/>
+						<description>In the desert with nothing more than a tin cup, a poncho, and an iron rod? You'll need this skill to help you get out alive. Survival is the ability to stay alive in extreme environmental conditions for extended periods of time. The skill governs a character's ability to perform vital outdoor tasks such as start a fire, build a shelter, scrounge for food, etc. in hostile environments. See Using Survival, p. 136.</description>
+						<traitcost bp="0"/>
+					</skill>
+					<skill name="Unarmed Combat" text="1" base="1" modified="1" naturalmaximum="12" augmentedmaximum="2" dicepool="7" group="Close Combat Group">
+						<description>Unarmed Combat covers the various self-defense and attack moves that employ the body as a primary weapon. This includes a wide array of martial arts along with the use of cybernetic implant weaponry and the fighting styles that sprung up around those implants.</description>
+						<traitcost bp="1"/>
+					</skill>
+				</active>
+				<knowledge>
+					<skill name="Japanacorps" text="2" base="2" modified="2" naturalmaximum="12" augmentedmaximum="3" dicepool="5" group="">
+						<specialization bonustext="Shiawase +2"/>
+						<description/>
+						<traitcost bp="3"/>
+					</skill>
+					<skill name="Military Special Forces" text="2" base="2" modified="2" naturalmaximum="12" augmentedmaximum="3" dicepool="4" group="">
+						<description/>
+						<traitcost bp="2"/>
+					</skill>
+					<skill name="Police Procedures" text="1" base="1" modified="1" naturalmaximum="12" augmentedmaximum="2" dicepool="4" group="">
+						<description/>
+						<traitcost bp="1"/>
+					</skill>
+				</knowledge>
+				<language>
+					<skill name="English" text="2" base="2" modified="2" naturalmaximum="12" augmentedmaximum="3" dicepool="5" group="">
+						<description/>
+						<traitcost bp="2"/>
+					</skill>
+					<skill name="Japanese" text="N" base="1" modified="1" naturalmaximum="12" augmentedmaximum="2" dicepool="4" group="">
+						<description/>
+						<traitcost bp="0"/>
+					</skill>
+					<skill name="Sperethiel" text="2" base="2" modified="2" naturalmaximum="12" augmentedmaximum="3" dicepool="5" group="">
+						<description>The complex and tonal language of elves.</description>
+						<traitcost bp="2"/>
+					</skill>
+				</language>
+			</skills>
+			<magic>
+				<spells/>
+				<adeptpowers>
+					<adeptpower text="Adept Spell" name="Adept Spell">
+						<description>The adept has learned to cast a single spell like a mage. You learn one spell for free when acquiring this power. The maximum Force of the spell is your Magic Rating, and the Drain is always physical, resisted with Body + Willpower. This ability otherwise follows the standard rules for spellcasting. The adept can take ranks in the Spellcasting skill and is required to take at least one rank to use this power. This power can only be taken once.</description>
+						<traitcost powerpoints="1"/>
+					</adeptpower>
+					<adeptpower text="Attribute Boost (4): Agility (10dicepool)" name="Attribute Boost (10dicepool)" rating="4">
+						<description>You call upon inner strength to perform amazing physical feats beyond their normal abilities. Attribute Boost must be purchased for a specific Physical Attribute (Agility, Body, Reaction, or Strength); separate Attribute Boost powers may be bought for different attributes. This power cannot be purchased for a Mental or Special Attribute.
+
+When you activate this power, make a Magic + Attribute Boost Rating Test. Each hit on this test boosts your attribute rating by 1, up to your augmented Attribute maximum. This only affects your dice pools; your Physical limit and Initiative ratings don't change with Attribute Boost. The boost lasts for a number of Combat Turns equal to twice the number of hits you get. When the boost runs out, you take Drain equal to the level of this power.</description>
+						<traitcost powerpoints="1"/>
+					</adeptpower>
+					<adeptpower text="Eidetic Sense Memory" name="Eidetic Sense Memory">
+						<description>An adept with Eidetic Sense Memory is capable of memorizing all sensory input, including tastes, smells and textures in addition to the more traditional visual ability. The adept is capable of perfectly recalling any sensory stimulus, or combination thereof. The memories can be recalled at will. The adept also has the ability to photo-read, making it a great trick for those Awakened who like book clubs.</description>
+						<traitcost powerpoints="0.5"/>
+					</adeptpower>
+					<adeptpower text="Enhanced Accuracy: Longarms" name="Enhanced Accuracy">
+						<description>A weapon in your hands becomes an extension of your body. When you buy this power, choose a Combat Skill (Pistols, Clubs, Heavy Weapons, etc.). When you use the skill, add 1 to the Accuracy of the weapon you're using. This power cannot be used with Unarmed Combat, but it can be purchased multiple times with a different skill each time.</description>
+						<traitcost powerpoints="0.25"/>
+					</adeptpower>
+					<adeptpower text="Freefall (4)" name="Freefall" rating="4">
+						<description>This power helps adepts absorb the damage from a fall or jump down for a specific distance. This ability does not help the adept increase the distance he is jumping, such as with the Light Body power. Every level of Freefall allows the adept to fall or jump down 3 additional meters without any adverse effects (beyond the three meters normally allowed). When calculating fall damage past his personal distance threshold, subtract the overall level bonus from the Damage Value of the fall and then apply damage normally (see p. 172, SR5). This means that an adept with Freefall receives no damage from a fall of six meters or less, rather than the typical three meters. Beyond that, if an adept with two levels of Freefall falls 15 meters, the power negates 6 points of damage from the fall, changing the Damage Value of the fall from 15P to 9P (the fall's AP remains unchanged). As long as the adept experiences no damage from the fall (either because the fall was short enough to cause no damage or because they successfully resisted all applicable damage using Body + Armor, the fall counts as a normal move action, and can be combined with an attack. Any other means of dealing with the damage does not allow this opportunity. Longer falls count as a Complex Action.</description>
+						<traitcost powerpoints="1"/>
+					</adeptpower>
+					<adeptpower text="Hang Time (1)" name="Hang Time" rating="1">
+						<description>Adepts with this power receive two benefits. First, for each level of this power, the adept gains a +1 dice pool bonus for all Climbing Tests. Second, the adept can temporarily adhere to surfaces, such as walls. For each level of this power, the adept can attach himself to a surface and hang out for approximately five minutes, provided he remains motionless and keeps physical contact with the surface in question with hands, feet, knees, or elbows. The adept must spend a Simple Action to bond his magical energy with the surface; normal clothing such as gloves or boots does not interfere with this power, but the use of heavy armor (armor with a Rating of 13 or higher) will. Moving the attached body parts on the surface they're adhering to, such as a moving vehicle, breaks the bond, making the adept fall off.</description>
+						<traitcost powerpoints="0.25"/>
+					</adeptpower>
+					<adeptpower text="Improved Physical Attribute (1): Reaction" name="Improved Physical Attribute" rating="1">
+						<description>This power allows you to increase a physical attribute (Body, Agility, Reaction, and Strength). This augments your attribute, so your Physical limit may also increase with the new Attribute rating. This power allows you to exceed your natural Attribute maximum, up to your augmented maximum.</description>
+						<traitcost powerpoints="1"/>
+					</adeptpower>
+					<adeptpower text="Improved Physical Attribute (2): Body" name="Improved Physical Attribute" rating="2">
+						<description>This power allows you to increase a physical attribute (Body, Agility, Reaction, and Strength). This augments your attribute, so your Physical limit may also increase with the new Attribute rating. This power allows you to exceed your natural Attribute maximum, up to your augmented maximum.</description>
+						<traitcost powerpoints="2"/>
+					</adeptpower>
+				</adeptpowers>
+				<metamagics/>
+			</magic>
+			<gear>
+				<augmentations>
+					<cyberware/>
+					<bioware/>
+				</augmentations>
+				<weapons>
+					<item name="Ares Striker" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>One of the most rugged and certainly the heaviest (in terms of weight) pistols on the market, the Striker is simplicity personified. Designed for ease of use, the Striker lacks any of the electronics that modern pistols employ, making it immune to hacking and malware. With its striker fire design and backstrap safety, there are no external hammers or levers, making for a sleek design that won’t snag on your clothes when it’s needed. The comparatively low cost of the Striker makes it an ideal choice for people who aren’t yet ready to make the financial commitment that higher-end models require—it was this year’s most popular quinceañera gift in its category.
+
+Standard Accessories: Red Dot Sight (top)</description>
+						<gearcost text="525¥" value="525"/>
+						<availability text="4R" value="4" class="Restricted"/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<weaponinfo grouptext="Pistols" dicepool="10dicepool [5]" damagetext="8S" damagevalue="8" damagetype="Stun" ap="0" modestext="SA" isammunition="0" recoilcomp="2" equipped="Main Hand">
+							<ammunitionused text="12 (c)" count="12" bins="1" type="Clip"/>
+							<mode>Semi-Automatic</mode>
+							<ranges text="5/20/40/60">
+								<range name="Minimum" text="0m" value="0"/>
+								<range name="Short" text="5m" value="5"/>
+								<range name="Medium" text="20m" value="20"/>
+								<range name="Long" text="40m" value="40"/>
+								<range name="Extreme" text="60m" value="60"/>
+							</ranges>
+						</weaponinfo>
+						<modifications/>
+						<accessories/>
+						<ammunition>
+							<item name="Gel Rounds" quantity="50">
+								<description>These less-lethal rounds use a hard, jelly-like substance that is a safer alternative to rubber bullets. They are often employed for riot control. Their usually semi-rigid slugs flatten on impact, disbursing their kinetic energy over a larger-than-normal area. Gel rounds inflict Stun damage (AP +1). Gel rounds reduce the target's Physical limit by 2 when checking for knockdown (Knockdown, p. 194).</description>
+								<gearcost text="2.5¥" value="2.5"/>
+								<availability text="2R" value="2" class="Restricted"/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+								<weaponinfo grouptext="" dicepool="" damagetext="" damagevalue="0" damagetype="Stun" ap="1" modestext="" isammunition="1" recoilcomp="2" equipped="Main Hand">
+									<ranges text="0">
+										<range name="Minimum" text="0m" value="0"/>
+										<range name="Short" text="0m" value="0"/>
+										<range name="Medium" text="0m" value="0"/>
+										<range name="Long" text="0m" value="0"/>
+										<range name="Extreme" text="0m" value="0"/>
+									</ranges>
+								</weaponinfo>
+								<modifications/>
+								<accessories/>
+								<ammunition/>
+								<programs/>
+								<othergear/>
+							</item>
+						</ammunition>
+						<programs/>
+						<othergear>
+							<item name="Red Dot Sights" useradded="no" quantity="1">
+								<description>This archaic sight projects light onto a curved lens, overlaying a red dot onto the user’s target. It increases the weapon’s Accuracy by 1 and provides a +1 dice pool modifier when used at Short range. At Medium range, it only increases Accuracy by 1, with no dice pool bonus. Red dot sights have no effect at Long and Extreme ranges. Red dot sights are not compatible with smartlink systems, laser sights, holographic sights, or any form of vision magnification.</description>
+								<gearcost text="0¥" value="0"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+						</othergear>
+					</item>
+					<item name="Cavalier Arms Crockett EBR" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>Straddling the line between assault rifle and sniper rifle, the Crockett EBR features a burst fire mode. While it lacks the magazine capacity of a true assault rifle, and lacks the precision of a true marksman's weapon, it makes up for this in versatility, being able to switch fluidly between a sniping role and a combat role as easy as flipping a switch. It comes equipped with a rigid stock with shock pad and a detachable imaging scope.</description>
+						<gearcost text="11,437.5¥" value="11437.5"/>
+						<availability text="12F" value="12" class="Forbidden"/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<weaponinfo grouptext="Sniper Rifles" dicepool="11dicepool [7]" damagetext="12P" damagevalue="12" damagetype="Physical" ap="-3" modestext="SA/BF" isammunition="0" recoilcomp="8" equipped="Both Hands">
+							<ammunitionused text="20 (c)" count="20" bins="1" type="Clip"/>
+							<mode>Semi-Automatic</mode>
+							<mode>Burst Fire</mode>
+							<ranges text="50/350/800/1500">
+								<range name="Minimum" text="0m" value="0"/>
+								<range name="Short" text="50m" value="50"/>
+								<range name="Medium" text="350m" value="350"/>
+								<range name="Long" text="800m" value="800"/>
+								<range name="Extreme" text="1500m" value="1500"/>
+							</ranges>
+						</weaponinfo>
+						<modifications>
+							<item name="Gas-Vent System" rating="3" quantity="1">
+								<description>Gas-vent recoil compensation systems are barrel-mounted accessories that vent a weapon's barrel gases at a specific vector to counter muzzle climb. Once installed, a gas-vent cannot be removed. Gas-vent systems provide a number of points of Recoil Compensation equal to their rating.</description>
+								<gearcost text="600¥" value="600"/>
+								<availability text="9R" value="9" class="Restricted"/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+						</modifications>
+						<accessories>
+							<item name="Bipod" quantity="1">
+								<description>This two-legged brace extends downward from the weapon, allowing it to be fired low to the ground with the user in a prone or sitting position. A bipod can be attached to the underbarrel mount of a weapon and provides 2 points of Recoil Compensation when properly deployed. Attaching a bipod takes one minute. Folding up or deploying a bipod is a Simple Action. Removing it is a Complex Action.</description>
+								<gearcost text="200¥" value="200"/>
+								<availability text="2" value="2" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+							<item name="Imaging Scope" useradded="no" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+								<description>These classic scopes are attached to the top mount; attaching or removing them takes only a Simple Action. Imaging scopes include a micro camera and vision magnification, and they have a Capacity of 3 to hold vision enhancements (p. 444).</description>
+								<gearcost text="0¥" value="0"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+								<modifications>
+									<item name="Vision Magnification, Electronic" useradded="no" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+										<description>This zoom function digitally magnifies vision by up to fifty times, allowing distant targets to be seen clearly. For rules on using vision magnification in ranged combat, see p. 177.</description>
+										<gearcost text="0¥" value="0"/>
+										<availability text="" value="0" class=""/>
+										<matrix>
+											<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+											<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+											<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+											<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+										</matrix>
+										<modifications/>
+										<accessories/>
+										<ammunition/>
+										<programs/>
+										<othergear/>
+									</item>
+								</modifications>
+								<accessories/>
+								<ammunition/>
+								<programs/>
+								<othergear/>
+							</item>
+							<item name="Shock Pad" useradded="no" quantity="1">
+								<description>A shock-absorbing pad is situated on the rigid stock of a rifle, shotgun, or heavy weapon, and provides 1 point of recoil compensation.</description>
+								<gearcost text="0¥" value="0"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+						</accessories>
+						<ammunition>
+							<item name="Gel Rounds" quantity="95">
+								<description>These less-lethal rounds use a hard, jelly-like substance that is a safer alternative to rubber bullets. They are often employed for riot control. Their usually semi-rigid slugs flatten on impact, disbursing their kinetic energy over a larger-than-normal area. Gel rounds inflict Stun damage (AP +1). Gel rounds reduce the target's Physical limit by 2 when checking for knockdown (Knockdown, p. 194).</description>
+								<gearcost text="2.5¥" value="2.5"/>
+								<availability text="2R" value="2" class="Restricted"/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+								<weaponinfo grouptext="" dicepool="" damagetext="" damagevalue="0" damagetype="Stun" ap="1" modestext="" isammunition="1" recoilcomp="2" equipped="Main Hand">
+									<ranges text="0">
+										<range name="Minimum" text="0m" value="0"/>
+										<range name="Short" text="0m" value="0"/>
+										<range name="Medium" text="0m" value="0"/>
+										<range name="Long" text="0m" value="0"/>
+										<range name="Extreme" text="0m" value="0"/>
+									</ranges>
+								</weaponinfo>
+								<modifications/>
+								<accessories/>
+								<ammunition/>
+								<programs/>
+								<othergear/>
+							</item>
+							<item name="Regular Ammo" quantity="50">
+								<description>Also called ball or full metal jacket rounds, these solid slugs are useful for numerous applications (mainly killing things).</description>
+								<gearcost text="2¥" value="2"/>
+								<availability text="2R" value="2" class="Restricted"/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+								<weaponinfo grouptext="" dicepool="" damagetext="" damagevalue="0" damagetype="" ap="0" modestext="" isammunition="1" recoilcomp="2" equipped="Main Hand">
+									<ranges text="0">
+										<range name="Minimum" text="0m" value="0"/>
+										<range name="Short" text="0m" value="0"/>
+										<range name="Medium" text="0m" value="0"/>
+										<range name="Long" text="0m" value="0"/>
+										<range name="Extreme" text="0m" value="0"/>
+									</ranges>
+								</weaponinfo>
+								<modifications/>
+								<accessories/>
+								<ammunition/>
+								<programs/>
+								<othergear/>
+							</item>
+						</ammunition>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Combat Knife" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>A long, KA-BAR-style fighting knife with a blacked-out blade and a chisel point for punching through armor.</description>
+						<gearcost text="300¥" value="300"/>
+						<availability text="4" value="4" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<weaponinfo grouptext="Blades" dicepool="5dicepool [6]" damagetext="5P" damagevalue="5" damagetype="Physical" ap="-3" modestext="" isammunition="0" reach="" equipped="Main Hand">
+							<defense name="Combat Knife Parry" normal="0"/>
+						</weaponinfo>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Gel Rounds (Assault Rifle)" quantity="50">
+						<description>These less-lethal rounds use a hard, jelly-like substance that is a safer alternative to rubber bullets. They are often employed for riot control. Their usually semi-rigid slugs flatten on impact, disbursing their kinetic energy over a larger-than-normal area. Gel rounds inflict Stun damage (AP +1). Gel rounds reduce the target's Physical limit by 2 when checking for knockdown (Knockdown, p. 194).</description>
+						<gearcost text="2.5¥" value="2.5"/>
+						<availability text="2R" value="2" class="Restricted"/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<weaponinfo grouptext="" dicepool="" damagetext="" damagevalue="0" damagetype="Stun" ap="1" modestext="" isammunition="1" recoilcomp="2" equipped="Main Hand">
+							<ranges text="0">
+								<range name="Minimum" text="0m" value="0"/>
+								<range name="Short" text="0m" value="0"/>
+								<range name="Medium" text="0m" value="0"/>
+								<range name="Long" text="0m" value="0"/>
+								<range name="Extreme" text="0m" value="0"/>
+							</ranges>
+						</weaponinfo>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Grapple Gun" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>This gun can shoot a grappling hook and attached rope, using Light Crossbow ranges. It comes equipped with an internal winch to pull back the grapple (or pull up small loads). Use the Exotic Ranged Weapon skill to shoot it. Micro rope can support a weight of up to 100 kilograms; standard and stealth ropes can support a weight of up to 400 kilograms.</description>
+						<gearcost text="500¥" value="500"/>
+						<availability text="8R" value="8" class="Restricted"/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<weaponinfo grouptext="" dicepool="5dicepool [3]" damagetext="7S" damagevalue="7" damagetype="Stun" ap="-2" modestext="SS" isammunition="0" recoilcomp="2" equipped="Main Hand">
+							<ammunitionused text="1 (ml)" count="1" bins="1" type="Muzzle-Loading"/>
+							<mode>Single Shot</mode>
+							<ranges text="15/45/120/180">
+								<range name="Minimum" text="0m" value="0"/>
+								<range name="Short" text="15m" value="15"/>
+								<range name="Medium" text="45m" value="45"/>
+								<range name="Long" text="120m" value="120"/>
+								<range name="Extreme" text="180m" value="180"/>
+							</ranges>
+						</weaponinfo>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Hollow Points (Assault Rifle)" quantity="50">
+						<description>Hollow point or dum dum rounds have their tips indented, so they are designed to "mushroom" or expand on impact, becoming a hail of deadly fragments not unlike flechettes, although hollow points are a much older technology. Like flechettes, hollow points work better on unarmored targets and tend to flatten against armor.</description>
+						<gearcost text="7¥" value="7"/>
+						<availability text="4F" value="4" class="Forbidden"/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<weaponinfo grouptext="" dicepool="" damagetext="+1" damagevalue="1" damagetype="" ap="2" modestext="" isammunition="1" recoilcomp="2" equipped="Main Hand">
+							<ranges text="0">
+								<range name="Minimum" text="0m" value="0"/>
+								<range name="Short" text="0m" value="0"/>
+								<range name="Medium" text="0m" value="0"/>
+								<range name="Long" text="0m" value="0"/>
+								<range name="Extreme" text="0m" value="0"/>
+							</ranges>
+						</weaponinfo>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Hollow Points (Heavy Pistol)" quantity="50">
+						<description>Hollow point or dum dum rounds have their tips indented, so they are designed to "mushroom" or expand on impact, becoming a hail of deadly fragments not unlike flechettes, although hollow points are a much older technology. Like flechettes, hollow points work better on unarmored targets and tend to flatten against armor.</description>
+						<gearcost text="7¥" value="7"/>
+						<availability text="4F" value="4" class="Forbidden"/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<weaponinfo grouptext="" dicepool="" damagetext="+1" damagevalue="1" damagetype="" ap="2" modestext="" isammunition="1" recoilcomp="2" equipped="Main Hand">
+							<ranges text="0">
+								<range name="Minimum" text="0m" value="0"/>
+								<range name="Short" text="0m" value="0"/>
+								<range name="Medium" text="0m" value="0"/>
+								<range name="Long" text="0m" value="0"/>
+								<range name="Extreme" text="0m" value="0"/>
+							</ranges>
+						</weaponinfo>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Nissan Optimum II" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>The standard weapon of the Imperial Japanese military, the Optimum II is getting a long in the tooth. The weapon gained mass-media fame with General Saito's troop's performance in San Francisco. It has a recoil-absorbing shock pad and a smartgun system.</description>
+						<gearcost text="4,500¥" value="4500"/>
+						<availability text="10F" value="10" class="Forbidden"/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<weaponinfo grouptext="Assault Rifles" dicepool="8dicepool [5]" damagetext="9P" damagevalue="9" damagetype="Physical" ap="-2" modestext="SA/BF/FA" isammunition="0" recoilcomp="4" equipped="Both Hands">
+							<ammunitionused text="40 (c) x2" count="40" bins="2" type="Clip"/>
+							<mode>Semi-Automatic</mode>
+							<mode>Burst Fire</mode>
+							<mode>Full-Auto</mode>
+							<ranges text="25/150/350/550">
+								<range name="Minimum" text="0m" value="0"/>
+								<range name="Short" text="25m" value="25"/>
+								<range name="Medium" text="150m" value="150"/>
+								<range name="Long" text="350m" value="350"/>
+								<range name="Extreme" text="550m" value="550"/>
+							</ranges>
+						</weaponinfo>
+						<modifications>
+							<item name="Custom Look (Additional Clip/Magazine)" useradded="no" quantity="1">
+								<description>Anyone can threaten someone with a gun, but some look more frightening than others. Some guns send the message that the wielder is no ordinary thug, and crossing them would be a bad idea. This modification can include a wide array of possible enhancements including filigree, engraving, grips made from exotic materials, and chrome or gold plating. Weapons with Custom Look grant a +1 dice pool bonus to Intimidation Tests. The downside is that guns like this stand out and people get a +1 on Memory Tests to recall seeing the wielder.</description>
+								<gearcost text="0¥" value="0"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+							<item name="Smartgun System, Internal" useradded="no" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+								<description>This connects a firearm or a projectile weapon directly to the user's smartlink. Incorporating a small camera and laser range finder, the smartlink keeps track of ammunition, heat buildup, and material stress. If you have a smartlink, you can mentally switch between gun modes, eject a clip, and fire the gun without pulling the trigger. The camera lets you shoot around corners without exposing yourself to return fire (at a -3 dice pool penalty). The system makes use of advanced calculation software, allowing for precisely calculated trajectories and high precision over any distance.
+
+If you're using a smartlink, the smartgun system increases the gun's Accuracy by 2. The smartgun features are accessed either by universal access port cable to an imaging device (like glasses, goggles, or a datajack for someone with cybereyes) or by a wireless connection working in concert with direct neural interface.
+
+Retrofitting a firearm with an internal smartgun system doubles the weapon's price and adds 2 to its Availability. An external smartgun system can be attached to the top mount or underbarrel mount with an Armorer + Logic (4, 1 hour) Extended Test. The small camera has a capacity of 1 and can be equipped with vision enhancements (p. 444).</description>
+								<gearcost text="0¥" value="0"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+								<modifications/>
+								<accessories/>
+								<ammunition/>
+								<programs/>
+								<othergear/>
+							</item>
+						</modifications>
+						<accessories>
+							<item name="Additional Clip/Magazine" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+								<description>Requiring a nearly complete rebuilding of the weapon, this modification allows the weapon to add an additional clip or magazine, depending on the weapon’s original. If installed on a pistol, each clip or magazine holds seventy-five percent of the weapon’s original capacity; they otherwise retain their original capacity. This modification adds a +2 modifier to the weapon’s Concealability Modifier and gives the weapon Custom Look (Level 1), but with no bonus to Intimidation rolls. Switching between clips/magazines is a Simple Action.</description>
+								<gearcost text="2,200¥" value="2200"/>
+								<availability text="10R" value="10" class="Restricted"/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+								<modifications/>
+								<accessories/>
+								<ammunition/>
+								<programs/>
+								<othergear/>
+							</item>
+							<item name="Foregrip" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+								<description>This is a handle you put on in the front of the weapon to give you a sturdier grip. It can only be mounted on the barrel, and it cannot be used on Pistols and Hold-outs. It provides 1 point of Recoil Compensation and adds 1 to the Concealability of the weapon to which it's attached.</description>
+								<gearcost text="100¥" value="100"/>
+								<availability text="2" value="2" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+								<modifications/>
+								<accessories/>
+								<ammunition/>
+								<programs/>
+								<othergear/>
+							</item>
+							<item name="Shock Pad" useradded="no" quantity="1">
+								<description>A shock-absorbing pad is situated on the rigid stock of a rifle, shotgun, or heavy weapon, and provides 1 point of recoil compensation.</description>
+								<gearcost text="0¥" value="0"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+						</accessories>
+						<ammunition/>
+						<programs/>
+						<othergear>
+							<item name="Nissan Optimum II Shotgun" useradded="no" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+								<description>This bullpup assault rifle with an integrated underbarrel shotgun is a standard weapon of the Japanese military. The weapon is infamous for the numerous film documentaries showing General Saito's Imperial Marines shooting open doors with the shotgun and dragging out suspects during his occupation of San Francisco. The Nitama Optimum comes equipped with an internal smartgun system and a shock pad integrated into the weapon's rigid stock.</description>
+								<gearcost text="0¥" value="0"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+								<weaponinfo grouptext="Shotguns" dicepool="11dicepool [1]" damagetext="10P" damagevalue="10" damagetype="Physical" ap="-1" modestext="SA" isammunition="0" recoilcomp="3" equipped="Both Hands">
+									<ammunitionused text="5 (m)" count="5" bins="1" type="Internal Magazine"/>
+									<mode>Semi-Automatic</mode>
+									<ranges text="10/40/80/150">
+										<range name="Minimum" text="0m" value="0"/>
+										<range name="Short" text="10m" value="10"/>
+										<range name="Medium" text="40m" value="40"/>
+										<range name="Long" text="80m" value="80"/>
+										<range name="Extreme" text="150m" value="150"/>
+									</ranges>
+								</weaponinfo>
+								<modifications>
+									<item name="Smartgun System, Internal" useradded="no" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+										<description>This connects a firearm or a projectile weapon directly to the user's smartlink. Incorporating a small camera and laser range finder, the smartlink keeps track of ammunition, heat buildup, and material stress. If you have a smartlink, you can mentally switch between gun modes, eject a clip, and fire the gun without pulling the trigger. The camera lets you shoot around corners without exposing yourself to return fire (at a -3 dice pool penalty). The system makes use of advanced calculation software, allowing for precisely calculated trajectories and high precision over any distance.
+
+If you're using a smartlink, the smartgun system increases the gun's Accuracy by 2. The smartgun features are accessed either by universal access port cable to an imaging device (like glasses, goggles, or a datajack for someone with cybereyes) or by a wireless connection working in concert with direct neural interface.
+
+Retrofitting a firearm with an internal smartgun system doubles the weapon's price and adds 2 to its Availability. An external smartgun system can be attached to the top mount or underbarrel mount with an Armorer + Logic (4, 1 hour) Extended Test. The small camera has a capacity of 1 and can be equipped with vision enhancements (p. 444).</description>
+										<gearcost text="0¥" value="0"/>
+										<availability text="" value="0" class=""/>
+										<matrix>
+											<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+											<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+											<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+											<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+										</matrix>
+										<modifications/>
+										<accessories/>
+										<ammunition/>
+										<programs/>
+										<othergear/>
+									</item>
+								</modifications>
+								<accessories>
+									<item name="Shock Pad" useradded="no" quantity="1">
+										<description>A shock-absorbing pad is situated on the rigid stock of a rifle, shotgun, or heavy weapon, and provides 1 point of recoil compensation.</description>
+										<gearcost text="0¥" value="0"/>
+										<availability text="" value="0" class=""/>
+										<matrix>
+											<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+											<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+											<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+											<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+										</matrix>
+									</item>
+								</accessories>
+								<ammunition/>
+								<programs/>
+								<othergear/>
+							</item>
+						</othergear>
+					</item>
+					<item name="Nissan Optimum II Shotgun" useradded="no" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>This bullpup assault rifle with an integrated underbarrel shotgun is a standard weapon of the Japanese military. The weapon is infamous for the numerous film documentaries showing General Saito's Imperial Marines shooting open doors with the shotgun and dragging out suspects during his occupation of San Francisco. The Nitama Optimum comes equipped with an internal smartgun system and a shock pad integrated into the weapon's rigid stock.</description>
+						<gearcost text="0¥" value="0"/>
+						<availability text="" value="0" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<weaponinfo grouptext="Shotguns" dicepool="11dicepool [1]" damagetext="10P" damagevalue="10" damagetype="Physical" ap="-1" modestext="SA" isammunition="0" recoilcomp="3" equipped="Both Hands">
+							<ammunitionused text="5 (m)" count="5" bins="1" type="Internal Magazine"/>
+							<mode>Semi-Automatic</mode>
+							<ranges text="10/40/80/150">
+								<range name="Minimum" text="0m" value="0"/>
+								<range name="Short" text="10m" value="10"/>
+								<range name="Medium" text="40m" value="40"/>
+								<range name="Long" text="80m" value="80"/>
+								<range name="Extreme" text="150m" value="150"/>
+							</ranges>
+						</weaponinfo>
+						<modifications>
+							<item name="Smartgun System, Internal" useradded="no" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+								<description>This connects a firearm or a projectile weapon directly to the user's smartlink. Incorporating a small camera and laser range finder, the smartlink keeps track of ammunition, heat buildup, and material stress. If you have a smartlink, you can mentally switch between gun modes, eject a clip, and fire the gun without pulling the trigger. The camera lets you shoot around corners without exposing yourself to return fire (at a -3 dice pool penalty). The system makes use of advanced calculation software, allowing for precisely calculated trajectories and high precision over any distance.
+
+If you're using a smartlink, the smartgun system increases the gun's Accuracy by 2. The smartgun features are accessed either by universal access port cable to an imaging device (like glasses, goggles, or a datajack for someone with cybereyes) or by a wireless connection working in concert with direct neural interface.
+
+Retrofitting a firearm with an internal smartgun system doubles the weapon's price and adds 2 to its Availability. An external smartgun system can be attached to the top mount or underbarrel mount with an Armorer + Logic (4, 1 hour) Extended Test. The small camera has a capacity of 1 and can be equipped with vision enhancements (p. 444).</description>
+								<gearcost text="0¥" value="0"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+								<modifications/>
+								<accessories/>
+								<ammunition/>
+								<programs/>
+								<othergear/>
+							</item>
+						</modifications>
+						<accessories>
+							<item name="Shock Pad" useradded="no" quantity="1">
+								<description>A shock-absorbing pad is situated on the rigid stock of a rifle, shotgun, or heavy weapon, and provides 1 point of recoil compensation.</description>
+								<gearcost text="0¥" value="0"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+						</accessories>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Tracer Rounds (Sniper Rifle)" quantity="10">
+						<description>Tracer ammo burns along the line of flight, making it easier for the shooter to home in on the target. This type of ammunition can only be used in Full Auto weapons and, being loaded as every third round in a clip, is an exception to the restriction of one type of ammunition per clip. They improve the Accuracy of your gun by 1 when you fire more than one round in an Action Phase (cumulative with a laser sight but not a smartgun).</description>
+						<gearcost text="6¥" value="6"/>
+						<availability text="6R" value="6" class="Restricted"/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<weaponinfo grouptext="" dicepool="" damagetext="" damagevalue="0" damagetype="" ap="0" modestext="" isammunition="1" recoilcomp="2" equipped="Main Hand">
+							<ranges text="0">
+								<range name="Minimum" text="0m" value="0"/>
+								<range name="Short" text="0m" value="0"/>
+								<range name="Medium" text="0m" value="0"/>
+								<range name="Long" text="0m" value="0"/>
+								<range name="Extreme" text="0m" value="0"/>
+							</ranges>
+						</weaponinfo>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Unarmed Strike" useradded="no" quantity="1" natural="yes">
+						<description/>
+						<gearcost text="0¥" value="0"/>
+						<availability text="" value="0" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<weaponinfo grouptext="Unarmed" dicepool="7dicepool [6]" damagetext="3S" damagevalue="3" damagetype="Stun" ap="0" modestext="" isammunition="0" reach="" equipped="Main Hand">
+							<defense name="Unarmed Strike Parry" normal="1"/>
+						</weaponinfo>
+					</item>
+					<item name="Zapper Rounds (Sniper Rifle)" quantity="20">
+						<description>Not to be confused with good ol’ Stick-n-Shock, these rounds actually cause damage to electronic systems, rather than the electronics themselves. Using a mix of wireless data burst broadcasting tech and dense IC coding, the round attacks the object in the “Matrix.” Why the quotes? Glad you asked, because early models were useless once you shut the wireless off on your device. But that’s not the case after the redesign. Now, as long as your device is active and capable of accessing the Matrix, even if the receiver is currently shut down, the contact protocols in the rounds do the job as long as you’re a good shot.
+
+Here’s what I mean. Use these on someone actively connected, hidden or not, and you can pretty much hit anywhere on their person and something is gonna get popped. The coding latches onto the first device it can break through and then folds and repeats inside, using its limited power to pull off its effect. Mass effect versions that scramble and frag up everything are in the works, but for now you’ll only find that bit of gear terrorism over in the grenades department.
+
+Now, if you’re a solid shot, you can bullseye something specific and you can pretty much guarantee the code’s concentrated enough to drill into that single piece. More than one decker has been unprepared for one of these hitting their deck. Most decks have better protection than your average armored jacket and they might be able to take the hit, but get tagged while you were planning to sleaze in rather than take on IC and you just might be taking pointers from the street sam about how to stay useful in the fight. Of course, he might be slowed down to your speed, because his wires got tagged too.
+
+Zapper Round Rules
+Rather than doing normal damage, these bullets do Matrix Damage. The standard ranged attack roll is made with damage increased by net hits and applied to a single device possessed, worn, carried, or implanted in the targeted individual. The device receiving the damage is selected at random by the gamemaster, or by the attacking player if they succeed in a Called Shot. Devices can only be targeted by a Called Shot if they are visible to the attacker. Damage Resistance roll is made using the Device Rating + Firewall, along with any other damage resistance programs.
+
+Burst Fire and Full Auto have an alternate option. Instead of hindering the target’s Defense Test, the attack strikes multiple devices, or one device more than once. Burst Fire hits twice, Long Burst hits three times, and Full Auto hits four times.</description>
+						<gearcost text="14¥" value="14"/>
+						<availability text="12R" value="12" class="Restricted"/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<weaponinfo grouptext="" dicepool="" damagetext="" damagevalue="0" damagetype="Matrix" ap="0" modestext="" isammunition="1" recoilcomp="2" equipped="Main Hand">
+							<ranges text="0">
+								<range name="Minimum" text="0m" value="0"/>
+								<range name="Short" text="0m" value="0"/>
+								<range name="Medium" text="0m" value="0"/>
+								<range name="Long" text="0m" value="0"/>
+								<range name="Extreme" text="0m" value="0"/>
+							</ranges>
+						</weaponinfo>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+				</weapons>
+				<armor>
+					<item name="Good Suit" quantity="1" wireless="Present">
+						<description>Clothing in 2075 comes with amazing features you'll likely completely take for granted. Commlinks, music players, and other electronic devices can be woven right into the fabric, powered by interwoven batteries or special energy-gathering fabrics. On the other side of the economy, cheap soy-based "flats" can be had for five nuyen per article of clothing from vending machines around the Sprawl. The more money you spend on your threads, the more impressive you look.</description>
+						<gearcost text="1,000¥" value="1000"/>
+						<availability text="" value="0" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<armorinfo rating="0" acid="0" cold="0" electricity="0" falling="0" fire="0" radiation="0" laser="0" equipped="yes"/>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Nice Clothing with Socks and Watch" quantity="1" wireless="Present">
+						<description>Clothing in 2075 comes with amazing features you'll likely completely take for granted. Commlinks, music players, and other electronic devices can be woven right into the fabric, powered by interwoven batteries or special energy-gathering fabrics. On the other side of the economy, cheap soy-based "flats" can be had for five nuyen per article of clothing from vending machines around the Sprawl. The more money you spend on your threads, the more impressive you look.</description>
+						<gearcost text="300¥" value="300"/>
+						<availability text="" value="0" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<armorinfo rating="0" acid="0" cold="0" electricity="0" falling="0" fire="0" radiation="0" laser="0" equipped="yes"/>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Sleeping Tiger" quantity="1" wireless="Present">
+						<description>Can't resist throwing on the little tag line just so we remember who's in charge of this line. A few years back these lines were hot, but they've been adding feature after feature since then so that the things are getting pretty unwieldy. The rather unoriginal Aces High line added the Ace of Cups (high-collar floor-length coat with back shoulder flaring and flowing-but-layered lower half), Ace of Swords (WWII Japanese pilot style, complete with wakizashi scabbard built into the back), Ace of Wands (new-age wizard styling with lots of little pockets for reagents), and Ace of Coins (black juggernaut hide with platinum thread stitching and solid gold accents) this year and have been having quite a resurgence of both the new and old lines. And before you say anything, yes, I know there are no aces in tarot decks. Vashon Island doesn't care.
+
+Vashon is still pushing the Steampunk line, as well as the old stand-by Synergist Business tag, along with the dime- (well, maybe a little more) a-dozen Actioneer line of suits. With the Shiawase connection, they have brought back the Sleeping Tiger with a vengeance. Each line has its own set of highlights that can draw a different audience.
+
+I'll admit I loved Manhunt, that remake of the old flatvid with the alien hunting a bunch of mercenaries in the jungle. This stuff makes me think of that trid every time I activate our display. It's high-tech camouflage at its finest. Add this to your favorite outfit and be ready to blend in anywhere.</description>
+						<gearcost text="14,000¥" value="14000"/>
+						<availability text="10" value="10" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<armorinfo rating="13" acid="0" cold="0" electricity="0" falling="0" fire="0" radiation="0" laser="0" equipped="yes"/>
+						<modifications>
+							<item name="Custom Fit" useradded="no" quantity="1">
+								<description>Items that are Custom Fit were measured for a specific person. They are specially designed for that person and don't fit well on anyone else, therefore conferring none of the positive Social Limit adjustments to the character. When an item is Custom Fit, any changes to an individual's Physical Attributes, whether through Karma advancement or augmentation (but not through magic), require the suit to be refit. The refit process requires an Armorer shop and an Armorer + Logic [Mental] (10, 1 hour) Extended Test. The owner can also use their Contacts to help them get the job done, requiring loss of the armor for one week and a payment of 25 percent of the initial armor cost.</description>
+								<gearcost text="0¥" value="0"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+							<item name="Holster" useradded="no" quantity="1">
+								<description>This piece has a holster built into the armor so smoothly it is hard to see with the metahuman eye. This item provides a -1 Concealability modifier for any tests to spot a weapon in the holster through visual means.</description>
+								<gearcost text="0¥" value="0"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+							<item name="Newest Model" useradded="no" quantity="1">
+								<description>These items are the most recent incarnations of their corporate creators. That means they lose a little more when purchased as Lightly Worn, namely a 20 percent loss of Armor Rating (round adjusted Rating up) when buying older models of the clothes.</description>
+								<gearcost text="0¥" value="0"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+							<item name="Ruthenium Polymer Coating" rating="3" useradded="no" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+								<description>I'll admit I loved Manhunt, that remake of the old flatvid with the alien hunting a bunch of mercenaries in the jungle. This stuff makes me think of that trid every time I activate our display. It's high-tech camouflage at its finest. Add this to your favorite outfit and be ready to blend in anywhere.
+
+This modification can be added to any armor or clothing, but it only gains its full benefits when applied to pieces that cover the wearer's whole body, like full body armors or cloaks. The ruthenium polymers are controlled by a sensor suite incorporated into the armor or clothing that scans the surroundings and replicates images of the area at the proper perspectives, helping the wearer blend in. The effectiveness is based on the Rating of the sensor suite and the extent of the suit's coverage. The base modifier to a Perception Test to spot the wearer is - (Rating), adjusted by the extent of the suit; full +0, almost full +1, half +2.</description>
+								<gearcost text="0¥" value="0"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+								<modifications/>
+								<accessories/>
+								<ammunition/>
+								<programs/>
+								<othergear/>
+							</item>
+							<item name="Thermal Dampening" rating="1" quantity="1">
+								<description>Designed to reduce your thermal signature, these inner layers capture or bleed heat, so the outer layers maintain a surface temperature equal to the surrounding air. Add the rating to your limit on any Sneaking test against thermographic vision or thermal sensors.</description>
+								<gearcost text="500¥" value="500"/>
+								<availability text="10R" value="10" class="Restricted"/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+						</modifications>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Synergist Business Line Longcoat" quantity="1" wireless="Present">
+						<description>Can't resist throwing on the little tag line just so we remember who's in charge of this line. A few years back these lines were hot, but they've been adding feature after feature since then so that the things are getting pretty unwieldy. The rather unoriginal Aces High line added the Ace of Cups (high-collar floor-length coat with back shoulder flaring and flowing-but-layered lower half), Ace of Swords (WWII Japanese pilot style, complete with wakizashi scabbard built into the back), Ace of Wands (new-age wizard styling with lots of little pockets for reagents), and Ace of Coins (black juggernaut hide with platinum thread stitching and solid gold accents) this year and have been having quite a resurgence of both the new and old lines. And before you say anything, yes, I know there are no aces in tarot decks. Vashon Island doesn't care.
+
+Vashon is still pushing the Steampunk line, as well as the old stand-by Synergist Business tag, along with the dime- (well, maybe a little more) a-dozen Actioneer line of suits. With the Shiawase connection, they have brought back the Sleeping Tiger with a vengeance. Each line has its own set of highlights that can draw a different audience.</description>
+						<gearcost text="2,300¥" value="2300"/>
+						<availability text="8" value="8" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<armorinfo rating="10" acid="0" cold="0" electricity="0" falling="0" fire="0" radiation="0" laser="0" equipped="yes"/>
+						<modifications>
+							<item name="Custom Fit" useradded="no" quantity="1">
+								<description>Items that are Custom Fit were measured for a specific person. They are specially designed for that person and don't fit well on anyone else, therefore conferring none of the positive Social Limit adjustments to the character. When an item is Custom Fit, any changes to an individual's Physical Attributes, whether through Karma advancement or augmentation (but not through magic), require the suit to be refit. The refit process requires an Armorer shop and an Armorer + Logic [Mental] (10, 1 hour) Extended Test. The owner can also use their Contacts to help them get the job done, requiring loss of the armor for one week and a payment of 25 percent of the initial armor cost.</description>
+								<gearcost text="0¥" value="0"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+							<item name="Custom Fit (Stack)" useradded="no" quantity="1">
+								<description>This characteristic employs all the Custom Fit rules, but in addition these items can stack with other pieces that have been Custom Fit by the same maker, for the same person. The character has to select a specific set of Armored Clothing to have the piece Custom Fit with. The Custom Fit combination then allows the character to use either the base armor or add on the stack bonus for that set of gear.</description>
+								<gearcost text="0¥" value="0"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+							<item name="Holster" useradded="no" quantity="1">
+								<description>This piece has a holster built into the armor so smoothly it is hard to see with the metahuman eye. This item provides a -1 Concealability modifier for any tests to spot a weapon in the holster through visual means.</description>
+								<gearcost text="0¥" value="0"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+						</modifications>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+				</armor>
+				<equipment>
+					<item name="Climbing Gear" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>This is a backpack full of rope (400- kilo test), an ascent/descent harness, gloves, carabiners, crampons, and so forth needed for assisted climbing (Climbing, p. 134).</description>
+						<gearcost text="200¥" value="200"/>
+						<availability text="" value="0" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Concealable Holster" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>Various types of holsters can be worn over the hip, in the small of the back, under the arm, on the forearm, or on the ankle. The concealable holster adds -1 to the item's Concealability (p. 311).</description>
+						<gearcost text="150¥" value="150"/>
+						<availability text="2" value="2" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="MCT Blue Defender" size="Human/Elf/Ork Size" wireless="Present">
+						<description>This commlink comes standard as a wristband that is, as you'd expect, blue. Designed for legitimate sale to security forces and off-the-books distribution to shadowrunners and criminals worldwide, this stylish bracelet protects your devices from evil hackers with a stronger- than-average Firewall.</description>
+						<gearcost text="2,000¥" value="2000"/>
+						<availability text="7" value="7" class=""/>
+						<matrix initiative="6" dr="8">
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="3" base="3" modified="3"/>
+							<matrixattribute name="Firewall" text="5" base="5" modified="5"/>
+						</matrix>
+						<conditionmonitor name="MCT Blue Defender" boxes="10" penalty="0"/>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Red Dot Sights" useradded="no" quantity="1">
+						<description>This archaic sight projects light onto a curved lens, overlaying a red dot onto the user’s target. It increases the weapon’s Accuracy by 1 and provides a +1 dice pool modifier when used at Short range. At Medium range, it only increases Accuracy by 1, with no dice pool bonus. Red dot sights have no effect at Long and Extreme ranges. Red dot sights are not compatible with smartlink systems, laser sights, holographic sights, or any form of vision magnification.</description>
+						<gearcost text="0¥" value="0"/>
+						<availability text="" value="0" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+					</item>
+					<item name="Safe Target System" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>The goal of this system is to avoid those situations where your mates are chewing you out for accidentally shooting them in the hoop. Using information about your teammates' appearance and the electronics in their PAN, this system attempts to recognize when you are aiming at any spot within 1 meter of a friendly target. In these situations, the system locks the trigger, preventing you from firing. Once the friendly target isn't at risk anymore, you can start firing again. Note that the system interprets risk broadly - if there is something between you and a friendly target, the system will lock you out, unless that "something" is an entire office building or Mt. Rushmore or something.
+
+The basic system can mark up to 10 RFID profiles (or GPS coordinates if you want to designate fixed locations as "safe"); for a few extra nuyen you can add more profiles. If you want a little more accuracy, allowing you to easily shoot the drekhead who stole your buddy's commlink without difficulty, then upgrade to the image recognition system. You'll need a guncam or smartlink to use this function. The base image recognition allows you to enter up to 10 different visual profiles, which can be as broad as "anyone wearing the Ancients' logo" or as narrow as precise scans of members of your team. As with the GPS/RFID system, you can spring for extra profiles if you need them.
+
+The safe target system can be mounted on any location besides the stock.</description>
+						<gearcost text="975¥" value="975"/>
+						<availability text="6" value="6" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications>
+							<item name="Additional RFID/GPS data (10)" quantity="1">
+								<description>The goal of this system is to avoid those situations where your mates are chewing you out for accidentally shooting them in the hoop. Using information about your teammates' appearance and the electronics in their PAN, this system attempts to recognize when you are aiming at any spot within 1 meter of a friendly target. In these situations, the system locks the trigger, preventing you from firing. Once the friendly target isn't at risk anymore, you can start firing again. Note that the system interprets risk broadly - if there is something between you and a friendly target, the system will lock you out, unless that "something" is an entire office building or Mt. Rushmore or something.
+
+The basic system can mark up to 10 RFID profiles (or GPS coordinates if you want to designate fixed locations as "safe"); for a few extra nuyen you can add more profiles. If you want a little more accuracy, allowing you to easily shoot the drekhead who stole your buddy's commlink without difficulty, then upgrade to the image recognition system. You'll need a guncam or smartlink to use this function. The base image recognition allows you to enter up to 10 different visual profiles, which can be as broad as "anyone wearing the Ancients' logo" or as narrow as precise scans of members of your team. As with the GPS/RFID system, you can spring for extra profiles if you need them.
+
+The safe target system can be mounted on any location besides the stock.</description>
+								<gearcost text="25¥" value="25"/>
+								<availability text="6" value="6" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+							<item name="Image Recognition Software" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+								<description>The goal of this system is to avoid those situations where your mates are chewing you out for accidentally shooting them in the hoop. Using information about your teammates' appearance and the electronics in their PAN, this system attempts to recognize when you are aiming at any spot within 1 meter of a friendly target. In these situations, the system locks the trigger, preventing you from firing. Once the friendly target isn't at risk anymore, you can start firing again. Note that the system interprets risk broadly - if there is something between you and a friendly target, the system will lock you out, unless that "something" is an entire office building or Mt. Rushmore or something.
+
+The basic system can mark up to 10 RFID profiles (or GPS coordinates if you want to designate fixed locations as "safe"); for a few extra nuyen you can add more profiles. If you want a little more accuracy, allowing you to easily shoot the drekhead who stole your buddy's commlink without difficulty, then upgrade to the image recognition system. You'll need a guncam or smartlink to use this function. The base image recognition allows you to enter up to 10 different visual profiles, which can be as broad as "anyone wearing the Ancients' logo" or as narrow as precise scans of members of your team. As with the GPS/RFID system, you can spring for extra profiles if you need them.
+
+The safe target system can be mounted on any location besides the stock.</description>
+								<gearcost text="200¥" value="200"/>
+								<availability text="8" value="8" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+								<modifications/>
+								<accessories/>
+								<ammunition/>
+								<programs/>
+								<othergear/>
+							</item>
+						</modifications>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Shop, Automotive Mechanic" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>Building and repairing items requires the right tools for the job. Tools must be bought separately for a specific skill (for example, an Armorer shop, a Disguise kit, a Nautical Mechanic facility, etc.).  A shop is transportable in the back of a van and contains more advanced tools for building and repairing. Shops and facilities are both stocked with standard spare parts.
+
+There are some guidelines to help you figure out when a kit, shop, or facility is necessary for a particular job (Building &amp; Repairing, p. 145). The gamemaster gets final say, though, and might even tell you that you need specific or unusual parts you have to get separately.</description>
+						<gearcost text="5,000¥" value="5000"/>
+						<availability text="8" value="8" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Spare Clips" quantity="4">
+						<description>A spare clip comes unloaded but can hold the maximum rounds for the weapon. Each clip is specific to the weapon you buy it for, but they all cost the same. And yes, it's technically a detachable box magazine, but the Cityspeak word for it is so popular these days that even the catalogs call them clips.</description>
+						<gearcost text="5¥" value="5"/>
+						<availability text="4" value="4" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+					</item>
+					<item name="Stealth Rope (m)" quantity="200" size="Human/Elf/Ork Size" wireless="Present">
+						<description>When stealth rope is touched with the catalyst stick, the chemical reaction that is triggered crumbles the rope to dust within seconds, leaving almost no trace. The catalyst stick is reusable. Stealth ropes can support a weight of up to 400 kilograms.</description>
+						<gearcost text="0.85¥" value="0.85"/>
+						<availability text="8F" value="8" class="Forbidden"/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Synthskin Face Mask" rating="6" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>With the popular nanopaste disguise kit falling in popularity due to CFD concerns, the synthskin facemask has taken its market share. It is composed of a programmable electropolymer commonly used in the skin covering of synthetic cyberware and humanoid mimic drones. It produces a lifelike replica of an individual's face. A person's face can be duplicated if you have a scan from a biometric reader (with the dice bonus on the Disguise Test equal to the biometric reader's Rating). A Software + Logic Test (with the dice bonus on the Disguise Test equal to the successes) can replicate a specific individual's face or create a completely unique appearance. In either case, the limit on the test is equal to the Rating of the mask. The mask is reusable in the sense that it can be worn multiple times, but once an appearance has been set in either fashion described above, it cannot be altered.</description>
+						<gearcost text="600¥" value="600"/>
+						<availability text="8" value="8" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+				</equipment>
+			</gear>
+			<identities>
+				<identity name="Hoshi Kobayakawa">
+					<lifestyle name="Middle Lifestyle" months="1">
+						<gearcost text="5,000¥/m" value="5000"/>
+					</lifestyle>
+					<license name="Fake License" for="Security Firearms" rating="4">
+						<gearcost text="800¥" value="800"/>
+					</license>
+					<license name="Fake License" for="Adept" rating="4">
+						<gearcost text="800¥" value="800"/>
+					</license>
+					<license name="Fake SIN" rating="4">
+						<gearcost text="10,000¥" value="10000"/>
+					</license>
+					<description/>
+				</identity>
+			</identities>
+			<contacts>
+				<contact name="Adelaide Chance" type="Corporate Decker" connection="3" loyalty="4">
+					<description/>
+				</contact>
+				<contact name="Dr. Billie-Rae Katou" type="Street Doc" connection="2" loyalty="2">
+					<description>Metatype: Human
+Sex: Female
+Age: Old
+Preferred Payment Method: Barter (items needed for the profession)
+Hobbies/Vice: Family Obligations (kids)
+Personal Life: Family
+Type: Shadow Service</description>
+				</contact>
+				<contact name="Ittoukaisa Dasai" type="Pirate" connection="5" loyalty="2">
+					<description/>
+				</contact>
+				<contact name="King Solomon" type="Fixer" connection="2" loyalty="4">
+					<description/>
+				</contact>
+				<contact name="Koizumi Ayane" type="Yakuza Wakagashira" connection="1" loyalty="2">
+					<description>Metatype: Human
+Sex: Female
+Age: Middle Aged
+Preferred Payment Method: Service (drek job)
+Hobbies/Vice: Nothing of Interest
+Personal Life: Single
+Type: Personal Favor</description>
+				</contact>
+				<contact name="Philadelphia MacGuire" type="Bounty Hunter" connection="2" loyalty="1">
+					<description>Metatype: Human
+Sex: Female
+Age: Middle-aged
+Preferred Payment Method: Cash (credstick)
+Hobbies/Vice: Entertainment (trid reality shows)
+Personal Life: Single
+Type: Legwork
+
+Retired Bounty Hunter and animal trainer, Philadelphia first met the Harbingers at the conclusion of Episode 1.0: Milk|Run</description>
+				</contact>
+				<contact name="Shimada Yutaka" type="Company Man" connection="1" loyalty="1">
+					<description>Metatype: Human
+Sex: Male
+Age: Middle Aged
+Preferred Payment Method: Cash (corporate scrip)
+Hobbies/Vice: Social habit (alcohol)
+Personal Life: Divorced
+Type: Legwork</description>
+				</contact>
+				<contact name="Shui Zhou" type="Assassin" connection="2" loyalty="2">
+					<description/>
+				</contact>
+			</contacts>
+			<ammotrackers>
+				<ammotracker name="Ares Striker" text="Gel Rounds x12"/>
+				<ammotracker name="Cavalier Arms Crockett EBR" text="Regular Ammo x19"/>
+				<ammotracker name="Nissan Optimum II" text="unloaded"/>
+				<ammotracker name="Nissan Optimum II Shotgun" text="unloaded"/>
+			</ammotrackers>
+			<trackers>
+				<tracker name="Cumulative Recoil" text="0" used="0" left="0" min="0" max="0"/>
+				<tracker name="Edge Pool" text="0/5" used="0" left="5" min="0" max="5"/>
+				<tracker name="Gel Rounds (Assault Rifle)" text="50/50" used="50" left="-50" min="0" max="50"/>
+				<tracker name="Hollow Points (Assault Rifle)" text="50/50" used="50" left="-50" min="0" max="50"/>
+				<tracker name="Hollow Points (Heavy Pistol)" text="50/50" used="50" left="-50" min="0" max="50"/>
+				<tracker name="Movement This Turn (Currently: Stationary)" text="0m" used="0" left="0" min="0" max="0"/>
+				<tracker name="Tracer Rounds (Sniper Rifle)" text="10/10" used="10" left="-10" min="0" max="10"/>
+				<tracker name="Zapper Rounds (Sniper Rifle)" text="20/20" used="20" left="-20" min="0" max="20"/>
+			</trackers>
+			<conditionmonitors totalpenalty="0">
+				<conditionmonitor name="Physical Damage Track" boxes="11" penalty="0"/>
+				<conditionmonitor name="Stun Damage Track" boxes="10" penalty="0"/>
+			</conditionmonitors>
+			<journals>
+				<journal name="From Background" gamedate="20780320" realdate="20200208" karma="9" cash="0" streetcred="0" notoriety="0" awareness="0">
+					<description/>
+				</journal>
+				<journal name="Episode 1.0: Milk|Run" gamedate="20780321" realdate="20200313" karma="7" cash="10800" streetcred="0" notoriety="0" awareness="0">
+					<description/>
+				</journal>
+				<journal name="Episode 2.0: Inferno!" gamedate="20780403" realdate="20200314" karma="2" cash="0" streetcred="0" notoriety="0" awareness="0">
+					<description/>
+				</journal>
+				<journal name="Epsidoe 3.0: No One Knows" gamedate="20780410" realdate="20200509" karma="10" cash="15760" streetcred="0" notoriety="0" awareness="0">
+					<description/>
+				</journal>
+				<journal name="Episode 4.0: Unemployment" gamedate="20780418" realdate="20200725" karma="12" cash="17900" streetcred="0" notoriety="0" awareness="0">
+					<description/>
+				</journal>
+				<journal name="Episode 5.0: The Running Free" gamedate="20780521" realdate="20200925" karma="13" cash="59590" streetcred="0" notoriety="0" awareness="0">
+					<description/>
+				</journal>
+				<journal name="Monthly Expenses" gamedate="20780601" realdate="20200926" karma="0" cash="0" streetcred="0" notoriety="0" awareness="0">
+					<description>Monthly Expenses Applied:
+(1 month) Middle Lifestyle: -1 month</description>
+				</journal>
+				<journal name="Episode 6.0: Heart of Fire" gamedate="20780605" realdate="20201022" karma="2" cash="0" streetcred="0" notoriety="0" awareness="0">
+					<description/>
+				</journal>
+				<journal name="Episode 7.0: Home" gamedate="20780608" realdate="20201112" karma="1" cash="0" streetcred="0" notoriety="0" awareness="0">
+					<description/>
+				</journal>
+				<journal name="Episode 7.1: Home" gamedate="20780609" realdate="20201128" karma="1" cash="0" streetcred="0" notoriety="0" awareness="0">
+					<description/>
+				</journal>
+			</journals>
+			<images>
+				<image filename="Awakended Gunslinger Adept PC-image001.jpg"/>
+			</images>
+			<validation>
+				<report/>
+			</validation>
+			<settings summary="Character Creation Systems: Established Runners; Character Creation Variants: Run Faster — Sum To Ten System; Core Rulebooks: Chrome Flesh, Data Trails, Howling Shadows, Rigger 5.0, Run &amp; Gun, Run Faster, Street Grimoire; Advanced Rules: Forbidden Arcana, Kill Code, Street Lethal; Supplements: Bloody Business, Book of the Lost, Complete Trog, Cutting Aces, Dark Terrors, Hard Targets, Lockdown, Stolen Souls; E-books: Aetherology, Assassin's Primer, Bullets &amp; Bandages, Gun Heaven 3, Shadow Spells, Shadows in Focus: Butte, Shadows in Focus: Metrópole, Shadows in Focus: San Francisco Metroplex, Shadows in Focus: Sioux Nation; Enhanced Fiction: Nothing Personal, Sail Away, Sweet Sister, The Vladivostok Gauntlet; Optional Rules: Allow Adepts to Choose a Tradition, Allow Unlimited Negative Qualities; Optional Rules -&gt; Chrome Flesh Optional Rules: Gamma-Grade Cyberware, Omega-Grade Cyberware, Orks &amp; Trolls get natural weapons, Use Essence Holes; Optional Rules -&gt; Run &amp; Gun Optional Rules: RG2: Target Size Modifiers, RG3: Movement Penalties by Speed; Optional Rules -&gt; Street Grimoire Optional Rules: Reputation in the Spirit World; Optional Rules -&gt; Court of Shadows Optional Rules: Hide &quot;Adventuring In&quot; Selector on Journals; Output Options: Include Vehicle Statblocks on Sheet"/>
+			<minions/>
+		</character>
+	</public>
+</document>

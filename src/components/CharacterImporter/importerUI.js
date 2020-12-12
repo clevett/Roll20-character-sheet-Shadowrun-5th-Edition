@@ -9,7 +9,7 @@
 		const herolabDirections = `
 			<li>Export your character from Hero Lab as XML</li>
 			<li>Go to the website 
-				<input style='width:45%' type='text' value='http://beautifytools.com/xml-to-json-converter.php' />
+				<input style='width:45%' type='text' value='https://codebeautify.org/xmltojson' />
 			</li>
 			<li>Copy the XML into the left side</li>
 			<li>Click the button that says "<b>Convert</b>"</li>

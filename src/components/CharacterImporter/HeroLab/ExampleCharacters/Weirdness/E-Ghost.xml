@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<public>
+		<program name="Hero Lab" url="https://www.wolflair.com">
+			<programinfo>Hero Lab and the Hero Lab logo are Registered Trademarks of LWD Technology, Inc. Free download at https://www.wolflair.com
+Shadowrun © 2005-2019 The Topps Company, Inc. All rights reserved. Shadowrun is a registered trademark of The Topps Company, Inc.</programinfo>
+			<version version="8.9h" primary="8" secondary="9" tertiary="h" build="958"/>
+		</program>
+		<localization language="eng" units="metric"/>
+		<character active="yes" characterindex="1" nature="normal" role="npc" relationship="ally" type="Hero" name="Wraith" playername="GMRWM">
+			<race name="E-Ghost"/>
+			<heritage name=""/>
+			<creation>
+				<bp total="35" left="9"/>
+			</creation>
+			<karma total="7" left="7"/>
+			<cash total="1000"/>
+			<personal gender="Male" age="25" hair="" eyes="" skin="">
+				<description/>
+				<charheight text="1.75m" value="175"/>
+				<charweight text="78kg" value="78"/>
+			</personal>
+			<defenses>
+				<defense name="Ranged Defense" normal="6"/>
+				<defense name="Melee Defense" normal="6"/>
+			</defenses>
+			<armorratings>
+				<armorrating name="Matrix Protection" rating="0" stacking="0" nonstacking="0" dicepool="11"/>
+			</armorratings>
+			<attributes>
+				<attribute name="Willpower" text="4" base="4" modified="4" naturalmaximum="6" augmentedmaximum="8" minimum="1" category="Mental">
+					<description>Willpower is your character's desire to push through adversity, to resist the weariness of spellcasting, and to stay upright after being nailed in the head with a sap.
+
+Whether you're testing yourself against a toxic wilderness or a pack of leather-clad orks with crowbars, Willpower will help you make it through.</description>
+					<traitcost bp="3"/>
+				</attribute>
+				<attribute name="Logic" text="5" base="5" modified="5" naturalmaximum="6" augmentedmaximum="9" minimum="1" category="Mental">
+					<description>The Logic attribute measures the cold, calculating power of your rational mind. Whether you are attempting to repair complicated machinery or patch up an injured teammate, Logic helps you get things right. Logic is also the attribute hermetic mages use to resist Drain from the spells they rain down on their hapless foes.
+
+Deckers also find Logic extremely useful, as it helps them develop the attacks and counterattacks that are part of their online battles.</description>
+					<traitcost bp="4"/>
+				</attribute>
+				<attribute name="Intuition" text="3" base="3" modified="3" naturalmaximum="6" augmentedmaximum="7" minimum="1" category="Mental">
+					<description>Intuition is the voice of your gut, the instinct that tells you things before your logical brain can figure them out. Intuition helps you anticipate ambushes, notice that something is amiss or out of place, and stay on the trail of someone you're pursuing.</description>
+					<traitcost bp="2"/>
+				</attribute>
+				<attribute name="Charisma" text="2" base="2" modified="2" naturalmaximum="6" augmentedmaximum="6" minimum="1" category="Mental">
+					<description>Charisma is your force of personality, the persuasiveness and charm you can call on to get people to do what you want without having to go to the trouble of pulling a gun on them. It's not entirely about your appearance, but it's also not entirely not about your appearance. What it's mostly about is how you use what you have - your voice, your face, your words, and all the tools at your disposal - to charm and/or intimidate the people you encounter. Additionally, Charisma is an important attribute for shamanic mages, as it helps them resist the damaging Drain from spells they cast.</description>
+					<traitcost bp="1"/>
+				</attribute>
+				<attribute name="Device Rating" text="7" base="7" modified="7" naturalmaximum="6" augmentedmaximum="11" minimum="0" category="Special">
+					<description>The Device Rating determines the overall quality and effectiveness of a device.</description>
+					<traitcost bp="-1"/>
+				</attribute>
+				<attribute name="Attack" text="0" base="0" modified="0" naturalmaximum="6" augmentedmaximum="4" minimum="0" category="Matrix">
+					<description>Your Attack rating reflects the programs and utilities you have running on your deck that inject harmful code into other operating systems, or use brute-force algorithms to break encryptions and protections to lay the virtual smackdown. Attack software is high-risk, high-reward, because firewall protocols tend to treat it harshly, doing damage that could hurt your persona if you blow it. Attack actions are good for making quick break-ins, damaging devices, and dealing with Matrix threats in a very fast but loud way.</description>
+					<traitcost bp="-1"/>
+				</attribute>
+				<attribute name="Essence" text="6" base="6" modified="6" naturalmaximum="12" augmentedmaximum="10" minimum="0" category="Derived">
+					<description>Essence is your metahumanity encapsulated in a number. In Shadowrun, you have ample opportunities to alter your body or push it beyond its normal limits. Such actions often have a cost, and they can result in a loss of a portion of your metahumanity, which means a loss of Essence points. Each character starts with an Essence rating of 6, and it acts as a cap on the amount of alterations you can adopt. When it's gone, it doesn't come back. It also affects the Magic and Resonance attributes, as losses in Essence are reflected by losses in Magic and Resonance.
+
+While denizens of the Sixth World are accustomed to seeing a variety of augmentations and alterations to the metahuman form, the "uncanny valley" still exists. The uncanny valley is the disconcerting effect that happens when people see something that is almost, but not quite, metahuman. An animated cartoon with exaggerated features looks fine to metahuman eyes, but a computer program that closely, but not exactly, replicates human appearance is a troubling and unpleasant sight to most viewers. This is what happens when people see others with augmentations - on some level, people notice there is something less (or more) human about that, and they respond to it negatively. The change may not be exactly visible, but it is in some way noticeable - in one way or another, a person has become less human, and on some level other people notice this. This is why a character's Essence is included in the calculation of their Social limit.</description>
+					<traitcost bp="0"/>
+				</attribute>
+				<attribute name="Edge" text="2" base="2" modified="2" naturalmaximum="4" augmentedmaximum="10" minimum="1" category="Special">
+					<description>Edge is the ultimate intangible, that certain something that provides a boost when you need it, that gets you out of a tough spot when the chips are down. It's not used to calculate dice pools; instead, you spend a point of Edge to acquire a certain effect. Every character has at least one point of Edge, more if they want to take more frequent advantage of the boosts it offers. The possible effects of and more details about Edge are on p. 56.</description>
+					<traitcost bp="1"/>
+				</attribute>
+				<attribute name="Sleaze" text="0" base="0" modified="0" naturalmaximum="6" augmentedmaximum="4" minimum="0" category="Matrix">
+					<description>The applications making up your Sleaze attribute mask your Matrix presence, probe the defenses of targets, and subtly alter a target system's code. Sleaze software is delicate, and one mistake will spill the soybeans on you to your target. Sleaze actions are good for intrusions in which you have plenty of time and in dealing with Matrix problems in a slow but quiet way.</description>
+					<traitcost bp="-1"/>
+				</attribute>
+				<attribute name="Data Processing" text="7" base="7" modified="7" naturalmaximum="6" augmentedmaximum="11" minimum="0" category="Matrix">
+					<description>Your Data Processing attribute measures your device's ability to handle information, datastreams, and files. It is used for Matrix actions that aren't, as a general rule, illegal.</description>
+					<traitcost bp="-1"/>
+				</attribute>
+				<attribute name="Depth" text="4" base="4" modified="4" naturalmaximum="6" augmentedmaximum="8" minimum="1" category="Special">
+					<description>Depth is the special attribute that represents an AI's inherent ability to emulate and manipulate Matrix devices.
+
+When creating an AI with the Priority system or Sum to Ten, the AI chooses a starting Depth rating from the chart below. An AI created using the Karma build system starts with a Depth of 1. All of the advanced programs listed below depend on an AI's Depth attribute, as it performs the Emulate action. This attribute also serves as the maximum for an AI's Edge attribute. Depth can be improved with Special Attribute Points during character creation or with Karma. The Karma cost for improving Depth is 10 + (5 x new rating). The maximum rating for an AI's Depth at character creation is 6. During or after character creation, the character may purchase the Exceptional Entity quality to remove this maximum, but that simply allows for future growth. It does not allow the character to increase Depth beyond 6 at character creation.
+
+AIs can learn a number of programs equal to their Depth + Essence.</description>
+					<traitcost bp="1"/>
+				</attribute>
+				<attribute name="Firewall" text="7" base="7" modified="7" naturalmaximum="6" augmentedmaximum="11" minimum="0" category="Matrix">
+					<description>Your Firewall attribute is your protection against outside attacks. It contains code filters, file checkers, virus detection and eradication software, and other defensive programming. Firewall actions are defensive in nature. The most important role of the Firewall is as virtual armor against Matrix damage.</description>
+					<traitcost bp="-1"/>
+				</attribute>
+				<attribute name="Initiative" text="10+4D6" base="10" modified="10" naturalmaximum="12" augmentedmaximum="14" minimum="1" category="Derived">
+					<description>Initiative governs how quickly a character responds in a combat situation. A character's Initiative attribute is their Reaction plus their Intuition.</description>
+					<traitcost bp="0"/>
+				</attribute>
+			</attributes>
+			<movementtypes/>
+			<reputations>
+				<reputation name="Street Cred" value="0"/>
+				<reputation name="Honor" value="0"/>
+				<reputation name="Notoriety" value="0"/>
+				<reputation name="Court Notoriety" value="0"/>
+				<reputation name="Public Awareness" value="0"/>
+				<reputation name="Astral Reputation" value="0"/>
+			</reputations>
+			<qualities>
+				<positive>
+					<quality name="Bilingual">
+						<description>A character with this quality reads, writes, and speaks a second language fluently. They can list a second language as a native tongue (see Language Skills, p. 150). This quality can only be acquired at character creation; selecting it gives the character a second free language skill during Step Five: Purchase Active, Knowledge, and Language Skills, (p. 88).</description>
+						<traitcost bp="5"/>
+					</quality>
+					<quality name="Codeslinger: Hide">
+						<description>Ones and zeroes are practically a native language to a Codeslinger. The character is adept at performing a particular Matrix action (which she selects when she selects this quality) and receives a +2 dice pool modifier to that Matrix action. This can only be selected for Matrix Actions (p. 237) that have a test associated with them.</description>
+						<traitcost bp="10"/>
+					</quality>
+					<quality name="Data Anomaly">
+						<description>An incessant code tinkerer, you know very effective ways to hide your icon, making it look like nothing more than a piece of errant code. You gain +2 dice when resisting a Matrix Perception test while running silent. Unfortunately, whatever it is you're doing to hide yourself has one little flaw—sprites, those mysterious creatures of the Matrix, can spot you instantly, exactly as if you weren't running silent at all.</description>
+						<traitcost bp="3"/>
+					</quality>
+					<quality name="Fade to Black">
+						<description>When the opposition starts getting marks on you, you know the hurt isn't far behind. That feeling of the noose tightening around your neck, the race to get them before they get you … well, you hate that drek. So much so that you have developed your vanishing act technique. When making a Complex Action to perform the Erase Mark action, if you succeed in erasing all marks on you, you may then immediately perform a Hide action as part of the same Complex Action you just took.</description>
+						<traitcost bp="7"/>
+					</quality>
+					<quality name="Hello World! (3)" rank="3" useradded="no">
+						<description>AIs with this quality have an ingrained set of sanity–checking measures that help prevent Fragmentation after disruption. AIs or e-ghosts with Hello World gain +1 die per level on any tests to resist Essence loss.</description>
+						<traitcost bp="0"/>
+					</quality>
+					<quality name="Home Ground (Digital Turf): Facade">
+						<description>If a character knows her neighborhood better than anyone - the shortcuts, the hiding places, and the people she can trust - then she probably has the Home Ground quality. She knows the families who live there, their stories, and what the kids who moved out are doing; she knows the streets better than GridGuide, knows things that aren't on GridGuide, and knows when GridGuide is wrong. She knows the politics of the gangs, who's running for whom and who's running from whom. But it's not just the physical streets. Depending on the character, her Home Ground quality can manifest in ways specific to who and what she is. When choosing this quality, select one of the bonuses below:
+
+• Digital Turf: This is for a decker or technomancer who has a specific host that she calls her own. She may actually own the spot, or it can be a place she frequents enough to consider home. The character receives a +2 bonus to Matrix Tests while in her Home Ground host. Bonuses from other Qualities may stack with Home Ground. If the character has not frequented this host for more than six months, she loses the Home Ground quality because she is no longer as familiar as she should be.
+
+This quality can be taken multiple times, selecting one of the categories above each time.</description>
+						<traitcost bp="10"/>
+					</quality>
+					<quality name="Improved Restoration">
+						<description>AIs with this quality evolved more effective regeneration routines in their source code. For every interval of the Extended Healing Test, if at least a single hit is rolled, one (but only one) additional box on the Core Condition Monitor is healed.</description>
+						<traitcost bp="7"/>
+					</quality>
+					<quality name="Low Profile">
+						<description>This AI has learned to minimize its shadow in the Matrix, allowing it to operate for longer periods of time before convergence. AIs with this quality generate half as much OS (rounded up) when performing an illegal Matrix action. This quality only works on actions made using devices directly, so the Emulate action doesn't benefit from its effect.</description>
+						<traitcost bp="7"/>
+					</quality>
+					<quality name="Lucky" useradded="no">
+						<description>The dice roll and the coin flips this character's way more often than not, giving her the chance to drop jaws in amazement at her good fortune. Lucky allows a character to possess an Edge attribute one point higher than his metatype maximum (for example, a human character could raise her Edge to 8). Note that taking this quality does not actually increase the character's current Edge rating, it just allows her the opportunity to do so; the Karma cost for gaining the extra point must still be paid. This quality may only be taken once and must be approved by the gamemaster. The Lucky quality cannot be combined with Exceptional Attribute.
+
+This quality decreases Notoriety by 1 (p. 372).</description>
+						<traitcost bp="0"/>
+					</quality>
+					<quality name="Ninja Vanish">
+						<description>Even the best sometimes get clipped. Maybe you're in a host, holding off some IC, but there are just too damn many of them. Maybe you're in the middle of a firefight and the enemy hacker is getting the best of you, and you're moments away from having your deck reformatted, when suddenly, the Matrix glitches. A little localized reset saves your bacon. Just like that. What are the odds, neh? Maybe GOD is on your side? That can't be—you must just be that good.
+
+As a Free Action, the character can spend 1 point of Edge to remove all marks a single opponent has on him. Note that in cases where other targets were sharing marks with your target, such as IC in a host, the others also lose their marks.</description>
+						<traitcost bp="5"/>
+					</quality>
+					<quality name="Photographic Memory" useradded="no">
+						<description>A character with Photographic Memory can instantly recall facts, dates, numbers, or anything else he has seen or heard. The character gains a +2 dice pool modifier to all Memory Tests.</description>
+						<traitcost bp="0"/>
+					</quality>
+					<quality name="Speed Reading (8dicepool)" useradded="no">
+						<description>When you found out the professor was offering an open-book final that could count as one hundred percent of your grade, you covered a year's tuition by betting you could ace it without ever attending a single class. With this quality, a character can read through a full page of written text (about 800 words) in about five seconds or an 800-page textbook in about an hour. The information read is not memorized (unless the character also possesses the Photographic Memory quality, p. 76, SR5, which allows a test for anything in the book after it is read), but the reader can gain a basic understanding of the contents. If attempting to locate a specific piece of information, phrase, or subject while in the process of reading, the character can attempt a Logic + Intuition Extended Test with a threshold and interval determined by the gamemaster based on the length of the text, its complexity, and the obscurity of the information being sought.</description>
+						<traitcost bp="0"/>
+					</quality>
+				</positive>
+				<negative>
+					<quality name="Code of Honor: Nationalist: Shiawase Loyalist (6dicepool vs. 4)">
+						<description>Nationalist (Country): The character has an unwavering belief in the rightness of his country's policies, and seeks to advance its agenda even if it would hinder his current goals. The character loses 1 Karma per agent of the government they kill, including contractors, or knowingly allow to be killed, even in self-defense. Note that nationalism does not include penalties for simply breaking the law, which can be justified through mental contortions great and small.
+
+Code of Honor
+The character has a binding Code of Honor when it comes to killing members of a specific group; it's a matter of unwavering principle. The character with the Code of Honor quality chooses a specific group that they will not kill or allow others to kill. Examples of this group could include women, children, innocent bystanders, or a specific metatype. A character can choose to protect specific paracritters, but only if the specified paracritter possesses the Sapience power.
+
+The gamemaster must approve the group that the character designates as being "off limits." If the group (such as children) is not regularly encountered in campaigns, the gamemaster can reject the choice. If the player feels strongly about his choice, the gamemaster may allow the player to take two groups they will not harm, (i.e., women and children), one of which must be likely to be encountered in the campaign. A magician can legitimately choose to not destroy any type of spirit from which their Mentor Spirit bestows a bonus for summoning. This Code of Honor respects their Mentor Spirit and is worthy of the Karma. Characters can't pick an obscure or non-existent group to acquire this quality - you can't acquire Karma by vowing to never kill sapient hamsters, for example.
+
+Any time anyone attempts to kill a member of the character's protected list, the character must make a Charisma + Willpower (4) Test. A failed roll means the character must immediately put a stop the violence against the member of their protected group. If the situation forces the character to take action against any of his protected group, he will always choose non-lethal methods. Killing a member of the group he has sworn to protect is a line he will not cross for any reason.
+
+There are drawbacks to having a Code of Honor. For example, it can leave witnesses behind. For each person in the protected group the character leaves alive and who is in a position to remember them, increase the character's Public Awareness by 1. The character's job options are also limited - he will not take a job if the objective is the death of a member of his protected group and will have reservations about taking part in a mission with a high probability of causing collateral harm to members of his protected group.
+
+There is always a chance things will go wrong whenever non-lethal force is used. A person may have a life-threatening allergic reaction to a usually harmless knockout drug, or a heart condition that makes a taser shock deadly. For this reason, each time the character takes a violent action or allows others to take violent action against a member of his chosen group, the gamemaster makes a secret roll of 1D6. On a roll of 1, there is an unforeseen complication from the use of non-lethal force. With a metahuman it could be a life-threatening medical condition; with a spirit, an attempt to banish rather than destroy may in fact set the spirit free. When a complication arises, the gamemaster makes a secret Perception (4) Test for the character to notice if anything has gone wrong.
+
+If a person in the character's chosen group is killed, whether intentionally or inadvertently, the character loses a point of Karma for that adventure for each person in their "protected group" that is killed.</description>
+						<traitcost bp="-15"/>
+					</quality>
+					<quality name="Did You Just Call Me Dumb?">
+						<description>The character can't resist camouflaging insults into well-spoken words. The character gets the satisfaction of feeling superior to everyone. Unfortunately, once in a while people will notice and get pretty upset. Any Glitch rolled by this character on any Social test always counts as a Critical Glitch.</description>
+						<traitcost bp="-3"/>
+					</quality>
+					<quality name="Social Stress: Dealing with AIs" useradded="no">
+						<description>Whether as a result of loss or trauma or due to innate psychological makeup, the Social Stress quality burdens the character with emotions that interfere with his ability to interact with others. A specific cause and trigger for the Social Stress must be established. For example, if his Social Stress is caused by survivor's guilt after the loss of a close friend, unexpectedly encountering someone who looks similar to the lost friend will heighten stress. When a character is using Leadership or Etiquette skills, reduce the number of 1s required to glitch the test by 1. Gamemasters should call for more Social Tests for characters with Social Stress to determine how a character reacts to others, particularly if a situation related to the cause of their stress arises.</description>
+						<traitcost bp="0"/>
+					</quality>
+					<quality name="Wanted">
+						<description>It feels so good to be wanted, or maybe not. Though most runners are probably wanted for questioning in a few cases, this is something different. When the character takes this quality, they work out why they have a bounty or contract on their head. The bounty should be worth at least 25,000 nuyen, enough to tempt even one's own "friends." The character should have to frequently deal with someone coming for them or finding out about the bounty and using it against them.
+
+If for some reason the bounty ever goes away, like the character is turned in or they clear their name, the quality must be bought off with Karma.</description>
+						<traitcost bp="-10"/>
+					</quality>
+				</negative>
+			</qualities>
+			<skills>
+				<groups>
+					<skill name="Close Combat Group" text="2" base="2" modified="2" naturalmaximum="12" augmentedmaximum="3">
+						<addsskill name="Blades"/>
+						<addsskill name="Clubs"/>
+						<addsskill name="Unarmed Combat"/>
+						<addsskill name="Unarmed Combat"/>
+						<description/>
+						<traitcost bp="2"/>
+					</skill>
+				</groups>
+				<active>
+					<skill name="Automatics" text="2" base="2" modified="2" naturalmaximum="12" augmentedmaximum="3" dicepool="2" group="Firearms Group">
+						<description>The Automatics skill covers a specific subset of firearms larger than handheld pistols but smaller than rifles. This category includes submachine guns and other fully automatic carbines.</description>
+						<traitcost bp="2"/>
+					</skill>
+					<skill name="Blades" text="2" base="2" modified="2" naturalmaximum="12" augmentedmaximum="3" dicepool="2" group="Close Combat Group" fromgroup="yes">
+						<description>Slice and dice! The Blades skill includes the use of all handheld slashing and stabbing weapons. You can use a range of edged weapons including daggers, swords, and axes.</description>
+						<traitcost bp="0"/>
+					</skill>
+					<skill name="Clubs" text="2" base="2" modified="2" naturalmaximum="12" augmentedmaximum="3" dicepool="2" group="Close Combat Group" fromgroup="yes">
+						<description>Clubs governs the use of all hand-held bludgeoning instruments. With this skill you can turn any blunt item, be it a baseball bat, crutch, or mace, into a weapon.</description>
+						<traitcost bp="0"/>
+					</skill>
+					<skill name="Computer" text="6" base="6" modified="6" naturalmaximum="12" augmentedmaximum="9" dicepool="11" group="Electronics Group">
+						<description>Computer is the base skill for interacting with the Matrix. It represents the ability to use computers and other Matrix- connected devices. The Computer skill focuses on understanding multiple operating systems. It does not allow the character to exploit code (Hacking) or strip down mainframes (Hardware). See Using Computer, p. 226.</description>
+						<traitcost bp="6"/>
+					</skill>
+					<skill name="Cybercombat" text="12" base="12" modified="12" naturalmaximum="12" augmentedmaximum="18" dicepool="17" group="Cracking Group">
+						<description>Cybercombat is the skill used by hackers to engage in combat on the Matrix. See Using Cybercombat, p. 226</description>
+						<traitcost bp="10"/>
+					</skill>
+					<skill name="Electronic Warfare" text="8" base="8" modified="8" naturalmaximum="12" augmentedmaximum="12" dicepool="13" group="Cracking Group">
+						<description>Electronic Warfare is the basis of military signals intelligence. It governs the encoding, disruption, spoofing, and decoding of communication systems. Providing the user has the proper equipment, the skill can be used to manipulate or even take over the signal of any item's communication system. See Using Electronic Warfare, p. 226.</description>
+						<traitcost bp="8"/>
+					</skill>
+					<skill name="Etiquette" text="2" base="2" modified="2" naturalmaximum="12" augmentedmaximum="3" dicepool="2" group="Influence Group">
+						<description>Etiquette represents the level of understanding and awareness of proper social rituals. The skill works as a sort of social version of Sneak, allowing you to move unimpeded through various social situations. Etiquette also serves as a social safety net in case a player botches a social situation in a way a skilled character would not. See Using Etiquette, p. 141.</description>
+						<traitcost bp="2"/>
+					</skill>
+					<skill name="Hacking" text="6" base="6" modified="6" naturalmaximum="12" augmentedmaximum="9" dicepool="11" group="Cracking Group">
+						<description>Hacking is used to discover and exploit security flaws in computers and other electronics. For more on how Hacking is used, see Using Hacking, p. 226.</description>
+						<traitcost bp="6"/>
+					</skill>
+					<skill name="Hardware" text="5" base="5" modified="5" naturalmaximum="12" augmentedmaximum="8" dicepool="10" group="Electronics Group">
+						<description>Hardware reflects a characters ability to build and repair electronic devices. A workspace, proper materials, and sufficient build time are required to enact a repair or to build a new device. See Building &amp; Repairing, at right.</description>
+						<traitcost bp="5"/>
+					</skill>
+					<skill name="Impersonation" text="4" base="4" modified="4" naturalmaximum="12" augmentedmaximum="6" dicepool="4" group="Acting Group">
+						<description>Impersonation is the ability to assume the identity of another person, including voice and physical mannerisms. The skill is limited by the physical abilities of the character. A dwarf might be able to impersonate a troll over a commlink, but the illusion shatters when he is face to face with his target.</description>
+						<traitcost bp="4"/>
+					</skill>
+					<skill name="Locksmith" text="4" base="4" modified="4" naturalmaximum="12" augmentedmaximum="6" dicepool="4" group="">
+						<description>This skill covers building, repairing, and opening mechanical and electronic locks. While largely banished to antiquity, traditional mechanical locking mechanisms are still in use around the globe, often as throwbacks or backups. Electronic locks are far more common and quite susceptible to your ministrations. See Doors, Windows, &amp; Locks, p. 363.</description>
+						<traitcost bp="4"/>
+					</skill>
+					<skill name="Perception" text="3" base="3" modified="3" naturalmaximum="12" augmentedmaximum="5" dicepool="6" group="">
+						<description>Perception refers to the ability to spot anomalies in everyday situations, making it one of the key skills a shadowrunner needs. See Using Perception, p. 135.</description>
+						<traitcost bp="3"/>
+					</skill>
+					<skill name="Software" text="5" base="5" modified="5" naturalmaximum="12" augmentedmaximum="8" dicepool="10" group="Electronics Group">
+						<description>Software is the skill used to create and manipulate programming in the Matrix. See Using Software, p. 226. It's also what technomancers use when they create their complex forms (Threading, p. 251).</description>
+						<traitcost bp="5"/>
+					</skill>
+					<skill name="Unarmed Combat" text="5" base="5" modified="5" naturalmaximum="12" augmentedmaximum="8" dicepool="5" group="Close Combat Group" fromgroup="yes">
+						<description>Unarmed Combat covers the various self-defense and attack moves that employ the body as a primary weapon. This includes a wide array of martial arts along with the use of cybernetic implant weaponry and the fighting styles that sprung up around those implants.</description>
+						<traitcost bp="3"/>
+					</skill>
+					<skill name="Unarmed Combat" text="2" base="2" modified="2" naturalmaximum="12" augmentedmaximum="3" dicepool="2" group="Close Combat Group" fromgroup="yes">
+						<description>Unarmed Combat covers the various self-defense and attack moves that employ the body as a primary weapon. This includes a wide array of martial arts along with the use of cybernetic implant weaponry and the fighting styles that sprung up around those implants.</description>
+						<traitcost bp="0"/>
+					</skill>
+				</active>
+				<knowledge>
+					<skill name="AIs" text="2" base="2" modified="2" naturalmaximum="12" augmentedmaximum="3" dicepool="7" group="">
+						<description/>
+						<traitcost bp="2"/>
+					</skill>
+					<skill name="Shiawase Procedures" text="3" base="3" modified="3" naturalmaximum="12" augmentedmaximum="5" dicepool="8" group="">
+						<description/>
+						<traitcost bp="3"/>
+					</skill>
+				</knowledge>
+				<language>
+					<skill name="English" text="N" base="1" modified="1" naturalmaximum="12" augmentedmaximum="2" dicepool="4" group="">
+						<description/>
+						<traitcost bp="0"/>
+					</skill>
+					<skill name="Japanese" text="N" base="1" modified="1" naturalmaximum="12" augmentedmaximum="2" dicepool="4" group="">
+						<description/>
+						<traitcost bp="0"/>
+					</skill>
+				</language>
+			</skills>
+			<gear>
+				<augmentations>
+					<cyberware/>
+					<bioware/>
+				</augmentations>
+				<weapons/>
+				<armor/>
+				<equipment>
+					<item name="Fairlight Caliban" size="Human/Elf/Ork Size" wireless="Present">
+						<description>Basic Persona: Completely black humanoid
+Base Theme: Island
+Device Icon: Boat in a storm
+Commlinks are universal communication devices; they're used by everyone all the time. Commlinks are essentially the digital Swiss army knives of the modern world. Even the most basic of them includes AR Matrix browsing capability, multiple telephone and radio modes of real-time talk and text, music players, micro trid-projectors, touchscreen displays, built in high-resolution digital video and still image cameras, image/text and RFID tag scanners, built-in GPS guidance systems, chip players, credstick readers, retractable earbuds, voice-access dialing, text-to-speech and speech-to-text technologies, and a shock and water resistant case. And all of this at an inexpensive price that a few decades ago would have seemed absurd.</description>
+						<gearcost text="8,000¥" value="8000"/>
+						<availability text="14" value="14" class=""/>
+						<matrix initiative="10" dr="14">
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="7" base="7" modified="7"/>
+							<matrixattribute name="Firewall" text="7" base="7" modified="7"/>
+						</matrix>
+						<conditionmonitor name="Fairlight Caliban" boxes="12" penalty="0"/>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+				</equipment>
+			</gear>
+			<identities/>
+			<contacts>
+				<contact name="Beat Cop" type="Beat Cop" connection="2" loyalty="2">
+					<description/>
+				</contact>
+				<contact name="Corporate Administrator" type="Corporate Administrator" connection="3" loyalty="2">
+					<description>Metatype: Ork
+Sex: Male
+Age: Middle-aged
+Preferred Payment Method: Cash (corporate scrip)
+Hobbies/Vice: Social Habit (smoking cigarettes)
+Personal Life: Family
+Type: Legwork</description>
+				</contact>
+				<contact name="Cybernetic Technician" type="Cybernetic Technician" connection="4" loyalty="2">
+					<description>Metatype: Troll
+Sex: Female
+Age: Young
+Preferred Payment Method: Service (shadowrunner job)
+Hobbies/Vice: Social Habit (Smoking Cigarettes)
+Personal Life: Single
+Type: Shadow Service</description>
+				</contact>
+			</contacts>
+			<ammotrackers/>
+			<trackers>
+				<tracker name="Edge Pool" text="0/2" used="0" left="2" min="0" max="2"/>
+			</trackers>
+			<conditionmonitors totalpenalty="0">
+				<conditionmonitor name="Core Damage Track" boxes="10" penalty="0"/>
+			</conditionmonitors>
+			<journals>
+				<journal name="Title" gamedate="0" realdate="20200716" karma="0" cash="0" streetcred="0" notoriety="0" awareness="0">
+					<description/>
+				</journal>
+			</journals>
+			<images/>
+			<validation>
+				<report/>
+			</validation>
+			<settings summary="Character Creation Systems: Prime Runner Play; Character Creation Variants: Run Faster — Sum To Ten System; Core Rulebooks: Chrome Flesh, Data Trails, Howling Shadows, Rigger 5.0, Run &amp; Gun, Run Faster, Street Grimoire; Advanced Rules: Forbidden Arcana, Kill Code, Street Lethal; Supplements: Bloody Business, Book of the Lost, Complete Trog, Court of Shadows, Cutting Aces, Dark Terrors, Hard Targets, Lockdown, Stolen Souls; E-books: Aetherology, Assassin's Primer, Bullets &amp; Bandages, Gun Heaven 3, Shadow Spells, Shadows in Focus: Butte, Shadows in Focus: Metrópole, Shadows in Focus: San Francisco Metroplex, Shadows in Focus: Sioux Nation; Enhanced Fiction: Nothing Personal, Sail Away, Sweet Sister, The Vladivostok Gauntlet; Optional Rules: Allow Adepts to Choose a Tradition, Allow Unlimited Negative Qualities; Optional Rules -&gt; Chrome Flesh Optional Rules: Gamma-Grade Cyberware, Omega-Grade Cyberware, Orks &amp; Trolls get natural weapons, Use Essence Holes; Optional Rules -&gt; Run &amp; Gun Optional Rules: RG2: Target Size Modifiers, RG3: Movement Penalties by Speed; Optional Rules -&gt; Street Grimoire Optional Rules: Reputation in the Spirit World; Optional Rules -&gt; Court of Shadows Optional Rules: Hide &quot;Adventuring In&quot; Selector on Journals; Output Options: Include Vehicle Statblocks on Sheet"/>
+			<npc>
+				<basics/>
+				<tactics/>
+				<ecology/>
+				<additional/>
+			</npc>
+			<minions/>
+		</character>
+	</public>
+</document>

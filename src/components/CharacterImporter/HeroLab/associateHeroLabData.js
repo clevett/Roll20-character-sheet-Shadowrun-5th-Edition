@@ -26,16 +26,14 @@ const associateHeroLabData = character => {
   const initiativeData = getInitiativeFromHeroLab(character.attributes.attribute)
 
   const characterMovement = character.movementtypes.movementtype
-  const movementData = associateMovementFromHeroLab(characterMovement, attributeData)
+  const movementData = characterMovement ? associateMovementFromHeroLab(characterMovement, attributeData) :  {}
 
   /* GEAR */
-  const gearItemData = associateGearItemsFromHeroLab(character.gear.equipment)
+  const gearItemData = character.gear.equipment ? associateGearItemsFromHeroLab(character.gear.equipment) : {}
 
   /* Augs */ 
-  if (character.gear.augmentations) {
-    const augsData = associateAugmentationFromHeroLab(character.gear.augmentations)
-    console.log(augsData)
-  }
+  const augsData = character.gear.augmentations ? associateAugmentationFromHeroLab(character.gear.augmentations) : {} 
+
 
   /* TESTING */
   delete(character.settings)
@@ -47,6 +45,7 @@ const associateHeroLabData = character => {
   delete(character.personal)
   delete(character.reputations)
   delete(character.race)
+  console.log("%c Hero Lab JSON", "color: orange; font-weight:bold")
   console.log(character)
 
   const Roll20Character = {
@@ -56,8 +55,8 @@ const associateHeroLabData = character => {
     ...initiativeData,
     ...movementData,
     ...gearItemData,
+    ...augsData,
   }
-
   
   //Will need to return character eventually
   return {text: setText, character: Roll20Character}

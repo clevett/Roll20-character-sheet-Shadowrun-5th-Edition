@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<public>
+		<program name="Hero Lab" url="https://www.wolflair.com">
+			<programinfo>Hero Lab and the Hero Lab logo are Registered Trademarks of LWD Technology, Inc. Free download at https://www.wolflair.com
+Shadowrun © 2005-2019 The Topps Company, Inc. All rights reserved. Shadowrun is a registered trademark of The Topps Company, Inc.</programinfo>
+			<version version="8.9h" primary="8" secondary="9" tertiary="h" build="958"/>
+		</program>
+		<localization language="eng" units="metric"/>
+		<character active="yes" characterindex="3" nature="normal" role="npc" relationship="ally" type="Horizon &quot;Noizquito&quot;" name="Ahpe" playername="Rachelle Morris">
+			<race name="Horizon &quot;Noizquito&quot;"/>
+			<heritage name=""/>
+			<creation>
+				<bp total="25" left="25"/>
+			</creation>
+			<karma total="7" left="7"/>
+			<cash total="64775"/>
+			<personal gender="Male" age="25" hair="" eyes="" skin="">
+				<description/>
+				<charheight text="1.75m" value="175"/>
+				<charweight text="78kg" value="78"/>
+			</personal>
+			<defenses>
+				<defense name="Ranged Defense" normal="6"/>
+				<defense name="Melee Defense" normal="6"/>
+			</defenses>
+			<armorratings>
+				<armorrating name="Armor" rating="0" stacking="0" nonstacking="0" dicepool="1"/>
+				<armorrating name="Acid Protection" rating="0" stacking="0" nonstacking="0" dicepool="1"/>
+				<armorrating name="Cold Protection" rating="0" stacking="0" nonstacking="0" dicepool="1"/>
+				<armorrating name="Electricity Protection" rating="0" stacking="0" nonstacking="0" dicepool="1"/>
+				<armorrating name="Fire Protection" rating="0" stacking="0" nonstacking="0" dicepool="1"/>
+			</armorratings>
+			<attributes>
+				<attribute name="Handling" text="4" base="4" modified="4" naturalmaximum="99" augmentedmaximum="8" minimum="0" category="Vehicle">
+					<description>Handling represents the vehicle's agility and responsiveness. This value is the base limit for Vehicle Tests made where maneuverability is the most important feature.</description>
+					<traitcost bp="4"/>
+				</attribute>
+				<attribute name="Speed" text="3" base="3" modified="3" naturalmaximum="99" augmentedmaximum="7" minimum="0" category="Vehicle">
+					<description>Speed represents the maximum velocity that the vehicle can achieve - its top-end speed. This value is the base limit for Vehicle Tests that emphasize raw speed.</description>
+					<traitcost bp="3"/>
+				</attribute>
+				<attribute name="Acceleration" text="2" base="2" modified="2" naturalmaximum="99" augmentedmaximum="6" minimum="0" category="Vehicle">
+					<description>Acceleration defines how quickly a vehicle is able to change its current speed and close the distance between it and another moving target. The value represents the maximum number of Range Categories that the vehicle can move in a single Combat Turn.</description>
+					<traitcost bp="2"/>
+				</attribute>
+				<attribute name="Body" text="1" base="1" modified="1" naturalmaximum="7" augmentedmaximum="5" minimum="0" category="Vehicle">
+					<description>Body measures your physical health and resiliency.
+
+It affects how much damage you can take and stay on your feet, how well you resist damage coming your way, your ability to recover from poisons and diseases, and things of that nature.</description>
+					<traitcost bp="0"/>
+				</attribute>
+				<attribute name="Level" text="3" base="3" modified="3" naturalmaximum="99" augmentedmaximum="7" minimum="0" category="Vehicle">
+					<description>Pilot is a rating defining the capabilities of the built-in computer piloting system with which all vehicles in the Sixth World come equipped. For any vehicle not being actively piloted by a metahuman, this takes the place of all Mental attributes and Reaction for any tests the vehicle needs to make.</description>
+					<traitcost bp="3"/>
+				</attribute>
+				<attribute name="Sensor" text="3" base="3" modified="3" naturalmaximum="99" augmentedmaximum="7" minimum="0" category="Vehicle">
+					<description>Sensor is a rating representing the suite of information-gathering or detection devices that are built into every vehicle in the Sixth World. Sensor acts as the limit for Perception and other detection tests using the vehicle's systems.</description>
+					<traitcost bp="3"/>
+				</attribute>
+				<attribute name="Device Rating" text="3" base="3" modified="3" naturalmaximum="9" augmentedmaximum="7" minimum="0" category="Special">
+					<description>The Device Rating determines the overall quality and effectiveness of a device.</description>
+					<traitcost bp="0"/>
+				</attribute>
+				<attribute name="Data Processing" text="3" base="3" modified="3" naturalmaximum="9" augmentedmaximum="7" minimum="1" category="Matrix">
+					<description>Your Data Processing attribute measures your device's ability to handle information, datastreams, and files. It is used for Matrix actions that aren't, as a general rule, illegal.</description>
+					<traitcost bp="-1"/>
+				</attribute>
+				<attribute name="Firewall" text="3" base="3" modified="3" naturalmaximum="9" augmentedmaximum="7" minimum="1" category="Matrix">
+					<description>Your Firewall attribute is your protection against outside attacks. It contains code filters, file checkers, virus detection and eradication software, and other defensive programming. Firewall actions are defensive in nature. The most important role of the Firewall is as virtual armor against Matrix damage.</description>
+					<traitcost bp="-1"/>
+				</attribute>
+				<attribute name="Initiative" text="6+4D6" base="6" modified="6" naturalmaximum="108" augmentedmaximum="10" minimum="1" category="Derived">
+					<description>Initiative governs how quickly a character responds in a combat situation. A character's Initiative attribute is their Reaction plus their Intuition.</description>
+					<traitcost bp="0"/>
+				</attribute>
+			</attributes>
+			<movementtypes/>
+			<reputations>
+				<reputation name="Street Cred" value="0"/>
+				<reputation name="Notoriety" value="0"/>
+				<reputation name="Public Awareness" value="0"/>
+				<reputation name="Astral Reputation" value="0"/>
+			</reputations>
+			<qualities>
+				<positive/>
+				<negative/>
+			</qualities>
+			<skills>
+				<groups/>
+				<active>
+					<skill name="Pilot Aircraft" text="3" base="0" modified="3" naturalmaximum="12" augmentedmaximum="0" dicepool="6" group="">
+						<description>This skill is used to pilot any manned or unmanned aircraft operating solely within planetary atmosphere.</description>
+						<traitcost bp="0"/>
+					</skill>
+				</active>
+				<knowledge/>
+				<language/>
+			</skills>
+			<gear>
+				<augmentations>
+					<cyberware/>
+					<bioware/>
+				</augmentations>
+				<weapons/>
+				<armor>
+					<item name="Vehicle Armor" useradded="no" quantity="1">
+						<description>Vehicle armor functions just like character armor, and is used for the vehicle's damage resistance tests. Vehicle armor is the same rating against both ballistic and impact attacks.
+
+Since vehicle armor is often much higher than ordinary character armor, gamemasters should remember to use the trade-in rule for large dice pools (4 dice for 1 hit, see Buying Hits, p. 62).
+
+If an attack's modified DV does not exceed a vehicle's modified Armor rating, then the attack automatically fails.</description>
+						<gearcost text="0¥" value="0"/>
+						<availability text="" value="0" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<armorinfo rating="+0" acid="0" cold="0" electricity="0" falling="0" fire="0" radiation="0" laser="0" equipped="yes" natural="yes"/>
+					</item>
+				</armor>
+				<equipment>
+					<item name="Evasion" rating="3" dicepool="0" quantity="1">
+						<description>This autosoft teaches the drones autopilot how to avoid being locked onto by Sensors.</description>
+						<gearcost text="1,500¥" value="1500"/>
+						<availability text="6" value="6" class=""/>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Maneuvering: Pilot Aircraft" rating="3" dicepool="0" quantity="1">
+						<description>This is like a Pilot [Vehicle type] skill, except that it only applies to one specific drone model.</description>
+						<gearcost text="1,500¥" value="1500"/>
+						<availability text="6" value="6" class=""/>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Rigger Interface" useradded="no" quantity="1">
+						<description>By the 2070s rigger control of vehicles have become so common that even if a rigger adaption isn't installed as standard for a vehicle, it can easily be added after-market. This modification allows a rigger to jump in to a vehicle and control it with a full sensory experience. This includes installation of the "black box" that processes the sensory impressions for human consumption, along with a suite of sensors and relays connected to various parts of the vehicle. All drones come equipped with a rigger interface by default.</description>
+						<gearcost text="0¥" value="0"/>
+						<availability text="" value="0" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+					</item>
+					<item name="Speakers" useradded="no" quantity="1" size="" wireless="Present">
+						<description>Depending upon its intended role, a vehicle may have a variety of specialized equipment. This modification is a "catch-all" category for any specific piece of equipment that a rigger may want installed on their vehicle. This could include such things as a dozer blade, snow-removal device, asphalt dispenser, road-paint applicator, or temperature controlled storage. No fixed costs are provided, as the gamemaster has final say on what can be installed on the vehicle and what effect it may have.</description>
+						<gearcost text="0¥" value="0"/>
+						<availability text="" value="0" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Strobes" useradded="no" quantity="1" size="" wireless="Present">
+						<description>Depending upon its intended role, a vehicle may have a variety of specialized equipment. This modification is a "catch-all" category for any specific piece of equipment that a rigger may want installed on their vehicle. This could include such things as a dozer blade, snow-removal device, asphalt dispenser, road-paint applicator, or temperature controlled storage. No fixed costs are provided, as the gamemaster has final say on what can be installed on the vehicle and what effect it may have.</description>
+						<gearcost text="0¥" value="0"/>
+						<availability text="" value="0" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+				</equipment>
+			</gear>
+			<identities/>
+			<contacts/>
+			<ammotrackers/>
+			<trackers>
+				<tracker name="Cumulative Recoil" text="0" used="0" left="0" min="0" max="0"/>
+			</trackers>
+			<conditionmonitors totalpenalty="0">
+				<conditionmonitor name="Matrix Damage Track" boxes="10" penalty="0"/>
+				<conditionmonitor name="Physical Damage Track" boxes="7" penalty="0"/>
+			</conditionmonitors>
+			<journals>
+				<journal name="Title" gamedate="0" realdate="20190622" karma="0" cash="0" streetcred="0" notoriety="0" awareness="0">
+					<description/>
+				</journal>
+			</journals>
+			<images>
+				<image filename="Modified Horizon Noizquito Flying Drone-image001.jpg"/>
+			</images>
+			<validation>
+				<report/>
+			</validation>
+			<settings summary="Character Creation Systems: Established Runners; Character Creation Variants: Run Faster — Sum To Ten System; Core Rulebooks: Chrome Flesh, Data Trails, Howling Shadows, Rigger 5.0, Run &amp; Gun, Run Faster, Street Grimoire; Advanced Rules: Forbidden Arcana, Kill Code, Street Lethal; Supplements: Bloody Business, Book of the Lost, Complete Trog, Cutting Aces, Dark Terrors, Hard Targets, Lockdown, Stolen Souls; E-books: Aetherology, Assassin's Primer, Bullets &amp; Bandages, Gun Heaven 3, Shadow Spells, Shadows in Focus: Butte, Shadows in Focus: Metrópole, Shadows in Focus: San Francisco Metroplex, Shadows in Focus: Sioux Nation; Enhanced Fiction: Nothing Personal, Sail Away, Sweet Sister, The Vladivostok Gauntlet; Optional Rules: Allow Adepts to Choose a Tradition, Allow Unlimited Negative Qualities; Optional Rules -&gt; Chrome Flesh Optional Rules: Gamma-Grade Cyberware, Omega-Grade Cyberware, Orks &amp; Trolls get natural weapons, Use Essence Holes; Optional Rules -&gt; Run &amp; Gun Optional Rules: RG2: Target Size Modifiers, RG3: Movement Penalties by Speed; Optional Rules -&gt; Street Grimoire Optional Rules: Reputation in the Spirit World; Optional Rules -&gt; Court of Shadows Optional Rules: Hide &quot;Adventuring In&quot; Selector on Journals; Output Options: Include Vehicle Statblocks on Sheet"/>
+			<npc>
+				<basics>
+					<npcinfo name="Description">Microdrone
+
+(PILOT AIRCRAFT)
+
+The Aztlan-Amazonian War was ostensibly about two nations fighting over resources, but it was also a proxy war between Aztechnology and Horizon, who were fighting for the hearts and minds of the world. In this fight, Horizon attempted to act primarily through cat’spaws and cut-outs, avoiding a direct confrontation that could lead to bad press. Thus, rather than providing weapons and materiel to the Amazonians, Horizon developed a drone that could do what Horizon does best—harass and annoy.
+
+The NoizQuito was developed as a flying micro-drone with a few special tricks. Visually similar to a mosquito, the body of the drone can only house a small number of features. The most prevalent and obvious of these features is the speaker system. The drone can blast sounds as loud as 160 decibels (which is the volume of high-end race cars), which are used to produce distractions and possibly even minor ear damage in those unfortunate enough to be near the drone when it activates. Additionally, the drone’s wings and body are covered in small LEDs that are powerful enough to produce blinding levels of light in a bewildering array of strobe patterns.
+
+Standard Upgrades: Flying, speakers, strobes
+
+Game Information: When activated, the strobes impose a –2 penalty to all actions by those who are currently looking in the direction of the drone. This penalty is reduced to –1 if the target has flare compensation. The speakers impose a –2 penalty to all actions by those within earshot of the drone, which is lessened to –1 for those with a sound damper system. If there are multiple drones acting as a group, the penalties are cumulative for each drone (meaning that if three drones are working as one, the target can take as much as a –12 penalty to all actions).
+
+Note: “Earshot” has the potential to be quite far, but the physics calculations for determining actual earshot are too complicated for a roleplaying game. As always, the gamemaster has the final say in determining who (or what) is affected.</npcinfo>
+				</basics>
+				<tactics/>
+				<ecology/>
+				<additional/>
+				<bookinfo name="Rigger 5 p. 128"/>
+			</npc>
+			<minions/>
+		</character>
+	</public>
+</document>

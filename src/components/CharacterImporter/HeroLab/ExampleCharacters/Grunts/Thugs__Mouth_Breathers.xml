@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<public>
+		<program name="Hero Lab" url="https://www.wolflair.com">
+			<programinfo>Hero Lab and the Hero Lab logo are Registered Trademarks of LWD Technology, Inc. Free download at https://www.wolflair.com
+Shadowrun © 2005-2019 The Topps Company, Inc. All rights reserved. Shadowrun is a registered trademark of The Topps Company, Inc.</programinfo>
+			<version version="8.9h" primary="8" secondary="9" tertiary="h" build="958"/>
+		</program>
+		<localization language="eng" units="metric"/>
+		<character active="yes" characterindex="1" nature="normal" role="npc" relationship="enemy" type="Hero" name="Thugs &amp; Mouth Breathers" playername="">
+			<race name="Human"/>
+			<heritage name=""/>
+			<creation>
+				<bp total="25" left="25"/>
+			</creation>
+			<karma total="7" left="7"/>
+			<cash total="1000"/>
+			<professionalrating value="0" text="PR 0"/>
+			<personal gender="Male" age="25" hair="" eyes="" skin="">
+				<description/>
+				<charheight text="1.75m" value="175"/>
+				<charweight text="78kg" value="78"/>
+			</personal>
+			<defenses>
+				<defense name="Ranged Defense" normal="6"/>
+				<defense name="Melee Defense" normal="6"/>
+			</defenses>
+			<armorratings>
+				<armorrating name="Armor" rating="0" stacking="0" nonstacking="0" dicepool="3"/>
+				<armorrating name="Acid Protection" rating="0" stacking="0" nonstacking="0" dicepool="3"/>
+				<armorrating name="Cold Protection" rating="0" stacking="0" nonstacking="0" dicepool="3"/>
+				<armorrating name="Electricity Protection" rating="0" stacking="0" nonstacking="0" dicepool="3"/>
+				<armorrating name="Fire Protection" rating="0" stacking="0" nonstacking="0" dicepool="3"/>
+				<armorrating name="Falling Protection" rating="0" stacking="0" nonstacking="0" dicepool="3"/>
+				<armorrating name="Fatigue Resistance" rating="0" stacking="0" nonstacking="0" dicepool="6"/>
+			</armorratings>
+			<attributes>
+				<attribute name="Professional Rating" text="0" base="0" modified="0" naturalmaximum="99" augmentedmaximum="4" minimum="0" category="Defining">
+					<description>Some teams are just better trained than others. Players may find themselves facing craven, white-hooded thugs one day, and the next they're up against a battle- hardened, high-threat security squad. The former will break and run at the first sign of trouble; the latter will probably have the upper hand on the PCs. The difference is the Professional Rating, a rating that measures the group's determination and how well they can handle facing a team of shadowrunners.
+
+The Professional Rating measures relative overall experience and discipline of a team. It's used as a dice pool modifier for resisting Social Skill Tests, and it determines the rating of their Edge attribute and Edge pool (Group Edge, at right).
+
+The following list of ratings provides guidelines for assigning a group a Professional Rating.
+
+Professional Rating 0 (Untrained): These guys are clueless. They might know how to use their weapons, but they've never trained as a unit and they're not familiar with combat. Their reactions tend to be clumsy and slow. If somebody in their group goes down, the rest will turn tail and run. Examples include mall cops and random street mobs.
+
+Professional Ratings 1-2 (Semi-trained): While they're not hardened veterans, these grunts have had some training as a team and have seen a little combat. They act with purpose and a plan, but they haven't developed a veteran's coolness under fire. If more than a quarter of their team is taken out of the fight, the team will stop fighting and retreat. Examples include rookie beat cops, many gang members, and corporate security teams.
+
+Professional Ratings 3-4 (Trained): These guys know what they're doing. They're well trained, have a fair amount of experience, and have learned to keep their heads together. They don't take foolish chances. If they take casualties over half of their group, they'll withdraw. Examples include professional bodyguards, experienced cops, and typical mercenary units.
+
+Professional Ratings 5-6 (Elite): They live for this stuff. These are top-notch professionals who will not break. They'll fight to the last man, or until their mission parameters say that it's time to withdraw. Examples include HTR and SWAT teams, military special forces units, and fanatics.</description>
+					<traitcost bp="0"/>
+				</attribute>
+				<attribute name="Body" text="3" base="3" modified="3" naturalmaximum="6" augmentedmaximum="7" minimum="1" category="Physical">
+					<description>Body measures your physical health and resiliency.
+
+It affects how much damage you can take and stay on your feet, how well you resist damage coming your way, your ability to recover from poisons and diseases, and things of that nature.</description>
+					<traitcost bp="2"/>
+				</attribute>
+				<attribute name="Agility" text="3" base="3" modified="3" naturalmaximum="6" augmentedmaximum="7" minimum="1" category="Physical">
+					<description>Agility measures things like hand-eye coordination, flexibility, nimbleness, and balance. Agility is the most important attribute when it comes to scoring hits during combat, as you need to be coordinated to land your blows, whether you're swinging a sword or carefully aiming a rifle. It also is critical in non-combat situations, such as sneaking quietly past security guards or smoothly lifting a keycard from its secured position.</description>
+					<traitcost bp="2"/>
+				</attribute>
+				<attribute name="Reaction" text="3" base="3" modified="3" naturalmaximum="6" augmentedmaximum="7" minimum="1" category="Physical">
+					<description>Reaction is about reflexes, awareness, and your character's ability to respond to events happening around them. Reaction plays an important role in deciding how soon characters act in combat and how skilled they are in avoiding attacks from others. It also helps you make that quick turn down a narrow alley on your cycle to avoid the howling gangers on your tail</description>
+					<traitcost bp="2"/>
+				</attribute>
+				<attribute name="Strength" text="3" base="3" modified="3" naturalmaximum="6" augmentedmaximum="7" minimum="1" category="Physical">
+					<description>Strength is an indicator of, well, how strong your character is. The higher your strength, the more damage you'll do when you're raining blows down on an opponent, and the more you'll be able to move or carry when there's stuff that needs to be moved. Or carried.
+
+Strength is also important with athletic tasks such as climbing, running, and swimming.</description>
+					<traitcost bp="2"/>
+				</attribute>
+				<attribute name="Willpower" text="3" base="3" modified="3" naturalmaximum="6" augmentedmaximum="7" minimum="1" category="Mental">
+					<description>Willpower is your character's desire to push through adversity, to resist the weariness of spellcasting, and to stay upright after being nailed in the head with a sap.
+
+Whether you're testing yourself against a toxic wilderness or a pack of leather-clad orks with crowbars, Willpower will help you make it through.</description>
+					<traitcost bp="2"/>
+				</attribute>
+				<attribute name="Logic" text="2" base="2" modified="2" naturalmaximum="6" augmentedmaximum="6" minimum="1" category="Mental">
+					<description>The Logic attribute measures the cold, calculating power of your rational mind. Whether you are attempting to repair complicated machinery or patch up an injured teammate, Logic helps you get things right. Logic is also the attribute hermetic mages use to resist Drain from the spells they rain down on their hapless foes.
+
+Deckers also find Logic extremely useful, as it helps them develop the attacks and counterattacks that are part of their online battles.</description>
+					<traitcost bp="1"/>
+				</attribute>
+				<attribute name="Intuition" text="3" base="3" modified="3" naturalmaximum="6" augmentedmaximum="7" minimum="1" category="Mental">
+					<description>Intuition is the voice of your gut, the instinct that tells you things before your logical brain can figure them out. Intuition helps you anticipate ambushes, notice that something is amiss or out of place, and stay on the trail of someone you're pursuing.</description>
+					<traitcost bp="2"/>
+				</attribute>
+				<attribute name="Charisma" text="2" base="2" modified="2" naturalmaximum="6" augmentedmaximum="6" minimum="1" category="Mental">
+					<description>Charisma is your force of personality, the persuasiveness and charm you can call on to get people to do what you want without having to go to the trouble of pulling a gun on them. It's not entirely about your appearance, but it's also not entirely not about your appearance. What it's mostly about is how you use what you have - your voice, your face, your words, and all the tools at your disposal - to charm and/or intimidate the people you encounter. Additionally, Charisma is an important attribute for shamanic mages, as it helps them resist the damaging Drain from spells they cast.</description>
+					<traitcost bp="1"/>
+				</attribute>
+				<attribute name="Essence" text="6" base="6" modified="6" naturalmaximum="12" augmentedmaximum="10" minimum="0" category="Derived">
+					<description>Essence is your metahumanity encapsulated in a number. In Shadowrun, you have ample opportunities to alter your body or push it beyond its normal limits. Such actions often have a cost, and they can result in a loss of a portion of your metahumanity, which means a loss of Essence points. Each character starts with an Essence rating of 6, and it acts as a cap on the amount of alterations you can adopt. When it's gone, it doesn't come back. It also affects the Magic and Resonance attributes, as losses in Essence are reflected by losses in Magic and Resonance.
+
+While denizens of the Sixth World are accustomed to seeing a variety of augmentations and alterations to the metahuman form, the "uncanny valley" still exists. The uncanny valley is the disconcerting effect that happens when people see something that is almost, but not quite, metahuman. An animated cartoon with exaggerated features looks fine to metahuman eyes, but a computer program that closely, but not exactly, replicates human appearance is a troubling and unpleasant sight to most viewers. This is what happens when people see others with augmentations - on some level, people notice there is something less (or more) human about that, and they respond to it negatively. The change may not be exactly visible, but it is in some way noticeable - in one way or another, a person has become less human, and on some level other people notice this. This is why a character's Essence is included in the calculation of their Social limit.</description>
+					<traitcost bp="0"/>
+				</attribute>
+				<attribute name="Edge" text="0" base="0" modified="0" naturalmaximum="99" augmentedmaximum="4" minimum="0" category="Special">
+					<description>Edge is the ultimate intangible, that certain something that provides a boost when you need it, that gets you out of a tough spot when the chips are down. It's not used to calculate dice pools; instead, you spend a point of Edge to acquire a certain effect. Every character has at least one point of Edge, more if they want to take more frequent advantage of the boosts it offers. The possible effects of and more details about Edge are on p. 56.</description>
+					<traitcost bp="1"/>
+				</attribute>
+				<attribute name="Initiative" text="6+1D6" base="6" modified="6" naturalmaximum="12" augmentedmaximum="10" minimum="2" category="Derived">
+					<description>Initiative governs how quickly a character responds in a combat situation. A character's Initiative attribute is their Reaction plus their Intuition.</description>
+					<traitcost bp="0"/>
+				</attribute>
+			</attributes>
+			<movementtypes>
+				<movementtype name="Land Movement" sprintpool="2dicepool">
+					<walking text="6m" value="6"/>
+					<running text="12m" value="12"/>
+				</movementtype>
+				<movementtype name="Swimming" sprintpool="2dicepool">
+					<running text="3m" value="3"/>
+				</movementtype>
+			</movementtypes>
+			<reputations>
+				<reputation name="Street Cred" value="0"/>
+				<reputation name="Honor" value="0"/>
+				<reputation name="Notoriety" value="0"/>
+				<reputation name="Court Notoriety" value="0"/>
+				<reputation name="Public Awareness" value="0"/>
+			</reputations>
+			<qualities>
+				<positive/>
+				<negative/>
+			</qualities>
+			<skills>
+				<groups/>
+				<active>
+					<skill name="Blades" text="3" base="3" modified="3" naturalmaximum="12" augmentedmaximum="5" dicepool="6" group="Close Combat Group">
+						<description>Slice and dice! The Blades skill includes the use of all handheld slashing and stabbing weapons. You can use a range of edged weapons including daggers, swords, and axes.</description>
+						<traitcost bp="3"/>
+					</skill>
+					<skill name="Clubs" text="3" base="3" modified="3" naturalmaximum="12" augmentedmaximum="5" dicepool="6" group="Close Combat Group">
+						<description>Clubs governs the use of all hand-held bludgeoning instruments. With this skill you can turn any blunt item, be it a baseball bat, crutch, or mace, into a weapon.</description>
+						<traitcost bp="3"/>
+					</skill>
+					<skill name="Intimidation" text="3" base="3" modified="3" naturalmaximum="12" augmentedmaximum="5" dicepool="5" group="">
+						<description>Intimidation is about creating the impression that you are more menacing than another person in order to get them to do what you want. The skill may be applied multiple ways, from negotiation to interrogation. Intimidation is an Opposed Intimidation + Charisma [Social] Test against the target's Charisma + Willpower, modified by the appropriate entries on the Social Modifiers Table (p. 140).</description>
+						<traitcost bp="3"/>
+					</skill>
+					<skill name="Unarmed Combat" text="3" base="3" modified="3" naturalmaximum="12" augmentedmaximum="5" dicepool="6" group="Close Combat Group">
+						<description>Unarmed Combat covers the various self-defense and attack moves that employ the body as a primary weapon. This includes a wide array of martial arts along with the use of cybernetic implant weaponry and the fighting styles that sprung up around those implants.</description>
+						<traitcost bp="3"/>
+					</skill>
+				</active>
+				<knowledge/>
+				<language>
+					<skill name="English" text="N" base="1" modified="1" naturalmaximum="12" augmentedmaximum="2" dicepool="4" group="">
+						<description/>
+						<traitcost bp="0"/>
+					</skill>
+				</language>
+			</skills>
+			<gear>
+				<augmentations>
+					<cyberware/>
+					<bioware/>
+				</augmentations>
+				<weapons>
+					<item name="Club" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>The weapon they named the skill after. These stats represent a range of objects, including an axe handle, baseball bat, wrench, crowbar, a tire iron, and a two-by-four with a rusty nail in it. There is a price listed, but it's not overly difficult to find one for free if you know where to look.</description>
+						<gearcost text="30¥" value="30"/>
+						<availability text="" value="0" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<weaponinfo grouptext="Clubs" dicepool="6dicepool [4]" damagetext="6P" damagevalue="6" damagetype="Physical" ap="0" modestext="" isammunition="0" reach="1" equipped="Main Hand">
+							<defense name="Club Parry" normal="3"/>
+						</weaponinfo>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Knife" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>Your basic, all-purpose street cutter. It comes in a bewildering array of styles, colors, and flavors, but the statistics don't vary from one to the next. Ordinary knives are used by the poor, the desperate, or the cautious as backup weapons.</description>
+						<gearcost text="10¥" value="10"/>
+						<availability text="" value="0" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<weaponinfo grouptext="Blades" dicepool="6dicepool [5]" damagetext="4P" damagevalue="4" damagetype="Physical" ap="-1" modestext="" isammunition="0" reach="" equipped="Main Hand">
+							<defense name="Knife Parry" normal="3"/>
+						</weaponinfo>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Unarmed Strike" useradded="no" quantity="1" natural="yes">
+						<description/>
+						<gearcost text="0¥" value="0"/>
+						<availability text="" value="0" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<weaponinfo grouptext="Unarmed" dicepool="6dicepool [4]" damagetext="3S" damagevalue="3" damagetype="Stun" ap="0" modestext="" isammunition="0" reach="" equipped="Main Hand">
+							<defense name="Unarmed Strike Parry" normal="3"/>
+						</weaponinfo>
+					</item>
+				</weapons>
+				<armor/>
+				<equipment>
+					<item name="Meta Link" size="Human/Elf/Ork Size" wireless="Present">
+						<description>Basic Persona: Plain metahuman
+Base Theme: Cube structures
+Device Icon: Cube with metahuman icons on each face
+Commlinks are universal communication devices; they're used by everyone all the time. Commlinks are essentially the digital Swiss army knives of the modern world. Even the most basic of them includes AR Matrix browsing capability, multiple telephone and radio modes of real-time talk and text, music players, micro trid-projectors, touchscreen displays, built in high-resolution digital video and still image cameras, image/text and RFID tag scanners, built-in GPS guidance systems, chip players, credstick readers, retractable earbuds, voice-access dialing, text-to-speech and speech-to-text technologies, and a shock and water resistant case. And all of this at an inexpensive price that a few decades ago would have seemed absurd.</description>
+						<gearcost text="100¥" value="100"/>
+						<availability text="2" value="2" class=""/>
+						<matrix initiative="4" dr="2">
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="1" base="1" modified="1"/>
+							<matrixattribute name="Firewall" text="1" base="1" modified="1"/>
+						</matrix>
+						<conditionmonitor name="Meta Link" boxes="9" penalty="0"/>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+				</equipment>
+			</gear>
+			<identities/>
+			<contacts/>
+			<ammotrackers/>
+			<trackers>
+				<tracker name="Cumulative Recoil" text="0" used="0" left="0" min="0" max="0"/>
+				<tracker name="Movement This Turn (Currently: Stationary)" text="0m" used="0" left="0" min="0" max="0"/>
+			</trackers>
+			<conditionmonitors totalpenalty="0">
+				<conditionmonitor name="Grunt Damage Track" boxes="10" penalty="0"/>
+			</conditionmonitors>
+			<journals>
+				<journal name="Title" gamedate="0" realdate="20140423" karma="0" cash="0" streetcred="0" notoriety="0" awareness="0">
+					<description/>
+				</journal>
+			</journals>
+			<images/>
+			<validation>
+				<report/>
+			</validation>
+			<settings summary="Character Creation Systems: Established Runners; Core Rulebooks: Chrome Flesh, Data Trails, Howling Shadows, Rigger 5.0; Advanced Rules: Forbidden Arcana, Kill Code, Street Lethal; Supplements: Bloody Business, Book of the Lost, Complete Trog, Court of Shadows, Cutting Aces, Dark Terrors, Hard Targets, Lockdown; E-books: Shadows in Focus: Butte, Shadows in Focus: Metrópole, Shadows in Focus: San Francisco Metroplex; Enhanced Fiction: Nothing Personal; Optional Rules -&gt; Chrome Flesh Optional Rules: Use Essence Holes; Output Options: Include Vehicle Statblocks on Sheet"/>
+			<npc>
+				<basics>
+					<npcinfo name="Description">These are the kind of knuckle-dragging, slope-browed Neanderthals that typify the phrase &amp;quot;angry mob.&amp;quot; They're employed by the likes of the Humanis policlub or TerraFirst!, or they simply coalesce on the street whenever something bad is about to happen. They're used to rough up and intimidate random groups of people. They're no match for an experienced combatant, however, and if they meet any real resistance, they're out of there.</npcinfo>
+				</basics>
+				<tactics/>
+				<ecology/>
+				<additional/>
+				<bookinfo id="27000" name="Core Rulebook"/>
+			</npc>
+			<minions/>
+		</character>
+	</public>
+</document>
