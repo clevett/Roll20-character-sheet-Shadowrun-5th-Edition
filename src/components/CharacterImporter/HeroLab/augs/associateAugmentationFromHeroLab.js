@@ -1,7 +1,7 @@
 const generateNewAugemenationFromHeroLab = (ware, type) => {
   const {_essencecost, _rating, _name } = ware
   const aug = new Augmentations(`${_name} (${type})`)
-  let notes = buildItemNotesFromHeroLab(ware)
+  const notes = buildItemNotesFromHeroLab(ware)
 
   aug.setRating(_rating || '')
   aug.setEssence(_essencecost || '')
@@ -11,8 +11,8 @@ const generateNewAugemenationFromHeroLab = (ware, type) => {
 }
 
 const associateAugmentationFromHeroLab = ({ cyberware, bioware }) => {
-  const cyber = Array.isArray(cyberware.item) ? cyberware.item : [cyberware.item]
-  const bio = Array.isArray(bioware.item) ? bioware.item : [bioware.item]
+  const cyber = convertToArray(cyberware.item)
+  const bio = convertToArray(bioware.item)
   let data = {}
 
   cyber.forEach(item => {

@@ -12,8 +12,7 @@
 				<input style='width:45%' type='text' value='https://codebeautify.org/xmltojson' />
 			</li>
 			<li>Copy the XML into the left side</li>
-			<li>Click the button that says "<b>Convert</b>"</li>
-			<li>Click the button that says "<b>Minify json</b>"</li>
+			<li>Click the button that says "<b>XML to JSON</b>"</li>
 			<li>Copy the Results</li>
 		`
 
