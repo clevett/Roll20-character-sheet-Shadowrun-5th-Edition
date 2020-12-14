@@ -37,10 +37,15 @@ const associateHeroLabData = character => {
   /* Armor */
   const armorData = character.gear.armor ? associateArmorFromHeroLab(character.gear.armor) : {}
 
-  console.log(armorData)
+  /* Weapons */
+  const weaponData = character.gear.weapons ? associateWeaponFromHeroLab(character.gear.weapons) : {}
+
+  console.log(weaponData)
 
   /* TESTING */
   delete(character.gear.augmentations)
+  delete(character.gear.equipment)
+  delete(character.gear.armor)
   delete(character.settings)
   delete(character.images)
   delete(character.creation)
@@ -51,7 +56,7 @@ const associateHeroLabData = character => {
   delete(character.reputations)
   delete(character.race)
   console.log("%c Hero Lab JSON", "color: orange; font-weight:bold")
-  console.log(character.gear.armor.item)
+  console.log(character.gear.weapons)
 
   const Roll20Character = {
     ...metaData,
@@ -62,6 +67,7 @@ const associateHeroLabData = character => {
     ...gearItemData,
     ...augsData,
     ...armorData,
+    ...weaponData,
   }
   
   //Will need to return character eventually

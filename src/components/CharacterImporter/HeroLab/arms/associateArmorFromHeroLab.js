@@ -39,3 +39,4 @@ const associateArmorFromHeroLab = ({ item }) => {
 
   return data
 }
+

@@ -1396,6 +1396,9 @@ div.sheet-matrix-device .sheet-matrixFirewall {
     .sheet-pc div.sheet-arms div.sheet-weapons div.repitem div.sheet-settings {
       grid-column: 1 / 10;
       grid-template-columns: 25% 1.25fr 3em 2.5em 3em repeat(2, 1fr) repeat(2, 1em); }
+  .sheet-pc div.sheet-arms div.sheet-weapons div.sheet-modifications h3,
+  .sheet-pc div.sheet-arms div.sheet-weapons div.sheet-modifications label {
+    width: 100%; }
   .sheet-pc div.sheet-arms div.sheet-weapons div.sheet-weapon-range,
   .sheet-pc div.sheet-arms div.sheet-weapons div.sheet-weapon-melee {
     width: 100%; }

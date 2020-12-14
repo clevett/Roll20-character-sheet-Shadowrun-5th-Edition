@@ -47,6 +47,12 @@
 					Drugs and other effects are not accounted for. They will be applied to your base attributes.
 				</li>
 				<li>
+					Weapon skills will not be set. You need to set the right skill in the arms tab.
+				</li>
+				<li>
+					Weapons do not set ammo. You need to set the ammo capacity in the arms tab.
+				</li>
+				<li>
 					This will overwrite some data but not all. Be sure to review the character after.
 				</li>
 			</ul>
