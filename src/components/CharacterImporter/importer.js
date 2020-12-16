@@ -3,9 +3,10 @@
 	//temporary force open
 	on('sheet:opened', () => startCharactermancer("importer"))
 	
-	// APPLY Changes
+	// Start importer
 	on("clicked:import_launch", () => startCharactermancer("importer"))
 	
+	// APPLY Changes
 	on("mancerfinish:apply", () => {
 		const mancerData = getCharmancerData();
 		const mancerValues = mancerData["importer"].values;

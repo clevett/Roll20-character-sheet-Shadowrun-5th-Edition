@@ -17,4 +17,5 @@ const parseInteger = string => parseInt(string) || 0
 
 const checkFlag = value => !value || value == '0' ? false : true
 
+const convertToArray = value => Array.isArray(value) ? value : [value]
 

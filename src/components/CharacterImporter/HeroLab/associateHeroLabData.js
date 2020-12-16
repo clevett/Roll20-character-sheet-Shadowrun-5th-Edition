@@ -1,7 +1,3 @@
-const heroLabGearLists {
-  
-}
-
 
 const associateHeroLabData = character => {
   let setText = {
@@ -30,18 +26,26 @@ const associateHeroLabData = character => {
   const initiativeData = getInitiativeFromHeroLab(character.attributes.attribute)
 
   const characterMovement = character.movementtypes.movementtype
-  const movementData = associateMovementFromHeroLab(characterMovement, attributeData)
+  const movementData = characterMovement ? associateMovementFromHeroLab(characterMovement, attributeData) :  {}
 
   /* GEAR */
-  const gearItemData = associateGearItemsFromHeroLab(character.gear.equipment)
+  const gearItemData = character.gear.equipment ? associateGearItemsFromHeroLab(character.gear.equipment) : {}
 
   /* Augs */ 
-  if (character.gear.augmentations) {
-    const augsData = associateAugmentationFromHeroLab(character.gear.augmentations)
-    console.log(augsData)
-  }
+  const augsData = character.gear.augmentations ? associateAugmentationFromHeroLab(character.gear.augmentations) : {} 
+
+  /* Armor */
+  const armorData = character.gear.armor ? associateArmorFromHeroLab(character.gear.armor) : {}
+
+  /* Weapons */
+  const weaponData = character.gear.weapons ? associateWeaponFromHeroLab(character.gear.weapons) : {}
+
+  console.log(weaponData)
 
   /* TESTING */
+  delete(character.gear.augmentations)
+  delete(character.gear.equipment)
+  delete(character.gear.armor)
   delete(character.settings)
   delete(character.images)
   delete(character.creation)
@@ -51,7 +55,8 @@ const associateHeroLabData = character => {
   delete(character.personal)
   delete(character.reputations)
   delete(character.race)
-  console.log(character)
+  console.log("%c Hero Lab JSON", "color: orange; font-weight:bold")
+  console.log(character.gear.weapons)
 
   const Roll20Character = {
     ...metaData,
@@ -60,8 +65,10 @@ const associateHeroLabData = character => {
     ...initiativeData,
     ...movementData,
     ...gearItemData,
+    ...augsData,
+    ...armorData,
+    ...weaponData,
   }
-
   
   //Will need to return character eventually
   return {text: setText, character: Roll20Character}

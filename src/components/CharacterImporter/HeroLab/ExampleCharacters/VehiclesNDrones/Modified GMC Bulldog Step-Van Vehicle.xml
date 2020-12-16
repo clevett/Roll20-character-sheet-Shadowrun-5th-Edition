@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<public>
+		<program name="Hero Lab" url="https://www.wolflair.com">
+			<programinfo>Hero Lab and the Hero Lab logo are Registered Trademarks of LWD Technology, Inc. Free download at https://www.wolflair.com
+Shadowrun © 2005-2019 The Topps Company, Inc. All rights reserved. Shadowrun is a registered trademark of The Topps Company, Inc.</programinfo>
+			<version version="8.9h" primary="8" secondary="9" tertiary="h" build="958"/>
+		</program>
+		<localization language="eng" units="metric"/>
+		<character active="yes" characterindex="6" nature="normal" role="npc" relationship="ally" type="GMC Bulldog Step-Van" name="Iya" playername="Rachelle Morris">
+			<race name="GMC Bulldog Step-Van"/>
+			<heritage name=""/>
+			<creation>
+				<bp total="25" left="25"/>
+			</creation>
+			<karma total="7" left="7"/>
+			<cash total="64775"/>
+			<personal gender="Male" age="25" hair="" eyes="" skin="">
+				<description/>
+				<charheight text="1.75m" value="175"/>
+				<charweight text="78kg" value="78"/>
+			</personal>
+			<defenses>
+				<defense name="Ranged Defense" normal="1"/>
+				<defense name="Melee Defense" normal="1"/>
+			</defenses>
+			<armorratings>
+				<armorrating name="Armor" rating="12" stacking="12" nonstacking="0" dicepool="28"/>
+				<armorrating name="Acid Protection" rating="12" stacking="12" nonstacking="0" dicepool="28"/>
+				<armorrating name="Cold Protection" rating="12" stacking="12" nonstacking="0" dicepool="28"/>
+				<armorrating name="Electricity Protection" rating="12" stacking="12" nonstacking="0" dicepool="28"/>
+				<armorrating name="Fire Protection" rating="12" stacking="12" nonstacking="0" dicepool="28"/>
+			</armorratings>
+			<attributes>
+				<attribute name="Handling" text="3" base="3" modified="3" naturalmaximum="99" augmentedmaximum="7" minimum="0" category="Vehicle">
+					<description>Handling represents the vehicle's agility and responsiveness. This value is the base limit for Vehicle Tests made where maneuverability is the most important feature.</description>
+					<traitcost bp="3"/>
+				</attribute>
+				<attribute name="Handling (Off-Road)" text="3" base="3" modified="3" naturalmaximum="99" augmentedmaximum="7" minimum="0" category="Vehicle">
+					<description>Handling represents the vehicle's agility and responsiveness. This value is the base limit for Vehicle Tests made where maneuverability is the most important feature.</description>
+					<traitcost bp="3"/>
+				</attribute>
+				<attribute name="Speed" text="3" base="3" modified="3" naturalmaximum="99" augmentedmaximum="7" minimum="0" category="Vehicle">
+					<description>Speed represents the maximum velocity that the vehicle can achieve - its top-end speed. This value is the base limit for Vehicle Tests that emphasize raw speed.</description>
+					<traitcost bp="3"/>
+				</attribute>
+				<attribute name="Acceleration" text="1" base="1" modified="1" naturalmaximum="99" augmentedmaximum="5" minimum="0" category="Vehicle">
+					<description>Acceleration defines how quickly a vehicle is able to change its current speed and close the distance between it and another moving target. The value represents the maximum number of Range Categories that the vehicle can move in a single Combat Turn.</description>
+					<traitcost bp="1"/>
+				</attribute>
+				<attribute name="Body" text="16" base="16" modified="16" naturalmaximum="22" augmentedmaximum="20" minimum="0" category="Vehicle">
+					<description>Body measures your physical health and resiliency.
+
+It affects how much damage you can take and stay on your feet, how well you resist damage coming your way, your ability to recover from poisons and diseases, and things of that nature.</description>
+					<traitcost bp="0"/>
+				</attribute>
+				<attribute name="Level" text="1" base="1" modified="1" naturalmaximum="99" augmentedmaximum="5" minimum="0" category="Vehicle">
+					<description>Pilot is a rating defining the capabilities of the built-in computer piloting system with which all vehicles in the Sixth World come equipped. For any vehicle not being actively piloted by a metahuman, this takes the place of all Mental attributes and Reaction for any tests the vehicle needs to make.</description>
+					<traitcost bp="1"/>
+				</attribute>
+				<attribute name="Sensor" text="2" base="2" modified="2" naturalmaximum="99" augmentedmaximum="6" minimum="0" category="Vehicle">
+					<description>Sensor is a rating representing the suite of information-gathering or detection devices that are built into every vehicle in the Sixth World. Sensor acts as the limit for Perception and other detection tests using the vehicle's systems.</description>
+					<traitcost bp="2"/>
+				</attribute>
+				<attribute name="Seating" text="6" base="6" modified="6" naturalmaximum="99" augmentedmaximum="10" minimum="0" category="Vehicle">
+					<description>Vehicles also have a non-combat attribute, Seating, which determines both how many people can fit in the vehicle (including the operator) and also, in a pinch, additional cargo space - one 'seat' can also be used to hold up to 250 kilograms of cargo. Seating (for people) can be exceeded by up to 150 percent by stuffing people inside, but doing so decreases the vehicle's Speed and Handling attributes by one. So you can have that extra person ride on the back of a dirtbike, or stuff a more-than-safe amount of people into the back of a sedan, but your vehicle's not going to provide quite its usual kick.</description>
+					<traitcost bp="6"/>
+				</attribute>
+				<attribute name="Device Rating" text="1" base="1" modified="1" naturalmaximum="7" augmentedmaximum="5" minimum="0" category="Special">
+					<description>The Device Rating determines the overall quality and effectiveness of a device.</description>
+					<traitcost bp="0"/>
+				</attribute>
+				<attribute name="Data Processing" text="1" base="1" modified="1" naturalmaximum="7" augmentedmaximum="5" minimum="1" category="Matrix">
+					<description>Your Data Processing attribute measures your device's ability to handle information, datastreams, and files. It is used for Matrix actions that aren't, as a general rule, illegal.</description>
+					<traitcost bp="-1"/>
+				</attribute>
+				<attribute name="Firewall" text="1" base="1" modified="1" naturalmaximum="7" augmentedmaximum="5" minimum="1" category="Matrix">
+					<description>Your Firewall attribute is your protection against outside attacks. It contains code filters, file checkers, virus detection and eradication software, and other defensive programming. Firewall actions are defensive in nature. The most important role of the Firewall is as virtual armor against Matrix damage.</description>
+					<traitcost bp="-1"/>
+				</attribute>
+				<attribute name="Initiative" text="2+4D6" base="2" modified="2" naturalmaximum="106" augmentedmaximum="6" minimum="1" category="Derived">
+					<description>Initiative governs how quickly a character responds in a combat situation. A character's Initiative attribute is their Reaction plus their Intuition.</description>
+					<traitcost bp="0"/>
+				</attribute>
+			</attributes>
+			<movementtypes/>
+			<reputations>
+				<reputation name="Street Cred" value="0"/>
+				<reputation name="Notoriety" value="0"/>
+				<reputation name="Public Awareness" value="0"/>
+				<reputation name="Astral Reputation" value="0"/>
+			</reputations>
+			<qualities>
+				<positive/>
+				<negative/>
+			</qualities>
+			<skills>
+				<groups/>
+				<active/>
+				<knowledge/>
+				<language/>
+			</skills>
+			<gear>
+				<augmentations>
+					<cyberware/>
+					<bioware/>
+				</augmentations>
+				<weapons/>
+				<armor>
+					<item name="Vehicle Armor" useradded="no" quantity="1">
+						<description>Vehicle armor functions just like character armor, and is used for the vehicle's damage resistance tests. Vehicle armor is the same rating against both ballistic and impact attacks.
+
+Since vehicle armor is often much higher than ordinary character armor, gamemasters should remember to use the trade-in rule for large dice pools (4 dice for 1 hit, see Buying Hits, p. 62).
+
+If an attack's modified DV does not exceed a vehicle's modified Armor rating, then the attack automatically fails.</description>
+						<gearcost text="0¥" value="0"/>
+						<availability text="" value="0" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<armorinfo rating="+12" acid="0" cold="0" electricity="0" falling="0" fire="0" radiation="0" laser="0" equipped="yes" natural="yes"/>
+					</item>
+				</armor>
+				<equipment>
+					<item name="Anti-Theft System" rating="2" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>No self-respecting rigger wants to let their precious vehicle be stolen by some gutter punk with a screwdriver. The anti-theft system modification provides a variety of protection options, depending on the level rating.
+
+Rating 1 simply installs sensors that detect an unauthorized intrusion and alerts the owner with physical lights and sounds, or sends an electronic message, or both.
+
+Rating 2 includes the sensors from the previous level and adds the ability for the owner to remotely lockdown the vehicle, making it physically impossible to drive until the release code is sent by the owner. This system can be circumvented by decking the vehicle, or mechanically disabling the fail safe with a Hardware + Logic [Logic] (4) Test.
+
+If all of that is just for soft-ass corporate drones, then Rating 3 may be for you. This level includes all of the previous features, with the addition of an electro-shock system inflicting 9S(e), or a gas release system equipped with the toxin of your choice (see p. 409, SR5).
+
+Rating 4 is the final word in vehicle protection; it includes all of the previous level's features and adds a remote triggered self-destruct option. The modified vehicle is reduced to medium-to-small component parts. The explosion has a base damage of 12P and -2 AP, with damage from the blast -2/m.</description>
+						<gearcost text="1,000¥" value="1000"/>
+						<availability text="6" value="6" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Chameleon coating" quantity="1">
+						<description>Not just for the flighty owner who can't settle on a paint color for their vehicle, chameleon coating is an essential tool for keeping a vehicle used for shadow activities inconspicuous. A vehicle with the coating has its exterior hull covered in a specialized kind of polymer that allows it to display any kind of image sent to the system with an electronic signal. This can be as simple as changing the color of the vehicle, or as complex as covering it in moving advertisements and video. Changing the output of the coating is a Free Action. Particularly clever riggers have linked the video feed from their external sensors into the system so that the exterior of the vehicle mimics the environment around it, resulting in a crude (but effective) "cloaking" or blending system. When running in this mode, as long as it is not moving faster than its Walking rate, Perception Tests made to find the vehicle suffer a -3 dice pool penalty.</description>
+						<gearcost text="16,000¥" value="16000"/>
+						<availability text="12F" value="12" class="Forbidden"/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+					</item>
+					<item name="Manual Control Override" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>For runners that are extra paranoid about the Matrix security on their vehicle (or just unwilling to pay for it), they can install a manual control override system. Nearly every modern vehicle made in the 2070s has the ability to be piloted remotely or purely through its electronic controls as well as its manual/mechanical controls. If a rigger is really nervous about those electronic controls being taken over, they can install a switch so that the manual controls will always take priority over the electronic ones. In order to prevent the switch from being remotely deactivated, it is always mechanical in nature with the physical pressing of the button making or breaking connections to ensure the precedence of the manual controls. In game terms, when manual control override is activated, piloting a vehicle via AR or VR is not possible. The system can only be activated by someone physically in the vehicle, within reach of the switch (usually the driver's seat), and by using a Free Action.</description>
+						<gearcost text="500¥" value="500"/>
+						<availability text="6" value="6" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Morphing license plate" quantity="1">
+						<description>While most modern governments primarily use electronic identification for vehicles, they still require some sort of physical identification plate to uniquely identify a vehicle. Since being positively identified is something that an average shadowrunner wants to avoid, most install a special morphing license plate. Made from smart materials, a morphing license plate can reshape itself with a Complex Action and mimic any of the forms used in governments around the world today. Runners will typically also purchase a spoof chip (see below) to keep their vehicle from being identified.</description>
+						<gearcost text="1,000¥" value="1000"/>
+						<availability text="8F" value="8" class="Forbidden"/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+					</item>
+					<item name="Off-Road Tires" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>Tires are one of the easiest ways to customize a vehicle. The following tires are available for all wheeled ground craft. Changing tires requires a Automotive Mechanic + Logic [Logic] (4, 5 minutes) Extended Test; or you can get your brother-in-law to do it for a case of beer, though that tends to take longer.
+
+Off-Road Tires: Designed specifically for rough terrain, these tires are not as effective as standard tires on standard roads. When equipped, the vehicle's off-road Handling is increased by +1, and on-road Handling is reduce by -1. Off-road tires are also considered run flat tires (see below).</description>
+						<gearcost text="400¥" value="400"/>
+						<availability text="6" value="6" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Rigger Interface" quantity="1">
+						<description>By the 2070s rigger control of vehicles have become so common that even if a rigger adaption isn't installed as standard for a vehicle, it can easily be added after-market. This modification allows a rigger to jump in to a vehicle and control it with a full sensory experience. This includes installation of the "black box" that processes the sensory impressions for human consumption, along with a suite of sensors and relays connected to various parts of the vehicle. All drones come equipped with a rigger interface by default.</description>
+						<gearcost text="1,000¥" value="1000"/>
+						<availability text="4" value="4" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+					</item>
+					<item name="Run Flat Tires" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>Tires are one of the easiest ways to customize a vehicle. The following tires are available for all wheeled ground craft. Changing tires requires a Automotive Mechanic + Logic [Logic] (4, 5 minutes) Extended Test; or you can get your brother-in-law to do it for a case of beer, though that tends to take longer.
+
+Run Flat Tires: A common upgrade for shadowrunners, run flat tires are filled with a dense but flexible foam instead of air. They continue to operate even when the tire has been punctured but will quickly deteriorate if the tire suffers significant structure damage.</description>
+						<gearcost text="250¥" value="250"/>
+						<availability text="4" value="4" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Smuggling Compartment" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>You don't need to run very long before you encounter a situation where you need to keep something (or someone) hidden from authorities that are trying to find it. In these situations, the smuggling compartment is what you need. This modification adds a storage compartment to the vehicle, one that is designed to not easily be found. In general, a smuggling compartment cannot be seen unless a person is specifically looking for hidden compartments or doing a thorough search of the vehicle, and even in that case the Perception Test to notice the compartment is made with a -6 penalty. Smuggling compartments are hidden by purely visual means, so if the contents of the compartment make it detectable by other means - chemical, radioactive, thermographic - these do not suffer a penalty. Compartments can have shielding installed on them to make the compartment difficult to detect by a particular non-visual sense. If this is done, then the -6 penalty applies to that sense as well. Shielding on a smuggling compartment may be taken multiple times, each time specifying a different sensory type (auditory, chemical, radioactive, astral, etc.). The gamemaster determines if an object can fit in a smuggling compartment, based on the size of the vehicle. In general, smuggling compartments are about ten to twenty percent of the overall size of the vehicle itself.</description>
+						<gearcost text="1,500¥" value="1500"/>
+						<availability text="8F" value="8" class="Forbidden"/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Spoof chip" quantity="1">
+						<description>All governments in the civilized world require that a vehicle be uniquely tagged and broadcast that identification on demand. This allows law enforcement and any authorized government agency (and some unauthorized) to quickly identify and track a vehicle. All of that may sound great to the common wageslave, but those are all things that a shadowrunner wants to avoid like a VITAS plague. Consequently, installing a spoof chip has become a common practice for anyone wanted to use a vehicle for their shadow activities. The spoof chip mimics a standard vehicle identifier chip but can be command with a Complex Action to change its identifier to a different random value that is arithmetically generated to appear authentic. Installing a spoof chip requires a Hardware + Logic [Logic] (2) Test.</description>
+						<gearcost text="500¥" value="500"/>
+						<availability text="8F" value="8" class="Forbidden"/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+					</item>
+					<item name="SunCell" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>For runners that are economically or environmentally minded, the SunCell modification provides a great option. Using powerful solar-energy collectors and a battery system, a vehicle can be powered by collecting solar energy. If operating exclusively during sunny daylight hours, a vehicle has unlimited operational time and needs no other fuel source. In any other conditions (where sunlight isn't readily available), the vehicle will use up all power stored in the battery and then switch to its standard means of power production (likely a fossil- fuel engine). If operating in a mix of conditions, the SunCell system roughly doubles the operational time of the vehicle between refueling stops.</description>
+						<gearcost text="8,000¥" value="8000"/>
+						<availability text="6" value="6" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Winch, Basic" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>For those times when a runner needs to pull or tow something and they don't want to call an underpaid and overweight member of the auto club, there is the winch modification. The basic winch hasn't changed its design much in about a hundred years. It has a heavy gauge steel cable ending with a hook or latch and wraps around a powered drum. A winch can be mounted on the front or rear of the vehicle, and comes with about one hundred meters of cable and can support a load of up to ten tons, provided the vehicle itself is heavy enough to support this. If wireless enabled, the winch hook can be released remotely with a Free Action. An enhanced winch is generally found in heavy industrial or rescue vehicles but can be useful to a runner. Its winch replaces the hook with an advanced system using a combination of gecko-grip technology and magnetism that can attach to any surface on its target without the need to manually place a hook on an appropriate part. The system can be activated or deactivated remotely with a wireless command (if enabled). The enhanced system can support a load of up to one hundred tons and includes additional stabilizers deployed from the vehicle and onto/into the ground to double the towing vehicle's weight for lifting purposes.</description>
+						<gearcost text="750¥" value="750"/>
+						<availability text="4" value="4" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+				</equipment>
+			</gear>
+			<identities/>
+			<contacts/>
+			<ammotrackers/>
+			<trackers>
+				<tracker name="Cumulative Recoil" text="0" used="0" left="0" min="0" max="0"/>
+			</trackers>
+			<conditionmonitors totalpenalty="0">
+				<conditionmonitor name="Matrix Damage Track" boxes="9" penalty="0"/>
+				<conditionmonitor name="Physical Damage Track" boxes="20" penalty="0"/>
+			</conditionmonitors>
+			<journals>
+				<journal name="Title" gamedate="0" realdate="20190622" karma="0" cash="0" streetcred="0" notoriety="0" awareness="0">
+					<description/>
+				</journal>
+			</journals>
+			<images>
+				<image filename="Modified GMC Bulldog Step-Van Vehicle-image001.png"/>
+			</images>
+			<validation>
+				<report/>
+			</validation>
+			<settings summary="Character Creation Systems: Established Runners; Character Creation Variants: Run Faster — Sum To Ten System; Core Rulebooks: Chrome Flesh, Data Trails, Howling Shadows, Rigger 5.0, Run &amp; Gun, Run Faster, Street Grimoire; Advanced Rules: Forbidden Arcana, Kill Code, Street Lethal; Supplements: Bloody Business, Book of the Lost, Complete Trog, Cutting Aces, Dark Terrors, Hard Targets, Lockdown, Stolen Souls; E-books: Aetherology, Assassin's Primer, Bullets &amp; Bandages, Gun Heaven 3, Shadow Spells, Shadows in Focus: Butte, Shadows in Focus: Metrópole, Shadows in Focus: San Francisco Metroplex, Shadows in Focus: Sioux Nation; Enhanced Fiction: Nothing Personal, Sail Away, Sweet Sister, The Vladivostok Gauntlet; Optional Rules: Allow Adepts to Choose a Tradition, Allow Unlimited Negative Qualities; Optional Rules -&gt; Chrome Flesh Optional Rules: Gamma-Grade Cyberware, Omega-Grade Cyberware, Orks &amp; Trolls get natural weapons, Use Essence Holes; Optional Rules -&gt; Run &amp; Gun Optional Rules: RG2: Target Size Modifiers, RG3: Movement Penalties by Speed; Optional Rules -&gt; Street Grimoire Optional Rules: Reputation in the Spirit World; Optional Rules -&gt; Court of Shadows Optional Rules: Hide &quot;Adventuring In&quot; Selector on Journals; Output Options: Include Vehicle Statblocks on Sheet"/>
+			<npc>
+				<basics>
+					<npcinfo name="Description">This long-running top seller from GM is a capacious (and armored!) delivery van favored by everybody from legitimate shipping and logistics companies to security agencies to heavy mob crews to shadowrunners. It has lots of room for people, gear, or whatever you need to move, plus an engine and chassis that can take a ton of punishment and keep on running.</npcinfo>
+				</basics>
+				<tactics/>
+				<ecology/>
+				<additional/>
+				<bookinfo name="CRB 463"/>
+			</npc>
+			<minions/>
+		</character>
+	</public>
+</document>

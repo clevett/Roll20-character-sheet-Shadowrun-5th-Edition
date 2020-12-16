@@ -1353,13 +1353,13 @@ div.sheet-matrix-device .sheet-matrixFirewall {
       grid-template-columns: 1fr 3.5em 5em 5em 1em 1em; }
   .sheet-pc div.sheet-arms div.sheet-headers {
     display: grid; }
-    .sheet-pc div.sheet-arms div.sheet-headers h2:nth-of-type(1n+2) {
+    .sheet-pc div.sheet-arms div.sheet-headers h2:nth-of-type(1n + 2) {
       text-align: center; }
   .sheet-pc div.sheet-arms div.repitem h3 {
     color: #040404; }
-  .sheet-pc div.sheet-arms div.repitem input:nth-of-type(1n+2) {
+  .sheet-pc div.sheet-arms div.repitem input:nth-of-type(1n + 2) {
     text-align: center; }
-  .sheet-pc div.sheet-arms div.repitem input.sheet-flag-primary[value='primary'] + button {
+  .sheet-pc div.sheet-arms div.repitem input.sheet-flag-primary[value="primary"] + button {
     background-color: #FCD116;
     border-bottom: 2px solid #040404; }
   .sheet-pc div.sheet-arms div.sheet-weapons div.sheet-headers {
@@ -1396,6 +1396,9 @@ div.sheet-matrix-device .sheet-matrixFirewall {
     .sheet-pc div.sheet-arms div.sheet-weapons div.repitem div.sheet-settings {
       grid-column: 1 / 10;
       grid-template-columns: 25% 1.25fr 3em 2.5em 3em repeat(2, 1fr) repeat(2, 1em); }
+  .sheet-pc div.sheet-arms div.sheet-weapons div.sheet-modifications h3,
+  .sheet-pc div.sheet-arms div.sheet-weapons div.sheet-modifications label {
+    width: 100%; }
   .sheet-pc div.sheet-arms div.sheet-weapons div.sheet-weapon-range,
   .sheet-pc div.sheet-arms div.sheet-weapons div.sheet-weapon-melee {
     width: 100%; }
@@ -1414,8 +1417,8 @@ div.sheet-matrix-device .sheet-matrixFirewall {
       .sheet-pc div.sheet-arms div.sheet-weapons div.sheet-weapon-melee div.sheet-row label[data-i18n-title="modeoptions"],
       .sheet-pc div.sheet-arms div.sheet-weapons div.sheet-weapon-melee div.sheet-row label[data-i18n-title="range"] {
         width: 25%; }
-      .sheet-pc div.sheet-arms div.sheet-weapons div.sheet-weapon-range div.sheet-row input[type='number'],
-      .sheet-pc div.sheet-arms div.sheet-weapons div.sheet-weapon-melee div.sheet-row input[type='number'] {
+      .sheet-pc div.sheet-arms div.sheet-weapons div.sheet-weapon-range div.sheet-row input[type="number"],
+      .sheet-pc div.sheet-arms div.sheet-weapons div.sheet-weapon-melee div.sheet-row input[type="number"] {
         width: 3em; }
       .sheet-pc div.sheet-arms div.sheet-weapons div.sheet-weapon-range div.sheet-row select,
       .sheet-pc div.sheet-arms div.sheet-weapons div.sheet-weapon-melee div.sheet-row select {
@@ -1423,8 +1426,8 @@ div.sheet-matrix-device .sheet-matrixFirewall {
     .sheet-pc div.sheet-arms div.sheet-weapons div.sheet-weapon-range div.sheet-exotic-warning,
     .sheet-pc div.sheet-arms div.sheet-weapons div.sheet-weapon-melee div.sheet-exotic-warning {
       display: none; }
-    .sheet-pc div.sheet-arms div.sheet-weapons div.sheet-weapon-range input[value='0'] + div.sheet-exotic-warning,
-    .sheet-pc div.sheet-arms div.sheet-weapons div.sheet-weapon-melee input[value='0'] + div.sheet-exotic-warning {
+    .sheet-pc div.sheet-arms div.sheet-weapons div.sheet-weapon-range input[value="0"] + div.sheet-exotic-warning,
+    .sheet-pc div.sheet-arms div.sheet-weapons div.sheet-weapon-melee input[value="0"] + div.sheet-exotic-warning {
       display: block; }
   .sheet-pc div.sheet-arms div.sheet-armor div.sheet-headers {
     grid-template-columns: 30% 3.5em 2.5em 2.5em 2.5em 2.5em 2.5em 1em 1em; }
@@ -1457,9 +1460,16 @@ div.sheet-matrix-device .sheet-matrixFirewall {
     .sheet-pc div.sheet-arms div.sheet-armor div.repitem .itemcontrol input.sheet-settings-flag + span.repcontrol_del,
     .itemcontrol .sheet-pc div.sheet-arms div.sheet-armor div.repitem input.sheet-settings-flag + span.repcontrol_del {
       grid-area: 1 / 10 / 1 / 11; }
+    .sheet-pc div.sheet-arms div.sheet-armor div.repitem div.sheet-collapse h3,
+    .sheet-pc div.sheet-arms div.sheet-armor div.repitem div.sheet-collapse span {
+      grid-column: 1 / 11;
+      display: block;
+      width: 100%; }
     .sheet-pc div.sheet-arms div.sheet-armor div.repitem div.sheet-settings {
       grid-column: 1 / 11;
       grid-template-columns: 30% 3.5em 2.5em 2.5em 2.5em 2.5em 2.5em 1em 1em; }
+      .sheet-pc div.sheet-arms div.sheet-armor div.repitem div.sheet-settings label[data-i18n-title="modifications"] {
+        grid-column: 2 / 11; }
       .sheet-pc div.sheet-arms div.sheet-armor div.repitem div.sheet-settings div.sheet-row {
         grid-column: 1 / 11; }
         .sheet-pc div.sheet-arms div.sheet-armor div.repitem div.sheet-settings div.sheet-row h3,

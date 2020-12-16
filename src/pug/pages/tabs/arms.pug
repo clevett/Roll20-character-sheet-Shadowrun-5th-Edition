@@ -32,7 +32,12 @@
                     option(data-i18n=val.toLowerCase() value=val) #{val}
               else
                 span.text-center(name=`attr_${attrName}`)
-            +repeatingSectionFlagsWithNotes()
+            +repeatingSectionFlags()
+            .collapse
+              h3(data-i18n='modifications')
+              span(name='attr_modifications')
+              h3(data-i18n='notes')
+              span(name='attr_notes')
             .settings
               each val, key in pcRangeWeaponObject
                 - const attrName = key === 'Dam' ? 'damage' : key.toLowerCase();
@@ -77,6 +82,10 @@
                 input(name=`attr_skill` type='hidden' value='')
                 .exotic-warning
                   i(data-i18n='exoticnote') Exotic weapons are not linked to a skill. Use Modifier input to set dicepool.
+              .row.modifications
+                h3(data-i18n='modifications')
+                label(data-i18n-title='modifications' title='modifications')
+                  input.text-left(name=`attr_modifications` placeholder='Chemical Protect' title=`@{repeating_armor_`+'${x}'+`_modifications}` type='text' value='')
               +repeatingSectionNotes('range')
         .rows.repeating-container.weapon-melee
           - const meleeRepeatingSection = '@{repeating_melee_${x}';
@@ -88,7 +97,12 @@
             each val in ['Dam', 'Acc', 'AP', 'Reach']
               - const attrName = val === 'Dam' ? 'damage' : val.toLowerCase();
               span.text-center(name=`attr_${attrName}`)
-            +repeatingSectionFlagsWithNotes()
+            +repeatingSectionFlags()
+            .collapse
+              h3(data-i18n='modifications')
+              span(name='attr_modifications')
+              h3(data-i18n='notes')
+              span(name='attr_notes')
             .settings
               each val, key in pcMeleeWeaponObject
                 - const attrName = key === 'Dam' ? 'damage' : key.toLowerCase();
@@ -117,6 +131,10 @@
                 input(name=`attr_skill` type='hidden' value='')
                 .exotic-warning
                   i(data-i18n='exoticnote') Exotic weapons are not linked to a skill. Use Modifier input to set dicepool.
+              .row.modifications
+                h3(data-i18n='modifications')
+                label(data-i18n-title='modifications' title='modifications')
+                  input.text-left(name=`attr_modifications` placeholder='Chemical Protect' title=`@{repeating_armor_`+'${x}'+`_modifications}` type='text' value='')
               +repeatingSectionNotes('melee')
   .pc-row.armor
     .header.right-header
@@ -139,7 +157,12 @@
               - const attrName = val.toLowerCase();
               button(name=`roll_${attrName}` type='roll' value!=noWoundsRollBegining+`{{header=^{${attrName}protection}}}{{base= ^{armor}}}{{dice=[[((@{body}+@{rating}+@{dicepool_modifier}+@{${attrName}_modifier})`+noWoundsRollEnding)
                 span.text-center(name=`attr_${attrName}_modifier`)
-            +repeatingSectionFlagsWithNotes()
+            +repeatingSectionFlags()
+            .collapse
+              h3(data-i18n='modifications')
+              span(name='attr_modifications')
+              h3(data-i18n='notes')
+              span(name='attr_notes')
             .settings
               each val, key in pcArmorObject
                 - const attrName = key === 'Name' || key === 'Rating' ? key.toLowerCase() : `${key.toLowerCase()}_modifier`;
@@ -152,4 +175,7 @@
                 h3(data-i18n='modifier') modifier
                 label(data-i18n-title='modifier' title='modifier')
                   input(name='attr_dicepool_modifier' placeholder='0' title=`@{${armorRepeatingSection}_dicepool_modifier}` type='number' value='0')
+              h3(data-i18n='modifications')
+              label(data-i18n-title='modifications' title='modifications')
+                input.text-left(name=`attr_modifications` placeholder='Chemical Protect' title=`@{repeating_armor_`+'${x}'+`_modifications}` type='text' value='')
               +repeatingSectionNotes('armor')

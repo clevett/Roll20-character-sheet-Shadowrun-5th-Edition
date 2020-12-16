@@ -1,0 +1,1141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<public>
+		<program name="Hero Lab" url="https://www.wolflair.com">
+			<programinfo>Hero Lab and the Hero Lab logo are Registered Trademarks of LWD Technology, Inc. Free download at https://www.wolflair.com
+Shadowrun © 2005-2019 The Topps Company, Inc. All rights reserved. Shadowrun is a registered trademark of The Topps Company, Inc.</programinfo>
+			<version version="8.9h" primary="8" secondary="9" tertiary="h" build="958"/>
+		</program>
+		<localization language="eng" units="metric"/>
+		<character active="yes" characterindex="1" nature="normal" role="pc" relationship="ally" type="Hero" name="Libra Skysight" playername="Jessica Lindsay">
+			<race name="Falconine Shapeshifter (Human)"/>
+			<heritage name="Sioux Magician"/>
+			<creation>
+				<bp total="25" left="-41"/>
+			</creation>
+			<karma total="57" left="34"/>
+			<cash total="54575"/>
+			<personal gender="Female" age="28" hair="White" eyes="Red" skin="Pale">
+				<description/>
+				<charheight text="1.75m" value="175"/>
+				<charweight text="78kg" value="78"/>
+			</personal>
+			<defenses>
+				<defense name="Ranged Defense" normal="9"/>
+				<defense name="Melee Defense" normal="9"/>
+			</defenses>
+			<armorratings>
+				<armorrating name="Armor" rating="12" stacking="0" nonstacking="12" dicepool="14"/>
+				<armorrating name="Acid Protection" rating="12" stacking="12" nonstacking="0" dicepool="14"/>
+				<armorrating name="Cold Protection" rating="12" stacking="12" nonstacking="0" dicepool="14"/>
+				<armorrating name="Electricity Protection" rating="12" stacking="12" nonstacking="0" dicepool="14"/>
+				<armorrating name="Fire Protection" rating="12" stacking="12" nonstacking="0" dicepool="14"/>
+				<armorrating name="Falling Protection" rating="12" stacking="12" nonstacking="0" dicepool="14"/>
+				<armorrating name="Fatigue Resistance" rating="0" stacking="0" nonstacking="0" dicepool="7"/>
+			</armorratings>
+			<attributes>
+				<attribute name="Body" text="2" base="2" modified="2" naturalmaximum="4" augmentedmaximum="6" minimum="1" category="Physical">
+					<description>Body measures your physical health and resiliency.
+
+It affects how much damage you can take and stay on your feet, how well you resist damage coming your way, your ability to recover from poisons and diseases, and things of that nature.</description>
+					<traitcost bp="1"/>
+				</attribute>
+				<attribute name="Agility" text="5" base="5" modified="5" naturalmaximum="7" augmentedmaximum="9" minimum="1" category="Physical">
+					<description>Agility measures things like hand-eye coordination, flexibility, nimbleness, and balance. Agility is the most important attribute when it comes to scoring hits during combat, as you need to be coordinated to land your blows, whether you're swinging a sword or carefully aiming a rifle. It also is critical in non-combat situations, such as sneaking quietly past security guards or smoothly lifting a keycard from its secured position.</description>
+					<traitcost bp="3"/>
+				</attribute>
+				<attribute name="Reaction" text="5" base="5" modified="5" naturalmaximum="8" augmentedmaximum="9" minimum="1" category="Physical">
+					<description>Reaction is about reflexes, awareness, and your character's ability to respond to events happening around them. Reaction plays an important role in deciding how soon characters act in combat and how skilled they are in avoiding attacks from others. It also helps you make that quick turn down a narrow alley on your cycle to avoid the howling gangers on your tail</description>
+					<traitcost bp="2"/>
+				</attribute>
+				<attribute name="Strength" text="3" base="3" modified="3" naturalmaximum="4" augmentedmaximum="7" minimum="1" category="Physical">
+					<description>Strength is an indicator of, well, how strong your character is. The higher your strength, the more damage you'll do when you're raining blows down on an opponent, and the more you'll be able to move or carry when there's stuff that needs to be moved. Or carried.
+
+Strength is also important with athletic tasks such as climbing, running, and swimming.</description>
+					<traitcost bp="2"/>
+				</attribute>
+				<attribute name="Willpower" text="5" base="5" modified="5" naturalmaximum="6" augmentedmaximum="9" minimum="1" category="Mental">
+					<description>Willpower is your character's desire to push through adversity, to resist the weariness of spellcasting, and to stay upright after being nailed in the head with a sap.
+
+Whether you're testing yourself against a toxic wilderness or a pack of leather-clad orks with crowbars, Willpower will help you make it through.</description>
+					<traitcost bp="4"/>
+				</attribute>
+				<attribute name="Logic" text="2" base="2" modified="2" naturalmaximum="5" augmentedmaximum="6" minimum="1" category="Mental">
+					<description>The Logic attribute measures the cold, calculating power of your rational mind. Whether you are attempting to repair complicated machinery or patch up an injured teammate, Logic helps you get things right. Logic is also the attribute hermetic mages use to resist Drain from the spells they rain down on their hapless foes.
+
+Deckers also find Logic extremely useful, as it helps them develop the attacks and counterattacks that are part of their online battles.</description>
+					<traitcost bp="1"/>
+				</attribute>
+				<attribute name="Intuition" text="4" base="4" modified="4" naturalmaximum="7" augmentedmaximum="8" minimum="1" category="Mental">
+					<description>Intuition is the voice of your gut, the instinct that tells you things before your logical brain can figure them out. Intuition helps you anticipate ambushes, notice that something is amiss or out of place, and stay on the trail of someone you're pursuing.</description>
+					<traitcost bp="2"/>
+				</attribute>
+				<attribute name="Charisma" text="3" base="3" modified="3" naturalmaximum="7" augmentedmaximum="7" minimum="1" category="Mental">
+					<description>Charisma is your force of personality, the persuasiveness and charm you can call on to get people to do what you want without having to go to the trouble of pulling a gun on them. It's not entirely about your appearance, but it's also not entirely not about your appearance. What it's mostly about is how you use what you have - your voice, your face, your words, and all the tools at your disposal - to charm and/or intimidate the people you encounter. Additionally, Charisma is an important attribute for shamanic mages, as it helps them resist the damaging Drain from spells they cast.</description>
+					<traitcost bp="1"/>
+				</attribute>
+				<attribute name="Essence" text="6" base="6" modified="6" naturalmaximum="12" augmentedmaximum="10" minimum="0" category="Derived">
+					<description>Essence is your metahumanity encapsulated in a number. In Shadowrun, you have ample opportunities to alter your body or push it beyond its normal limits. Such actions often have a cost, and they can result in a loss of a portion of your metahumanity, which means a loss of Essence points. Each character starts with an Essence rating of 6, and it acts as a cap on the amount of alterations you can adopt. When it's gone, it doesn't come back. It also affects the Magic and Resonance attributes, as losses in Essence are reflected by losses in Magic and Resonance.
+
+While denizens of the Sixth World are accustomed to seeing a variety of augmentations and alterations to the metahuman form, the "uncanny valley" still exists. The uncanny valley is the disconcerting effect that happens when people see something that is almost, but not quite, metahuman. An animated cartoon with exaggerated features looks fine to metahuman eyes, but a computer program that closely, but not exactly, replicates human appearance is a troubling and unpleasant sight to most viewers. This is what happens when people see others with augmentations - on some level, people notice there is something less (or more) human about that, and they respond to it negatively. The change may not be exactly visible, but it is in some way noticeable - in one way or another, a person has become less human, and on some level other people notice this. This is why a character's Essence is included in the calculation of their Social limit.</description>
+					<traitcost bp="0"/>
+				</attribute>
+				<attribute name="Edge" text="2" base="2" modified="2" naturalmaximum="4" augmentedmaximum="6" minimum="1" category="Special">
+					<description>Edge is the ultimate intangible, that certain something that provides a boost when you need it, that gets you out of a tough spot when the chips are down. It's not used to calculate dice pools; instead, you spend a point of Edge to acquire a certain effect. Every character has at least one point of Edge, more if they want to take more frequent advantage of the boosts it offers. The possible effects of and more details about Edge are on p. 56.</description>
+					<traitcost bp="2"/>
+				</attribute>
+				<attribute name="Magic" text="5" base="5" modified="5" naturalmaximum="6" augmentedmaximum="9" minimum="0" category="Heritage???Special">
+					<description>If you intend to cast spells or use magic in any way, your character needs to have the Magic attribute. Most individuals do not have this attribute, meaning their rating is zero. Mages, who cast spells, and adepts, who channel magic into enhanced physical and mental abilities, need this quality. Their Magic rating measures how capable they are in the arcane arts and how much power they can draw down to help them in their efforts.</description>
+					<traitcost bp="1"/>
+				</attribute>
+				<attribute name="Initiate Grade" text="1" base="1" modified="1" naturalmaximum="5" augmentedmaximum="10" minimum="0" category="Derived">
+					<description>As Awakened characters grow in power, they often find that their initial explorations into magic and the astral plane can only take them so far in understanding and increasing their abilities. In order to increase their powers, magicians and adepts will often choose to undergo initiation in the mysteries of magic, the astral world, and the metaplanes in hope of increasing their connection with the Awakened world.
+
+Initiation allows a character to wield greater magical abilities known as metamagic, access the metaplanes of astral space (p. 191), and raise her Magic attribute beyond her natural maximum of 6. Only characters with the Magician, Adept, or Mystic Adept qualities may initiate. Initiation is a serious process that requires a great deal of mental and spiritual preparation in the form of rituals or study appropriate to the character's tradition. A mage might spend months in research on a particular point of magic, writing a scholarly thesis in order to prepare, while a shaman might undergo a vision quest and seek guidance from her mentor spirit.
+
+Initiation is measured in grades, beginning with Grade 1 and increasing. At the end of a character's first initiation, she is a Grade 1 initiate. When she completes her second initiation, she is a Grade 2 initiate, and so on. The numerical system is for tracking initiation levels in game terms: each tradition refers to grades of initiation in their own way.
+
+The cost to initiate is equal to 10 + (Grade x 3) in Karma points. Characters who wish to initiate must pay that cost in order to achieve their new grade.
+
+A character's initiate grade cannot exceed her Magic attribute. If a character's Magic is reduced below her initiate grade, she loses that level of initiation and the metamagic she gained with it.</description>
+					<traitcost bp="0"/>
+				</attribute>
+				<attribute name="Initiative" text="9+2D6" base="9" modified="9" naturalmaximum="15" augmentedmaximum="13" minimum="2" category="Derived">
+					<description>Initiative governs how quickly a character responds in a combat situation. A character's Initiative attribute is their Reaction plus their Intuition.</description>
+					<traitcost bp="0"/>
+				</attribute>
+			</attributes>
+			<movementtypes>
+				<movementtype name="Land Movement" sprintpool="2dicepool">
+					<walking text="5m" value="5"/>
+					<running text="10m" value="10"/>
+				</movementtype>
+				<movementtype name="Flying" sprintpool="4dicepool">
+					<walking text="10m" value="10"/>
+					<running text="30m" value="30"/>
+				</movementtype>
+			</movementtypes>
+			<reputations>
+				<reputation name="Street Cred" value="5"/>
+				<reputation name="Notoriety" value="0"/>
+				<reputation name="Public Awareness" value="0"/>
+				<reputation name="Astral Reputation" value="0"/>
+			</reputations>
+			<qualities>
+				<positive>
+					<quality name="College Education">
+						<description>The halls of academe are well known to your character. Thanks to time spent actually studying while at college instead of partying, the character can buy Academic Knowledge skills at half price (rounded up) during character creation. After character creation, Academic Knowledge skill ranks of 3 or higher receive a 1 Karma cost reduction for each rank.</description>
+						<traitcost bp="4"/>
+					</quality>
+					<quality name="Gifted Healer: Stabilization">
+						<description>A character with the Gifted Healer quality is particularly adept at one of the three tests detailed in the Care Under Fire optional rules (Stabilization, Diagnosis, or Treatment, p. 14). She receives a +1 dice pool bonus whenever performing the selected test, whether by magical or mundane means. Gifted Healer may only be taken once, meaning a character can only get the bonus for a single test, not two or three.</description>
+						<traitcost bp="2"/>
+					</quality>
+					<quality name="Grease Monkey">
+						<description>When you were young, you would much rather make a trip to the junkyard than the toy store (possibly because kids in the barrens never have enough money to buy anything at the toy store). As you got older, the allure or discarded vehicle and machine parts on the heaps in junkyards was far stronger than the promise of some new toy. You not only loved monkeying around with these items, but you could often get the devices to work. Gain +1 dice on any skill test using skills from the Engineering skill group.</description>
+						<traitcost bp="8"/>
+					</quality>
+					<quality name="Hawk Eye" useradded="no">
+						<description>Characters with the Hawk Eye quality have exceptionally keen natural vision. They can identify a face a block away without binoculars or spot a spent casing in a shadowy crack at five meters. Characters gain a +1 dice pool modifier to their Perception Tests and shift all Range Environmental modifiers up one category (e.g., Medium becomes Short). The quality is part of characters' natural eyes and is not compatible with electronic vision enhancements and/or cyber- or bioware augmentations or replacements.</description>
+						<traitcost bp="0"/>
+					</quality>
+					<quality name="Sioux Magician">
+						<description>• Magicians can astrally perceive.
+
+• Magicians can astrally project.
+
+• Magicians can choose freely from the magical skills or skill groups (Sorcery, Conjuring, Enchanting).
+
+• Magicians can cast spells, conjure spirits, or enchant magical items.
+
+• At character creation, magicians who cast spells, perform rituals, or create alchemical preparations may know a maximum number of formulae from each group equal to their Magic Rating x 2 (i.e., Magic Rating of 4 allows 8 spells, 8 rituals, 8 alchemical preparations).</description>
+						<traitcost bp="0"/>
+					</quality>
+					<quality name="Spirit Whisperer">
+						<description>There is something about you that makes some spirits want to avoid you - while others seem oddly drawn to you. Spirits add 1 die when resisting Summoning Tests from characters with this quality. However, if the character succeeds in the test, the spirit summoned is always at 1 point of Force stronger than chosen. For all purposes, the character is considered to have summoned the spirit at the declared Force - it simply shows up at 1 point of Force higher than expected. Summoned spirits behave rather curiously toward the character, asking questions about the character's past, though no amount of mastery can compel them to reveal why they are so curious and why they show up stronger than summoned (the gamemaster should play up this mystery; it could even be the basis of an eventual campaign).</description>
+						<traitcost bp="8"/>
+					</quality>
+				</positive>
+				<negative>
+					<quality name="Albinism" rank="2">
+						<description>While the little white bunnies are cute, a character with this quality will likely get a moniker like Powder, Whitey, or Snowflake. Albinism is a genetic disorder that results in a partial or complete lack of pigmentation in the eyes, skin, and hair. While the lack of pigment in the hair and skin results in white colorations, lack of pigment in the eyes results in pink or crystal blue irises, with bright red pupils. Due to the lack of melanin, the compound that provides the pigmentation, characters with this quality lack ultraviolet light protection, making them very photosensitive and prone to sunburn. All ethnicities, metatypes, and metavariants can manifest albinism; in fact, all species can manifest albinism, including sapient paracritters.
+
+Characters with this quality face a Weak Glare penalty to all actions when working in regular indoor lighting as well as during a bright but overcast day, and a Moderate Glare penalty when working on a sunny day. All other Glare modifiers are also increased by one level versus albino characters. Normal compensation methods work to mitigate the modifiers.
+
+Due to the lack of protective pigmentation in their skin, characters with this quality suffer sunburn more quickly. Halve the duration between resistance tests when exposed to the sun for extended periods (p. 148, Run &amp; Gun).
+
+Characters who gain cybereyes at any point in the character creation process only gain 4 Karma at character creation. If an albino character gains cybereyes during game play, they must buy down this quality to the 4 Karma level as soon as they have the Karma, and cannot spend Karma on anything else until the quality is bought down.</description>
+						<traitcost bp="-8"/>
+					</quality>
+					<quality name="Distinctive Style: Albino + Head scars">
+						<description>A character with the Distinctive Style quality has at least one aspect of his appearance, mannerism, or personality that makes him inconveniently memorable. Choices for Distinctive Style include, but are by no means limited to: tattoos that cannot be easily concealed, an accent or atypical manner of speaking, bizarre fashion choices, scars, gang or prison signs, flashy custom augmentations, or non-metahuman modifications like a tail. Note that what's distinctive in one culture or location may not be in another.
+
+Whatever Distinctive Style the player selects makes her character easy to remember. Anyone who attempts to identify, trace, or physically locate this character (or gain information about him via legwork) receives a +2 dice pool modifier for relevant tests. If an NPC makes a Memory Test (p. 152) to determine how much they recall about the character, reduce the Difficulty Threshold by 1, to a minimum of 1.
+
+This quality is physical in nature and does not apply to astral searches. This quality may only be taken once. This quality is incompatible with Blandness.</description>
+						<traitcost bp="0"/>
+					</quality>
+					<quality name="Low Pain Tolerance">
+						<description>Characters with Low Pain Tolerance are particularly sensitive to pain; they incur a -1 wound modifier for every 2 boxes of cumulative damage, instead of the normal 3 boxes. This affects both Physical and Stun damage tracks.</description>
+						<traitcost bp="-9"/>
+					</quality>
+					<quality name="Phobia, Uncommon (Mild): Hawks" rank="1">
+						<description>Fear is the mind-killer. It can also cause reactions from distraction to utter panic. A character with this quality has a visceral fear of some kind that shakes them whenever they are exposed. The severity of the fear determines their reaction to it and any modifiers they may face in its presence. That, combined with how frequently they may be exposed to their object of apprehension, determines the Karma value of the quality based on the Phobia table.
+
+Mild phobias cause a -1 dice pool modifier to all actions while in the presence of their source. Moderate phobias cause a -3 dice pool modifier to all actions while in the presence of their source, and the character must succeed on a Composure (2) Test or feel a strong need to get away from the source of their fear. A Severe phobia causes the character to face a -6 dice pool modifier, requires a Composure (5) Test to stay in its presence, and if the Composure Test is failed the character must move away for at least (5 - hits) Combat Turns.
+
+Condition (Karma): Description
+Uncommon (2): The triggering condition is relatively rare, such as the smell of roses or specific insects.
+Common (5): The triggering condition is commonly encountered, such as sunlight, trolls, insects in general, magic, the outdoors, or crowds.
+
+Severity (Karma): Effects
+Mild (3): -1 dice pool modifier to all actions
+Moderate (5): -3 dice pool modifier to all actions; Composure (2) Test or must get away from the source
+Severe (10): -6 dice pool modifier; Composure (5) Test or must flee from the source for (5 - hits) Combat Turns</description>
+						<traitcost bp="-5"/>
+					</quality>
+					<quality name="Poor Self Control - Compulsive (Specific Public) (2): Kleptomania" rank="2">
+						<description>Whether they're a boaster, an adrenaline junkie, or just can't stand disorder, characters with this quality span a variety of mental ticks that all boil down to the inability to control one's actions. The Karma costs vary based on the threshold of the Composure test involved in restraining the character's actions. The quality can be taken multiple times, but only once for each form of control issue.
+
+Compulsive (4 To 12 Karma): There is an order to all things that must be maintained, and the character feels the need to exert their sense of order on everything. The value of this mental malady comes from how severe the compulsion is and how much of a negative impact it can have on the character. Maybe she likes a tidy house, maybe she sees a necessary order to the items on the tables out in the world, or maybe she feels the need to practice her skills (be they hacking, casting, shooting, talking, stealing, sneaking, etc.) every chance she gets. The character must make a Composure (2) test to resist the compulsion. The base Karma value is (2 x threshold needed for Composure Test; must be from 1 to 4); then add 2 for things in the character's personal environment (e.g., placement of furniture and minor appliances), 3 for a single aspect of the public environment (e.g., correcting bad apostrophes on signs, counting every Ford Americar they see), or 4 for a broad aspect of the public environment (e.g., touching every light post they walk by, hacking into every camera they see).</description>
+						<traitcost bp="-7"/>
+					</quality>
+				</negative>
+			</qualities>
+			<skills>
+				<groups>
+					<skill name="Biotech Group" text="3" base="3" modified="3" naturalmaximum="12" augmentedmaximum="5">
+						<addsskill name="Biotechnology"/>
+						<addsskill name="Biotechnology"/>
+						<addsskill name="Cybertechnology"/>
+						<addsskill name="First Aid"/>
+						<addsskill name="Medicine"/>
+						<description/>
+						<traitcost bp="3"/>
+					</skill>
+					<skill name="Sorcery Group" text="2" base="2" modified="2" naturalmaximum="12" augmentedmaximum="3">
+						<addsskill name="Counterspelling"/>
+						<addsskill name="Ritual Spellcasting"/>
+						<addsskill name="Spellcasting"/>
+						<description/>
+						<traitcost bp="2"/>
+					</skill>
+				</groups>
+				<active>
+					<skill name="Alchemy" text="2" base="2" modified="2" naturalmaximum="12" augmentedmaximum="3" dicepool="7" group="Enchanting Group">
+						<description>Alchemy is used to create substances that store spells. Alchemy is most commonly used to brew potions, distill magical reagents, and even create orichalcum.</description>
+						<traitcost bp="2"/>
+					</skill>
+					<skill name="Arcana" text="2" base="2" modified="2" naturalmaximum="12" augmentedmaximum="3" dicepool="4" group="">
+						<description>Arcana governs the creation of magical formulae used to create spells, foci, and all other manner of magical manipulations. Arcana is required to understand formulae that may be purchased over the counter or discovered by other means</description>
+						<traitcost bp="2"/>
+					</skill>
+					<skill name="Assensing" text="4" base="4" modified="4" naturalmaximum="12" augmentedmaximum="6" dicepool="8" group="">
+						<description>Assensing is a magic user's ability to read and interpret fluctuations in the astral world. This skill allows practitioners to learn information by reading astral auras. Only characters capable of astral perception may take this skill. For more information, see Astral Perception, p. 312</description>
+						<traitcost bp="0"/>
+					</skill>
+					<skill name="Automotive Mechanic" text="3" base="3" modified="3" naturalmaximum="12" augmentedmaximum="5" dicepool="6" group="Engineering Group">
+						<description>Automotive mechanics are tasked with fixing all types of ground-based vehicles ranging from commercial automobiles to wheeled drones to tanks. Repairs require the proper tools and time. See Building &amp; Repairing, p. 145.</description>
+						<traitcost bp="3"/>
+					</skill>
+					<skill name="Banishing" text="3" base="3" modified="3" naturalmaximum="12" augmentedmaximum="5" dicepool="8" group="Conjuring Group">
+						<description>Banishing is used to disrupt the link between spirits and the physical world. Banished spirits are forced to return to their native plane and are no longer required to complete unfulfilled services.</description>
+						<traitcost bp="3"/>
+					</skill>
+					<skill name="Binding" text="4" base="4" modified="4" naturalmaximum="12" augmentedmaximum="6" dicepool="9" group="Conjuring Group">
+						<description>Binding is used to compel a summoned spirit to perform a number of additional services. See Binding, p. 300.</description>
+						<traitcost bp="0"/>
+					</skill>
+					<skill name="Biotechnology" text="6" base="6" modified="6" naturalmaximum="12" augmentedmaximum="9" dicepool="8" group="Biotech Group" fromgroup="yes">
+						<description>Biotechnology is a wide-ranging skill primarily used by doctors and scientists to grow organic body parts. This skill is the basis for cloning as well as all forms of bioware. Provided the right equipment is available, biotechnology can be used to repair damaged bioware, clone new tissue, or detect any bioware in a subject's body. This skill does not allow characters to install or remove bioware.</description>
+						<traitcost bp="3"/>
+					</skill>
+					<skill name="Biotechnology" text="3" base="3" modified="3" naturalmaximum="12" augmentedmaximum="5" dicepool="5" group="Biotech Group" fromgroup="yes">
+						<description>Biotechnology is a wide-ranging skill primarily used by doctors and scientists to grow organic body parts. This skill is the basis for cloning as well as all forms of bioware. Provided the right equipment is available, biotechnology can be used to repair damaged bioware, clone new tissue, or detect any bioware in a subject's body. This skill does not allow characters to install or remove bioware.</description>
+						<traitcost bp="0"/>
+					</skill>
+					<skill name="Blades" text="1" base="1" modified="1" naturalmaximum="12" augmentedmaximum="2" dicepool="6" group="Close Combat Group">
+						<description>Slice and dice! The Blades skill includes the use of all handheld slashing and stabbing weapons. You can use a range of edged weapons including daggers, swords, and axes.</description>
+						<traitcost bp="1"/>
+					</skill>
+					<skill name="Chemistry" text="1" base="1" modified="1" naturalmaximum="12" augmentedmaximum="2" dicepool="3" group="">
+						<description>Chemistry permits the character to create chemical reactions and develop chemical compounds ranging from drugs, to perfumes, to biopolymers like NuSkin. Chemistry can also be used to analyze chemical compounds to determine what they are.</description>
+						<traitcost bp="1"/>
+					</skill>
+					<skill name="Computer" text="1" base="1" modified="1" naturalmaximum="12" augmentedmaximum="2" dicepool="3" group="Electronics Group">
+						<description>Computer is the base skill for interacting with the Matrix. It represents the ability to use computers and other Matrix- connected devices. The Computer skill focuses on understanding multiple operating systems. It does not allow the character to exploit code (Hacking) or strip down mainframes (Hardware). See Using Computer, p. 226.</description>
+						<traitcost bp="-2 +&#xA;2K"/>
+					</skill>
+					<skill name="Con" text="1" base="1" modified="1" naturalmaximum="12" augmentedmaximum="2" dicepool="5" group="Acting Group">
+						<description>Con governs the ability to manipulate or fool an NPC during a social encounter. This skill covers a range of confidence games as well as the principles behind those cons.</description>
+						<traitcost bp="1"/>
+					</skill>
+					<skill name="Counterspelling" text="2" base="2" modified="2" naturalmaximum="12" augmentedmaximum="3" dicepool="7" group="Sorcery Group" fromgroup="yes">
+						<description>Counterspelling is a defensive skill used to defend against magical attacks and dispel sustained magical spells. See Counterspelling, p. 294.</description>
+						<traitcost bp="0"/>
+					</skill>
+					<skill name="Cybertechnology" text="3" base="3" modified="3" naturalmaximum="12" augmentedmaximum="5" dicepool="5" group="Biotech Group" fromgroup="yes">
+						<description>Cybertechnology is the ability to create, maintain, and repair cybernetic parts. A character with the proper tools and parts may repair or even build new cybernetics. Cybertechnology is not a surgical skill. Characters cannot attach or re-attach cybernetics to organic material with this skill. This skill may be used to modify or upgrade cybernetics within cyberlimbs. See Building and Repairing, p. 145.</description>
+						<traitcost bp="0"/>
+					</skill>
+					<skill name="Exotic Ranged Weapon" text="1" base="1" modified="1" naturalmaximum="12" augmentedmaximum="2" dicepool="6" group="">
+						<description>Sometimes a regular gun or blade won't do the job and you need something fancier. Or weirder. This skill must be taken once for each unusual ranged weapon you want to use. Some examples include blowguns, gyrojet pistols, flamethrowers, and lasers.</description>
+						<traitcost bp="-2 +&#xA;2K"/>
+					</skill>
+					<skill name="First Aid" text="3" base="3" modified="3" naturalmaximum="12" augmentedmaximum="5" dicepool="10" group="Biotech Group" fromgroup="yes">
+						<description>First Aid is the ability to provide emergency medical assistance similar to that of a paramedic. This skill may be used to stabilize wounds and prevent characters from dying. First Aid cannot be used to perform surgery or repair damaged implants. For more information, see Healing, p. 205.</description>
+						<traitcost bp="0"/>
+					</skill>
+					<skill name="Industrial Mechanic" text="2" base="2" modified="2" naturalmaximum="12" augmentedmaximum="3" dicepool="5" group="Engineering Group">
+						<description>An industrial mechanic is tasked with repairing or modifying large-scale machines, such as assembly line equipment, power generators, HVAC units, industrial robots, etc. See Building and Repairing, at right.</description>
+						<traitcost bp="2"/>
+					</skill>
+					<skill name="Instruction" text="1" base="1" modified="1" naturalmaximum="12" augmentedmaximum="2" dicepool="5" group="">
+						<description>Instruction governs the ability to teach people. The skill level helps determine how comfortable the instructor is delivering new material as well as how complex of a skill may be taught. See Using Instruction, p. 141.</description>
+						<traitcost bp="1"/>
+					</skill>
+					<skill name="Medicine" text="3" base="3" modified="3" naturalmaximum="12" augmentedmaximum="5" dicepool="5" group="Biotech Group" fromgroup="yes">
+						<description>Medicine is used to perform advanced medical procedures such as surgeries. It includes long-term medical support for disease and illness, and the skill can be used to diagnose a character's medical condition. This skill is used to implant or remove cybernetics and bioware but cannot be used to repair or maintain implanted devices. For more information, see Healing, p. 205.</description>
+						<traitcost bp="0"/>
+					</skill>
+					<skill name="Negotiation" text="2" base="2" modified="2" naturalmaximum="12" augmentedmaximum="3" dicepool="6" group="Influence Group">
+						<description>Negotiation governs a character's ability to apply their charisma, tactics, and knowledge of situational psychology in order to create a better position when making deals.</description>
+						<traitcost bp="2"/>
+					</skill>
+					<skill name="Palming" text="2" base="2" modified="2" naturalmaximum="12" augmentedmaximum="3" dicepool="7" group="Stealth Group">
+						<description>Palming is sleight-of-hand skill that gives a character the ability to snag, hide, and pass off small objects.</description>
+						<traitcost bp="1"/>
+					</skill>
+					<skill name="Perception" text="2" base="2" modified="2" naturalmaximum="12" augmentedmaximum="3" dicepool="7" group="">
+						<description>Perception refers to the ability to spot anomalies in everyday situations, making it one of the key skills a shadowrunner needs. See Using Perception, p. 135.</description>
+						<traitcost bp="2"/>
+					</skill>
+					<skill name="Performance" text="2" base="2" modified="2" naturalmaximum="12" augmentedmaximum="3" dicepool="6" group="Acting Group">
+						<description>This skill governs the ability to execute a performing art. Performance is to the arts what Artisan is to craft. The performer uses her skill to entertain or even captivate an audience. See Using Performance, p. 141.</description>
+						<traitcost bp="2"/>
+					</skill>
+					<skill name="Pistols" text="2" base="2" modified="2" naturalmaximum="12" augmentedmaximum="3" dicepool="7" group="Firearms Group">
+						<description>This skill category includes all types of handheld pistols, including tasers, single-shots, semi-automatics, and revolvers.</description>
+						<traitcost bp="2"/>
+					</skill>
+					<skill name="Ritual Spellcasting" text="2" base="2" modified="2" naturalmaximum="12" augmentedmaximum="3" dicepool="7" group="Sorcery Group" fromgroup="yes">
+						<description>Ritual spellcasting is a spellcasting skill used to cast ritual spells. See Ritual Spellcasting, p. 295.</description>
+						<traitcost bp="0"/>
+					</skill>
+					<skill name="Sneaking" text="1" base="1" modified="1" naturalmaximum="12" augmentedmaximum="2" dicepool="6" group="Stealth Group">
+						<description>Need to get where you're not supposed to be? This skill allows you to remain inconspicuous in various situations. See Using Stealth Skills, p. 136.</description>
+						<traitcost bp="1"/>
+					</skill>
+					<skill name="Spellcasting" text="2" base="2" modified="2" naturalmaximum="12" augmentedmaximum="3" dicepool="7" group="Sorcery Group" fromgroup="yes">
+						<description>The Spellcasting skill permits the character to channel mana into effects known as spells. See Spellcasting, p. 281.</description>
+						<traitcost bp="0"/>
+					</skill>
+					<skill name="Summoning" text="4" base="4" modified="4" naturalmaximum="12" augmentedmaximum="6" dicepool="9" group="Conjuring Group">
+						<description>This skill is used to summon spirits. See Summoning, p. 300).</description>
+						<traitcost bp="4"/>
+					</skill>
+					<skill name="Survival" text="2" base="2" modified="2" naturalmaximum="12" augmentedmaximum="3" dicepool="7" group="Outdoors Group">
+						<description>In the desert with nothing more than a tin cup, a poncho, and an iron rod? You'll need this skill to help you get out alive. Survival is the ability to stay alive in extreme environmental conditions for extended periods of time. The skill governs a character's ability to perform vital outdoor tasks such as start a fire, build a shelter, scrounge for food, etc. in hostile environments. See Using Survival, p. 136.</description>
+						<traitcost bp="2"/>
+					</skill>
+					<skill name="Unarmed Combat" text="1" base="1" modified="1" naturalmaximum="12" augmentedmaximum="2" dicepool="6" group="Close Combat Group">
+						<description>Unarmed Combat covers the various self-defense and attack moves that employ the body as a primary weapon. This includes a wide array of martial arts along with the use of cybernetic implant weaponry and the fighting styles that sprung up around those implants.</description>
+						<traitcost bp="1"/>
+					</skill>
+				</active>
+				<knowledge>
+					<skill name="Anatomy" text="3" base="3" modified="3" naturalmaximum="12" augmentedmaximum="5" dicepool="5" group="">
+						<description/>
+						<traitcost bp="3"/>
+					</skill>
+					<skill name="Architecture" text="2" base="2" modified="2" naturalmaximum="12" augmentedmaximum="3" dicepool="4" group="">
+						<description/>
+						<traitcost bp="2"/>
+					</skill>
+					<skill name="Biology" text="3" base="3" modified="3" naturalmaximum="12" augmentedmaximum="5" dicepool="5" group="">
+						<description/>
+						<traitcost bp="3"/>
+					</skill>
+					<skill name="Denver" text="1" base="1" modified="1" naturalmaximum="12" augmentedmaximum="2" dicepool="5" group="">
+						<description/>
+						<traitcost bp="1"/>
+					</skill>
+					<skill name="Spirit Lore" text="2" base="2" modified="2" naturalmaximum="12" augmentedmaximum="3" dicepool="4" group="">
+						<description/>
+						<traitcost bp="0 +&#xA;2K"/>
+					</skill>
+					<skill name="Tacoma" text="1" base="1" modified="1" naturalmaximum="12" augmentedmaximum="2" dicepool="5" group="">
+						<description/>
+						<traitcost bp="1"/>
+					</skill>
+				</knowledge>
+				<language>
+					<skill name="Apsáalooke (Crow)" text="N" base="1" modified="1" naturalmaximum="12" augmentedmaximum="2" dicepool="5" group="">
+						<description/>
+						<traitcost bp="0"/>
+					</skill>
+					<skill name="English" text="2" base="2" modified="2" naturalmaximum="12" augmentedmaximum="3" dicepool="6" group="">
+						<description/>
+						<traitcost bp="2"/>
+					</skill>
+					<skill name="Japanese" text="1" base="1" modified="1" naturalmaximum="12" augmentedmaximum="2" dicepool="5" group="">
+						<description/>
+						<traitcost bp="-1 +&#xA;1K"/>
+					</skill>
+					<skill name="Twin Speak" text="3" base="3" modified="3" naturalmaximum="12" augmentedmaximum="5" dicepool="7" group="">
+						<description/>
+						<traitcost bp="3"/>
+					</skill>
+				</language>
+			</skills>
+			<magic>
+				<tradition name="Sioux" drain="9" combatspirits="Spirit of Beasts" detectspirits="Plant Spirit" healthspirits="Spirit of Fire" illusionspirits="Spirit of Air" manipulationspirits="Guardian Spirit"/>
+				<spells>
+					<spell name="Armor" casting="7" drain="9" draintext="F-2" drainvalue="-2" duration="Sustained" type="Physical" range="Line-of-Sight" category="Manipulation" subcat="Physical Manipulation Spell">
+						<description>This spell creates a glowing field of magical energy around the subject that protects against Physical Damage. It provides Armor equal to the hits scored and is cumulative with other armor. It is not included in any calculations to determine armor encumbrance (see Armor and Encumbrance, p. 169).</description>
+						<traitcost bp="1"/>
+					</spell>
+					<spell name="Fix" casting="7" drain="9" draintext="F" drainvalue="+0" duration="Permanent" type="Physical" range="Touch" category="Manipulation" subcat="Physical Manipulation Spell">
+						<description>Most spellcasters have devoted their efforts towards learning spells rather than mechanics. This can leave a magician in a bad situation when there is a need for an emergency repair during a run. Fix allows the spellcaster to repair damage to non-living materials, including drones and vehicles. The caster must first touch the object and then achieve enough hits to beat the item's Object Resistance threshold (p. 295, SR5).
+
+Fix can repair any item with a weight equal to the Force x the spellcaster's hits in kilograms or less. This spell can only repair broken items when all the pieces are present. The weight limit applies to the damaged part, not necessarily the entire vehicle. For example, if you have a busted wheel, you would count that weight not the weight of the entire vehicle. Each hit scored repairs 1 point of Structure rating or 1 box of damage. An object may only be affected by Fix once and thereafter may not be repaired again by this spell.</description>
+						<traitcost bp="1"/>
+					</spell>
+					<spell name="Heal" casting="7" drain="9" draintext="F-4" drainvalue="-4" duration="Permanent" type="Mana" range="Touch" category="Health" subcat="Essence-Dependant Health Spell">
+						<description>Heal repairs physical injuries. It heals a number of boxes of Physical damage equal to the spell's hits from the Spellcasting Test. Hits can also be used to reduce the base time for the spell to become permanent; each hit spent this way shaves off 1 Combat Turn (you can split hits between healing and reducing time).
+
+Any boxes of Physical damage your target still has after any boxes are healed magically can only be healed by time and rest.</description>
+						<traitcost bp="1"/>
+					</spell>
+					<spell name="Invisibility" casting="7" drain="9" draintext="F-2" drainvalue="-2" duration="Sustained" type="Mana" range="Line-of-Sight" category="Illusion" subcat="Realistic Illusion Spell,Single-Sense Illusion Spell">
+						<description>This spell makes the subject more difficult to detect by normal visual senses (including low-light, thermographic, and other senses that rely on the visual spectrum). The subject is completely tangible and detectable by the other senses (hearing, smell, touch, and even taste, if it somehow comes to that). Her aura is still visible to astral perception.
+
+Anyone who might be in a position to perceive the subject must first successfully resist the spell. Simply make one Spellcasting Test and use the hits scored as the threshold for anyone that resists at a later point. Even if the spell is resisted, the subject might remain undetected if she's good enough with her Sneaking Test. An invisible character may still be detected by non-visual means, such as hearing or smell. Attacks against invisible targets suffer the Blind Fire modifier if the attacker is unable to see or otherwise sense the subject of the spell.
+
+Invisibility affects the minds of viewers. Improved Invisibility mimics the subject's surroundings from all angles and affects technological sensors as well.</description>
+						<traitcost bp="1"/>
+					</spell>
+					<spell name="Magic Fingers" casting="7" drain="9" draintext="F-2" drainvalue="-2" duration="Sustained" type="Physical" range="Line-of-Sight" category="Manipulation" subcat="Physical Manipulation Spell">
+						<description>Magic Fingers creates a psychokinetic effect as a sort of invisible hand that can hold or manipulate items. The hits on the Spellcasting + Magic Test become the spell's effective Strength and Agility. You can use skills remotely with Magic Fingers, replacing your inherent limits with the spell's Force. The spell has problems with fine control, so even simple actions such as picking up a coin may require a test (at the gamemaster's discretion). You can fight, pick a lock, or perform any other action, using the magic fingers as if they were your real hands. The magic fingers can manipulate objects within your line of sight, but only objects within a meter or so of one another at any given moment (the "hands" can't be farther away from each other than your arm span). This spell comes in very handy (no pun intended) for disarming bombs and handling other hazardous work from a safe distance.</description>
+						<traitcost bp="1"/>
+					</spell>
+					<spell name="Silence" casting="7" drain="9" draintext="F-1" drainvalue="-1" duration="Sustained" type="Physical" range="Line-of-Sight" category="Illusion" subcat="Area,Realistic Illusion Spell,Single-Sense Illusion Spell">
+						<description>These spells create an area that dampens sound. Sonic attacks into or out of the field, as well as critter powers using a sonic medium (such as Paralyzing Howl), are reduced by -1 per hit on the Spellcasting Test. Anyone attempting to hear a sound from within or across the silenced area must successfully resist the spell.
+
+Hush is a mana spell and so only affects living beings and magic sonic attacks. Silence affects technological devices and is useful for jamming alarms, detection devices, sonar, and tactical communications, as well as technological sonic weapons.</description>
+						<traitcost bp="1"/>
+					</spell>
+					<spell name="Stabilize" casting="7" drain="9" draintext="F-4" drainvalue="-4" duration="Permanent" type="Mana" range="Touch" category="Health" subcat="">
+						<description>When applied to a character with a filled Physical damage track, this spell stabilizes all vital functions and prevents the character from dying. The spell's Force must equal or exceed the overflow damage already taken when the spell starts. The full time must be taken for the spell to become permanent before the character is truly stabilized; hits reduce the time it takes by 1 Combat Turn each. If successful, the spell prevents the character from taking further damage from Physical Damage Overflow (p. 209).</description>
+						<traitcost bp="1"/>
+					</spell>
+				</spells>
+				<adeptpowers/>
+				<metamagics>
+					<metamagic name="Masking (6dicepool)">
+						<description>You learn to change the appearance of your aura (and astral form). You can make it look mundane, or make your Magic Rating look higher or lower by up to your grade. When someone tries to read your masked aura, the Assensing Test becomes opposed by your Magic + initiate grade - if they get any net hits, they see both your mask and your real aura.
+
+If you can use astral perception, you can even make your aura look like a different type (like a spirit or a focus - great for astral costume parties). You can also use this metamagic to mask the auras of as many of your bonded foci as your initiate grade.</description>
+					</metamagic>
+				</metamagics>
+			</magic>
+			<gear>
+				<augmentations>
+					<cyberware/>
+					<bioware/>
+				</augmentations>
+				<weapons>
+					<item name="Bite" useradded="no" quantity="1" natural="yes">
+						<description>Claws. Sharp, pointy teeth. A spiked tail. Whatever form it takes, the critter possesses some means of inflicting Physical damage. The description of this power describes the nature of the attack, as well as its Damage Value and Armor Penetration modifiers where applicable. Natural weapons may be either melee or ranged attacks, and critters follow standard combat rules when using them. Critters use the Unarmed Combat skill to attack with natural melee weapons, and the Exotic Ranged Weapon skill to attack with natural ranged weapons. Most natural weapons are considered normal weapons for purposes of the Immunity to Normal Weapons power; exceptions are noted in individual critter descriptions.
+
+A dual-natured critter with a melee Natural Weapon can use this power against astral targets that are within its reach. Use the critter's normal Unarmed Combat skill and physical Damage Value for this attack. Ranged Natural Weapons, like other ranged combat, do not work on the astral plane. Critters without a Natural Weapon may still make an unarmed attack. As with regular characters, the Damage Value is (STR)S.</description>
+						<gearcost text="0¥" value="0"/>
+						<availability text="" value="0" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<weaponinfo grouptext="Unarmed" dicepool="6dicepool [5]" damagetext="5P" damagevalue="5" damagetype="Physical" ap="-1" modestext="" isammunition="0" reach="-1" equipped="Main Hand">
+							<defense name="Bite Parry" normal="1"/>
+						</weaponinfo>
+					</item>
+					<item name="Fichetti Tiffani Self-Defender 2075" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>A purse pistol that has been updated to include the latest in fashion programming for its color-change coating, allowing it to be an excellent accessory for any outfit. Updates are available for a modest annual fee.</description>
+						<gearcost text="350¥" value="350"/>
+						<availability text="3R" value="3" class="Restricted"/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<weaponinfo grouptext="Pistols" dicepool="7dicepool [4]" damagetext="6P" damagevalue="6" damagetype="Physical" ap="0" modestext="SS" isammunition="0" recoilcomp="2" equipped="Main Hand">
+							<ammunitionused text="4 (c)" count="4" bins="1" type="Clip"/>
+							<mode>Single Shot</mode>
+							<ranges text="5/15/30/50">
+								<range name="Minimum" text="0m" value="0"/>
+								<range name="Short" text="5m" value="5"/>
+								<range name="Medium" text="15m" value="15"/>
+								<range name="Long" text="30m" value="30"/>
+								<range name="Extreme" text="50m" value="50"/>
+							</ranges>
+						</weaponinfo>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Survival Knife" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>A fine quality blade - smooth on one edge, serrated on the other - with several accessories, including a GPS monitor, mini-multitool, micro-lighter, and a hidden compartment in the handle. The sides of the steel are coated with a non-toxic chemical that blacks out the blade when inert to prevent unwanted reflection, but can be activated to provide two hours of phosphorescent light. All knives can cut flesh, but a survival knife is better at cutting rope and wood, or otherwise being used as a tool. The survival knife is the kind of gadget that no professional should be without.</description>
+						<gearcost text="100¥" value="100"/>
+						<availability text="" value="0" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<weaponinfo grouptext="Blades" dicepool="6dicepool [5]" damagetext="5P" damagevalue="5" damagetype="Physical" ap="-1" modestext="" isammunition="0" reach="" equipped="Main Hand">
+							<defense name="Survival Knife Parry" normal="1"/>
+						</weaponinfo>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Talons" useradded="no" quantity="1" natural="yes">
+						<description>Claws. Sharp, pointy teeth. A spiked tail. Whatever form it takes, the critter possesses some means of inflicting Physical damage. The description of this power describes the nature of the attack, as well as its Damage Value and Armor Penetration modifiers where applicable. Natural weapons may be either melee or ranged attacks, and critters follow standard combat rules when using them. Critters use the Unarmed Combat skill to attack with natural melee weapons, and the Exotic Ranged Weapon skill to attack with natural ranged weapons. Most natural weapons are considered normal weapons for purposes of the Immunity to Normal Weapons power; exceptions are noted in individual critter descriptions.
+
+A dual-natured critter with a melee Natural Weapon can use this power against astral targets that are within its reach. Use the critter's normal Unarmed Combat skill and physical Damage Value for this attack. Ranged Natural Weapons, like other ranged combat, do not work on the astral plane. Critters without a Natural Weapon may still make an unarmed attack. As with regular characters, the Damage Value is (STR)S.</description>
+						<gearcost text="0¥" value="0"/>
+						<availability text="" value="0" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<weaponinfo grouptext="Unarmed" dicepool="6dicepool [5]" damagetext="3P" damagevalue="3" damagetype="Physical" ap="0" modestext="" isammunition="0" reach="" equipped="Main Hand">
+							<defense name="Talons Parry" normal="1"/>
+						</weaponinfo>
+					</item>
+					<item name="Unarmed Strike" useradded="no" quantity="1" natural="yes">
+						<description/>
+						<gearcost text="0¥" value="0"/>
+						<availability text="" value="0" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<weaponinfo grouptext="Unarmed" dicepool="6dicepool [5]" damagetext="3S" damagevalue="3" damagetype="Stun" ap="0" modestext="" isammunition="0" reach="" equipped="Main Hand">
+							<defense name="Unarmed Strike Parry" normal="1"/>
+						</weaponinfo>
+					</item>
+				</weapons>
+				<armor>
+					<item name="Armanté Dress" quantity="1" wireless="Present">
+						<description>This year's line is heavily influenced by the worldwide outcry of support for Aztlan against the eco-terrorist forces of Amazonia. Neo-Aztec influences define the styles of Armanté this season. This isn't surprising to those of us who keep our ears open to the shadows, as Aztechnology was a major supporter for Vitorrio Armanté's shadow war with Zoé to recover the rights to the line name back in '73.</description>
+						<gearcost text="2,550¥" value="2550"/>
+						<availability text="10" value="10" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<armorinfo rating="8" acid="0" cold="0" electricity="0" falling="0" fire="0" radiation="0" laser="0" equipped="yes"/>
+						<modifications>
+							<item name="AR Fashion" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+								<description>This enhancement enables your armor and clothing to display a wide variety of AR overlays. Due to the ubiquity of AR-enabled vision devices, most people will see the look you choose to display and not the clothes you are actually wearing. This can serve as useful social camouflage. Even when you aren’t wearing the right outfit for a situation, you can look like you are. Creating your own AR clothing can be done with an Artisan + Intuition Extended Test (30 minutes) with a threshold set by the gamemaster based on the complexity and specificity of the overlay you are attempting to create (per Extended Test Threshold Table, p. 48, SR5).</description>
+								<gearcost text="50¥" value="50"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+								<modifications/>
+								<accessories/>
+								<ammunition/>
+								<programs/>
+								<othergear/>
+							</item>
+							<item name="Increase Social Limit by 2" rating="2" useradded="no" quantity="1">
+								<description>The value and status of simply wearing certain outfits help characters impress those around them, while on the other hand wearing camo fatigues at a social gathering isn't the social standard. Some pieces of armor raise the Social Limit of the wearer. These modifiers do not stack; only the highest modifier of any visible clothing item counts (and "visible" means seeing enough of it that viewers get a solid impression of what the garment does on the wearer. Seeing, for example, only the edge of a cuff poking out from under the sleeve of a battered overcoat or the hem of a dress beneath a housecoat will not provide the modifier). Some increases are limited to certain social circles; those limitations will be listed along with the bonus.</description>
+								<gearcost text="0¥" value="0"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+						</modifications>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Executive Suite" quantity="1" wireless="Present">
+						<description>The line's name pretty much says it all. These suits are usually found on the ultra-secure upper floors of megacorporate headquarters. They're slick and smooth, and outside of the improvements they've had added from Zoé's armor tech advancements, they haven't changed much in the past decade.</description>
+						<gearcost text="2,000¥" value="2000"/>
+						<availability text="12" value="12" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<armorinfo rating="12" acid="0" cold="0" electricity="0" falling="0" fire="0" radiation="0" laser="0" equipped="yes"/>
+						<modifications>
+							<item name="Custom Fit" useradded="no" quantity="1">
+								<description>Items that are Custom Fit were measured for a specific person. They are specially designed for that person and don't fit well on anyone else, therefore conferring none of the positive Social Limit adjustments to the character. When an item is Custom Fit, any changes to an individual's Physical Attributes, whether through Karma advancement or augmentation (but not through magic), require the suit to be refit. The refit process requires an Armorer shop and an Armorer + Logic [Mental] (10, 1 hour) Extended Test. The owner can also use their Contacts to help them get the job done, requiring loss of the armor for one week and a payment of 25 percent of the initial armor cost.</description>
+								<gearcost text="0¥" value="0"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+							<item name="Increase Social Limit by 2" rating="2" useradded="no" quantity="1">
+								<description>The value and status of simply wearing certain outfits help characters impress those around them, while on the other hand wearing camo fatigues at a social gathering isn't the social standard. Some pieces of armor raise the Social Limit of the wearer. These modifiers do not stack; only the highest modifier of any visible clothing item counts (and "visible" means seeing enough of it that viewers get a solid impression of what the garment does on the wearer. Seeing, for example, only the edge of a cuff poking out from under the sleeve of a battered overcoat or the hem of a dress beneath a housecoat will not provide the modifier). Some increases are limited to certain social circles; those limitations will be listed along with the bonus.</description>
+								<gearcost text="0¥" value="0"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+							<item name="Newest Model" useradded="no" quantity="1">
+								<description>These items are the most recent incarnations of their corporate creators. That means they lose a little more when purchased as Lightly Worn, namely a 20 percent loss of Armor Rating (round adjusted Rating up) when buying older models of the clothes.</description>
+								<gearcost text="0¥" value="0"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+						</modifications>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Executive Suite, Blush Pink" quantity="1" wireless="Present">
+						<description>The line's name pretty much says it all. These suits are usually found on the ultra-secure upper floors of megacorporate headquarters. They're slick and smooth, and outside of the improvements they've had added from Zoé's armor tech advancements, they haven't changed much in the past decade.</description>
+						<gearcost text="2,000¥" value="2000"/>
+						<availability text="12" value="12" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<armorinfo rating="12" acid="0" cold="0" electricity="0" falling="0" fire="0" radiation="0" laser="0" equipped="yes"/>
+						<modifications>
+							<item name="Custom Fit" useradded="no" quantity="1">
+								<description>Items that are Custom Fit were measured for a specific person. They are specially designed for that person and don't fit well on anyone else, therefore conferring none of the positive Social Limit adjustments to the character. When an item is Custom Fit, any changes to an individual's Physical Attributes, whether through Karma advancement or augmentation (but not through magic), require the suit to be refit. The refit process requires an Armorer shop and an Armorer + Logic [Mental] (10, 1 hour) Extended Test. The owner can also use their Contacts to help them get the job done, requiring loss of the armor for one week and a payment of 25 percent of the initial armor cost.</description>
+								<gearcost text="0¥" value="0"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+							<item name="Increase Social Limit by 2" rating="2" useradded="no" quantity="1">
+								<description>The value and status of simply wearing certain outfits help characters impress those around them, while on the other hand wearing camo fatigues at a social gathering isn't the social standard. Some pieces of armor raise the Social Limit of the wearer. These modifiers do not stack; only the highest modifier of any visible clothing item counts (and "visible" means seeing enough of it that viewers get a solid impression of what the garment does on the wearer. Seeing, for example, only the edge of a cuff poking out from under the sleeve of a battered overcoat or the hem of a dress beneath a housecoat will not provide the modifier). Some increases are limited to certain social circles; those limitations will be listed along with the bonus.</description>
+								<gearcost text="0¥" value="0"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+							<item name="Newest Model" useradded="no" quantity="1">
+								<description>These items are the most recent incarnations of their corporate creators. That means they lose a little more when purchased as Lightly Worn, namely a 20 percent loss of Armor Rating (round adjusted Rating up) when buying older models of the clothes.</description>
+								<gearcost text="0¥" value="0"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+						</modifications>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Gas Mask" quantity="1" wireless="Present">
+						<description>This air-supplied re-breather completely covers your face and gives you immunity to inhalation- vector toxin attacks (Toxins, Drugs, and BTLs, p. 408). It comes with a one-hour clean-air supply (replacements cost 40 nuyen) and can be attached to larger air tanks. It cannot be combined with a regular respirator.</description>
+						<gearcost text="200¥" value="200"/>
+						<availability text="" value="0" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<armorinfo rating="+0" acid="0" cold="0" electricity="0" falling="0" fire="0" radiation="0" laser="0" equipped="yes"/>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Urban Explorer Jumpsuit" quantity="1" wireless="Present">
+						<description>Designed for couriers, athletes, and freerunners, these colorful jumpsuits are well ventilated and breathable but surprisingly protective with lightweight densiplast and liquid reactive armor. Urban explorer jumpsuits feature a built-in music player and biomonitor.</description>
+						<gearcost text="650¥" value="650"/>
+						<availability text="8" value="8" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<armorinfo rating="9" acid="0" cold="0" electricity="0" falling="0" fire="0" radiation="0" laser="0" equipped="yes"/>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+				</armor>
+				<equipment>
+					<item name="Antidote Patch" rating="2" quantity="3" size="Human/Elf/Ork Size" wireless="Present">
+						<description>Add the rating of an antidote patch to any toxin resistance tests made within twenty minutes after it has been applied. The window to apply an antidote patch after being poisoned is often very narrow, depending on the toxin (Toxins, Drugs, and BTLs, p. 408).</description>
+						<gearcost text="100¥" value="100"/>
+						<availability text="2" value="2" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Biomonitor" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>This compact device measures life signs - heart rate, blood pressure, temperature, and so on. The biomonitor can also analyze blood, sweat, and skin samples. Used by medical services and patients who need to monitor their own health, biomonitors can be worn as an armband or wristband or integrated into clothing or commlinks.</description>
+						<gearcost text="300¥" value="300"/>
+						<availability text="3" value="3" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Chem Patch" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>This is a "blank" patch. You can add one dose of a chemical or toxin (p. 408) to it, and then apply it later to a patient (or yourself).</description>
+						<gearcost text="200¥" value="200"/>
+						<availability text="6" value="6" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Chisel/Crowbar" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>The chisel (or crowbar if you prefer) doubles your effective Strength when you're forcing a door or container.</description>
+						<gearcost text="20¥" value="20"/>
+						<availability text="" value="0" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Flashlight" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>By 2075, most flashlights are long lasting and super bright. Durability and brightness depend on the size - the bulkier, the better. Flashlights are also available in low-light and infrared versions, reducing visibility modifiers for low-light and thermographic vision, respectively. A flashlight can also be mounted to a weapon's top or under-barrel mount (Mounts, p. 417).</description>
+						<gearcost text="25¥" value="25"/>
+						<availability text="" value="0" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Lockpick Set" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>These mechanical burglary devices have undergone only slight improvements in the last several centuries. They are necessary tools for picking locks.</description>
+						<gearcost text="250¥" value="250"/>
+						<availability text="4R" value="4" class="Restricted"/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Magical Lodge Materials" rating="3" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>A magical lodge is a stationary collection of symbols, writings, tools, fetishes, and other mystical materials that helps spellcasters record their lore, expand their talent, and practice magic. It's a basic tool of magicians across the world, about the size of a room. You need it to learn spells, perform rituals, craft foci, and in a pinch you can use it to protect yourself from magical threats. Each lodge is of a specific tradition - a shamanic lodge is intended for shamans, and a hermetic lodge for mages.
+
+Magical lodges don't always look like lodges per se. A shamanic lodge is a traditional medicine lodge, but a hermetic magician's lodge is a series of magic circles, shelves filled with arcane tomes, mystical mechanisms, and alchemical apparatuses. Every tradition has its own version of a magical lodge, but they all work the same way.
+
+Magical lodges aren't intended to be portable (although you can make a temporary one with reagents, p. 316). To create your own, you need magical lodge materials (they cost Force x 500 nuyen) that are appropriate to your tradition. Once you have the materials, find a space to put it, like your apartment, or a cave in the wilderness, or a secret abandoned sewer tunnel - someplace you won't mind spending some time. Then spend a number of days equal to the lodge's Force dedicating the space, setting up the physical components, building its astral form, setting up barriers, and harmonizing it to your aura. Once you're done, your magical lodge is up and active. An active magical lodge acts as a mana barrier (p. 315) and shares your astral signature.
+
+If you want to move your lodge, you'll need a day to take it down, turning it back into magical lodge materials; then you can set it up again somewhere else. If you want to improve your lodge, just bring in more materials to add to the current ones and spend a day times the Force you want the lodge to have at the end of your work.</description>
+						<gearcost text="1,500¥" value="1500"/>
+						<availability text="6" value="6" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Medkit" rating="5" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>The medkit includes drug supplies, bandages, tools, and a (talkative) doctor expert system that can advise the user on techniques to handle most typical medical emergencies (including fractures, gunshot wounds, chemical wounds, and poisoning, as well as offering advice for the treating of shock, handling blood loss, and of course performing resuscitations). Add the medkit's rating to your limit on First Aid tests. A medkit of Rating 3 or lower fits in a pocket; at Rating 4+ it's a handheld case. The medkit needs to be restocked after every (Rating) uses.</description>
+						<gearcost text="1,250¥" value="1250"/>
+						<availability text="5" value="5" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Micro-Tranceiver" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>This classic short-range communicator has been favored by professional operatives since the 2050s. It doesn't do anything special, it just lets you communicate by voice with other micro-transceivers and commlinks that you (and the other person) choose, within a kilometer. The micro-transceiver consists of an ear bud and an adhesive subvocal microphone (p. 439), both of which are commonly available in hard-to-spot designs.</description>
+						<gearcost text="100¥" value="100"/>
+						<availability text="2" value="2" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Miniwelder" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>This portable device creates a small electric arc to melt metals, either to cut through metal or to weld it together. Its power supply allows it to operate for 30 minutes. While creating an intense heat, the arc is much too small to make a good weapon (it would be like trying to stab someone with a lighter). The miniwelder has a Damage Value of 25 when used to cut through barriers.</description>
+						<gearcost text="250¥" value="250"/>
+						<availability text="2" value="2" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Miniwelder Fuel Canister" quantity="3">
+						<description>Extra fuel for a Miniwelder</description>
+						<gearcost text="80¥" value="80"/>
+						<availability text="2" value="2" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+					</item>
+					<item name="Renraku Sensei" size="Human/Elf/Ork Size" wireless="Present">
+						<description>Basic Persona: Kimono-clad samurai
+Base Theme: Dojo (training house)
+Device Icon: Ornate paper structure
+Commlinks are universal communication devices; they're used by everyone all the time. Commlinks are essentially the digital Swiss army knives of the modern world. Even the most basic of them includes AR Matrix browsing capability, multiple telephone and radio modes of real-time talk and text, music players, micro trid-projectors, touchscreen displays, built in high-resolution digital video and still image cameras, image/text and RFID tag scanners, built-in GPS guidance systems, chip players, credstick readers, retractable earbuds, voice-access dialing, text-to-speech and speech-to-text technologies, and a shock and water resistant case. And all of this at an inexpensive price that a few decades ago would have seemed absurd.</description>
+						<gearcost text="1,000¥" value="1000"/>
+						<availability text="6" value="6" class=""/>
+						<matrix initiative="7" dr="6">
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="3" base="3" modified="3"/>
+							<matrixattribute name="Firewall" text="3" base="3" modified="3"/>
+						</matrix>
+						<conditionmonitor name="Renraku Sensei" boxes="10" penalty="0"/>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Stim Patch" rating="2" quantity="5" size="Human/Elf/Ork Size" wireless="Present">
+						<description>This patch removes a number of boxes of Stun damage equal to its Rating. This effect lasts for (Rating x 10) minutes - after that period of time, the patient takes (Rating + 1) unresisted Stun damage (which may be well become physical overflow by that point). While a stimulant patch is in effect, the character is unable to rest. Frequent use of stimulant patches may require Addiction Tests. Treat it as Addiction Rating 2, Addiction Threshold 1.</description>
+						<gearcost text="50¥" value="50"/>
+						<availability text="4" value="4" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Survival Kit" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>An assortment of survival gear in a rugged bag. Includes a knife, lighter, matches, compass, lightweight thermal blanket, several days' worth of ration bars, a water-purification unit, and more. A good item to consider for your go-bag.</description>
+						<gearcost text="200¥" value="200"/>
+						<availability text="4" value="4" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Synthskin Face Mask" rating="1" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>With the popular nanopaste disguise kit falling in popularity due to CFD concerns, the synthskin facemask has taken its market share. It is composed of a programmable electropolymer commonly used in the skin covering of synthetic cyberware and humanoid mimic drones. It produces a lifelike replica of an individual's face. A person's face can be duplicated if you have a scan from a biometric reader (with the dice bonus on the Disguise Test equal to the biometric reader's Rating). A Software + Logic Test (with the dice bonus on the Disguise Test equal to the successes) can replicate a specific individual's face or create a completely unique appearance. In either case, the limit on the test is equal to the Rating of the mask. The mask is reusable in the sense that it can be worn multiple times, but once an appearance has been set in either fashion described above, it cannot be altered.</description>
+						<gearcost text="100¥" value="100"/>
+						<availability text="8" value="8" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Tool Kit, Automotive Mechanic" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>Building and repairing items requires the right tools for the job. Tools must be bought separately for a specific skill (for example, an Armorer shop, a Disguise kit, a Nautical Mechanic facility, etc.). A kit is portable and contains the basic gear to make standard repairs.
+
+There are some guidelines to help you figure out when a kit, shop, or facility is necessary for a particular job (Building &amp; Repairing, p. 145). The gamemaster gets final say, though, and might even tell you that you need specific or unusual parts you have to get separately.</description>
+						<gearcost text="500¥" value="500"/>
+						<availability text="" value="0" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Tranq Patch" rating="2" quantity="5" size="Human/Elf/Ork Size" wireless="Present">
+						<description>This patch inflicts Stun damage equal to its rating, resisted with only Body.</description>
+						<gearcost text="40¥" value="40"/>
+						<availability text="4" value="4" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Trauma Patch" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>If placed on a dying patient, it allows her to make an immediate stabilization test (Physical Damage Overflow, p. 209) using her Body instead of First Aid or Medicine. </description>
+						<gearcost text="500¥" value="500"/>
+						<availability text="6" value="6" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+				</equipment>
+			</gear>
+			<identities>
+				<identity name="Julie Strong">
+					<license name="Fake SIN" rating="2">
+						<gearcost text="5,000¥" value="5000"/>
+					</license>
+					<description/>
+				</identity>
+				<identity name="Libra">
+					<lifestyle name="Bolt Hole Lifestyle" months="1">
+						<gearcost text="1,000¥/m" value="1000"/>
+					</lifestyle>
+					<description/>
+				</identity>
+				<identity name="Maggie Stillwater">
+					<license name="Fake License" for="Concealed Carry" rating="5">
+						<gearcost text="1,000¥" value="1000"/>
+					</license>
+					<license name="Fake License" for="First Responder" rating="5">
+						<gearcost text="1,000¥" value="1000"/>
+					</license>
+					<license name="Fake License" for="Spellcaster" rating="5">
+						<gearcost text="1,000¥" value="1000"/>
+					</license>
+					<license name="Fake SIN" rating="5">
+						<gearcost text="12,500¥" value="12500"/>
+					</license>
+					<description/>
+				</identity>
+			</identities>
+			<contacts>
+				<contact name="&quot;Gin&quot;" type="Cyberware/Bioware Dealer" connection="5" loyalty="2">
+					<description/>
+				</contact>
+				<contact name="Hamid Samara" type="Corporate Summoner" connection="5" loyalty="1">
+					<description/>
+				</contact>
+				<contact name="Hestaby" type="Favors" connection="6" loyalty="3">
+					<description/>
+				</contact>
+				<contact name="King Solomon" type="Fixer" connection="2" loyalty="4">
+					<description/>
+				</contact>
+				<contact name="Leo Jones" type="Medical Supplier" connection="2" loyalty="3">
+					<description/>
+				</contact>
+				<contact name="Michil Vasilev" type="Infobroker" connection="3" loyalty="4">
+					<description/>
+				</contact>
+				<contact name="Philadelphia MacGuire" type="Bounty Hunter" connection="2" loyalty="1">
+					<description>Metatype: Human
+Sex: Female
+Age: Middle-aged
+Preferred Payment Method: Cash (credstick)
+Hobbies/Vice: Entertainment (trid reality shows)
+Personal Life: Single
+Type: Legwork
+
+Retired Bounty Hunter and animal trainer, Philadelphia first met the Harbingers at the conclusion of Episode 1.0: Milk|Run</description>
+				</contact>
+			</contacts>
+			<ammotrackers>
+				<ammotracker name="Fichetti Tiffani Self-Defender 2075" text="unloaded"/>
+			</ammotrackers>
+			<trackers>
+				<tracker name="Cumulative Recoil" text="0" used="0" left="0" min="0" max="0"/>
+				<tracker name="Edge Pool" text="0/2" used="0" left="2" min="0" max="2"/>
+				<tracker name="Movement This Turn (Currently: Stationary)" text="0m" used="0" left="0" min="0" max="0"/>
+				<tracker name="Spirit Index" text="0" used="0" left="0" min="0" max="0"/>
+			</trackers>
+			<conditionmonitors totalpenalty="0">
+				<conditionmonitor name="Physical Damage Track" boxes="9" penalty="0"/>
+				<conditionmonitor name="Stun Damage Track" boxes="11" penalty="0"/>
+			</conditionmonitors>
+			<journals>
+				<journal name="From Background" gamedate="20780320" realdate="20200208" karma="6" cash="8000" streetcred="0" notoriety="0" awareness="0">
+					<description/>
+				</journal>
+				<journal name="Episode 1.0: Milk|Run" gamedate="20780321" realdate="20200313" karma="7" cash="10800" streetcred="0" notoriety="0" awareness="0">
+					<description/>
+				</journal>
+				<journal name="Episode 2.0: Inferno!" gamedate="20780403" realdate="20200314" karma="3" cash="0" streetcred="0" notoriety="0" awareness="0">
+					<description/>
+				</journal>
+				<journal name="Episode 3.0: No One Knows" gamedate="20780410" realdate="20200509" karma="10" cash="15760" streetcred="0" notoriety="0" awareness="0">
+					<description/>
+				</journal>
+				<journal name="Episode 4.0: Unemployed" gamedate="20780418" realdate="20200725" karma="12" cash="17900" streetcred="0" notoriety="0" awareness="0">
+					<description/>
+				</journal>
+				<journal name="Episode 5.0: The Running Free" gamedate="20780521" realdate="20200925" karma="13" cash="59590" streetcred="0" notoriety="0" awareness="0">
+					<description/>
+				</journal>
+				<journal name="Monthly Expenses" gamedate="20780601" realdate="20200926" karma="0" cash="0" streetcred="0" notoriety="0" awareness="0">
+					<description>Monthly Expenses Applied:
+(1 month) Bolt Hole Lifestyle: -1 month</description>
+				</journal>
+				<journal name="Episode 6.0: Heart of Fire" gamedate="20780605" realdate="20201022" karma="3" cash="0" streetcred="0" notoriety="0" awareness="0">
+					<description/>
+				</journal>
+				<journal name="Extra 4 Dice on Getting Maggie Stillwater SIN" gamedate="20780607" realdate="20201024" karma="0" cash="-15500" streetcred="0" notoriety="0" awareness="0">
+					<description/>
+				</journal>
+				<journal name="Episode 7.0: Home" gamedate="20780608" realdate="20201112" karma="2" cash="0" streetcred="0" notoriety="0" awareness="0">
+					<description/>
+				</journal>
+				<journal name="Episode 7.1: Home" gamedate="20780609" realdate="20201128" karma="1" cash="0" streetcred="0" notoriety="0" awareness="0">
+					<description/>
+				</journal>
+			</journals>
+			<images>
+				<image filename="Awakened Shaman Shapeshifter-image001.jpg"/>
+			</images>
+			<validation>
+				<report/>
+			</validation>
+			<settings summary="Character Creation Systems: Established Runners; Character Creation Variants: Run Faster — Sum To Ten System; Core Rulebooks: Chrome Flesh, Data Trails, Howling Shadows, Rigger 5.0, Run &amp; Gun, Run Faster, Street Grimoire; Advanced Rules: Forbidden Arcana, Kill Code, Street Lethal; Supplements: Bloody Business, Book of the Lost, Complete Trog, Cutting Aces, Dark Terrors, Hard Targets, Lockdown, Stolen Souls; E-books: Aetherology, Assassin's Primer, Bullets &amp; Bandages, Gun Heaven 3, Shadow Spells, Shadows in Focus: Butte, Shadows in Focus: Metrópole, Shadows in Focus: San Francisco Metroplex, Shadows in Focus: Sioux Nation; Enhanced Fiction: Nothing Personal, Sail Away, Sweet Sister, The Vladivostok Gauntlet; Optional Rules: Allow Adepts to Choose a Tradition, Allow Unlimited Negative Qualities; Optional Rules -&gt; Chrome Flesh Optional Rules: Gamma-Grade Cyberware, Omega-Grade Cyberware, Orks &amp; Trolls get natural weapons, Use Essence Holes; Optional Rules -&gt; Run &amp; Gun Optional Rules: RG2: Target Size Modifiers, RG3: Movement Penalties by Speed; Optional Rules -&gt; Street Grimoire Optional Rules: Reputation in the Spirit World; Optional Rules -&gt; Court of Shadows Optional Rules: Hide &quot;Adventuring In&quot; Selector on Journals; Output Options: Include Vehicle Statblocks on Sheet"/>
+			<minions/>
+		</character>
+	</public>
+</document>

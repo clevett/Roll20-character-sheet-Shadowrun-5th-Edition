@@ -30,6 +30,10 @@ script(type="text/worker")
 	include ../components/Attributes/Movement.js
 	include ../components/Attributes/Limit.js
 
+	include ../components/Arms/Armor.js
+	include ../components/Arms/RangeWeapon.js
+	include ../components/Arms/MeleeWeapon.js
+
 	include ../components/Augs/Augmentations.js
 
 	include ../components/Gear/Gear.js
@@ -46,11 +50,9 @@ script(type="text/worker")
 	include ../components/PersonalData/PersonalData.js
 	include ../components/PersonalData/RewardsData.js
 
-	//- CHARACTER IMPORTER Functions
+	//- //- CHARACTER IMPORTER Functions
 	include ../components/CoreCombatInfo/PrimaryWeapon.js
 	include ../components/CoreCombatInfo/PrimaryArmor.js
-	//-include ../js/Classes/RepeatingFieldset.js
-	//-include ../js/Classes/ComplexForm.js
 
 	//- Helper Functions
 	include ../components/CharacterImporter/importerHiddenInputsBuilder.js
@@ -66,6 +68,9 @@ script(type="text/worker")
 	include ../components/CharacterImporter/HeroLab/gear/associateGearItemsFromHeroLab.js
 
 	include ../components/CharacterImporter/HeroLab/augs/associateAugmentationFromHeroLab.js
+
+	include ../components/CharacterImporter/HeroLab/arms/associateArmorFromHeroLab.js
+	include ../components/CharacterImporter/HeroLab/arms/associateWeaponFromHeroLab.js
 
 	include ../components/CharacterImporter/HeroLab/personalData/getReputationsFromHeroLab.js
 	include ../components/CharacterImporter/HeroLab/personalData/associatePersonalData.js

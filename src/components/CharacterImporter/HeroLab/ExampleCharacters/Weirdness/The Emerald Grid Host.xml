@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<public>
+		<program name="Hero Lab" url="https://www.wolflair.com">
+			<programinfo>Hero Lab and the Hero Lab logo are Registered Trademarks of LWD Technology, Inc. Free download at https://www.wolflair.com
+Shadowrun © 2005-2019 The Topps Company, Inc. All rights reserved. Shadowrun is a registered trademark of The Topps Company, Inc.</programinfo>
+			<version version="8.9h" primary="8" secondary="9" tertiary="h" build="958"/>
+		</program>
+		<localization language="eng" units="metric"/>
+		<character characterindex="1" nature="normal" role="npc" relationship="enemy" type="Hero" name="The Emerald Grid Host" playername="GMRWM">
+			<race name="Data Host"/>
+			<heritage name=""/>
+			<creation>
+				<bp total="25" left="25"/>
+			</creation>
+			<karma total="7" left="7"/>
+			<cash total="1000"/>
+			<personal gender="Male" age="25" hair="" eyes="" skin="">
+				<description/>
+				<charheight text="1.75m" value="175"/>
+				<charweight text="78kg" value="78"/>
+			</personal>
+			<defenses>
+				<defense name="Ranged Defense" normal="0"/>
+				<defense name="Melee Defense" normal="0"/>
+			</defenses>
+			<armorratings/>
+			<attributes>
+				<attribute name="Level" text="6" base="6" modified="6" naturalmaximum="12" augmentedmaximum="12" minimum="1" category="Defining">
+					<description>Hosts have a Host rating. Unlike the ratings of devices, the Host rating ranges from 1 to 12. Hosts also have all four Matrix attributes: Attack, Sleaze, Data Processing, and Firewall. The ratings of these attributes are usually (Host Rating), (Host Rating + 1), (Host Rating + 2), and (Host Rating + 3), in any order. For example, a Rating 4 host might have Attack 5, Sleaze 4, Data Processing 7, Firewall 6.
+
+A host's attributes are shared by itself and its IC programs.</description>
+					<traitcost bp="0"/>
+				</attribute>
+				<attribute name="Attack" text="3" base="3" modified="3" naturalmaximum="99" augmentedmaximum="7" minimum="1" category="Matrix">
+					<description>Your Attack rating reflects the programs and utilities you have running on your deck that inject harmful code into other operating systems, or use brute-force algorithms to break encryptions and protections to lay the virtual smackdown. Attack software is high-risk, high-reward, because firewall protocols tend to treat it harshly, doing damage that could hurt your persona if you blow it. Attack actions are good for making quick break-ins, damaging devices, and dealing with Matrix threats in a very fast but loud way.</description>
+					<traitcost bp="2"/>
+				</attribute>
+				<attribute name="Sleaze" text="2" base="2" modified="2" naturalmaximum="99" augmentedmaximum="6" minimum="1" category="Matrix">
+					<description>The applications making up your Sleaze attribute mask your Matrix presence, probe the defenses of targets, and subtly alter a target system's code. Sleaze software is delicate, and one mistake will spill the soybeans on you to your target. Sleaze actions are good for intrusions in which you have plenty of time and in dealing with Matrix problems in a slow but quiet way.</description>
+					<traitcost bp="1"/>
+				</attribute>
+				<attribute name="Data Processing" text="2" base="2" modified="2" naturalmaximum="99" augmentedmaximum="6" minimum="1" category="Matrix">
+					<description>Your Data Processing attribute measures your device's ability to handle information, datastreams, and files. It is used for Matrix actions that aren't, as a general rule, illegal.</description>
+					<traitcost bp="1"/>
+				</attribute>
+				<attribute name="Firewall" text="3" base="3" modified="3" naturalmaximum="99" augmentedmaximum="7" minimum="1" category="Matrix">
+					<description>Your Firewall attribute is your protection against outside attacks. It contains code filters, file checkers, virus detection and eradication software, and other defensive programming. Firewall actions are defensive in nature. The most important role of the Firewall is as virtual armor against Matrix damage.</description>
+					<traitcost bp="2"/>
+				</attribute>
+			</attributes>
+			<movementtypes/>
+			<reputations>
+				<reputation name="Street Cred" value="0"/>
+				<reputation name="Notoriety" value="0"/>
+				<reputation name="Public Awareness" value="0"/>
+				<reputation name="Astral Reputation" value="0"/>
+			</reputations>
+			<qualities>
+				<positive/>
+				<negative/>
+			</qualities>
+			<skills>
+				<groups/>
+				<active/>
+				<knowledge/>
+				<language/>
+			</skills>
+			<gear>
+				<augmentations>
+					<cyberware/>
+					<bioware/>
+				</augmentations>
+				<weapons/>
+				<armor/>
+				<equipment>
+					<item name="Armor" dicepool="0" quantity="1">
+						<description>This program works with your firmware as a second firewall, giving you a +2 dice pool modifier to resist Matrix damage.</description>
+						<gearcost text="250¥" value="250"/>
+						<availability text="6R" value="6" class="Restricted"/>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Demolition" dicepool="0" quantity="1">
+						<description>Demolition comes with the latest and most effective Data Bomb-coding techniques, adding 1 to the rating of any Data Bomb you set while this is running.</description>
+						<gearcost text="250¥" value="250"/>
+						<availability text="6R" value="6" class="Restricted"/>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Detonator" dicepool="0" quantity="1">
+						<description>With delicate monitoring, this cyberprogram is able to determine how often a file is accessed, and it sets a data bomb to go off after it has been affected a set number of times. To use this program, a decker attempts a Set Data Bomb action; if successful, they can then select how many actions can be executed with the file before the bomb goes off. They can also choose whether the Data Bomb does Matrix damage or just deletes the file. Similar to a Data Bomb, a Detonator can be detected with a Matrix Perception Test and defused with a Disarm Data Bomb action. Notoriously difficult to spot, Detonator-enabled data bombs are considered to have a Device Rating of 3 and a Sleaze attribute equal to [Remaining actions before detonation – 1] for the purposes of opposing Matrix Perception tests. This program costs twice as much as normal hacking cyberprograms, meaning it costs 500 nuyen.</description>
+						<gearcost text="500¥" value="500"/>
+						<availability text="6R" value="6" class="Restricted"/>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Guard" dicepool="0" quantity="1">
+						<description>This program keeps an eye out for weaknesses the same way an attacker would, reducing the extra damage you take from marks by 1 DV per mark.</description>
+						<gearcost text="250¥" value="250"/>
+						<availability text="6R" value="6" class="Restricted"/>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Shredder" dicepool="0" quantity="1">
+						<description>Designed to assist in erasing files and all their redundant back-up options that might be around inside a host and grid that the host inhabits, Shredder adds 2 to a cyberdeck's Data Processing attribute for the purpose of deleting a file with the Edit File action. It functions by entering a large amount of random junk data into designated files, overwriting them repeatedly to help deter attempts at recovering them. A nice security option that is legal for users to use. Recovering a file that has been Shredded (or destroyed by a Data Bomb, for that matter) requires constant access to the host or grid the file was originally on, and a Computer (File Recovery) + Logic [Mental] (18, 1 week) Extended Test, which explains why offline back-ups are quite popular.</description>
+						<gearcost text="80¥" value="80"/>
+						<availability text="" value="0" class="Restricted"/>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+				</equipment>
+			</gear>
+			<identities/>
+			<contacts/>
+			<ammotrackers/>
+			<trackers/>
+			<conditionmonitors totalpenalty="0"/>
+			<journals>
+				<journal name="Title" gamedate="0" realdate="20201130" karma="0" cash="0" streetcred="0" notoriety="0" awareness="0">
+					<description/>
+				</journal>
+			</journals>
+			<images/>
+			<validation>
+				<report/>
+			</validation>
+			<settings summary="Character Creation Systems: Established Runners; Character Creation Variants: Run Faster — Sum To Ten System; Core Rulebooks: Chrome Flesh, Data Trails, Howling Shadows, Rigger 5.0, Run &amp; Gun, Run Faster, Street Grimoire; Advanced Rules: Forbidden Arcana, Kill Code, Street Lethal; Supplements: Bloody Business, Book of the Lost, Complete Trog, Cutting Aces, Dark Terrors, Hard Targets, Lockdown, Stolen Souls; E-books: Aetherology, Assassin's Primer, Bullets &amp; Bandages, Gun Heaven 3, Shadow Spells, Shadows in Focus: Butte, Shadows in Focus: Metrópole, Shadows in Focus: San Francisco Metroplex, Shadows in Focus: Sioux Nation; Enhanced Fiction: Nothing Personal, Sail Away, Sweet Sister, The Vladivostok Gauntlet; Optional Rules: Allow Adepts to Choose a Tradition, Allow Unlimited Negative Qualities; Optional Rules -&gt; Chrome Flesh Optional Rules: Gamma-Grade Cyberware, Omega-Grade Cyberware, Orks &amp; Trolls get natural weapons, Use Essence Holes; Optional Rules -&gt; Run &amp; Gun Optional Rules: RG2: Target Size Modifiers, RG3: Movement Penalties by Speed; Optional Rules -&gt; Street Grimoire Optional Rules: Reputation in the Spirit World; Optional Rules -&gt; Court of Shadows Optional Rules: Hide &quot;Adventuring In&quot; Selector on Journals; Output Options: Include Vehicle Statblocks on Sheet"/>
+			<npc>
+				<basics/>
+				<tactics>
+					<npcinfo name="Tactics - Security Procedures">This is the Emerald Grid host. It will &amp;#$@ your @*!&amp; up.</npcinfo>
+				</tactics>
+				<ecology/>
+				<additional/>
+			</npc>
+			<minions/>
+		</character>
+	</public>
+</document>

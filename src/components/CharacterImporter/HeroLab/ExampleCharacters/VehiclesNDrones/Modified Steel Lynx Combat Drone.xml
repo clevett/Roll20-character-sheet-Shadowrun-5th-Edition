@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<public>
+		<program name="Hero Lab" url="https://www.wolflair.com">
+			<programinfo>Hero Lab and the Hero Lab logo are Registered Trademarks of LWD Technology, Inc. Free download at https://www.wolflair.com
+Shadowrun © 2005-2019 The Topps Company, Inc. All rights reserved. Shadowrun is a registered trademark of The Topps Company, Inc.</programinfo>
+			<version version="8.9h" primary="8" secondary="9" tertiary="h" build="958"/>
+		</program>
+		<localization language="eng" units="metric"/>
+		<character active="yes" characterindex="4" nature="normal" role="npc" relationship="ally" type="Steel Lynx Combat Drone" name="Hawáte" playername="Rachelle Morris">
+			<race name="Steel Lynx Combat Drone"/>
+			<heritage name=""/>
+			<creation>
+				<bp total="25" left="25"/>
+			</creation>
+			<karma total="7" left="7"/>
+			<cash total="64775"/>
+			<personal gender="Male" age="25" hair="" eyes="" skin="">
+				<description/>
+				<charheight text="1.75m" value="175"/>
+				<charweight text="78kg" value="78"/>
+			</personal>
+			<defenses>
+				<defense name="Ranged Defense" normal="3"/>
+				<defense name="Melee Defense" normal="3"/>
+			</defenses>
+			<armorratings>
+				<armorrating name="Armor" rating="12" stacking="12" nonstacking="0" dicepool="18"/>
+				<armorrating name="Acid Protection" rating="12" stacking="12" nonstacking="0" dicepool="18"/>
+				<armorrating name="Cold Protection" rating="12" stacking="12" nonstacking="0" dicepool="18"/>
+				<armorrating name="Electricity Protection" rating="12" stacking="12" nonstacking="0" dicepool="18"/>
+				<armorrating name="Fire Protection" rating="12" stacking="12" nonstacking="0" dicepool="18"/>
+			</armorratings>
+			<attributes>
+				<attribute name="Handling" text="5" base="5" modified="5" naturalmaximum="99" augmentedmaximum="9" minimum="0" category="Vehicle">
+					<description>Handling represents the vehicle's agility and responsiveness. This value is the base limit for Vehicle Tests made where maneuverability is the most important feature.</description>
+					<traitcost bp="5"/>
+				</attribute>
+				<attribute name="Speed" text="4" base="4" modified="4" naturalmaximum="99" augmentedmaximum="8" minimum="0" category="Vehicle">
+					<description>Speed represents the maximum velocity that the vehicle can achieve - its top-end speed. This value is the base limit for Vehicle Tests that emphasize raw speed.</description>
+					<traitcost bp="4"/>
+				</attribute>
+				<attribute name="Acceleration" text="2" base="2" modified="2" naturalmaximum="99" augmentedmaximum="6" minimum="0" category="Vehicle">
+					<description>Acceleration defines how quickly a vehicle is able to change its current speed and close the distance between it and another moving target. The value represents the maximum number of Range Categories that the vehicle can move in a single Combat Turn.</description>
+					<traitcost bp="2"/>
+				</attribute>
+				<attribute name="Body" text="6" base="6" modified="6" naturalmaximum="12" augmentedmaximum="10" minimum="0" category="Vehicle">
+					<description>Body measures your physical health and resiliency.
+
+It affects how much damage you can take and stay on your feet, how well you resist damage coming your way, your ability to recover from poisons and diseases, and things of that nature.</description>
+					<traitcost bp="0"/>
+				</attribute>
+				<attribute name="Level" text="3" base="3" modified="3" naturalmaximum="99" augmentedmaximum="7" minimum="0" category="Vehicle">
+					<description>Pilot is a rating defining the capabilities of the built-in computer piloting system with which all vehicles in the Sixth World come equipped. For any vehicle not being actively piloted by a metahuman, this takes the place of all Mental attributes and Reaction for any tests the vehicle needs to make.</description>
+					<traitcost bp="3"/>
+				</attribute>
+				<attribute name="Sensor" text="3" base="3" modified="3" naturalmaximum="99" augmentedmaximum="7" minimum="0" category="Vehicle">
+					<description>Sensor is a rating representing the suite of information-gathering or detection devices that are built into every vehicle in the Sixth World. Sensor acts as the limit for Perception and other detection tests using the vehicle's systems.</description>
+					<traitcost bp="3"/>
+				</attribute>
+				<attribute name="Device Rating" text="3" base="3" modified="3" naturalmaximum="9" augmentedmaximum="7" minimum="0" category="Special">
+					<description>The Device Rating determines the overall quality and effectiveness of a device.</description>
+					<traitcost bp="0"/>
+				</attribute>
+				<attribute name="Data Processing" text="3" base="3" modified="3" naturalmaximum="9" augmentedmaximum="7" minimum="1" category="Matrix">
+					<description>Your Data Processing attribute measures your device's ability to handle information, datastreams, and files. It is used for Matrix actions that aren't, as a general rule, illegal.</description>
+					<traitcost bp="-1"/>
+				</attribute>
+				<attribute name="Firewall" text="3" base="3" modified="3" naturalmaximum="9" augmentedmaximum="7" minimum="1" category="Matrix">
+					<description>Your Firewall attribute is your protection against outside attacks. It contains code filters, file checkers, virus detection and eradication software, and other defensive programming. Firewall actions are defensive in nature. The most important role of the Firewall is as virtual armor against Matrix damage.</description>
+					<traitcost bp="-1"/>
+				</attribute>
+				<attribute name="Initiative" text="6+4D6" base="6" modified="6" naturalmaximum="108" augmentedmaximum="10" minimum="1" category="Derived">
+					<description>Initiative governs how quickly a character responds in a combat situation. A character's Initiative attribute is their Reaction plus their Intuition.</description>
+					<traitcost bp="0"/>
+				</attribute>
+			</attributes>
+			<movementtypes/>
+			<reputations>
+				<reputation name="Street Cred" value="0"/>
+				<reputation name="Notoriety" value="0"/>
+				<reputation name="Public Awareness" value="0"/>
+				<reputation name="Astral Reputation" value="0"/>
+			</reputations>
+			<qualities>
+				<positive/>
+				<negative/>
+			</qualities>
+			<skills>
+				<groups/>
+				<active>
+					<skill name="Gunnery" text="3" base="0" modified="3" naturalmaximum="12" augmentedmaximum="0" dicepool="6" group="">
+						<description>Gunnery is used when firing any vehicle-mounted weapon, regardless of how or where the weapon is mounted. This skill extends to manual and sensor-enhanced gunnery.</description>
+						<traitcost bp="0"/>
+					</skill>
+				</active>
+				<knowledge/>
+				<language/>
+			</skills>
+			<gear>
+				<augmentations>
+					<cyberware/>
+					<bioware/>
+				</augmentations>
+				<weapons>
+					<item name="Stoner-Ares M202" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>This MMG packs a tremendous punch into a relatively lightweight framework made of extra-durable compounds. Due to its relatively small size, it's a very popular secondary weapon for heavy military vehicles. Trolls with no concept of subtlety sometimes deck them out with accessories for use as personal weapons.</description>
+						<gearcost text="10,450¥" value="10450"/>
+						<availability text="12F" value="12" class="Forbidden"/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<weaponinfo grouptext="Medium Machineguns" dicepool="8dicepool [7]" damagetext="11P" damagevalue="11" damagetype="Physical" ap="-4" modestext="FA" isammunition="0" recoilcomp="6" equipped="Heavy Weapon Mount (Turret, External, Remote)">
+							<ammunitionused text="350 (belt)" count="350" bins="1" type="Belt Feed"/>
+							<mode>Full-Auto</mode>
+							<ranges text="40/250/750/1200">
+								<range name="Minimum" text="0m" value="0"/>
+								<range name="Short" text="40m" value="40"/>
+								<range name="Medium" text="250m" value="250"/>
+								<range name="Long" text="750m" value="750"/>
+								<range name="Extreme" text="1200m" value="1200"/>
+							</ranges>
+						</weaponinfo>
+						<modifications/>
+						<accessories>
+							<item name="Smartgun System, External" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+								<description>This connects a firearm or a projectile weapon directly to the user's smartlink. Incorporating a small camera and laser range finder, the smartlink keeps track of ammunition, heat buildup, and material stress. If you have a smartlink, you can mentally switch between gun modes, eject a clip, and fire the gun without pulling the trigger. The camera lets you shoot around corners without exposing yourself to return fire (at a -3 dice pool penalty). The system makes use of advanced calculation software, allowing for precisely calculated trajectories and high precision over any distance.
+
+If you're using a smartlink, the smartgun system increases the gun's Accuracy by 2. The smartgun features are accessed either by universal access port cable to an imaging device (like glasses, goggles, or a datajack for someone with cybereyes) or by a wireless connection working in concert with direct neural interface.
+
+Retrofitting a firearm with an internal smartgun system doubles the weapon's price and adds 2 to its Availability. An external smartgun system can be attached to the top mount or underbarrel mount with an Armorer + Logic (4, 1 hour) Extended Test. The small camera has a capacity of 1 and can be equipped with vision enhancements (p. 444).</description>
+								<gearcost text="200¥" value="200"/>
+								<availability text="4R" value="4" class="Restricted"/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+								<modifications>
+									<item name="Camera" useradded="no" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+										<description>A common visual device, cameras can capture still photos, video, and trideo, including sound. Cameras may also be upgraded with vision enhancements and audio enhancements. A micro version is available with a Capacity 1.</description>
+										<gearcost text="0¥" value="0"/>
+										<availability text="" value="0" class=""/>
+										<matrix>
+											<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+											<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+											<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+											<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+										</matrix>
+										<modifications/>
+										<accessories/>
+										<ammunition/>
+										<programs/>
+										<othergear/>
+									</item>
+								</modifications>
+								<accessories/>
+								<ammunition/>
+								<programs/>
+								<othergear/>
+							</item>
+						</accessories>
+						<ammunition>
+							<item name="Explosive Rounds" quantity="350">
+								<description>These slugs carry a shaped-charge explosive, designed to explode and fragment on impact. Explosive rounds misfire whenever you roll a critical glitch. When this happens, you must resist one "attack" with a Damage Value equal to the normal damage done by the weapon (and don't forget the modifier for the explosive rounds). The attack misses its intended target, and the weapon firing the bullets is destroyed.</description>
+								<gearcost text="8¥" value="8"/>
+								<availability text="9F" value="9" class="Forbidden"/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+								<weaponinfo grouptext="" dicepool="" damagetext="+1" damagevalue="1" damagetype="" ap="-1" modestext="" isammunition="1" recoilcomp="0" equipped="Main Hand">
+									<ranges text="0">
+										<range name="Minimum" text="0m" value="0"/>
+										<range name="Short" text="0m" value="0"/>
+										<range name="Medium" text="0m" value="0"/>
+										<range name="Long" text="0m" value="0"/>
+										<range name="Extreme" text="0m" value="0"/>
+									</ranges>
+								</weaponinfo>
+								<modifications/>
+								<accessories/>
+								<ammunition/>
+								<programs/>
+								<othergear/>
+							</item>
+							<item name="Gel Rounds" quantity="100">
+								<description>These less-lethal rounds use a hard, jelly-like substance that is a safer alternative to rubber bullets. They are often employed for riot control. Their usually semi-rigid slugs flatten on impact, disbursing their kinetic energy over a larger-than-normal area. Gel rounds inflict Stun damage (AP +1). Gel rounds reduce the target's Physical limit by 2 when checking for knockdown (Knockdown, p. 194).</description>
+								<gearcost text="2.5¥" value="2.5"/>
+								<availability text="2R" value="2" class="Restricted"/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+								<weaponinfo grouptext="" dicepool="" damagetext="" damagevalue="0" damagetype="Stun" ap="1" modestext="" isammunition="1" recoilcomp="0" equipped="Main Hand">
+									<ranges text="0">
+										<range name="Minimum" text="0m" value="0"/>
+										<range name="Short" text="0m" value="0"/>
+										<range name="Medium" text="0m" value="0"/>
+										<range name="Long" text="0m" value="0"/>
+										<range name="Extreme" text="0m" value="0"/>
+									</ranges>
+								</weaponinfo>
+								<modifications/>
+								<accessories/>
+								<ammunition/>
+								<programs/>
+								<othergear/>
+							</item>
+							<item name="Regular Ammo" quantity="100">
+								<description>Also called ball or full metal jacket rounds, these solid slugs are useful for numerous applications (mainly killing things).</description>
+								<gearcost text="2¥" value="2"/>
+								<availability text="2R" value="2" class="Restricted"/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+								<weaponinfo grouptext="" dicepool="" damagetext="" damagevalue="0" damagetype="" ap="0" modestext="" isammunition="1" recoilcomp="0" equipped="Main Hand">
+									<ranges text="0">
+										<range name="Minimum" text="0m" value="0"/>
+										<range name="Short" text="0m" value="0"/>
+										<range name="Medium" text="0m" value="0"/>
+										<range name="Long" text="0m" value="0"/>
+										<range name="Extreme" text="0m" value="0"/>
+									</ranges>
+								</weaponinfo>
+								<modifications/>
+								<accessories/>
+								<ammunition/>
+								<programs/>
+								<othergear/>
+							</item>
+						</ammunition>
+						<programs/>
+						<othergear/>
+					</item>
+				</weapons>
+				<armor>
+					<item name="Vehicle Armor" useradded="no" quantity="1">
+						<description>Vehicle armor functions just like character armor, and is used for the vehicle's damage resistance tests. Vehicle armor is the same rating against both ballistic and impact attacks.
+
+Since vehicle armor is often much higher than ordinary character armor, gamemasters should remember to use the trade-in rule for large dice pools (4 dice for 1 hit, see Buying Hits, p. 62).
+
+If an attack's modified DV does not exceed a vehicle's modified Armor rating, then the attack automatically fails.</description>
+						<gearcost text="0¥" value="0"/>
+						<availability text="" value="0" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<armorinfo rating="+12" acid="0" cold="0" electricity="0" falling="0" fire="0" radiation="0" laser="0" equipped="yes" natural="yes"/>
+					</item>
+				</armor>
+				<equipment>
+					<item name="Heavy Weapon Mount (Turret, External, Remote)" useradded="no" quantity="1" size="" wireless="Present">
+						<description>Vehicles may be equipped with a number of weapon mounts equal to their unaugmented Body ÷ 3 (round down). Standard weapon mounts may hold any assault rifle or smaller-sized weapon and 250 rounds of ammo. Heavy weapon mounts count as two weapon mounts and can hold any weapon and up to 500 rounds of belted ammo or up to Body rockets/missiles. All weapon mounts are operated remotely and can target a ninety-degree arc of fire (horizontal and vertical). Manual operation can be added, but only for vehicles, not drones, and at extra cost.</description>
+						<gearcost text="200¥" value="200"/>
+						<availability text="" value="0" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications>
+							<item name="Ammo Bin" quantity="1">
+								<description>Are you one of those runners that feel that any problem can be solved with enough bullets? Is "spray and pray" your personal street proverb? Then you probably want the ammo bin modification. Each ammo bin modification provides an extra 250 rounds of ammunition for one of the vehicle's weapon mounts. The modification may be taken multiple times, providing more rounds for different weapons or even multiple times for the same weapon (if you really need a lot of bullets).</description>
+								<gearcost text="200¥" value="200"/>
+								<availability text="6R" value="6" class="Restricted"/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+						</modifications>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Rigger Interface" useradded="no" quantity="1">
+						<description>By the 2070s rigger control of vehicles have become so common that even if a rigger adaption isn't installed as standard for a vehicle, it can easily be added after-market. This modification allows a rigger to jump in to a vehicle and control it with a full sensory experience. This includes installation of the "black box" that processes the sensory impressions for human consumption, along with a suite of sensors and relays connected to various parts of the vehicle. All drones come equipped with a rigger interface by default.</description>
+						<gearcost text="0¥" value="0"/>
+						<availability text="" value="0" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+					</item>
+					<item name="Smartsoft" rating="3" dicepool="0" quantity="1">
+						<description>This is the same smartlink provided in eyeware or video enhancements, integrated into the sensors of a vehicle or drone. The Smartsoft is considered a Rating 3 autosoft and allows the full use of smart weapons.</description>
+						<gearcost text="1,500¥" value="1500"/>
+						<availability text="6R" value="6" class="Restricted"/>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Targeting: Stoner-Ares M202" rating="3" dicepool="0" quantity="1">
+						<description>This is the Gunnery skill, but for a weapon of a specific model. If you mount an Ingram Smartgun, you'll need an Ingram Smartgun Targeting autosoft for it.</description>
+						<gearcost text="1,500¥" value="1500"/>
+						<availability text="6" value="6" class=""/>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+				</equipment>
+			</gear>
+			<identities/>
+			<contacts/>
+			<ammotrackers>
+				<ammotracker name="Stoner-Ares M202" text="Explosive Rounds x350"/>
+			</ammotrackers>
+			<trackers>
+				<tracker name="Cumulative Recoil" text="0" used="0" left="0" min="0" max="0"/>
+			</trackers>
+			<conditionmonitors totalpenalty="0">
+				<conditionmonitor name="Matrix Damage Track" boxes="10" penalty="0"/>
+				<conditionmonitor name="Physical Damage Track" boxes="9" penalty="0"/>
+			</conditionmonitors>
+			<journals>
+				<journal name="Title" gamedate="0" realdate="20190622" karma="0" cash="0" streetcred="0" notoriety="0" awareness="0">
+					<description/>
+				</journal>
+			</journals>
+			<images>
+				<image filename="Modified Steel Lynx Combat Drone-image001.png"/>
+			</images>
+			<validation>
+				<report/>
+			</validation>
+			<settings summary="Character Creation Systems: Established Runners; Character Creation Variants: Run Faster — Sum To Ten System; Core Rulebooks: Chrome Flesh, Data Trails, Howling Shadows, Rigger 5.0, Run &amp; Gun, Run Faster, Street Grimoire; Advanced Rules: Forbidden Arcana, Kill Code, Street Lethal; Supplements: Bloody Business, Book of the Lost, Complete Trog, Cutting Aces, Dark Terrors, Hard Targets, Lockdown, Stolen Souls; E-books: Aetherology, Assassin's Primer, Bullets &amp; Bandages, Gun Heaven 3, Shadow Spells, Shadows in Focus: Butte, Shadows in Focus: Metrópole, Shadows in Focus: San Francisco Metroplex, Shadows in Focus: Sioux Nation; Enhanced Fiction: Nothing Personal, Sail Away, Sweet Sister, The Vladivostok Gauntlet; Optional Rules: Allow Adepts to Choose a Tradition, Allow Unlimited Negative Qualities; Optional Rules -&gt; Chrome Flesh Optional Rules: Gamma-Grade Cyberware, Omega-Grade Cyberware, Orks &amp; Trolls get natural weapons, Use Essence Holes; Optional Rules -&gt; Run &amp; Gun Optional Rules: RG2: Target Size Modifiers, RG3: Movement Penalties by Speed; Optional Rules -&gt; Street Grimoire Optional Rules: Reputation in the Spirit World; Optional Rules -&gt; Court of Shadows Optional Rules: Hide &quot;Adventuring In&quot; Selector on Journals; Output Options: Include Vehicle Statblocks on Sheet"/>
+			<npc>
+				<basics>
+					<npcinfo name="Description">Large Drone
+
+(PILOT GROUNDCRAFT)
+
+A hardened ground combat machine, the Steel Lynx possesses four wheeled legs and a heavy weapon mount. It is operated with the Pilot Groundcraft skill.</npcinfo>
+				</basics>
+				<tactics/>
+				<ecology/>
+				<additional/>
+				<bookinfo name="CRB 466"/>
+			</npc>
+			<minions/>
+		</character>
+	</public>
+</document>

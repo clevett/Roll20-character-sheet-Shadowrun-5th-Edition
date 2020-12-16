@@ -1,0 +1,2580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<public>
+		<program name="Hero Lab" url="https://www.wolflair.com">
+			<programinfo>Hero Lab and the Hero Lab logo are Registered Trademarks of LWD Technology, Inc. Free download at https://www.wolflair.com
+Shadowrun © 2005-2019 The Topps Company, Inc. All rights reserved. Shadowrun is a registered trademark of The Topps Company, Inc.</programinfo>
+			<version version="8.9h" primary="8" secondary="9" tertiary="h" build="958"/>
+		</program>
+		<localization language="eng" units="metric"/>
+		<character active="yes" characterindex="1" nature="normal" role="pc" relationship="ally" type="Hero" name="Facade" playername="Daniel Howard">
+			<race name="Elf"/>
+			<heritage name=""/>
+			<creation>
+				<bp total="25" left="-18"/>
+			</creation>
+			<karma total="59" left="34"/>
+			<cash total="63050"/>
+			<personal gender="Male" age="25" hair="" eyes="" skin="">
+				<description/>
+				<charheight text="1.9m" value="190"/>
+				<charweight text="80kg" value="80"/>
+			</personal>
+			<defenses>
+				<defense name="Ranged Defense" normal="8"/>
+				<defense name="Melee Defense" normal="8"/>
+			</defenses>
+			<armorratings>
+				<armorrating name="Armor" rating="13" stacking="0" nonstacking="13" dicepool="15"/>
+				<armorrating name="Acid Protection" rating="13" stacking="13" nonstacking="0" dicepool="15"/>
+				<armorrating name="Cold Protection" rating="13" stacking="13" nonstacking="0" dicepool="15"/>
+				<armorrating name="Electricity Protection" rating="13" stacking="13" nonstacking="0" dicepool="15"/>
+				<armorrating name="Fire Protection" rating="13" stacking="13" nonstacking="0" dicepool="15"/>
+				<armorrating name="Falling Protection" rating="13" stacking="13" nonstacking="0" dicepool="15"/>
+				<armorrating name="Fatigue Resistance" rating="0" stacking="0" nonstacking="0" dicepool="6"/>
+			</armorratings>
+			<attributes>
+				<attribute name="Body" text="2" base="2" modified="2" naturalmaximum="6" augmentedmaximum="6" minimum="1" category="Physical">
+					<description>Body measures your physical health and resiliency.
+
+It affects how much damage you can take and stay on your feet, how well you resist damage coming your way, your ability to recover from poisons and diseases, and things of that nature.</description>
+					<traitcost bp="1"/>
+				</attribute>
+				<attribute name="Agility" text="4" base="4" modified="4" naturalmaximum="7" augmentedmaximum="8" minimum="1" category="Physical">
+					<description>Agility measures things like hand-eye coordination, flexibility, nimbleness, and balance. Agility is the most important attribute when it comes to scoring hits during combat, as you need to be coordinated to land your blows, whether you're swinging a sword or carefully aiming a rifle. It also is critical in non-combat situations, such as sneaking quietly past security guards or smoothly lifting a keycard from its secured position.</description>
+					<traitcost bp="2"/>
+				</attribute>
+				<attribute name="Reaction" text="4" base="4" modified="4" naturalmaximum="6" augmentedmaximum="8" minimum="1" category="Physical">
+					<description>Reaction is about reflexes, awareness, and your character's ability to respond to events happening around them. Reaction plays an important role in deciding how soon characters act in combat and how skilled they are in avoiding attacks from others. It also helps you make that quick turn down a narrow alley on your cycle to avoid the howling gangers on your tail</description>
+					<traitcost bp="3"/>
+				</attribute>
+				<attribute name="Strength" text="2" base="2" modified="2" naturalmaximum="6" augmentedmaximum="6" minimum="1" category="Physical">
+					<description>Strength is an indicator of, well, how strong your character is. The higher your strength, the more damage you'll do when you're raining blows down on an opponent, and the more you'll be able to move or carry when there's stuff that needs to be moved. Or carried.
+
+Strength is also important with athletic tasks such as climbing, running, and swimming.</description>
+					<traitcost bp="1"/>
+				</attribute>
+				<attribute name="Willpower" text="4" base="4" modified="4" naturalmaximum="6" augmentedmaximum="8" minimum="1" category="Mental">
+					<description>Willpower is your character's desire to push through adversity, to resist the weariness of spellcasting, and to stay upright after being nailed in the head with a sap.
+
+Whether you're testing yourself against a toxic wilderness or a pack of leather-clad orks with crowbars, Willpower will help you make it through.</description>
+					<traitcost bp="3"/>
+				</attribute>
+				<attribute name="Logic" text="3" base="3" modified="3" naturalmaximum="6" augmentedmaximum="7" minimum="1" category="Mental">
+					<description>The Logic attribute measures the cold, calculating power of your rational mind. Whether you are attempting to repair complicated machinery or patch up an injured teammate, Logic helps you get things right. Logic is also the attribute hermetic mages use to resist Drain from the spells they rain down on their hapless foes.
+
+Deckers also find Logic extremely useful, as it helps them develop the attacks and counterattacks that are part of their online battles.</description>
+					<traitcost bp="2"/>
+				</attribute>
+				<attribute name="Intuition" text="4" base="4" modified="4" naturalmaximum="6" augmentedmaximum="8" minimum="1" category="Mental">
+					<description>Intuition is the voice of your gut, the instinct that tells you things before your logical brain can figure them out. Intuition helps you anticipate ambushes, notice that something is amiss or out of place, and stay on the trail of someone you're pursuing.</description>
+					<traitcost bp="3"/>
+				</attribute>
+				<attribute name="Charisma" text="8" base="8" modified="8" naturalmaximum="8" augmentedmaximum="12" minimum="1" category="Mental">
+					<description>Charisma is your force of personality, the persuasiveness and charm you can call on to get people to do what you want without having to go to the trouble of pulling a gun on them. It's not entirely about your appearance, but it's also not entirely not about your appearance. What it's mostly about is how you use what you have - your voice, your face, your words, and all the tools at your disposal - to charm and/or intimidate the people you encounter. Additionally, Charisma is an important attribute for shamanic mages, as it helps them resist the damaging Drain from spells they cast.</description>
+					<traitcost bp="5"/>
+				</attribute>
+				<attribute name="Essence" text="1.23" base="1" modified="1.23" naturalmaximum="12" augmentedmaximum="5.23" minimum="0" category="Derived">
+					<description>Essence is your metahumanity encapsulated in a number. In Shadowrun, you have ample opportunities to alter your body or push it beyond its normal limits. Such actions often have a cost, and they can result in a loss of a portion of your metahumanity, which means a loss of Essence points. Each character starts with an Essence rating of 6, and it acts as a cap on the amount of alterations you can adopt. When it's gone, it doesn't come back. It also affects the Magic and Resonance attributes, as losses in Essence are reflected by losses in Magic and Resonance.
+
+While denizens of the Sixth World are accustomed to seeing a variety of augmentations and alterations to the metahuman form, the "uncanny valley" still exists. The uncanny valley is the disconcerting effect that happens when people see something that is almost, but not quite, metahuman. An animated cartoon with exaggerated features looks fine to metahuman eyes, but a computer program that closely, but not exactly, replicates human appearance is a troubling and unpleasant sight to most viewers. This is what happens when people see others with augmentations - on some level, people notice there is something less (or more) human about that, and they respond to it negatively. The change may not be exactly visible, but it is in some way noticeable - in one way or another, a person has become less human, and on some level other people notice this. This is why a character's Essence is included in the calculation of their Social limit.</description>
+					<traitcost bp="0"/>
+				</attribute>
+				<attribute name="Edge" text="4" base="4" modified="4" naturalmaximum="6" augmentedmaximum="8" minimum="1" category="Special">
+					<description>Edge is the ultimate intangible, that certain something that provides a boost when you need it, that gets you out of a tough spot when the chips are down. It's not used to calculate dice pools; instead, you spend a point of Edge to acquire a certain effect. Every character has at least one point of Edge, more if they want to take more frequent advantage of the boosts it offers. The possible effects of and more details about Edge are on p. 56.</description>
+					<traitcost bp="3"/>
+				</attribute>
+				<attribute name="Initiative" text="8+1D6" base="8" modified="8" naturalmaximum="12" augmentedmaximum="12" minimum="2" category="Derived">
+					<description>Initiative governs how quickly a character responds in a combat situation. A character's Initiative attribute is their Reaction plus their Intuition.</description>
+					<traitcost bp="0"/>
+				</attribute>
+			</attributes>
+			<movementtypes>
+				<movementtype name="Land Movement" sprintpool="1dicepool">
+					<walking text="8m" value="8"/>
+					<running text="16m" value="16"/>
+				</movementtype>
+				<movementtype name="Swimming" sprintpool="1dicepool">
+					<running text="3m" value="3"/>
+				</movementtype>
+			</movementtypes>
+			<reputations>
+				<reputation name="Street Cred" value="5"/>
+				<reputation name="Notoriety" value="0"/>
+				<reputation name="Public Awareness" value="0"/>
+				<reputation name="Astral Reputation" value="0"/>
+			</reputations>
+			<qualities>
+				<positive>
+					<quality name="Friends in High Places">
+						<description>"So sorry, Damian, I can't head out on the new Ares prototype ship with you this weekend, I have a run," is something a character with this quality might actually say. This quality gives the character an additional pool of Free Karma for purchasing contacts, with a few stipulations. First, the character gets an additional Charisma x 4 in Karma to purchase contacts. Second, none of these contacts can have a Connection Rating less than 8. Third, any leftover Karma that the character cannot spend is lost. These contacts can't be called at every turn; see the Who You Know chapter for information on what happens if the favors of contacts are abused. (p. 172).</description>
+						<traitcost bp="8"/>
+					</quality>
+					<quality name="Jack of All Trades, Master of None">
+						<description>The character has an incredible aptitude for learning new skills. Unfortunately, the character quickly gets bored and gets turned off when things start getting a little hard. Karma costs are reduced by 1 (to a minimum of 1) for learning skills up to Rating 5. Beyond Rating 5, however, it costs 2 additional points of Karma for each point of skill. This quality does not apply during character creation.</description>
+						<traitcost bp="2"/>
+					</quality>
+					<quality name="Privileged Family Name">
+						<description>With this quality the character's family is exceptionally well-connected, and his real name carries significant clout in his home sprawl (selected at character creation). Though probably known as a rich, spoiled brat, the name (and accompanying SIN and ID) is like a get-out-of-jailfree card for small misdemeanors (such as being caught carrying a weapon, casting an unauthorized mental manipulation spell, or driving a car without a license). Even when trying to act tough, local minor NPCs suffer a -2 dice pool modifier on Social tests against the character. In order to have this quality the character must also possess the SINner (National or Corporate) quality. Remember that this quality also makes the character very easy to identify if those not concerned with their family name start asking questions.</description>
+						<traitcost bp="14"/>
+					</quality>
+					<quality name="Trust Fund (High &amp; 1,000¥/month)" rank="3">
+						<description>Everyone knows you're in the shadows for the rush or to fulfill some kind of Batman wannabe fantasy. Every month your trust fund spills out enough to live off, but just living is boring. A character with this quality possesses a lifelong trust fund or inheritance that is managed by another party (a trustee). The quality has four versions depending on just how rich and shady a runner is willing to be. For 5 Karma, the trust fund income covers a Middle lifestyle with 500 nuyen left over each month. For 10 Karma, the income covers a Low Lifestyle but offers the character 2,000 + (3D6 x 100) nuyen each month thanks to a deal with their landlord to rip off the trustee. For 15 Karma, the income covers a High Lifestyle with 1,000 nuyen left over. For 20 Karma, the money covers a Middle Lifestyle and offers 3,000 + (6d6 x 100) nuyen thanks to one of those special deals. The character must also possess the SINner (National or Corporate) quality; additionally, the lifestyle they pay for cannot be paid for through other sources and is part of the records connected to the SIN. None of these lifestyles can be shared on a long-term basis, as the landlords are leery of anyone staying at the place and possibly ruining their deal. Note that there is a chance that if the character is caught breaking the law, the trustee may suspend benefits at the gamemaster's discretion.</description>
+						<traitcost bp="15"/>
+					</quality>
+				</positive>
+				<negative>
+					<quality name="Phobia, Uncommon (Mild): Mild, Necrophobia" rank="1">
+						<description>Fear is the mind-killer. It can also cause reactions from distraction to utter panic. A character with this quality has a visceral fear of some kind that shakes them whenever they are exposed. The severity of the fear determines their reaction to it and any modifiers they may face in its presence. That, combined with how frequently they may be exposed to their object of apprehension, determines the Karma value of the quality based on the Phobia table.
+
+Mild phobias cause a -1 dice pool modifier to all actions while in the presence of their source. Moderate phobias cause a -3 dice pool modifier to all actions while in the presence of their source, and the character must succeed on a Composure (2) Test or feel a strong need to get away from the source of their fear. A Severe phobia causes the character to face a -6 dice pool modifier, requires a Composure (5) Test to stay in its presence, and if the Composure Test is failed the character must move away for at least (5 - hits) Combat Turns.
+
+Condition (Karma): Description
+Uncommon (2): The triggering condition is relatively rare, such as the smell of roses or specific insects.
+Common (5): The triggering condition is commonly encountered, such as sunlight, trolls, insects in general, magic, the outdoors, or crowds.
+
+Severity (Karma): Effects
+Mild (3): -1 dice pool modifier to all actions
+Moderate (5): -3 dice pool modifier to all actions; Composure (2) Test or must get away from the source
+Severe (10): -6 dice pool modifier; Composure (5) Test or must flee from the source for (5 - hits) Combat Turns</description>
+						<traitcost bp="0"/>
+					</quality>
+					<quality name="SINner (Corporate SIN): Shiawase">
+						<description>There are four types of SINs that fall under the SINner (Layered) quality: National SIN, Criminal SIN (either Corporate or National), Corporate Limited SIN, or Corporate Born. Individuals with SINs are required by law to always broadcast their SINs. A legal SIN is required for all legal purchases. This makes them very useful things to have, so those who are SINless generally get by with the use of fake SINs (p. 367) just so they can participate in society.
+
+Corporate SIN At the 25 Karma level is the Corporate Born SIN. The character with this ID was probably born into a mega corporation, or belonged to one when it achieved extraterritoriality. At least one of his parents probably had the Corporate Born SIN as well. He grew up in the corporation, his social involvement, education, and almost every aspect of his life was managed by the corporation. His skills and aptitudes were evaluated constantly, and he was groomed for the career path to which he was best suited; his whole world was the corporation. Characters with the Corporate Born SIN had the potential and the opportunity to advance through the corporation hierarchy. He could have been a department administrator, a finance strategist, an agent of corporate intelligence, an officer in a megacorp's military, or even a member of Corporate Special Forces (Renraku's Red Samurai or Ares' Firewatch). With a Corporate Born SIN, he could have enjoyed top-secret clearance within the corporation and access to nearly unlimited resources. Then something happened. An unforgivably costly mistake, the machinations of a rival, a supervisor in need of a scapegoat - something pushed the character out of the corporation and into the cold and unforgiving shadows. In the shadows a SIN that had been the key to opportunity is now a deadly liability. Most in the shadows see the Corporate Born as the privileged few, the aristocrats in the armored limousines who look down on them, oppress them, exploit them and deny them their basic rights. If the SINless discover the character's Corporate Born SIN, reactions will range from deep suspicion to violent hostility; serious injury and death are real possibilities. The character's loyalty to his corporation is never questioned, which can be an insurmountable liability in a culture that works against the megacorps. Would-be runners have been killed for holding Corporate Born SINs. Fortunately, Corporate Born records are limited to the megacorporation that generated them. Files in the Global SIN Registry can confirm she has a valid SIN, but do not contain any additional information. Those with Corporate Born SINs pay a tax of ten percent of their gross income to their corporation</description>
+						<traitcost bp="-25"/>
+					</quality>
+				</negative>
+			</qualities>
+			<skills>
+				<groups>
+					<skill name="Stealth Group" text="1" base="1" modified="1" naturalmaximum="12" augmentedmaximum="2">
+						<addsskill name="Disguise"/>
+						<addsskill name="Palming"/>
+						<addsskill name="Sneaking"/>
+						<description/>
+						<traitcost bp="-4 +&#xA;5K"/>
+					</skill>
+				</groups>
+				<active>
+					<skill name="Con" text="4" base="4" modified="4" naturalmaximum="12" augmentedmaximum="6" dicepool="14" group="Acting Group">
+						<description>Con governs the ability to manipulate or fool an NPC during a social encounter. This skill covers a range of confidence games as well as the principles behind those cons.</description>
+						<traitcost bp="3"/>
+					</skill>
+					<skill name="Disguise" text="2" base="2" modified="2" naturalmaximum="12" augmentedmaximum="3" dicepool="6" group="Stealth Group" fromgroup="yes">
+						<description>Disguise covers non-magical forms of masking your identity, including makeup and enhancement. See Using Disguise and Impersonation, p. 136.</description>
+						<traitcost bp="0"/>
+					</skill>
+					<skill name="Etiquette" text="3" base="3" modified="3" naturalmaximum="12" augmentedmaximum="5" dicepool="13" group="Influence Group">
+						<description>Etiquette represents the level of understanding and awareness of proper social rituals. The skill works as a sort of social version of Sneak, allowing you to move unimpeded through various social situations. Etiquette also serves as a social safety net in case a player botches a social situation in a way a skilled character would not. See Using Etiquette, p. 141.</description>
+						<traitcost bp="3"/>
+					</skill>
+					<skill name="Impersonation" text="1" base="1" modified="1" naturalmaximum="12" augmentedmaximum="2" dicepool="11" group="Acting Group">
+						<description>Impersonation is the ability to assume the identity of another person, including voice and physical mannerisms. The skill is limited by the physical abilities of the character. A dwarf might be able to impersonate a troll over a commlink, but the illusion shatters when he is face to face with his target.</description>
+						<traitcost bp="1"/>
+					</skill>
+					<skill name="Intimidation" text="1" base="1" modified="1" naturalmaximum="12" augmentedmaximum="2" dicepool="9" group="">
+						<description>Intimidation is about creating the impression that you are more menacing than another person in order to get them to do what you want. The skill may be applied multiple ways, from negotiation to interrogation. Intimidation is an Opposed Intimidation + Charisma [Social] Test against the target's Charisma + Willpower, modified by the appropriate entries on the Social Modifiers Table (p. 140).</description>
+						<traitcost bp="1"/>
+					</skill>
+					<skill name="Leadership" text="6" base="6" modified="6" naturalmaximum="12" augmentedmaximum="9" dicepool="16" group="Influence Group">
+						<description>Leadership is the ability to direct and motivate others. It's like Con, except rather than using deception you're using a position of authority. This skill is especially helpful in situations where the will of a teammate is shaken or someone is being asked to do something uncomfortable. The Leadership skill is not meant to replace or make up for poor teamwork. When using Leadership make an opposed test Charisma + Leadership. See Using Social Influence Skills, at right, for test modifiers.</description>
+						<traitcost bp="6"/>
+					</skill>
+					<skill name="Negotiation" text="4" base="4" modified="4" naturalmaximum="12" augmentedmaximum="6" dicepool="14" group="Influence Group">
+						<description>Negotiation governs a character's ability to apply their charisma, tactics, and knowledge of situational psychology in order to create a better position when making deals.</description>
+						<traitcost bp="3"/>
+					</skill>
+					<skill name="Palming" text="1" base="1" modified="1" naturalmaximum="12" augmentedmaximum="2" dicepool="5" group="Stealth Group" fromgroup="yes">
+						<description>Palming is sleight-of-hand skill that gives a character the ability to snag, hide, and pass off small objects.</description>
+						<traitcost bp="0"/>
+					</skill>
+					<skill name="Perception" text="3" base="3" modified="3" naturalmaximum="12" augmentedmaximum="5" dicepool="8" group="">
+						<description>Perception refers to the ability to spot anomalies in everyday situations, making it one of the key skills a shadowrunner needs. See Using Perception, p. 135.</description>
+						<traitcost bp="3"/>
+					</skill>
+					<skill name="Pistols" text="2" base="2" modified="2" naturalmaximum="12" augmentedmaximum="3" dicepool="6" group="Firearms Group">
+						<description>This skill category includes all types of handheld pistols, including tasers, single-shots, semi-automatics, and revolvers.</description>
+						<traitcost bp="2"/>
+					</skill>
+					<skill name="Sneaking" text="1" base="1" modified="1" naturalmaximum="12" augmentedmaximum="2" dicepool="5" group="Stealth Group" fromgroup="yes">
+						<description>Need to get where you're not supposed to be? This skill allows you to remain inconspicuous in various situations. See Using Stealth Skills, p. 136.</description>
+						<traitcost bp="0"/>
+					</skill>
+					<skill name="Survival" text="1" base="1" modified="1" naturalmaximum="12" augmentedmaximum="2" dicepool="5" group="Outdoors Group">
+						<specialization bonustext="Urban +2"/>
+						<description>In the desert with nothing more than a tin cup, a poncho, and an iron rod? You'll need this skill to help you get out alive. Survival is the ability to stay alive in extreme environmental conditions for extended periods of time. The skill governs a character's ability to perform vital outdoor tasks such as start a fire, build a shelter, scrounge for food, etc. in hostile environments. See Using Survival, p. 136.</description>
+						<traitcost bp="0"/>
+					</skill>
+				</active>
+				<knowledge>
+					<skill name="Area Knowledge: Seattle" text="2" base="2" modified="2" naturalmaximum="12" augmentedmaximum="3" dicepool="6" group="">
+						<description/>
+						<traitcost bp="2"/>
+					</skill>
+					<skill name="Corporation: Shiawase" text="5" base="5" modified="5" naturalmaximum="12" augmentedmaximum="8" dicepool="9" group="">
+						<description/>
+						<traitcost bp="5"/>
+					</skill>
+					<skill name="Fashion" text="1" base="1" modified="1" naturalmaximum="12" augmentedmaximum="2" dicepool="5" group="">
+						<description/>
+						<traitcost bp="1"/>
+					</skill>
+					<skill name="Shadow Community" text="3" base="3" modified="3" naturalmaximum="12" augmentedmaximum="5" dicepool="7" group="">
+						<description/>
+						<traitcost bp="3"/>
+					</skill>
+					<skill name="Yakuza" text="3" base="3" modified="3" naturalmaximum="12" augmentedmaximum="5" dicepool="7" group="">
+						<description/>
+						<traitcost bp="3"/>
+					</skill>
+				</knowledge>
+				<language>
+					<skill name="English" text="4" base="0" modified="4" naturalmaximum="12" augmentedmaximum="0" dicepool="8" group="">
+						<description/>
+						<traitcost bp="0"/>
+					</skill>
+					<skill name="Japanese" text="N" base="1" modified="1" naturalmaximum="12" augmentedmaximum="2" dicepool="5" group="">
+						<description/>
+						<traitcost bp="0"/>
+					</skill>
+				</language>
+			</skills>
+			<gear>
+				<augmentations>
+					<cyberware>
+						<item name="Attention Co-Processor" essencecost="0.3" wireless="Present">
+							<description>True wetware-based multitasking remains annoyingly out of reach, but ongoing work in the field has allowed for a limbic monitoring system that searches for and denotes objects of interest, pinging them with gentle neural tugs or, if connected to sensory cyber/devices, actual sounds or visual flags to ensure they're noticed. This raises the user's Mental limit for Perception tests by 1.</description>
+							<gearcost text="3,000¥" value="3000"/>
+							<availability text="8" value="8" class=""/>
+							<matrix>
+								<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+								<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+								<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+								<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+							</matrix>
+							<modifications/>
+							<accessories/>
+							<ammunition/>
+							<programs/>
+							<othergear/>
+						</item>
+						<item name="Cyberears (Alphaware)" essencecost="0.32" rating="3" wireless="Present">
+							<description>Ordinarily, cyberears replace only the inner ear, although the whole thing can be replaced as well if you like. Cyberears offer hearing with normal ranges (like an omni-directional microphone), a sound link, and Capacity for modifications and enhancements.</description>
+							<gearcost text="47,700¥" value="47700"/>
+							<availability text="11" value="11" class=""/>
+							<matrix>
+								<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+								<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+								<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+								<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+							</matrix>
+							<modifications>
+								<item name="Audio Analyzer" size="Human/Elf/Ork Size" wireless="Present">
+									<description>A simple bit of hardware that measures and identifies both pitch and timbre, audio analyzer is quite useful for musicians and impersonators, but it can also allow eavesdropping of old touch-tone datapads. The audio analyzer acts as a Rating 4 device for identifying pitch, and raises the Social limit by 1 for musical performances for the user.</description>
+									<gearcost text="1,000¥" value="1000"/>
+									<availability text="4" value="4" class=""/>
+									<matrix>
+										<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+										<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+										<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+										<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+									</matrix>
+									<modifications/>
+									<accessories/>
+									<ammunition/>
+									<programs/>
+									<othergear/>
+								</item>
+								<item name="Audio Enhancement" rating="3" size="Human/Elf/Ork Size" wireless="Present">
+									<description>An implanted version of audio enhancement (p. 445)
+
+Audio Enhancement
+Audio enhancement allows the user to hear a broader spectrum of audio frequencies, including high and low frequencies outside the normal metahuman audible spectrum. The user also experiences fine discrimination of nuances and can block out distracting background noise. Audio enhancement adds its Rating to your limit in audio Perception Tests.</description>
+									<gearcost text="12,000¥" value="12000"/>
+									<availability text="9" value="9" class=""/>
+									<matrix>
+										<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+										<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+										<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+										<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+									</matrix>
+									<modifications/>
+									<accessories/>
+									<ammunition/>
+									<programs/>
+									<othergear/>
+								</item>
+								<item name="Damper" size="Human/Elf/Ork Size" wireless="Present">
+									<description>This implant protects the user from sudden increases in sound as well as damaging sound levels. The damper adds a +2 dice pool bonus to resisting sonic attacks, including flashbangs.</description>
+									<gearcost text="2,250¥" value="2250"/>
+									<availability text="6" value="6" class=""/>
+									<matrix>
+										<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+										<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+										<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+										<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+									</matrix>
+									<modifications/>
+									<accessories/>
+									<ammunition/>
+									<programs/>
+									<othergear/>
+								</item>
+								<item name="Increased Hearing Spectrum" size="Human/Elf/Ork Size" wireless="Present">
+									<description>A basic augmentation that expands the user's hearing spectrum beyond the typical metahuman breadth of 20 Hz to 20 kHz as well as beyond typical audio enhancements. The user's hearing extends as low as 5 Hz, into infrasonic sound, and as high as 120 kHz into the ultrasonic. This allows the user to hear sounds outside the normal range, such as dog whistles or ultrasound- based motion detectors, which would otherwise go unnoticed. If combined with a device to create such sounds, such as a voice modulator, then a method of signaling, or even communication, can be employed that is difficult for those without the augmentation to listen in on.</description>
+									<gearcost text="500¥" value="500"/>
+									<availability text="6" value="6" class=""/>
+									<matrix>
+										<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+										<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+										<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+										<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+									</matrix>
+									<modifications/>
+									<accessories/>
+									<ammunition/>
+									<programs/>
+									<othergear/>
+								</item>
+								<item name="Select Sound Filter" rating="3" size="Human/Elf/Ork Size" wireless="Present">
+									<description>An implanted version of the select sound filter audio enhancement, with the difference that the maximum available Rating is 6 instead of 3.
+
+Select Sound Filter
+This lets you block out background noise and focus on specific sounds or patterns of sounds. It even includes speech, word, and sound pattern recognition. Each Rating point lets you select a single sound group (such as the footsteps of a patrolling guard or the rotors of a distant helicopter) and focus on it. You only actively listen to one group at a time, but you can record the others for later playback or set them to triggered monitoring (such as sounding an alert if a conversation brings up a certain topic, or if there's a variation in the breathing pattern of a guard dog).</description>
+									<gearcost text="10,500¥" value="10500"/>
+									<availability text="9" value="9" class=""/>
+									<matrix>
+										<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+										<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+										<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+										<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+									</matrix>
+									<modifications/>
+									<accessories/>
+									<ammunition/>
+									<programs/>
+									<othergear/>
+								</item>
+								<item name="Sound Link" useradded="no" size="Human/Elf/Ork Size" wireless="Present">
+									<description>The audio equivalent of image link, sound link can play audio (recordings, movie soundtracks, music, etc.) from linked sources within the user's PAN (or headware memory, or datajack) directly into the user's cyberears. A sound link is a common component of immersive AR environments, adding a sonic component.</description>
+									<gearcost text="0¥" value="0"/>
+									<availability text="" value="0" class=""/>
+									<matrix>
+										<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+										<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+										<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+										<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+									</matrix>
+									<modifications/>
+									<accessories/>
+									<ammunition/>
+									<programs/>
+									<othergear/>
+								</item>
+								<item name="Spatial Recognizer" size="Human/Elf/Ork Size" wireless="Present">
+									<description>An implanted version of the spatial recognizer enhancement.
+
+Spatial Recognizer
+This hearing accessory pinpoints the source of a sound. You get a +2 bonus on your limit in Perception Tests to find the source of a specific sound.</description>
+									<gearcost text="4,000¥" value="4000"/>
+									<availability text="8" value="8" class=""/>
+									<matrix>
+										<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+										<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+										<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+										<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+									</matrix>
+									<modifications/>
+									<accessories/>
+									<ammunition/>
+									<programs/>
+									<othergear/>
+								</item>
+								<item name="Translat-Ear" rating="1" size="Human/Elf/Ork Size" wireless="Present">
+									<description>New from Renraku, the Translat-Ear allows you to hold a single language knowsoft and provides translation for what you hear with only a one-second delay. While the Translat-Ear isn't able to assist you to read or speak the language, it provides a vastly cheaper option for translation services than a full skilljack. Renraku happily provides Matrix storage for all of your linguasofts, allowing you to wirelessly access them at will, but reminds you that their Babel service is even handier!</description>
+									<gearcost text="2,000¥" value="2000"/>
+									<availability text="8" value="8" class=""/>
+									<matrix>
+										<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+										<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+										<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+										<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+									</matrix>
+									<modifications/>
+									<accessories/>
+									<ammunition/>
+									<programs/>
+									<othergear/>
+								</item>
+							</modifications>
+							<accessories/>
+							<ammunition/>
+							<programs/>
+							<othergear/>
+						</item>
+						<item name="Cybereyes (Alphaware)" essencecost="0.24" rating="2" wireless="Present">
+							<description>The basic cybereyes system features 20/20 vision for both eyes, an image link, and a built-in camera at no extra cost, as well as capacity for vision enhancements.</description>
+							<gearcost text="23,400¥" value="23400"/>
+							<availability text="8" value="8" class=""/>
+							<matrix>
+								<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+								<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+								<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+								<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+							</matrix>
+							<modifications>
+								<item name="Eye Light System" size="Human/Elf/Ork Size" wireless="Present">
+									<description>The eye light system involves a pair of minuscule, high-power but low-heat lights installed into the user's cybereyes. The mechanism is attached to the forward inner wall of the eye, with a second, smaller pupil installed to allow it to shine out. The light has a range of two meters and allows for a person with low-light vision to see for a range ten times that. The thin beam illuminates an area roughly the size of a sheet of paper or half a fuse box, allowing for a wide range of activities while leaving the hands completely free. Standard white light may be replaced by any other color, or ultraviolet, at no additional cost, with red being the most popular alternative.</description>
+									<gearcost text="500¥" value="500"/>
+									<availability text="2" value="2" class=""/>
+									<matrix>
+										<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+										<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+										<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+										<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+									</matrix>
+									<modifications/>
+									<accessories/>
+									<ammunition/>
+									<programs/>
+									<othergear/>
+								</item>
+								<item name="Flare Compensation" size="Human/Elf/Ork Size" wireless="Present">
+									<description>An implanted version of the flare compensation enhancement (p. 444).
+
+Flare Compensation
+This protects you from blinding flashes of light as well as simple glare. It mitigates the vision modifiers for glare and reduces the penalty from flashing lights, like from a flash-pak.</description>
+									<gearcost text="1,000¥" value="1000"/>
+									<availability text="4" value="4" class=""/>
+									<matrix>
+										<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+										<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+										<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+										<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+									</matrix>
+									<modifications/>
+									<accessories/>
+									<ammunition/>
+									<programs/>
+									<othergear/>
+								</item>
+								<item name="Image Link" useradded="no" size="Human/Elf/Ork Size" wireless="Present">
+									<description>An implanted version of the image link enhancement (p. 444).
+
+Image Link
+A standard upgrade, this lets you display visual information (text, pictures, movies, the current time, etc.) in your field of vision. This is usually AROs, but you can display pretty much whatever you want on it. You and your team can use it to share tactical and situational info in real time. An image link is what you need to truly "see" AR and participate in the modern world.</description>
+									<gearcost text="0¥" value="0"/>
+									<availability text="" value="0" class=""/>
+									<matrix>
+										<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+										<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+										<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+										<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+									</matrix>
+									<modifications/>
+									<accessories/>
+									<ammunition/>
+									<programs/>
+									<othergear/>
+								</item>
+								<item name="Smartlink" size="Human/Elf/Ork Size" wireless="Present">
+									<description>An implanted version of the smartlink vision enhancement (p. 444). Note that a smartlink installed in a natural eye or in a pair of cybereyes is more effective than a smartlink installed in an external device: see Smartgun System, p. 444.
+
+Smartlink
+This accessory works with a smartgun system to give you the full benefit of the system. The smartgun will tell you the range to various targets, as well as ammunition level (and type), heat buildup, mechanical stress and so on. Without a smartlink, a smartgun system just sends out data that isn't received by anyone and has no effect. A smartlink installed in a natural eye or in a pair of cybereyes is more effective than a smartlink installed in an external device; see Smartgun System, p. 433.</description>
+									<gearcost text="4,000¥" value="4000"/>
+									<availability text="8R" value="8" class="Restricted"/>
+									<matrix>
+										<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+										<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+										<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+										<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+									</matrix>
+									<modifications/>
+									<accessories/>
+									<ammunition/>
+									<programs/>
+									<othergear/>
+								</item>
+								<item name="Vision Enhancement" rating="2" size="Human/Elf/Ork Size" wireless="Present">
+									<description>An implanted version of vision enhancement (p. 444).
+
+Vision Enhancement
+This sharpens a character's vision at all ranges, providing visual acuity closer to that of the average hawk than that of the average metahuman. It adds its Rating as a positive modifier to your limit on visual Perception Tests.</description>
+									<gearcost text="8,000¥" value="8000"/>
+									<availability text="6" value="6" class=""/>
+									<matrix>
+										<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+										<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+										<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+										<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+									</matrix>
+									<modifications/>
+									<accessories/>
+									<ammunition/>
+									<programs/>
+									<othergear/>
+								</item>
+							</modifications>
+							<accessories/>
+							<ammunition/>
+							<programs/>
+							<othergear/>
+						</item>
+						<item name="Datajack (Alphaware)" essencecost="0.08" wireless="Present">
+							<description>A datajack gives you a direct neural interface (p. 222), which can be handy in a lot of situations. It also comes with a retractable spool of micro-cable (about a meter long) that lets you directly interface with any electronic device via a universal access cable. Datajacks are equipped with their own cache of storage memory for downloading or saving files. Two datajack users can string a fiberoptic cable between themselves to conduct a private mental communication immune to radio interception or eavesdropping.</description>
+							<gearcost text="1,200¥" value="1200"/>
+							<availability text="4" value="4" class=""/>
+							<matrix>
+								<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+								<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+								<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+								<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+							</matrix>
+							<modifications/>
+							<accessories/>
+							<ammunition/>
+							<programs/>
+							<othergear/>
+						</item>
+						<item name="Fairlight Caliban (Cyber)" essencecost="0.2" wireless="Present">
+							<description>Basic Persona: Completely black humanoid
+Base Theme: Island
+Device Icon: Boat in a storm
+Commlinks are universal communication devices; they're used by everyone all the time. Commlinks are essentially the digital Swiss army knives of the modern world. Even the most basic of them includes AR Matrix browsing capability, multiple telephone and radio modes of real-time talk and text, music players, micro trid-projectors, touchscreen displays, built in high-resolution digital video and still image cameras, image/text and RFID tag scanners, built-in GPS guidance systems, chip players, credstick readers, retractable earbuds, voice-access dialing, text-to-speech and speech-to-text technologies, and a shock and water resistant case. And all of this at an inexpensive price that a few decades ago would have seemed absurd.</description>
+							<gearcost text="10,000¥" value="10000"/>
+							<availability text="14" value="14" class=""/>
+							<matrix initiative="11" dr="14">
+								<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+								<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+								<matrixattribute name="Data Processing" text="7" base="7" modified="7"/>
+								<matrixattribute name="Firewall" text="7" base="7" modified="7"/>
+							</matrix>
+							<conditionmonitor name="Fairlight Caliban (Cyber)" boxes="12" penalty="0"/>
+							<modifications/>
+							<accessories/>
+							<ammunition/>
+							<programs/>
+							<othergear/>
+						</item>
+						<item name="False Face" essencecost="0.5" wireless="Present">
+							<description>Intended for use by actors, shadowrunners quickly found other uses for the false face, resulting in it being restricted in most countries and corporations. The bones of the face are replaced with dozens of small ceramic plates that may be adjusted and rotated by micro-servos implanted beneath them. Combined with small reservoirs of gel that allow inflation or deflation of facial features, this allows the user to resculpt their face to any possible version of their metatype, regardless of ethnicity. False face provides a +4 dice pool bonus to a character's Disguise + Intuition Test. Changing one's face takes 1 minute of concentration and is somewhat painful.</description>
+							<gearcost text="20,000¥" value="20000"/>
+							<availability text="12R" value="12" class="Restricted"/>
+							<matrix>
+								<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+								<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+								<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+								<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+							</matrix>
+							<modifications/>
+							<accessories/>
+							<ammunition/>
+							<programs/>
+							<othergear/>
+						</item>
+						<item name="Fiberoptic Hair (50cm) (Alphaware)" essencecost="0.08" rating="5" wireless="Present">
+							<description>The user's original scalp hair (or facial hair) is removed and replaced with artificial hair composed of fiberoptic cabling. This hair is not only available in every imaginable color but is programmable, allowing for patterns, designs, or scrolling effects that nature could never manage. From sparkling stars in a nightscape of black to an explosion of neon colors to a scrolling advert for your favorite hair salon, the only real limit is one's imagination. Cost is based on length (per ten centimeters, to a maximum of 1 meter in length).</description>
+							<gearcost text="600¥" value="600"/>
+							<availability text="2" value="2" class=""/>
+							<matrix>
+								<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+								<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+								<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+								<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+							</matrix>
+							<modifications/>
+							<accessories/>
+							<ammunition/>
+							<programs/>
+							<othergear/>
+						</item>
+						<item name="Flashback System (Alphaware)" essencecost="0.24" wireless="Present">
+							<description>An advanced form of the old invoked memory stimulator cyberware, this system features a micro-memory module, a processor, and a dedicated nanohive supporting a specialized neural amplifier colony. Flashback nanites organize themselves into a network of sensors and nanofilaments - similar in many respects to a trode net - over the surface of the user's brain. These probe nanites register neural activity associated with memory formation, backing up the patterns to digital memory. If the subject suffers a brain injury or even simple forgetfulness, the system can access these neural records and stimulate the same neural activity, prompting recall.
+
+You receive the Photographic Memory quality (p. 76, SR5) regarding any experience within the flashback system's storage. These memories are so vivid that it's like viewing a simsense recording of the experience. The system does not store actual memories, just the neural activity map, so the data is useless without your personal brain, and memories may be affected by drugs that inhibit or cause loss of memory.
+
+Photographic Memory
+A character with Photographic Memory can instantly recall facts, dates, numbers, or anything else he has seen or heard.
+
+Simrig
+This simsense recorder can record experience data (sensory and emotive) from you or whoever is wearing it. Simrig rigs are used to make most of the simsense chips sold on the market. You'll need to have a working sim module (with the DNI interface) to make a recording.</description>
+							<gearcost text="7,200¥" value="7200"/>
+							<availability text="10R" value="10" class="Restricted"/>
+							<matrix>
+								<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+								<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+								<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+								<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+							</matrix>
+							<modifications/>
+							<accessories/>
+							<ammunition/>
+							<programs/>
+							<othergear/>
+						</item>
+						<item name="Math SPU (Alphaware)" essencecost="0.08" wireless="Present">
+							<description>This is cranial subprocessing unit (SPU) is dedicated to running mathematical functions, freeing up more grey matter for other activities. It also keeps time accurate to four decimal places, includes a note-taking calendar, and can keep track of up to ten separate timing matters simultaneously, such as "How long is this movie" or "How long until the popcorn is done?" or "What time will my download finish?"
+
+A math SPU adds +4 to a user's Mathematics Knowledge skill, and raises the Mental limit for scientific or technical Knowledge skills by 1.</description>
+							<gearcost text="2,400¥" value="2400"/>
+							<availability text="10" value="10" class=""/>
+							<matrix>
+								<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+								<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+								<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+								<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+							</matrix>
+							<modifications/>
+							<accessories/>
+							<ammunition/>
+							<programs/>
+							<othergear/>
+						</item>
+						<item name="Nanohive (Hard)" essencecost="0.25" rating="1" wireless="Present">
+							<description>A nanohive is a nanocybernetic implant designed to support and coordinate nanoware in a living body long-term. Nanohives not only contain the hardware and software necessary to aid the functions of multiple nanoware colonies, but they also provide a safe environment for nanoware systems to repair, replicate, and resupply. As part of nanohive implantation procedures, a host of other minor cybernetic modifications are made to pre-existing organs including the liver, kidneys, and spleen. These alterations keep the body from filtering out nanites like other waste and cellular "detritus." Nanohives themselves replace and repair nanites that are excreted or damaged by the body, maintaining nanite populations at a normal level and even restoring depleted levels after injury. Combined with the filtration systems and the robustness of current nanotech, this limits natural nanite loss.
+
+Each nanohive is a sealed egg-shaped implant containing the primary processor, controllers, and neural interfaces and is implanted near arterial or lymphatic junctions. In addition to the expert system(s), a nanohive incorporates sensors that monitor nanite levels in the blood, as well as reservoirs of feedstocks that support machinery for additional nanite colonies, and several thousand backup nanite units are present in ancillary pods. When the nanoware supported by a nanohive has its Rating reduced, the nanohive returns its Rating by 1 point per week, up to the nanohive's Rating.
+
+Each nanohive supports one nanoware system at a Rating equal to its own.
+
+Hard Nanohive: Hard nanohives are able to communicate and direct the actions of nanoware via shortrange ultrasound, microwave, or UV signals using the nanites themselves as relays. Hard nanohives can use this communication to reprogram the nanite system it supports - its Rating is the number of different hard nanite systems to which it can convert its nanites. Hard nanohives must be restocked every six months at a cost of 500 nuyen x Rating.</description>
+							<gearcost text="13,000¥" value="13000"/>
+							<availability text="5R" value="5" class="Restricted"/>
+							<matrix>
+								<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+								<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+								<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+								<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+							</matrix>
+							<modifications/>
+							<accessories/>
+							<ammunition/>
+							<programs/>
+							<othergear>
+								<item name="Nanotattoos (Hard)" rating="2" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+									<description>Once injected, nanotattoo hard machines embed themselves as a lattice of liquid crystal microdisplays under the subject's skin. A Rating 1 nanotattoo covers one limb or the face, Rating 2 covers half the body, and Rating 3 covers the whole body. A nanotattoo (or "nanotat") can be reprogrammed to display any image the user wishes, including preprogrammed animation. They can also be programmed to be inactive and appear indistinguishable from your normal skin. Reprogramming nanotats in this manner does not reduce its rating.
+
+Nanotattoos can provide effective camouflage, if you have a full body treatment and you're not wearing much, imposing a -1 dice pool modifier to Perception tests to detect you visually.</description>
+									<gearcost text="1,000¥" value="1000"/>
+									<availability text="12F" value="12" class="Forbidden"/>
+									<matrix>
+										<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+										<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+										<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+										<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+									</matrix>
+									<modifications/>
+									<accessories/>
+									<ammunition/>
+									<programs/>
+									<othergear/>
+								</item>
+							</othergear>
+						</item>
+						<item name="Radar Sensor (Alphaware)" essencecost="0.4" rating="2" wireless="Present">
+							<description>Consisting of a terahertz pulse-transmitter, receiver, and highly advanced processing unit, this unit computes differences in the Doppler shift between the user and the surrounding area, within a twenty-meter radius. This allows the user to view a three-dimensional map of the area and the elements contained therein, if in a vague, blocky manner. The radio pulses are able to pass through most solid matter, allowing the user to "look" through walls, clothes, and similar obstructions to see the outlines of what lies beyond. While individuals cannot be recognized at the resolution of the processing, shapes can give some suggestion of what items might be (tables, guns, balls, and so forth). The system is excellent at detecting motion, calculating exact distance (when combined with a math SPU), and accurately overseeing floorplans and the locations of persons and objects in that area. It is somewhat complex to sift through the data for a proper reading (a Simple Action is required), and while it can ignore Invisibility spells (but not Improved Invisibility spells) and many camouflage methods, it cannot discern color, lighting, or texture.
+
+The radar sensor uses the same Visibility modifiers as ultrasound but can penetrate a cumulative Structure Rating equal to its own Rating x 5. Thus, a Rating 2 radar sensor can penetrate two Rating 5 walls, or a single Rating 10 wall, or three Rating 3 walls, etc. Radar systems are especially vulnerable to jamming and noise, suffering double the usual disruption. Radar pulses are detectable by any wireless device, but most won't be able to identify them as anything more than background noise.</description>
+							<gearcost text="9,600¥" value="9600"/>
+							<availability text="8" value="8" class=""/>
+							<matrix>
+								<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+								<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+								<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+								<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+							</matrix>
+							<modifications/>
+							<accessories/>
+							<ammunition/>
+							<programs/>
+							<othergear/>
+						</item>
+						<item name="Skilljack" essencecost="0.4" rating="4" wireless="Present">
+							<description>This headware interprets knowsofts and linguasofts for your brain so you can use them as though they were your own. It can also run activesofts, but they only act as Knowledge Skills unless you have skillwires (p. 455). The total of all skills running on a skilljack cannot exceed its Rating x 2, and the maximum Rating for a skill is the skilljack's Rating. Starting skills from storage and stopping skills is a Free Action. You can't use Edge with skills you have through a skilljack. If you have more than one skilljack, only one of them can operate at a time.</description>
+							<gearcost text="40,000¥" value="40000"/>
+							<availability text="8" value="8" class=""/>
+							<matrix>
+								<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+								<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+								<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+								<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+							</matrix>
+							<modifications/>
+							<accessories/>
+							<ammunition/>
+							<programs/>
+							<othergear/>
+						</item>
+						<item name="Skillwires" essencecost="0.4" rating="4" wireless="Present">
+							<description>Skillwires are a system of neuromuscular controllers that overlie the body's natural nervous system; they are capable of aiding or completely overriding muscular movement, controlled by the "muscle memory" played through a skilljack (p. 452). This system allows you to use activesofts with a rating up to your skillwire's rating, but only if that activesoft is running on your implanted skilljack. Skillwires are incompatible with reflex recorder bioware.</description>
+							<gearcost text="80,000¥" value="80000"/>
+							<availability text="" value="0" class=""/>
+							<matrix>
+								<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+								<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+								<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+								<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+							</matrix>
+							<modifications/>
+							<accessories/>
+							<ammunition/>
+							<programs/>
+							<othergear/>
+						</item>
+						<item name="Skin Toner (Alphaware)" essencecost="0.4" wireless="Present">
+							<description>Gently weaving ruthenium polymer into the user's skin and implanting a dedicated control system to watch over it, skin toner allows the user to select any shade of color for their skin tone. The limited processor requires the entire body to be generally the same color, minus some minor gradients for tanning, flesh density, and so forth.</description>
+							<gearcost text="2,400¥" value="2400"/>
+							<availability text="6" value="6" class=""/>
+							<matrix>
+								<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+								<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+								<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+								<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+							</matrix>
+							<modifications/>
+							<accessories/>
+							<ammunition/>
+							<programs/>
+							<othergear/>
+						</item>
+						<item name="Visualizer (Alphaware)" essencecost="0.08" wireless="Present">
+							<description>One of the most-beloved creations of the past five years, the visualizer allows the user to export a 2D or 3D image from their mind to augmented reality, or directly to paper by interfacing with a wireless printer. It requires extensive concentration and rare mental imaging ability to create more than a rough realization of the image in someone's head (use a Memory Test, p. 152, SR5, to determine how many relevant details the individual is able to visualize), but it's an emerging art form. It takes between five seconds (for a simple geometric design) to an hour (for detailed landscapes or persons) to create the image.</description>
+							<gearcost text="2,400¥" value="2400"/>
+							<availability text="10" value="10" class=""/>
+							<matrix>
+								<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+								<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+								<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+								<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+							</matrix>
+							<modifications/>
+							<accessories/>
+							<ammunition/>
+							<programs/>
+							<othergear/>
+						</item>
+						<item name="Voice Modulator" essencecost="0.2" rating="2" wireless="Present">
+							<description>This implant gives you perfect pitch and enormous vocal flexibility and distortion capabilities. You can speak with an increased volume (up to 100 decibels) without strain, shift your pitch to make perfect bird calls or mellifluous singing, and most importantly, uncanny vocal impressions. The modulator can also play back (and more or less perfectly imitate) a recorded or captured voice. Add the Rating of the modulator to your dice pool for Impersonation skill tests.</description>
+							<gearcost text="10,000¥" value="10000"/>
+							<availability text="6F" value="6" class="Forbidden"/>
+							<matrix>
+								<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+								<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+								<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+								<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+							</matrix>
+							<modifications/>
+							<accessories/>
+							<ammunition/>
+							<programs/>
+							<othergear/>
+						</item>
+					</cyberware>
+					<bioware>
+						<item name="Tailored Pheromones" essencecost="0.4" rating="2">
+							<description>These pheromones are specially tailored to subtly influence others and can be released at will. Tailored pheromones add their Rating as a dice pool modifier to your skill tests for skills in the Acting and Influence skill groups, but only when the person you're using them on is within a comfortable conversation range - if they can't smell you, the pheromones don't work. Tailored pheromones also work on you to make you feel better about yourself; increase your Social limit by the Rating. Tailored pheromones have no effect on magical abilities and tests.</description>
+							<gearcost text="62,000¥" value="62000"/>
+							<availability text="8R" value="8" class="Restricted"/>
+							<matrix>
+								<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+								<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+								<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+								<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+							</matrix>
+							<modifications/>
+							<accessories/>
+							<ammunition/>
+							<programs/>
+							<othergear/>
+						</item>
+					</bioware>
+				</augmentations>
+				<weapons>
+					<item name="Ares Crusader II" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>A large magazine and easy handling make the Ares Crusader II one of the most popular weapons of its class. It features an integral barrel-mounted gas-vent 2 recoil compensation system and comes with an integral smartgun system.</description>
+						<gearcost text="835¥" value="835"/>
+						<availability text="9R" value="9" class="Restricted"/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<weaponinfo grouptext="Machine Pistols" dicepool="5dicepool [7]" damagetext="7P" damagevalue="7" damagetype="Physical" ap="0" modestext="SA/BF" isammunition="0" recoilcomp="4" equipped="Main Hand">
+							<ammunitionused text="40 (c)" count="40" bins="1" type="Clip"/>
+							<mode>Semi-Automatic</mode>
+							<mode>Burst Fire</mode>
+							<ranges text="5/15/30/50">
+								<range name="Minimum" text="0m" value="0"/>
+								<range name="Short" text="5m" value="5"/>
+								<range name="Medium" text="15m" value="15"/>
+								<range name="Long" text="30m" value="30"/>
+								<range name="Extreme" text="50m" value="50"/>
+							</ranges>
+						</weaponinfo>
+						<modifications>
+							<item name="Gas-Vent System" rating="2" useradded="no" quantity="1">
+								<description>Gas-vent recoil compensation systems are barrel-mounted accessories that vent a weapon's barrel gases at a specific vector to counter muzzle climb. Once installed, a gas-vent cannot be removed. Gas-vent systems provide a number of points of Recoil Compensation equal to their rating.</description>
+								<gearcost text="0¥" value="0"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+							<item name="Smartgun System, Internal" useradded="no" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+								<description>This connects a firearm or a projectile weapon directly to the user's smartlink. Incorporating a small camera and laser range finder, the smartlink keeps track of ammunition, heat buildup, and material stress. If you have a smartlink, you can mentally switch between gun modes, eject a clip, and fire the gun without pulling the trigger. The camera lets you shoot around corners without exposing yourself to return fire (at a -3 dice pool penalty). The system makes use of advanced calculation software, allowing for precisely calculated trajectories and high precision over any distance.
+
+If you're using a smartlink, the smartgun system increases the gun's Accuracy by 2. The smartgun features are accessed either by universal access port cable to an imaging device (like glasses, goggles, or a datajack for someone with cybereyes) or by a wireless connection working in concert with direct neural interface.
+
+Retrofitting a firearm with an internal smartgun system doubles the weapon's price and adds 2 to its Availability. An external smartgun system can be attached to the top mount or underbarrel mount with an Armorer + Logic (4, 1 hour) Extended Test. The small camera has a capacity of 1 and can be equipped with vision enhancements (p. 444).</description>
+								<gearcost text="0¥" value="0"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+								<modifications/>
+								<accessories/>
+								<ammunition/>
+								<programs/>
+								<othergear/>
+							</item>
+						</modifications>
+						<accessories>
+							<item name="Extended Clip" rating="1" useradded="no" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+								<description>Sometimes the job calls for the ability to fire more shots without taking time to reload. That is what an extended clip is for. A Rating 1 Extended Clip adds fifty percent more rounds to the gun's capacity, and a Rating 2 Extended Clip adds one hundred percent more rounds. The only downside is it makes a gun a bit harder to hide (+1 Concealability per Rating). More of an accessory than a modification, an Extended Clip does not use any modification slots.</description>
+								<gearcost text="0¥" value="0"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+								<modifications/>
+								<accessories/>
+								<ammunition/>
+								<programs/>
+								<othergear/>
+							</item>
+							<item name="Spare Clips" quantity="1">
+								<description>A spare clip comes unloaded but can hold the maximum rounds for the weapon. Each clip is specific to the weapon you buy it for, but they all cost the same. And yes, it's technically a detachable box magazine, but the Cityspeak word for it is so popular these days that even the catalogs call them clips.</description>
+								<gearcost text="5¥" value="5"/>
+								<availability text="4" value="4" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+						</accessories>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Ares Light Fire 70" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>The Ares Light Fire 70 is one of the most common pistols on the market. A special barrel-mounted silencer developed exclusively for the Light Fire 70 is available that gives you an additional -1 dice pool modifier to the usual -4 (for a total of -5); this silencer costs 750¥.</description>
+						<gearcost text="955¥" value="955"/>
+						<availability text="3R" value="3" class="Restricted"/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<weaponinfo grouptext="Pistols" dicepool="6dicepool [7]" damagetext="6P" damagevalue="6" damagetype="Physical" ap="0" modestext="SA" isammunition="0" recoilcomp="2" equipped="Main Hand">
+							<ammunitionused text="16 (c)" count="16" bins="1" type="Clip"/>
+							<mode>Semi-Automatic</mode>
+							<ranges text="5/15/30/50">
+								<range name="Minimum" text="0m" value="0"/>
+								<range name="Short" text="5m" value="5"/>
+								<range name="Medium" text="15m" value="15"/>
+								<range name="Long" text="30m" value="30"/>
+								<range name="Extreme" text="50m" value="50"/>
+							</ranges>
+						</weaponinfo>
+						<modifications/>
+						<accessories>
+							<item name="Silencer/Suppressor" quantity="1">
+								<description>This barrel-mounted accessory reduces the sound and flash of a weapon's discharge. It cannot be used with revolvers or shotguns. It applies a -4 dice pool modifier on all Perception Tests to notice the weapon's use or locate the weapon's firer. Attaching or removing a silencer takes a Complex Action.</description>
+								<gearcost text="500¥" value="500"/>
+								<availability text="9F" value="9" class="Forbidden"/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+							<item name="Spare Clips" quantity="1">
+								<description>A spare clip comes unloaded but can hold the maximum rounds for the weapon. Each clip is specific to the weapon you buy it for, but they all cost the same. And yes, it's technically a detachable box magazine, but the Cityspeak word for it is so popular these days that even the catalogs call them clips.</description>
+								<gearcost text="5¥" value="5"/>
+								<availability text="4" value="4" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+						</accessories>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Ares Predator V" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>The newest iteration of the most popular handgun in the world, especially with mercenaries and shadowrunners. Upgraded with improved ergonomics and handling features, the Ares Predator V includes a smartgun system. Some say that the Ares Predator V isn't better than other guns in its class, but no one can argue that it has better brand recognition.</description>
+						<gearcost text="1,230¥" value="1230"/>
+						<availability text="5R" value="5" class="Restricted"/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<weaponinfo grouptext="Pistols" dicepool="8dicepool [7]" damagetext="8P" damagevalue="8" damagetype="Physical" ap="-1" modestext="SA" isammunition="0" recoilcomp="2" equipped="Main Hand">
+							<ammunitionused text="15 (c)" count="15" bins="1" type="Clip"/>
+							<mode>Semi-Automatic</mode>
+							<ranges text="5/20/40/60">
+								<range name="Minimum" text="0m" value="0"/>
+								<range name="Short" text="5m" value="5"/>
+								<range name="Medium" text="20m" value="20"/>
+								<range name="Long" text="40m" value="40"/>
+								<range name="Extreme" text="60m" value="60"/>
+							</ranges>
+						</weaponinfo>
+						<modifications>
+							<item name="Smartgun System, Internal" useradded="no" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+								<description>This connects a firearm or a projectile weapon directly to the user's smartlink. Incorporating a small camera and laser range finder, the smartlink keeps track of ammunition, heat buildup, and material stress. If you have a smartlink, you can mentally switch between gun modes, eject a clip, and fire the gun without pulling the trigger. The camera lets you shoot around corners without exposing yourself to return fire (at a -3 dice pool penalty). The system makes use of advanced calculation software, allowing for precisely calculated trajectories and high precision over any distance.
+
+If you're using a smartlink, the smartgun system increases the gun's Accuracy by 2. The smartgun features are accessed either by universal access port cable to an imaging device (like glasses, goggles, or a datajack for someone with cybereyes) or by a wireless connection working in concert with direct neural interface.
+
+Retrofitting a firearm with an internal smartgun system doubles the weapon's price and adds 2 to its Availability. An external smartgun system can be attached to the top mount or underbarrel mount with an Armorer + Logic (4, 1 hour) Extended Test. The small camera has a capacity of 1 and can be equipped with vision enhancements (p. 444).</description>
+								<gearcost text="0¥" value="0"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+								<modifications/>
+								<accessories/>
+								<ammunition/>
+								<programs/>
+								<othergear/>
+							</item>
+						</modifications>
+						<accessories>
+							<item name="Silencer/Suppressor" quantity="1">
+								<description>This barrel-mounted accessory reduces the sound and flash of a weapon's discharge. It cannot be used with revolvers or shotguns. It applies a -4 dice pool modifier on all Perception Tests to notice the weapon's use or locate the weapon's firer. Attaching or removing a silencer takes a Complex Action.</description>
+								<gearcost text="500¥" value="500"/>
+								<availability text="9F" value="9" class="Forbidden"/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+							<item name="Spare Clips" quantity="1">
+								<description>A spare clip comes unloaded but can hold the maximum rounds for the weapon. Each clip is specific to the weapon you buy it for, but they all cost the same. And yes, it's technically a detachable box magazine, but the Cityspeak word for it is so popular these days that even the catalogs call them clips.</description>
+								<gearcost text="5¥" value="5"/>
+								<availability text="4" value="4" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+						</accessories>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Gel Rounds (Heavy Pistol)" quantity="50">
+						<description>These less-lethal rounds use a hard, jelly-like substance that is a safer alternative to rubber bullets. They are often employed for riot control. Their usually semi-rigid slugs flatten on impact, disbursing their kinetic energy over a larger-than-normal area. Gel rounds inflict Stun damage (AP +1). Gel rounds reduce the target's Physical limit by 2 when checking for knockdown (Knockdown, p. 194).</description>
+						<gearcost text="2.5¥" value="2.5"/>
+						<availability text="2R" value="2" class="Restricted"/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<weaponinfo grouptext="" dicepool="" damagetext="" damagevalue="0" damagetype="Stun" ap="1" modestext="" isammunition="1" recoilcomp="2" equipped="Main Hand">
+							<ranges text="0">
+								<range name="Minimum" text="0m" value="0"/>
+								<range name="Short" text="0m" value="0"/>
+								<range name="Medium" text="0m" value="0"/>
+								<range name="Long" text="0m" value="0"/>
+								<range name="Extreme" text="0m" value="0"/>
+							</ranges>
+						</weaponinfo>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Gel Rounds (Light Pistol)" quantity="50">
+						<description>These less-lethal rounds use a hard, jelly-like substance that is a safer alternative to rubber bullets. They are often employed for riot control. Their usually semi-rigid slugs flatten on impact, disbursing their kinetic energy over a larger-than-normal area. Gel rounds inflict Stun damage (AP +1). Gel rounds reduce the target's Physical limit by 2 when checking for knockdown (Knockdown, p. 194).</description>
+						<gearcost text="2.5¥" value="2.5"/>
+						<availability text="2R" value="2" class="Restricted"/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<weaponinfo grouptext="" dicepool="" damagetext="" damagevalue="0" damagetype="Stun" ap="1" modestext="" isammunition="1" recoilcomp="2" equipped="Main Hand">
+							<ranges text="0">
+								<range name="Minimum" text="0m" value="0"/>
+								<range name="Short" text="0m" value="0"/>
+								<range name="Medium" text="0m" value="0"/>
+								<range name="Long" text="0m" value="0"/>
+								<range name="Extreme" text="0m" value="0"/>
+							</ranges>
+						</weaponinfo>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Grapple Gun" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>This gun can shoot a grappling hook and attached rope, using Light Crossbow ranges. It comes equipped with an internal winch to pull back the grapple (or pull up small loads). Use the Exotic Ranged Weapon skill to shoot it. Micro rope can support a weight of up to 100 kilograms; standard and stealth ropes can support a weight of up to 400 kilograms.</description>
+						<gearcost text="500¥" value="500"/>
+						<availability text="8R" value="8" class="Restricted"/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<weaponinfo grouptext="" dicepool="3dicepool [3]" damagetext="7S" damagevalue="7" damagetype="Stun" ap="-2" modestext="SS" isammunition="0" recoilcomp="2" equipped="Main Hand">
+							<ammunitionused text="1 (ml)" count="1" bins="1" type="Muzzle-Loading"/>
+							<mode>Single Shot</mode>
+							<ranges text="15/45/120/180">
+								<range name="Minimum" text="0m" value="0"/>
+								<range name="Short" text="15m" value="15"/>
+								<range name="Medium" text="45m" value="45"/>
+								<range name="Long" text="120m" value="120"/>
+								<range name="Extreme" text="180m" value="180"/>
+							</ranges>
+						</weaponinfo>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Regular Ammo (Heavy Pistol)" quantity="100">
+						<description>Also called ball or full metal jacket rounds, these solid slugs are useful for numerous applications (mainly killing things).</description>
+						<gearcost text="2¥" value="2"/>
+						<availability text="2R" value="2" class="Restricted"/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<weaponinfo grouptext="" dicepool="" damagetext="" damagevalue="0" damagetype="" ap="0" modestext="" isammunition="1" recoilcomp="2" equipped="Main Hand">
+							<ranges text="0">
+								<range name="Minimum" text="0m" value="0"/>
+								<range name="Short" text="0m" value="0"/>
+								<range name="Medium" text="0m" value="0"/>
+								<range name="Long" text="0m" value="0"/>
+								<range name="Extreme" text="0m" value="0"/>
+							</ranges>
+						</weaponinfo>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Regular Ammo (Light Pistol)" quantity="100">
+						<description>Also called ball or full metal jacket rounds, these solid slugs are useful for numerous applications (mainly killing things).</description>
+						<gearcost text="2¥" value="2"/>
+						<availability text="2R" value="2" class="Restricted"/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<weaponinfo grouptext="" dicepool="" damagetext="" damagevalue="0" damagetype="" ap="0" modestext="" isammunition="1" recoilcomp="2" equipped="Main Hand">
+							<ranges text="0">
+								<range name="Minimum" text="0m" value="0"/>
+								<range name="Short" text="0m" value="0"/>
+								<range name="Medium" text="0m" value="0"/>
+								<range name="Long" text="0m" value="0"/>
+								<range name="Extreme" text="0m" value="0"/>
+							</ranges>
+						</weaponinfo>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Regular Ammo (Machine Pistol)" quantity="100">
+						<description>Also called ball or full metal jacket rounds, these solid slugs are useful for numerous applications (mainly killing things).</description>
+						<gearcost text="2¥" value="2"/>
+						<availability text="2R" value="2" class="Restricted"/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<weaponinfo grouptext="" dicepool="" damagetext="" damagevalue="0" damagetype="" ap="0" modestext="" isammunition="1" recoilcomp="2" equipped="Main Hand">
+							<ranges text="0">
+								<range name="Minimum" text="0m" value="0"/>
+								<range name="Short" text="0m" value="0"/>
+								<range name="Medium" text="0m" value="0"/>
+								<range name="Long" text="0m" value="0"/>
+								<range name="Extreme" text="0m" value="0"/>
+							</ranges>
+						</weaponinfo>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Unarmed Strike" useradded="no" quantity="1" natural="yes">
+						<description/>
+						<gearcost text="0¥" value="0"/>
+						<availability text="" value="0" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<weaponinfo grouptext="Unarmed" dicepool="3dicepool [4]" damagetext="2S" damagevalue="2" damagetype="Stun" ap="0" modestext="" isammunition="0" reach="" equipped="Main Hand">
+							<defense name="Unarmed Strike Parry" normal="0"/>
+						</weaponinfo>
+					</item>
+				</weapons>
+				<armor>
+					<item name="Ace of Coins" quantity="1" wireless="Present">
+						<description>Can't resist throwing on the little tag line just so we remember who's in charge of this line. A few years back these lines were hot, but they've been adding feature after feature since then so that the things are getting pretty unwieldy. The rather unoriginal Aces High line added the Ace of Cups (high-collar floor-length coat with back shoulder flaring and flowing-but-layered lower half), Ace of Swords (WWII Japanese pilot style, complete with wakizashi scabbard built into the back), Ace of Wands (new-age wizard styling with lots of little pockets for reagents), and Ace of Coins (black juggernaut hide with platinum thread stitching and solid gold accents) this year and have been having quite a resurgence of both the new and old lines. And before you say anything, yes, I know there are no aces in tarot decks. Vashon Island doesn't care.</description>
+						<gearcost text="4,950¥" value="4950"/>
+						<availability text="6" value="6" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<armorinfo rating="7" acid="0" cold="0" electricity="3" falling="0" fire="0" radiation="0" laser="0"/>
+						<modifications>
+							<item name="AR Fashion" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+								<description>This enhancement enables your armor and clothing to display a wide variety of AR overlays. Due to the ubiquity of AR-enabled vision devices, most people will see the look you choose to display and not the clothes you are actually wearing. This can serve as useful social camouflage. Even when you aren’t wearing the right outfit for a situation, you can look like you are. Creating your own AR clothing can be done with an Artisan + Intuition Extended Test (30 minutes) with a threshold set by the gamemaster based on the complexity and specificity of the overlay you are attempting to create (per Extended Test Threshold Table, p. 48, SR5).</description>
+								<gearcost text="50¥" value="50"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+								<modifications/>
+								<accessories/>
+								<ammunition/>
+								<programs/>
+								<othergear/>
+							</item>
+							<item name="Electrochromic Modification" quantity="1">
+								<description>Electrochromic threads can change color with voltage, letting you alter the color of your clothing or display text, images, or patterns. This is good for fashion, but great for vanishing into a crowd if you need a quick costume change. You can even get armored clothing in electrochromic styles. It takes a Simple Action to change the settings on your electrochromic clothes, but a couple of Combat Turns to complete the change.</description>
+								<gearcost text="500¥" value="500"/>
+								<availability text="+2" value="2" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+							<item name="Faraday Pocket" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+								<description>The armor has a small pocket with a signal-blocking insert. No wireless signals can penetrate this pocket. Cutting off your wireless access to avoid tracking is as simple as dropping your commlink into this pocket.</description>
+								<gearcost text="50¥" value="50"/>
+								<availability text="7R" value="7" class="Restricted"/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+								<modifications/>
+								<accessories/>
+								<ammunition/>
+								<programs/>
+								<othergear/>
+							</item>
+							<item name="Feedback Clothing" quantity="1">
+								<description>This haptic clothing allows for a tactile component to an augmented reality experience.</description>
+								<gearcost text="500¥" value="500"/>
+								<availability text="8" value="8" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+							<item name="Increase Social Limit by 3" rating="3" useradded="no" quantity="1">
+								<description>The value and status of simply wearing certain outfits help characters impress those around them, while on the other hand wearing camo fatigues at a social gathering isn't the social standard. Some pieces of armor raise the Social Limit of the wearer. These modifiers do not stack; only the highest modifier of any visible clothing item counts (and "visible" means seeing enough of it that viewers get a solid impression of what the garment does on the wearer. Seeing, for example, only the edge of a cuff poking out from under the sleeve of a battered overcoat or the hem of a dress beneath a housecoat will not provide the modifier). Some increases are limited to certain social circles; those limitations will be listed along with the bonus.</description>
+								<gearcost text="0¥" value="0"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+							<item name="Nonconductivity" rating="3" quantity="1">
+								<description>Electrical insulation and non-conductive materials protect the wearer against Electricity damage (p. 170). Add the full rating of this modification to the Armor value when resisting Electricity attacks.</description>
+								<gearcost text="750¥" value="750"/>
+								<availability text="6" value="6" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+								<armorinfo rating="0" acid="0" cold="0" electricity="3" falling="0" fire="0" radiation="0" laser="0" equipped="yes"/>
+							</item>
+							<item name="Universal Mirror Material (sq m)" rating="4" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+								<description>This is some strange stuff. I originally refused to carry it since it was intended to jam up technomancers. Since then some creative individuals have used it as a defensive technique. Depending on which way you direct the fabric, this stuff jams wireless signals.
+
+This material provides a Noise penalty against anything inside the material equal to twice the material's rating.</description>
+								<gearcost text="1,000¥" value="1000"/>
+								<availability text="8F" value="8" class="Forbidden"/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+								<modifications/>
+								<accessories/>
+								<ammunition/>
+								<programs/>
+								<othergear/>
+							</item>
+						</modifications>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Executive Suite" quantity="1" wireless="Present">
+						<description>The line's name pretty much says it all. These suits are usually found on the ultra-secure upper floors of megacorporate headquarters. They're slick and smooth, and outside of the improvements they've had added from Zoé's armor tech advancements, they haven't changed much in the past decade.</description>
+						<gearcost text="3,100¥" value="3100"/>
+						<availability text="12" value="12" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<armorinfo rating="12" acid="0" cold="0" electricity="0" falling="0" fire="0" radiation="0" laser="0"/>
+						<modifications>
+							<item name="AR Fashion" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+								<description>This enhancement enables your armor and clothing to display a wide variety of AR overlays. Due to the ubiquity of AR-enabled vision devices, most people will see the look you choose to display and not the clothes you are actually wearing. This can serve as useful social camouflage. Even when you aren’t wearing the right outfit for a situation, you can look like you are. Creating your own AR clothing can be done with an Artisan + Intuition Extended Test (30 minutes) with a threshold set by the gamemaster based on the complexity and specificity of the overlay you are attempting to create (per Extended Test Threshold Table, p. 48, SR5).</description>
+								<gearcost text="50¥" value="50"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+								<modifications/>
+								<accessories/>
+								<ammunition/>
+								<programs/>
+								<othergear/>
+							</item>
+							<item name="Custom Fit" useradded="no" quantity="1">
+								<description>Items that are Custom Fit were measured for a specific person. They are specially designed for that person and don't fit well on anyone else, therefore conferring none of the positive Social Limit adjustments to the character. When an item is Custom Fit, any changes to an individual's Physical Attributes, whether through Karma advancement or augmentation (but not through magic), require the suit to be refit. The refit process requires an Armorer shop and an Armorer + Logic [Mental] (10, 1 hour) Extended Test. The owner can also use their Contacts to help them get the job done, requiring loss of the armor for one week and a payment of 25 percent of the initial armor cost.</description>
+								<gearcost text="0¥" value="0"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+							<item name="Faraday Pocket" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+								<description>The armor has a small pocket with a signal-blocking insert. No wireless signals can penetrate this pocket. Cutting off your wireless access to avoid tracking is as simple as dropping your commlink into this pocket.</description>
+								<gearcost text="50¥" value="50"/>
+								<availability text="7R" value="7" class="Restricted"/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+								<modifications/>
+								<accessories/>
+								<ammunition/>
+								<programs/>
+								<othergear/>
+							</item>
+							<item name="Increase Social Limit by 1" rating="1" useradded="no" quantity="1">
+								<description>The value and status of simply wearing certain outfits help characters impress those around them, while on the other hand wearing camo fatigues at a social gathering isn't the social standard. Some pieces of armor raise the Social Limit of the wearer. These modifiers do not stack; only the highest modifier of any visible clothing item counts (and "visible" means seeing enough of it that viewers get a solid impression of what the garment does on the wearer. Seeing, for example, only the edge of a cuff poking out from under the sleeve of a battered overcoat or the hem of a dress beneath a housecoat will not provide the modifier). Some increases are limited to certain social circles; those limitations will be listed along with the bonus.</description>
+								<gearcost text="0¥" value="0"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+							<item name="Newest Model" useradded="no" quantity="1">
+								<description>These items are the most recent incarnations of their corporate creators. That means they lose a little more when purchased as Lightly Worn, namely a 20 percent loss of Armor Rating (round adjusted Rating up) when buying older models of the clothes.</description>
+								<gearcost text="0¥" value="0"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+							<item name="Universal Mirror Material (sq m)" rating="4" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+								<description>This is some strange stuff. I originally refused to carry it since it was intended to jam up technomancers. Since then some creative individuals have used it as a defensive technique. Depending on which way you direct the fabric, this stuff jams wireless signals.
+
+This material provides a Noise penalty against anything inside the material equal to twice the material's rating.</description>
+								<gearcost text="1,000¥" value="1000"/>
+								<availability text="8F" value="8" class="Forbidden"/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+								<modifications/>
+								<accessories/>
+								<ammunition/>
+								<programs/>
+								<othergear/>
+							</item>
+						</modifications>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Full-Suit Body Armor" quantity="1" wireless="Present">
+						<description>While armored clothing is effective enough, and armored vests are fairly well hidden, it takes truly advanced craftsmanship to produce form-fitting body armor. Each suit is tailor-made to its wearer, leaving neither gaps nor folds while still allowing the body to breathe. The basic piece of armor is a shirt, covering the body from collarbone to groin, protecting the vital organs, while the full suit adds protection for the limbs. In either case, the hands, feet, and head are left exposed, as covering them gives away the fact that armor is being worn.
+
+Form-fitting body armor can be worn under armor, but doing so won't change your protection much. The primary benefit of FFBA is its highly concealable.</description>
+						<gearcost text="1,850¥" value="1850"/>
+						<availability text="8" value="8" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<armorinfo rating="8" acid="0" cold="0" electricity="0" falling="0" fire="2" radiation="0" laser="0"/>
+						<modifications>
+							<item name="-6 modifier for concealability" rating="-6" useradded="no" quantity="1">
+								<description>This feature means things are either more easily hidden beneath the girth or length of the piece, or the design of the piece means it is less likely to be detected. Keep a little bit of realism in mind - no matter what the dice pool says, you cannot hide an assault cannon inside assless chaps.</description>
+								<gearcost text="0¥" value="0"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+							<item name="Custom Fit" useradded="no" quantity="1">
+								<description>Items that are Custom Fit were measured for a specific person. They are specially designed for that person and don't fit well on anyone else, therefore conferring none of the positive Social Limit adjustments to the character. When an item is Custom Fit, any changes to an individual's Physical Attributes, whether through Karma advancement or augmentation (but not through magic), require the suit to be refit. The refit process requires an Armorer shop and an Armorer + Logic [Mental] (10, 1 hour) Extended Test. The owner can also use their Contacts to help them get the job done, requiring loss of the armor for one week and a payment of 25 percent of the initial armor cost.</description>
+								<gearcost text="0¥" value="0"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+							<item name="Faraday Pocket" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+								<description>The armor has a small pocket with a signal-blocking insert. No wireless signals can penetrate this pocket. Cutting off your wireless access to avoid tracking is as simple as dropping your commlink into this pocket.</description>
+								<gearcost text="50¥" value="50"/>
+								<availability text="7R" value="7" class="Restricted"/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+								<modifications/>
+								<accessories/>
+								<ammunition/>
+								<programs/>
+								<othergear/>
+							</item>
+							<item name="Fire Resistance" rating="2" quantity="1">
+								<description>Fire-retardant, nonflammable materials protect the wearer against Fire damage (p. 171). Add the full rating of the Fire Resistance modification to the Armor value when resisting Fire attacks or checking if the armor catches fire.</description>
+								<gearcost text="500¥" value="500"/>
+								<availability text="6" value="6" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+								<armorinfo rating="0" acid="0" cold="0" electricity="0" falling="0" fire="2" radiation="0" laser="0" equipped="yes"/>
+							</item>
+						</modifications>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Sleeping Tiger" quantity="1" wireless="Present">
+						<description>Can't resist throwing on the little tag line just so we remember who's in charge of this line. A few years back these lines were hot, but they've been adding feature after feature since then so that the things are getting pretty unwieldy. The rather unoriginal Aces High line added the Ace of Cups (high-collar floor-length coat with back shoulder flaring and flowing-but-layered lower half), Ace of Swords (WWII Japanese pilot style, complete with wakizashi scabbard built into the back), Ace of Wands (new-age wizard styling with lots of little pockets for reagents), and Ace of Coins (black juggernaut hide with platinum thread stitching and solid gold accents) this year and have been having quite a resurgence of both the new and old lines. And before you say anything, yes, I know there are no aces in tarot decks. Vashon Island doesn't care.
+
+Vashon is still pushing the Steampunk line, as well as the old stand-by Synergist Business tag, along with the dime- (well, maybe a little more) a-dozen Actioneer line of suits. With the Shiawase connection, they have brought back the Sleeping Tiger with a vengeance. Each line has its own set of highlights that can draw a different audience.
+
+I'll admit I loved Manhunt, that remake of the old flatvid with the alien hunting a bunch of mercenaries in the jungle. This stuff makes me think of that trid every time I activate our display. It's high-tech camouflage at its finest. Add this to your favorite outfit and be ready to blend in anywhere.</description>
+						<gearcost text="17,050¥" value="17050"/>
+						<availability text="10" value="10" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<armorinfo rating="13" acid="0" cold="0" electricity="0" falling="0" fire="0" radiation="0" laser="0" equipped="yes"/>
+						<modifications>
+							<item name="AR Fashion" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+								<description>This enhancement enables your armor and clothing to display a wide variety of AR overlays. Due to the ubiquity of AR-enabled vision devices, most people will see the look you choose to display and not the clothes you are actually wearing. This can serve as useful social camouflage. Even when you aren’t wearing the right outfit for a situation, you can look like you are. Creating your own AR clothing can be done with an Artisan + Intuition Extended Test (30 minutes) with a threshold set by the gamemaster based on the complexity and specificity of the overlay you are attempting to create (per Extended Test Threshold Table, p. 48, SR5).</description>
+								<gearcost text="50¥" value="50"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+								<modifications/>
+								<accessories/>
+								<ammunition/>
+								<programs/>
+								<othergear/>
+							</item>
+							<item name="Custom Fit" useradded="no" quantity="1">
+								<description>Items that are Custom Fit were measured for a specific person. They are specially designed for that person and don't fit well on anyone else, therefore conferring none of the positive Social Limit adjustments to the character. When an item is Custom Fit, any changes to an individual's Physical Attributes, whether through Karma advancement or augmentation (but not through magic), require the suit to be refit. The refit process requires an Armorer shop and an Armorer + Logic [Mental] (10, 1 hour) Extended Test. The owner can also use their Contacts to help them get the job done, requiring loss of the armor for one week and a payment of 25 percent of the initial armor cost.</description>
+								<gearcost text="0¥" value="0"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+							<item name="Feedback Clothing" quantity="1">
+								<description>This haptic clothing allows for a tactile component to an augmented reality experience.</description>
+								<gearcost text="500¥" value="500"/>
+								<availability text="8" value="8" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+							<item name="Holster" useradded="no" quantity="1">
+								<description>This piece has a holster built into the armor so smoothly it is hard to see with the metahuman eye. This item provides a -1 Concealability modifier for any tests to spot a weapon in the holster through visual means.</description>
+								<gearcost text="0¥" value="0"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+							<item name="Newest Model" useradded="no" quantity="1">
+								<description>These items are the most recent incarnations of their corporate creators. That means they lose a little more when purchased as Lightly Worn, namely a 20 percent loss of Armor Rating (round adjusted Rating up) when buying older models of the clothes.</description>
+								<gearcost text="0¥" value="0"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+							<item name="Ruthenium Polymer Coating" rating="3" useradded="no" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+								<description>I'll admit I loved Manhunt, that remake of the old flatvid with the alien hunting a bunch of mercenaries in the jungle. This stuff makes me think of that trid every time I activate our display. It's high-tech camouflage at its finest. Add this to your favorite outfit and be ready to blend in anywhere.
+
+This modification can be added to any armor or clothing, but it only gains its full benefits when applied to pieces that cover the wearer's whole body, like full body armors or cloaks. The ruthenium polymers are controlled by a sensor suite incorporated into the armor or clothing that scans the surroundings and replicates images of the area at the proper perspectives, helping the wearer blend in. The effectiveness is based on the Rating of the sensor suite and the extent of the suit's coverage. The base modifier to a Perception Test to spot the wearer is - (Rating), adjusted by the extent of the suit; full +0, almost full +1, half +2.</description>
+								<gearcost text="0¥" value="0"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+								<modifications/>
+								<accessories/>
+								<ammunition/>
+								<programs/>
+								<othergear/>
+							</item>
+							<item name="Thermal Dampening" rating="4" quantity="1">
+								<description>Designed to reduce your thermal signature, these inner layers capture or bleed heat, so the outer layers maintain a surface temperature equal to the surrounding air. Add the rating to your limit on any Sneaking test against thermographic vision or thermal sensors.</description>
+								<gearcost text="2,000¥" value="2000"/>
+								<availability text="10R" value="10" class="Restricted"/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+							<item name="Universal Mirror Material (sq m)" rating="4" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+								<description>This is some strange stuff. I originally refused to carry it since it was intended to jam up technomancers. Since then some creative individuals have used it as a defensive technique. Depending on which way you direct the fabric, this stuff jams wireless signals.
+
+This material provides a Noise penalty against anything inside the material equal to twice the material's rating.</description>
+								<gearcost text="1,000¥" value="1000"/>
+								<availability text="8F" value="8" class="Forbidden"/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+								<modifications/>
+								<accessories/>
+								<ammunition/>
+								<programs/>
+								<othergear/>
+							</item>
+						</modifications>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Synergist Business Line" quantity="1" wireless="Present">
+						<description>Can't resist throwing on the little tag line just so we remember who's in charge of this line. A few years back these lines were hot, but they've been adding feature after feature since then so that the things are getting pretty unwieldy. The rather unoriginal Aces High line added the Ace of Cups (high-collar floor-length coat with back shoulder flaring and flowing-but-layered lower half), Ace of Swords (WWII Japanese pilot style, complete with wakizashi scabbard built into the back), Ace of Wands (new-age wizard styling with lots of little pockets for reagents), and Ace of Coins (black juggernaut hide with platinum thread stitching and solid gold accents) this year and have been having quite a resurgence of both the new and old lines. And before you say anything, yes, I know there are no aces in tarot decks. Vashon Island doesn't care.
+
+Vashon is still pushing the Steampunk line, as well as the old stand-by Synergist Business tag, along with the dime- (well, maybe a little more) a-dozen Actioneer line of suits. With the Shiawase connection, they have brought back the Sleeping Tiger with a vengeance. Each line has its own set of highlights that can draw a different audience.</description>
+						<gearcost text="3,050¥" value="3050"/>
+						<availability text="10" value="10" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<armorinfo rating="9" acid="0" cold="0" electricity="2" falling="0" fire="0" radiation="0" laser="0"/>
+						<modifications>
+							<item name="AR Fashion" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+								<description>This enhancement enables your armor and clothing to display a wide variety of AR overlays. Due to the ubiquity of AR-enabled vision devices, most people will see the look you choose to display and not the clothes you are actually wearing. This can serve as useful social camouflage. Even when you aren’t wearing the right outfit for a situation, you can look like you are. Creating your own AR clothing can be done with an Artisan + Intuition Extended Test (30 minutes) with a threshold set by the gamemaster based on the complexity and specificity of the overlay you are attempting to create (per Extended Test Threshold Table, p. 48, SR5).</description>
+								<gearcost text="50¥" value="50"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+								<modifications/>
+								<accessories/>
+								<ammunition/>
+								<programs/>
+								<othergear/>
+							</item>
+							<item name="Custom Fit" useradded="no" quantity="1">
+								<description>Items that are Custom Fit were measured for a specific person. They are specially designed for that person and don't fit well on anyone else, therefore conferring none of the positive Social Limit adjustments to the character. When an item is Custom Fit, any changes to an individual's Physical Attributes, whether through Karma advancement or augmentation (but not through magic), require the suit to be refit. The refit process requires an Armorer shop and an Armorer + Logic [Mental] (10, 1 hour) Extended Test. The owner can also use their Contacts to help them get the job done, requiring loss of the armor for one week and a payment of 25 percent of the initial armor cost.</description>
+								<gearcost text="0¥" value="0"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+							<item name="Electrochromic Modification" quantity="1">
+								<description>Electrochromic threads can change color with voltage, letting you alter the color of your clothing or display text, images, or patterns. This is good for fashion, but great for vanishing into a crowd if you need a quick costume change. You can even get armored clothing in electrochromic styles. It takes a Simple Action to change the settings on your electrochromic clothes, but a couple of Combat Turns to complete the change.</description>
+								<gearcost text="500¥" value="500"/>
+								<availability text="+2" value="2" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+							<item name="Feedback Clothing" quantity="1">
+								<description>This haptic clothing allows for a tactile component to an augmented reality experience.</description>
+								<gearcost text="500¥" value="500"/>
+								<availability text="8" value="8" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+							<item name="Holster (concealed)" useradded="no" quantity="1">
+								<description>This piece has a holster built into the armor so smoothly it is hard to see with the metahuman eye. This item provides a -1 Concealability modifier for any tests to spot a weapon in the holster through visual means.</description>
+								<gearcost text="0¥" value="0"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+							<item name="Nonconductivity" rating="2" quantity="1">
+								<description>Electrical insulation and non-conductive materials protect the wearer against Electricity damage (p. 170). Add the full rating of this modification to the Armor value when resisting Electricity attacks.</description>
+								<gearcost text="500¥" value="500"/>
+								<availability text="6" value="6" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+								<armorinfo rating="0" acid="0" cold="0" electricity="2" falling="0" fire="0" radiation="0" laser="0" equipped="yes"/>
+							</item>
+						</modifications>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Synergist Business Line Longcoat" quantity="1" wireless="Present">
+						<description>Can't resist throwing on the little tag line just so we remember who's in charge of this line. A few years back these lines were hot, but they've been adding feature after feature since then so that the things are getting pretty unwieldy. The rather unoriginal Aces High line added the Ace of Cups (high-collar floor-length coat with back shoulder flaring and flowing-but-layered lower half), Ace of Swords (WWII Japanese pilot style, complete with wakizashi scabbard built into the back), Ace of Wands (new-age wizard styling with lots of little pockets for reagents), and Ace of Coins (black juggernaut hide with platinum thread stitching and solid gold accents) this year and have been having quite a resurgence of both the new and old lines. And before you say anything, yes, I know there are no aces in tarot decks. Vashon Island doesn't care.
+
+Vashon is still pushing the Steampunk line, as well as the old stand-by Synergist Business tag, along with the dime- (well, maybe a little more) a-dozen Actioneer line of suits. With the Shiawase connection, they have brought back the Sleeping Tiger with a vengeance. Each line has its own set of highlights that can draw a different audience.</description>
+						<gearcost text="3,600¥" value="3600"/>
+						<availability text="8" value="8" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<armorinfo rating="10" acid="0" cold="0" electricity="3" falling="0" fire="0" radiation="0" laser="0"/>
+						<modifications>
+							<item name="AR Fashion" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+								<description>This enhancement enables your armor and clothing to display a wide variety of AR overlays. Due to the ubiquity of AR-enabled vision devices, most people will see the look you choose to display and not the clothes you are actually wearing. This can serve as useful social camouflage. Even when you aren’t wearing the right outfit for a situation, you can look like you are. Creating your own AR clothing can be done with an Artisan + Intuition Extended Test (30 minutes) with a threshold set by the gamemaster based on the complexity and specificity of the overlay you are attempting to create (per Extended Test Threshold Table, p. 48, SR5).</description>
+								<gearcost text="50¥" value="50"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+								<modifications/>
+								<accessories/>
+								<ammunition/>
+								<programs/>
+								<othergear/>
+							</item>
+							<item name="Custom Fit" useradded="no" quantity="1">
+								<description>Items that are Custom Fit were measured for a specific person. They are specially designed for that person and don't fit well on anyone else, therefore conferring none of the positive Social Limit adjustments to the character. When an item is Custom Fit, any changes to an individual's Physical Attributes, whether through Karma advancement or augmentation (but not through magic), require the suit to be refit. The refit process requires an Armorer shop and an Armorer + Logic [Mental] (10, 1 hour) Extended Test. The owner can also use their Contacts to help them get the job done, requiring loss of the armor for one week and a payment of 25 percent of the initial armor cost.</description>
+								<gearcost text="0¥" value="0"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+							<item name="Custom Fit (Stack)" useradded="no" quantity="1">
+								<description>This characteristic employs all the Custom Fit rules, but in addition these items can stack with other pieces that have been Custom Fit by the same maker, for the same person. The character has to select a specific set of Armored Clothing to have the piece Custom Fit with. The Custom Fit combination then allows the character to use either the base armor or add on the stack bonus for that set of gear.</description>
+								<gearcost text="0¥" value="0"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+							<item name="Feedback Clothing" quantity="1">
+								<description>This haptic clothing allows for a tactile component to an augmented reality experience.</description>
+								<gearcost text="500¥" value="500"/>
+								<availability text="8" value="8" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+							<item name="Holster" useradded="no" quantity="1">
+								<description>This piece has a holster built into the armor so smoothly it is hard to see with the metahuman eye. This item provides a -1 Concealability modifier for any tests to spot a weapon in the holster through visual means.</description>
+								<gearcost text="0¥" value="0"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+							<item name="Nonconductivity" rating="3" quantity="1">
+								<description>Electrical insulation and non-conductive materials protect the wearer against Electricity damage (p. 170). Add the full rating of this modification to the Armor value when resisting Electricity attacks.</description>
+								<gearcost text="750¥" value="750"/>
+								<availability text="6" value="6" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+								<armorinfo rating="0" acid="0" cold="0" electricity="3" falling="0" fire="0" radiation="0" laser="0" equipped="yes"/>
+							</item>
+						</modifications>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Synergist Business Line Longcoat" quantity="1" wireless="Present">
+						<description>Can't resist throwing on the little tag line just so we remember who's in charge of this line. A few years back these lines were hot, but they've been adding feature after feature since then so that the things are getting pretty unwieldy. The rather unoriginal Aces High line added the Ace of Cups (high-collar floor-length coat with back shoulder flaring and flowing-but-layered lower half), Ace of Swords (WWII Japanese pilot style, complete with wakizashi scabbard built into the back), Ace of Wands (new-age wizard styling with lots of little pockets for reagents), and Ace of Coins (black juggernaut hide with platinum thread stitching and solid gold accents) this year and have been having quite a resurgence of both the new and old lines. And before you say anything, yes, I know there are no aces in tarot decks. Vashon Island doesn't care.
+
+Vashon is still pushing the Steampunk line, as well as the old stand-by Synergist Business tag, along with the dime- (well, maybe a little more) a-dozen Actioneer line of suits. With the Shiawase connection, they have brought back the Sleeping Tiger with a vengeance. Each line has its own set of highlights that can draw a different audience.</description>
+						<gearcost text="3,600¥" value="3600"/>
+						<availability text="8" value="8" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<armorinfo rating="10" acid="0" cold="0" electricity="0" falling="0" fire="0" radiation="0" laser="0" equipped="yes"/>
+						<modifications>
+							<item name="AR Fashion" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+								<description>This enhancement enables your armor and clothing to display a wide variety of AR overlays. Due to the ubiquity of AR-enabled vision devices, most people will see the look you choose to display and not the clothes you are actually wearing. This can serve as useful social camouflage. Even when you aren’t wearing the right outfit for a situation, you can look like you are. Creating your own AR clothing can be done with an Artisan + Intuition Extended Test (30 minutes) with a threshold set by the gamemaster based on the complexity and specificity of the overlay you are attempting to create (per Extended Test Threshold Table, p. 48, SR5).</description>
+								<gearcost text="50¥" value="50"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+								<modifications/>
+								<accessories/>
+								<ammunition/>
+								<programs/>
+								<othergear/>
+							</item>
+							<item name="Custom Fit" useradded="no" quantity="1">
+								<description>Items that are Custom Fit were measured for a specific person. They are specially designed for that person and don't fit well on anyone else, therefore conferring none of the positive Social Limit adjustments to the character. When an item is Custom Fit, any changes to an individual's Physical Attributes, whether through Karma advancement or augmentation (but not through magic), require the suit to be refit. The refit process requires an Armorer shop and an Armorer + Logic [Mental] (10, 1 hour) Extended Test. The owner can also use their Contacts to help them get the job done, requiring loss of the armor for one week and a payment of 25 percent of the initial armor cost.</description>
+								<gearcost text="0¥" value="0"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+							<item name="Custom Fit (Stack)" useradded="no" quantity="1">
+								<description>This characteristic employs all the Custom Fit rules, but in addition these items can stack with other pieces that have been Custom Fit by the same maker, for the same person. The character has to select a specific set of Armored Clothing to have the piece Custom Fit with. The Custom Fit combination then allows the character to use either the base armor or add on the stack bonus for that set of gear.</description>
+								<gearcost text="0¥" value="0"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+							<item name="Feedback Clothing" quantity="1">
+								<description>This haptic clothing allows for a tactile component to an augmented reality experience.</description>
+								<gearcost text="500¥" value="500"/>
+								<availability text="8" value="8" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+							<item name="Holster" useradded="no" quantity="1">
+								<description>This piece has a holster built into the armor so smoothly it is hard to see with the metahuman eye. This item provides a -1 Concealability modifier for any tests to spot a weapon in the holster through visual means.</description>
+								<gearcost text="0¥" value="0"/>
+								<availability text="" value="0" class=""/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+							</item>
+							<item name="Universal Mirror Material (sq m)" rating="3" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+								<description>This is some strange stuff. I originally refused to carry it since it was intended to jam up technomancers. Since then some creative individuals have used it as a defensive technique. Depending on which way you direct the fabric, this stuff jams wireless signals.
+
+This material provides a Noise penalty against anything inside the material equal to twice the material's rating.</description>
+								<gearcost text="750¥" value="750"/>
+								<availability text="8F" value="8" class="Forbidden"/>
+								<matrix>
+									<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+									<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+									<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+									<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+								</matrix>
+								<modifications/>
+								<accessories/>
+								<ammunition/>
+								<programs/>
+								<othergear/>
+							</item>
+						</modifications>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+				</armor>
+				<equipment>
+					<item name="Backpack (Nice)" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>Use this item to represent a bag or other container in which gear can be carried around.</description>
+						<gearcost text="500¥" value="500"/>
+						<availability text="" value="0" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Black Panther" quantity="2" size="Human/Elf/Ork Size" wireless="Present">
+						<description>Although the genetic codes for pheromone reception are largely inactive in metahumans, certain artificially crafted pheromones have been found that have proven effect. Tanake and several other corps have incorporated these compounds into perfumes and colognes. They last for four hours or until washed off.
+
+Black Panther: +1 to Social tests vs metahumans.</description>
+						<gearcost text="250¥" value="250"/>
+						<availability text="8R" value="8" class="Restricted"/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Briefcase (Nice)" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>Use this item to represent a bag or other container in which gear can be carried around.</description>
+						<gearcost text="500¥" value="500"/>
+						<availability text="" value="0" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Bug Scanner" rating="6" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>Also called a radio signal scanner, this device locates and locks in wireless devices within 20 meters. The scanner can also measure a signal's strength and pinpoint its location. To operate a bug scanner, roll Electronic Warfare + Logic [Rating]. A device that is running silent (like a Stealth tag) can use its Logic + Sleaze to defend against the scan. If you get any net hits at all, you find the device.</description>
+						<gearcost text="600¥" value="600"/>
+						<availability text="6R" value="6" class="Restricted"/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Catalyst Stick" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>When stealth rope is touched with the catalyst stick, the chemical reaction that is triggered crumbles the rope to dust within seconds, leaving almost no trace. The catalyst stick is reusable.</description>
+						<gearcost text="120¥" value="120"/>
+						<availability text="8F" value="8" class="Forbidden"/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Certified Credstick, Gold" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>Max Value: 100,000¥
+Cash for the late 21st century. A certified credstick is not registered to any specific person - the electronic funds encoded on it belong to the holder, requiring no special ID or authorization to use. The bad news is that you can be physically mugged, any money you have on your credstick jacked and rolled. The good news is that certified credsticks are completely untraceable. They're not even wireless - you have to slot them into a universal data connector to transfer cash onto or off of them. This makes them enduringly popular with shadowrunners and the Mr. Johnsons who love to hire them.
+
+Each type of credstick can only hold up to a certain amount of money, listed on the table. This is the maximum amount it can carry, not the amount it always has on it - so don't get excited when you see a gold credstick until you've slotted it and checked its balance.</description>
+						<gearcost text="100¥" value="100"/>
+						<availability text="" value="0" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="5" base="5" modified="5"/>
+							<matrixattribute name="Firewall" text="5" base="5" modified="5"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Certified Credstick, Platinum" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>Max Value: 500,000¥
+Cash for the late 21st century. A certified credstick is not registered to any specific person - the electronic funds encoded on it belong to the holder, requiring no special ID or authorization to use. The bad news is that you can be physically mugged, any money you have on your credstick jacked and rolled. The good news is that certified credsticks are completely untraceable. They're not even wireless - you have to slot them into a universal data connector to transfer cash onto or off of them. This makes them enduringly popular with shadowrunners and the Mr. Johnsons who love to hire them.
+
+Each type of credstick can only hold up to a certain amount of money, listed on the table. This is the maximum amount it can carry, not the amount it always has on it - so don't get excited when you see a gold credstick until you've slotted it and checked its balance.</description>
+						<gearcost text="500¥" value="500"/>
+						<availability text="" value="0" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="5" base="5" modified="5"/>
+							<matrixattribute name="Firewall" text="5" base="5" modified="5"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Concealed Quick-Draw Holster for Ares Light Fire 70" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>What more do you want a holster to do? You get to reduce the Concealability modifier of your weapon by 1 while the threshold to quick-draw a holstered weapon drops by 1. It won't fire the thing for you, though, so buckle down and do it yourself. The holster does not take any slots in your weapon. Please excuse our compulsion to point out fairly obvious stuff like that.</description>
+						<gearcost text="275¥" value="275"/>
+						<availability text="6" value="6" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Concealed Quick-Draw Holster Predator V" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>What more do you want a holster to do? You get to reduce the Concealability modifier of your weapon by 1 while the threshold to quick-draw a holstered weapon drops by 1. It won't fire the thing for you, though, so buckle down and do it yourself. The holster does not take any slots in your weapon. Please excuse our compulsion to point out fairly obvious stuff like that.</description>
+						<gearcost text="275¥" value="275"/>
+						<availability text="6" value="6" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Datachip" quantity="10" size="Human/Elf/Ork Size" wireless="Present">
+						<description>These tiny computers (named after old-fashioned radio frequency identification tags) form an integral part of every product commercially available in the Sixth World. Ranging in size from microscopic to slightly larger than a price tag, RFID tags have a stick-to-anything adhesive backing and can be tricky to spot. Tags are used for geo-tagging locations and objects, leaving a virtual AR message for anyone who comes by, employee tracking, access control, owner-contact information for everything from vehicles to pets, vehicle and weapon registration, and so on. They can also be used as tracking devices, periodically transmitting GPS data to the Matrix.
+
+RFID tags are devices (p. 234) that can hold one or more files, but not much else. The physical location of a tag can be found via the Matrix (Trace Icon, p. 243). Tag data can be erased with a tag eraser (p. 441) or programmed with an Edit File action (p. 239). RFID tags have owners like all other devices, but unlike other devices a tag's owner can be changed to "nobody."
+
+Datachip: For occasions when you want to transfer data by physical means - like bringing the project specs on the competition's new cyberdeck to Mr. Johnson in person at the meet - a datachip can hold enormous quantitites of data in a small finger-sized chip, accessible by any electronic device. Datachips have no wireless capability, so you need to plug them into a universal data connector (found on any device) if you want to read or write to them.</description>
+						<gearcost text="0.5¥" value="0.5"/>
+						<availability text="" value="0" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="1" base="1" modified="1"/>
+							<matrixattribute name="Firewall" text="1" base="1" modified="1"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Duffel Bag (Nice)" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>Use this item to represent a bag or other container in which gear can be carried around.</description>
+						<gearcost text="500¥" value="500"/>
+						<availability text="" value="0" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Electronic Paper" quantity="10" size="Human/Elf/Ork Size" wireless="Present">
+						<description>This electronic sheet is anywhere from post-it note to poster sized, and it can be folded or rolled up. It digitally displays images, text, data, or video and can act as a touchscreen. Electronic paper is wireless and can be written on or erased wirelessly. Sometimes hacker gangs cover the surfaces of buildings in electronic paper so they are constantly changing and overwritten with graffiti that can be seen even by people with their AR image-links turned off.</description>
+						<gearcost text="5¥" value="5"/>
+						<availability text="" value="0" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="1" base="1" modified="1"/>
+							<matrixattribute name="Firewall" text="1" base="1" modified="1"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Hard Nanohive Supplies" quantity="2" size="Human/Elf/Ork Size" wireless="Present">
+						<description>This item can be customized to represent whatever you want.</description>
+						<gearcost text="500¥" value="500"/>
+						<availability text="" value="0" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Jammer, Area" rating="4" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>This device floods the airwaves with electromagnetic jamming signals to block out wireless and radio communication. The jammer generates noise equal to its Device Rating. The area jammer affects a spherical area - its rating is reduced by 1 for every 5 meters from the center (similar to the blast rules for grenades). The directional jammer affects a conical area with a 30-degree spread - its rating is reduced by 1 for every 20 meters from the center. The jammer only affects devices (and personas on those devices) that are within the jamming area, but it affects all of them. Walls and other obstacles may prevent the jamming signal from spreading or reduce its effect (gamemaster's discretion).</description>
+						<gearcost text="800¥" value="800"/>
+						<availability text="12F" value="12" class="Forbidden"/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Linguasoft: English" rating="4" dicepool="0" quantity="1">
+						<description>A skillsoft program is a recorded skill - digital knowledge and muscle memory. When used in conjunction with the proper augmentations (a skilljack for knowsofts and linguasofts, and a skillwire system for activesofts) skillsofts let you know and do things you've never otherwise learned. Even kung fu.
+
+Skillsofts aren't educational tools; you can't actually learn from them. They're highly favored by corporations interested in a cheaper labor force (when the difference between a skilled and unskilled worker can be as simple as slotting a chip, the difference in salary is smaller).
+
+When a skill test is called for, the character may use the skillsoft rating in place of the skill. Downside: tests made with a skillsoft may not be boosted with Edge in any way.
+
+Linguasofts: Linguasofts replicate language skills, allowing a user to speak a foreign language by automatically translating signals from the speech cortex, although chipped speech can be awkward and stilted - then again, so can anyone speaking a language that's not their native tongue. Linguasofts must be accessed with a skilljack, which limits how many skillsofts you can use at a time.</description>
+						<gearcost text="4,000¥" value="4000"/>
+						<availability text="2" value="2" class=""/>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Luggage (Nice)" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>Use this item to represent a bag or other container in which gear can be carried around.</description>
+						<gearcost text="500¥" value="500"/>
+						<availability text="" value="0" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Micro-Tranceiver" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>This classic short-range communicator has been favored by professional operatives since the 2050s. It doesn't do anything special, it just lets you communicate by voice with other micro-transceivers and commlinks that you (and the other person) choose, within a kilometer. The micro-transceiver consists of an ear bud and an adhesive subvocal microphone (p. 439), both of which are commonly available in hard-to-spot designs.</description>
+						<gearcost text="100¥" value="100"/>
+						<availability text="2" value="2" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Novacoke" quantity="9" size="Human/Elf/Ork Size" wireless="Present">
+						<description>Vector: Inhalation, Injection
+Speed: 1 Combat Turn
+Duration: (10 - Body) hours, minimum of 1 hour
+Effect: +1 Reaction, +1 Charisma, +1 Perception, +1 Social Limit, High Pain Tolerance 1 (p. 74)
+A stimulant derived from coca plants, novacoke is a highly addictive social drug. After the drug wears off, Charisma and Willpower are both reduced to 1, and all limits are at -1 for a duration equal to the duration of the initial effect.</description>
+						<gearcost text="10¥" value="10"/>
+						<availability text="2R" value="2" class="Restricted"/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Printer" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>In case you need something in hardcopy (perhaps if Mr. Johnson hired you through a time portal), this full-color printer comes attached to a paper supply.</description>
+						<gearcost text="25¥" value="25"/>
+						<availability text="" value="0" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="3" base="3" modified="3"/>
+							<matrixattribute name="Firewall" text="3" base="3" modified="3"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Savior Medkit" rating="6" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>Originally developed by Shiawase Biotech but now available from several corps, these advanced medkits combine cutting-edge nanotech and advanced expert systems. When activated, the medkit injects enough nanites to last five minutes into its subject. The savior then acts as a Rating 6 medkit and follows all the normal rules for medkits (p. 450, SR5). If the patient is bleeding out, the savior's nanites act as a trauma control system (p. 148) for the duration. The savior's supply of nanites is limited, and it must be restocked every time it is used.
+
+Trauma Control System
+This nanoware system seeks out and gathers around vital organs. Some component nanites apply electro-stimulation to the heart and respiratory muscles, while others regulate blood flow away from wounds without starving the brain of oxygen. While you're busy dying from overflow damage to your Physical Condition Monitor, the TCS attempts to stabilize you every minute, using its Rating in place of both First Aid and Logic in the Stabilization Test (p. 209, SR5).</description>
+						<gearcost text="2,000¥" value="2000"/>
+						<availability text="6" value="6" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Savior Medkit Supplies" quantity="2" size="Human/Elf/Ork Size" wireless="Present">
+						<description>Originally developed by Shiawase Biotech, but now available from several corps, these advanced medkits combine cutting edge nanotech and advanced expert systems. When activated, the medkit injects a mixture of diagnostic and repair nanites into the bloodstream, as well as the standard stimulants, coagulants, and painkillers. The integral expert system directs the nanites to rejoin damaged tissue, stop blood loss, and minimize the onset of shock.
+
+The Savior is a Rating 6 medkit and follows all the normal rules for medkits (see p. 329, SR4). It also provides a +3 dice pool modifier to Body Tests to stabilize critical wounds. The Savior's supply of nanites is limited and it must be restocked every 2 uses (or in the event of a glitch).</description>
+						<gearcost text="300¥" value="300"/>
+						<availability text="4" value="4" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Shiawase Jishi" size="Human/Elf/Ork Size" wireless="Present">
+						<description>Basic Persona: Kimono-clad samurai
+Base Theme: Dojo (training house)
+Device Icon: Ornate paper structure
+Commlinks are universal communication devices; they're used by everyone all the time. Commlinks are essentially the digital Swiss army knives of the modern world. Even the most basic of them includes AR Matrix browsing capability, multiple telephone and radio modes of real-time talk and text, music players, micro trid-projectors, touchscreen displays, built in high-resolution digital video and still image cameras, image/text and RFID tag scanners, built-in GPS guidance systems, chip players, credstick readers, retractable earbuds, voice-access dialing, text-to-speech and speech-to-text technologies, and a shock and water resistant case. And all of this at an inexpensive price that a few decades ago would have seemed absurd.</description>
+						<gearcost text="1,000¥" value="1000"/>
+						<availability text="6" value="6" class=""/>
+						<matrix initiative="7" dr="6">
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="3" base="3" modified="3"/>
+							<matrixattribute name="Firewall" text="3" base="3" modified="3"/>
+						</matrix>
+						<conditionmonitor name="Shiawase Jishi" boxes="10" penalty="0"/>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Standard Rope (m)" quantity="100" size="Human/Elf/Ork Size" wireless="Present">
+						<description>Can support a weight of up to 400 kg.</description>
+						<gearcost text="0.5¥" value="0.5"/>
+						<availability text="" value="0" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Stealth Rope (m)" quantity="100" size="Human/Elf/Ork Size" wireless="Present">
+						<description>When stealth rope is touched with the catalyst stick, the chemical reaction that is triggered crumbles the rope to dust within seconds, leaving almost no trace. The catalyst stick is reusable. Stealth ropes can support a weight of up to 400 kilograms.</description>
+						<gearcost text="0.85¥" value="0.85"/>
+						<availability text="8F" value="8" class="Forbidden"/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Suitcase" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>Use this item to represent a bag or other container in which gear can be carried around.</description>
+						<gearcost text="500¥" value="500"/>
+						<availability text="" value="0" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Survival Kit" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>An assortment of survival gear in a rugged bag. Includes a knife, lighter, matches, compass, lightweight thermal blanket, several days' worth of ration bars, a water-purification unit, and more. A good item to consider for your go-bag.</description>
+						<gearcost text="200¥" value="200"/>
+						<availability text="4" value="4" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Tag Eraser" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>This handheld device creates a strong electromagnetic field perfect for burning out RFID tags and other unshielded electronics. It is probably strong enough to destroy a commlink, and you might want to keep it away from your cyberdeck just in case. When you bring the eraser within 5 millimeters of an electronic device and push the button, the device takes 10 boxes of Matrix damage (resisted normally). The extremely short range makes it hard to use on targets like vehicles, most drones, maglocks, and cyberware (and by the time you open them up to get at the electronics, you've already done plenty of damage). The tag eraser has one charge but can be fully recharged at a power point in 10 seconds.</description>
+						<gearcost text="450¥" value="450"/>
+						<availability text="6R" value="6" class="Restricted"/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Tranq Patch" rating="6" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>This patch inflicts Stun damage equal to its rating, resisted with only Body.</description>
+						<gearcost text="120¥" value="120"/>
+						<availability text="12" value="12" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Trauma Patch" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>If placed on a dying patient, it allows her to make an immediate stabilization test (Physical Damage Overflow, p. 209) using her Body instead of First Aid or Medicine. </description>
+						<gearcost text="500¥" value="500"/>
+						<availability text="6" value="6" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="Ultrasonic Noise Generator" rating="4" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>A variation of the standard white noise generator, this model is tuned to ultrasonic frequencies. While inaudible to unaugmented metahumans, it is sufficient to blind ultrasound sensors. Each point of Rating adds one die to the user's Sneaking + Agility test to avoid detection via ultrasound systems.</description>
+						<gearcost text="240¥" value="240"/>
+						<availability text="8" value="8" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+					<item name="White Noise Generator" rating="6" quantity="1" size="Human/Elf/Ork Size" wireless="Present">
+						<description>This device creates a field of random noise, masking the sounds within its area and preventing direct audio surveillance. All Perception Tests to overhear a conversation within (Rating) meters of a white noise generator receive a negative dice pool modifier equal to the generator's Rating. If more than one generator is in use, only count the highest rating. A white noise generator is redundant in a noisy environment (such as a nightclub or a firefight) and does not help to curtail video surveillance or jam wireless signals.</description>
+						<gearcost text="300¥" value="300"/>
+						<availability text="6" value="6" class=""/>
+						<matrix>
+							<matrixattribute name="Attack" text="0" base="0" modified="0"/>
+							<matrixattribute name="Sleaze" text="0" base="0" modified="0"/>
+							<matrixattribute name="Data Processing" text="2" base="2" modified="2"/>
+							<matrixattribute name="Firewall" text="2" base="2" modified="2"/>
+						</matrix>
+						<modifications/>
+						<accessories/>
+						<ammunition/>
+						<programs/>
+						<othergear/>
+					</item>
+				</equipment>
+			</gear>
+			<identities>
+				<identity name="Facade's Yakuza Hideout">
+					<lifestyle name="Yakuza Haven" months="1">
+						<gearcost text="11,000¥/m" value="11000"/>
+					</lifestyle>
+					<subscription name="AR Fashion Subscription, Designer" months="1">
+						<gearcost text="1,500¥/m" value="1500"/>
+					</subscription>
+					<subscription name="Wireless Skillsoft Networks, Gold" months="1">
+						<gearcost text="15,000¥/m" value="15000"/>
+					</subscription>
+					<description/>
+				</identity>
+				<identity name="Jonas Exiler">
+					<license name="Fake License" for="Concealed Carry" rating="4">
+						<gearcost text="800¥" value="800"/>
+					</license>
+					<license name="Fake License" for="Pistol" rating="4">
+						<gearcost text="800¥" value="800"/>
+					</license>
+					<license name="Fake License" for="Restricted Armor" rating="4">
+						<gearcost text="800¥" value="800"/>
+					</license>
+					<license name="Fake License" for="Restricted Cyberware" rating="4">
+						<gearcost text="800¥" value="800"/>
+					</license>
+					<license name="Fake SIN" rating="4">
+						<gearcost text="10,000¥" value="10000"/>
+					</license>
+					<description/>
+				</identity>
+				<identity name="Kalil Sayed">
+					<license name="Fake SIN" rating="5">
+						<gearcost text="12,500¥" value="12500"/>
+					</license>
+					<description/>
+				</identity>
+				<identity name="Koyuki Shiawase">
+					<lifestyle name="Shiawase Garden" months="1">
+						<gearcost text="1,000¥/m" value="1000"/>
+					</lifestyle>
+					<description/>
+				</identity>
+			</identities>
+			<contacts>
+				<contact name="Akuma Taiyō/Demon Sun" type="405 Hellhounds Ganger" connection="3" loyalty="1">
+					<description>Metatype: Human(?)
+Sex: Female
+Age: Young Adult
+Preferred Payment Method: Service
+Hobbies/Vice: Street Racing
+Personal Life: None of Your Damn Business
+Type: Legwork</description>
+				</contact>
+				<contact name="Dr. Severini" type="Street Doc" connection="4" loyalty="3">
+					<description>Metatype: Human
+Sex: Female
+Age: Old
+Preferred Payment Method: Barter (items needed for the profession)
+Hobbies/Vice: Family Obligations (kids)
+Personal Life: Family
+Type: Shadow Service</description>
+				</contact>
+				<contact name="King Solomon" type="Fixer" connection="2" loyalty="4">
+					<description/>
+				</contact>
+				<contact name="Mayday" type="Fixer" connection="5" loyalty="2">
+					<description/>
+				</contact>
+				<contact name="Philadelphia MacGuire" type="Bounty Hunter" connection="2" loyalty="1">
+					<description>Metatype: Human
+Sex: Female
+Age: Middle-aged
+Preferred Payment Method: Cash (credstick)
+Hobbies/Vice: Entertainment (trid reality shows)
+Personal Life: Single
+Type: Legwork
+
+Retired Bounty Hunter and animal trainer, Philadelphia first met the Harbingers at the conclusion of Episode 1.0: Milk|Run</description>
+				</contact>
+				<contact name="Pierre" type="Club Manager" connection="2" loyalty="1">
+					<description/>
+				</contact>
+				<contact name="Sasori" type="Yakuza Wakagashira" connection="9" loyalty="6">
+					<description>Metatype: Human
+Sex: Male
+Age: Young
+Preferred Payment Method: Service (drek job)
+Hobbies/Vice: Nothing of Interest
+Personal Life: Single
+Type: Personal Favor</description>
+				</contact>
+				<contact name="Sticky-Stabs" type="Mutant Infiltrator" connection="2" loyalty="2">
+					<description/>
+				</contact>
+				<contact name="Ueda Katashi" type="Corporate Administrator" connection="5" loyalty="2">
+					<description>Metatype: Human
+Sex: Male
+Age: Middle-aged
+Preferred Payment Method: Favors
+Hobbies/Vice: Social Habit (smoking cigarettes)
+Personal Life: Family
+Type: Legwork
+
+Associate VP of Youth Advertising, Shiawase MediaTech in Seattle</description>
+				</contact>
+				<contact name="Wraith" type="Former Runner" connection="3" loyalty="4">
+					<description>Metatype: Human
+Sex: Female
+Age: Middle-aged
+Preferred Payment Method: Service (shadowrunner job)
+Hobbies/Vice: Family Obligations (brother)
+Personal Life: In a Relationship
+Type: Legwork</description>
+				</contact>
+			</contacts>
+			<ammotrackers>
+				<ammotracker name="Ares Crusader II" text="unloaded"/>
+				<ammotracker name="Ares Light Fire 70" text="unloaded"/>
+				<ammotracker name="Ares Predator V" text="unloaded"/>
+			</ammotrackers>
+			<trackers>
+				<tracker name="Cumulative Recoil" text="0" used="0" left="0" min="0" max="0"/>
+				<tracker name="Edge Pool" text="0/4" used="0" left="4" min="0" max="4"/>
+				<tracker name="Gel Rounds (Heavy Pistol)" text="50/50" used="50" left="-50" min="0" max="50"/>
+				<tracker name="Gel Rounds (Light Pistol)" text="50/50" used="50" left="-50" min="0" max="50"/>
+				<tracker name="Movement This Turn (Currently: Stationary)" text="0m" used="0" left="0" min="0" max="0"/>
+				<tracker name="Regular Ammo (Heavy Pistol)" text="100/100" used="100" left="-100" min="0" max="100"/>
+				<tracker name="Regular Ammo (Light Pistol)" text="100/100" used="100" left="-100" min="0" max="100"/>
+				<tracker name="Regular Ammo (Machine Pistol)" text="100/100" used="100" left="-100" min="0" max="100"/>
+			</trackers>
+			<conditionmonitors totalpenalty="0">
+				<conditionmonitor name="Physical Damage Track" boxes="9" penalty="0"/>
+				<conditionmonitor name="Stun Damage Track" boxes="10" penalty="0"/>
+			</conditionmonitors>
+			<journals>
+				<journal name="From Background" gamedate="20780320" realdate="20200208" karma="8" cash="0" streetcred="0" notoriety="0" awareness="0">
+					<description/>
+				</journal>
+				<journal name="Episode 1.0: Milk|Run" gamedate="20780321" realdate="20200301" karma="7" cash="10800" streetcred="0" notoriety="0" awareness="0">
+					<description/>
+				</journal>
+				<journal name="Episode 2.0: Inferno!" gamedate="20780403" realdate="20200314" karma="2" cash="2000" streetcred="0" notoriety="0" awareness="0">
+					<description/>
+				</journal>
+				<journal name="Episode 3.0: No One Knows" gamedate="20780410" realdate="20200509" karma="10" cash="15760" streetcred="0" notoriety="0" awareness="0">
+					<description/>
+				</journal>
+				<journal name="Episode 4.0: Unemployed" gamedate="20780418" realdate="20200725" karma="12" cash="16400" streetcred="0" notoriety="0" awareness="0">
+					<description/>
+				</journal>
+				<journal name="Episode 5.0: The Running Free" gamedate="20780521" realdate="20200925" karma="13" cash="59590" streetcred="0" notoriety="0" awareness="0">
+					<description/>
+				</journal>
+				<journal name="Monthly Expenses" gamedate="20780601" realdate="20200926" karma="0" cash="1000" streetcred="0" notoriety="0" awareness="0">
+					<description>Monthly Expenses Applied:
+Shiawase Garden: 1000¥ x 1 = 1000¥ Income
+(2 months) Yakuza Haven: -1 month
+(2 months) AR Fashion Subscription, Designer: -1 month
+(2 months) Wireless Skillsoft Networks, Gold: -1 month</description>
+				</journal>
+				<journal name="Extra Money Thrown at SIN" gamedate="20780611" realdate="20200926" karma="0" cash="-25000" streetcred="0" notoriety="0" awareness="0">
+					<description/>
+				</journal>
+				<journal name="Extra Money Thrown at new Commlink" gamedate="20780529" realdate="20200926" karma="0" cash="-8000" streetcred="0" notoriety="0" awareness="0">
+					<description/>
+				</journal>
+				<journal name="Episode 6.0: Heart of Fire" gamedate="20780605" realdate="20201022" karma="2" cash="0" streetcred="0" notoriety="0" awareness="0">
+					<description/>
+				</journal>
+				<journal name="Episode 7.0: Home" gamedate="20780608" realdate="20201112" karma="1" cash="0" streetcred="0" notoriety="0" awareness="0">
+					<description/>
+				</journal>
+				<journal name="Episode 7.1: Home" gamedate="20780609" realdate="20201128" karma="1" cash="0" streetcred="0" notoriety="0" awareness="0">
+					<description/>
+				</journal>
+			</journals>
+			<images>
+				<image filename="Augmented Face Elf-image001.jpg"/>
+			</images>
+			<validation>
+				<report/>
+			</validation>
+			<settings summary="Character Creation Systems: Established Runners; Character Creation Variants: Run Faster — Sum To Ten System; Core Rulebooks: Chrome Flesh, Data Trails, Howling Shadows, Rigger 5.0, Run &amp; Gun, Run Faster, Street Grimoire; Advanced Rules: Forbidden Arcana, Kill Code, Street Lethal; Supplements: Bloody Business, Book of the Lost, Complete Trog, Cutting Aces, Dark Terrors, Hard Targets, Lockdown, Stolen Souls; E-books: Aetherology, Assassin's Primer, Bullets &amp; Bandages, Gun Heaven 3, Shadow Spells, Shadows in Focus: Butte, Shadows in Focus: Metrópole, Shadows in Focus: San Francisco Metroplex, Shadows in Focus: Sioux Nation; Enhanced Fiction: Nothing Personal, Sail Away, Sweet Sister, The Vladivostok Gauntlet; Optional Rules: Allow Adepts to Choose a Tradition, Allow Unlimited Negative Qualities; Optional Rules -&gt; Chrome Flesh Optional Rules: Gamma-Grade Cyberware, Omega-Grade Cyberware, Orks &amp; Trolls get natural weapons, Use Essence Holes; Optional Rules -&gt; Run &amp; Gun Optional Rules: RG2: Target Size Modifiers, RG3: Movement Penalties by Speed; Optional Rules -&gt; Street Grimoire Optional Rules: Reputation in the Spirit World; Optional Rules -&gt; Court of Shadows Optional Rules: Hide &quot;Adventuring In&quot; Selector on Journals; Output Options: Include Vehicle Statblocks on Sheet"/>
+			<minions/>
+		</character>
+	</public>
+</document>
