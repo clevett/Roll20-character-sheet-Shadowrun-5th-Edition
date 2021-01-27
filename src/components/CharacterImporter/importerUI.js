@@ -57,7 +57,7 @@
 	}
 
 	on("page:importer", () => {
-		const defaultBuilder = "Hero Lab"
+		const defaultBuilder = "Chummer"
 		setAttrs({builder: defaultBuilder});
 		setCharmancerText({	"directions" : buildDirectionsString(defaultBuilder)	})
 	});

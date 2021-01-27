@@ -1,8 +1,3 @@
-	//IMPORTERS
-	
-	//temporary force open
-	on('sheet:opened', () => startCharactermancer("importer"))
-	
 	// APPLY Changes
 	on("clicked:import_launch", () => startCharactermancer("importer"))
 	
